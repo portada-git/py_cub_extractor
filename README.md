@@ -32,24 +32,40 @@ pip install -r requirements.txt
 - *ADATROP_TERCES* Almacena clave de cifrado
 - Guardar el archivo de llave openAI (📄 openai_key.txt cifrado) en la carpeta del proyecto: 📂*llm_service* 
 
-4. Configurar tu clave de API de OpenAI (u otro proveedor):
-
-```bash
-export OPENAI_API_KEY="tu_api_key_aqui"   # Linux/Mac
-setx OPENAI_API_KEY "tu_api_key_aqui"     # Windows
-```
-
 ---
 
 ## 🛠️ Uso
 
-Ejecutar el script principal:
+Ejecutar el script principal y seguir instrucciones del menu:
 
 ```bash
 python main.py
 ```
-
+```bash
+    *** Cuban Node Traversing Entrances Extractor ***
+    === Diario de la Marina Newspaper ===
+    
+                  |    |    |
+                 )_)  )_)  )_)
+                )___))___))___)
+               )____)____)_____)
+             _____|____|____|____\__
+        ----\                   /-----
+             \_________________/
+     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~~ ~ ~ ~ ~
+     
+    
+1. Concatenate OCR text files by date
+2. Extract structured data from concatenated files
+0. Exit
+Choose an option: 
 ---
+```
+
+### Opciones:
+
+- 1. Concatenate OCR text files by date. Recide la ubicacion de la carpeta que contiene los archivos TXT que fueron generados por el OCR. Se recomienda siempre ejecutarlo sobre el OCR en bruto para crear un archivo TXT por dia y evitar que la noticia quede fragmentada.
+- 2. Extract structured data from concatenated files. Realiza la extracción de los datos ya concatenados con el paso de arriba. Recibe la carpeta que contiene los TXT concatenados y la carpeta de destino. Devuelve como salida archivos JSON y CSV del resultado de  la extraccion.  
 
 ## 📂 Estructura del proyecto
 
@@ -62,4 +78,34 @@ py_cub_extractor/
 ├── requirements.txt     # Dependencias del proyecto
 └── README.md            # Esta documentación
 ```
+## 📑 Ejemplo 1
+
+### Entrada (`ejemplo1.txt`)
+
+```
+Dia 30: ENTRADOS De Matanzas, en 1 día, vp. alm. Andes, capitán Gortz, ton. 1869, en lastre à E. Heilbut.
+```
+
+### Salida (`salida1.json`)
+
+```json
+{
+    "publication_day": "Dia 30",
+    "travel_duration": 1,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vp.",
+    "ship_name": "alm. Andes",
+    "ship_tons_capacity": "1869",
+    "ship_tons_units": "ton.",
+    "master_role": "cap.",
+    "master_name": "Gortz",
+    "cargo_list": [
+        "en lastre à E. Heilbut."
+    ],
+    "raw_text": "Dia 30: ENTRADOS De Matanzas, en 1 día, vp. alm. Andes, capitán Gortz, ton. 1869, en lastre à E. Heilbut.",
+    "departure_date": "1903-10-29",
+    "arrival_date": "1903-10-30"
+}
+```
+
 
