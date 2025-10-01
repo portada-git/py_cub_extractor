@@ -47,7 +47,7 @@ def group_and_concatenate_txt_by_date(input_dir: str, output_dir: str):
     # Group files by date (first 10 characters of the filename: YYYY_MM_DD)
     files_by_date = defaultdict(list)
 
-    for file_path in input_path.glob("*.txt"):
+    for file_path in input_path.rglob("*.txt"):
         filename = file_path.stem  # filename without extension
         if len(filename) >= 10:
             date_key = filename[:10]  # assuming format like '1852_02_03'
