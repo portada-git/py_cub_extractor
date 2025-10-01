@@ -21,7 +21,7 @@ def read_txt_files_recursively(base_dir: str) -> Generator[Path, None, None]:
 def catch_news_fragment(text):
 
     pattern = re.compile(
-        r'(PUERT.+.+HAB[\w\W]*?[\n\s]+(?:ENTR[\w\W].*[\n\s])*'
+        r'(PUERT.+.+HA[\w\W]*?[\n\s]+(?:ENTR[\w\W].*[\n\s])*'
         r'([EFMAMJASOND][a-zA-Z_íÍ]{2,10}\s?\d{0,2}(?=[\-:.]?[\n\s]?))'
         r'([\-:.\n\sA-Z]{1,2}[\w\s\d.,:\-\W]+?(?=\b[A-ZÁÉÍÓÚÜÑ]{5,}(?:\s+[A-ZÁÉÍÓÚÜÑ]{2,})*\b)))',
         re.MULTILINE
@@ -94,8 +94,8 @@ def compute_important_dates(date_str: str, days_elapsed: int, publication_day: N
 
 def save_in_csv_file(output_file: str, data: list):
     with open(output_file, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.DictWriter(file, fieldnames=data[0].keys(), delimiter=";")
-
+        header = data[0].keys() if len(data) > 0  else []
+        writer = csv.DictWriter(file, fieldnames=header, delimiter=";")
         writer.writeheader()
         for row in data:
             row = row.copy()
