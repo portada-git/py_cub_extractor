@@ -38,6 +38,28 @@ def catch_news_fragment(text):
 
     return news_collection
 
+def extract_cabotage_entries_regex(text: str) -> list[str]:
+    section_regex = re.compile(
+        r"ENTRADAS\s+DE\s+CABOTAJE\.?\s*([\s\S]*?)(?=\n\n[A-ZÁÉÍÓÚÜÑ\s]{5,}\n|$)",
+        re.IGNORECASE
+    )
+    
+    section_match = section_regex.search(text)
+    
+    if not section_match:
+        return []
+
+    content_block = section_match.group(1)
+    entry_regex = re.compile(
+        r"^(?P<entry>(?:De|Del|Do|Dol|Ds)\s.*"
+        r"(?:\n(?!\s*(?:De|Del|Do|Dol|Ds)\s).*)*)",
+        re.MULTILINE | re.IGNORECASE
+    )
+    
+    matches = entry_regex.finditer(content_block)
+    entries = [re.sub(r'\s+', ' ', match.group('entry')).strip() for match in matches]
+    
+    return entries
 
 def group_and_concatenate_txt_by_date(input_dir: str, output_dir: str):
     input_path = Path(input_dir)

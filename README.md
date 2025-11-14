@@ -57,6 +57,7 @@ python main.py
     
 1. Concatenate OCR text files by date
 2. Extract structured data from concatenated files
+3. Extract Cabotage Entries from Maritime News
 0. Exit
 Choose an option: 
 ---
@@ -65,7 +66,8 @@ Choose an option:
 ### Opciones:
 
 - 1. Concatenate OCR text files by date. Recide la ubicacion de la carpeta que contiene los archivos TXT que fueron generados por el OCR. Se recomienda siempre ejecutarlo sobre el OCR en bruto para crear un archivo TXT por dia y evitar que la noticia quede fragmentada.
-- 2. Extract structured data from concatenated files. Realiza la extracción de los datos ya concatenados con el paso de arriba. Recibe la carpeta que contiene los TXT concatenados y la carpeta de destino. Devuelve como salida archivos JSON y CSV del resultado de  la extraccion.  
+- 2. Extract structured data from concatenated files. Realiza la extracción de los datos ya concatenados con el paso de arriba. Recibe la carpeta que contiene los TXT concatenados y la carpeta de destino. Devuelve como salida archivos JSON y CSV del resultado de  la extraccion.
+- **3. Extract Cabotage Entries from Maritime News.** Procesa un único fichero de texto para detectar y extraer específicamente las "Entradas de Cabotaje". Pregunta si se desean exportar los resultados a archivos JSON y CSV en la carpeta `/outputs`.
 
 ## 📂 Estructura del proyecto
 
