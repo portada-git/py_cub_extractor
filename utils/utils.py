@@ -38,6 +38,33 @@ def catch_news_fragment(text):
 
     return news_collection
 
+def extract_entradas_cabotaje(text: str) -> list:
+    extracted_entries = []
+    header_pattern = re.compile(r'(?i)ENTRAD[A-Z\W]{0,5}S?\s+D[EO0]\s+CAB[O0]TAJE')
+    
+    match = header_pattern.search(text)
+    if not match:
+        return []
+
+    content_block = text[match.end():]
+    stop_pattern = re.compile(r'(?i)^\s*(?:SALIDAS|ENTRADAS\s+DE\s+TRAVESIA|PASAJEROS|BUQUES|EXPORTACI[O0]N|NOTICIAS|TELEGRAMAS|MERCADO)')
+    entry_pattern = re.compile(r'(?mi)^\s*(?:Dia\s*\d+[:.,\s]*)?(?:[-—]|\bD[eao]l?)\b\s+([A-ZÁÉÍÓÚÑ].+)')
+
+    lines = content_block.split('\n')
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        if stop_pattern.match(line):
+            break
+        
+        if entry_pattern.match(line):
+            extracted_entries.append(line)
+            
+    return extracted_entries
+
+
 
 def group_and_concatenate_txt_by_date(input_dir: str, output_dir: str):
     input_path = Path(input_dir)
