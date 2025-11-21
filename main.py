@@ -1,6 +1,6 @@
-from utils.utils import read_txt_files_recursively, catch_news_fragment, group_and_concatenate_txt_by_date
+from utils.utils import read_txt_files_recursively, catch_news_fragment, group_and_concatenate_txt_by_date, extract_entradas_cabotaje
 from utils.utils import compute_important_dates, save_in_csv_file
-from llm_service.llm_openai import extract_structured_data_with_openai, extract_news_list_with_openai
+from llm_service.llm_openai import extract_structured_data_with_openai, extract_news_list_with_openai, extract_cabotaje_data_with_openai
 import json
 
 
@@ -38,6 +38,7 @@ def show_menu():
     """)
     print("1. Concatenate OCR text files by date")
     print("2. Extract structured data from concatenated files")
+    print("3. Extract Cabotage Entries from Maritime News")
     print("0. Exit")
     return input("Choose an option: ")
 
@@ -83,6 +84,8 @@ def main():
             concatenate_files_by_date()
         elif choice == "2":
             extract_structured_data()
+        elif choice == "3":
+            extract_entradas_cabotaje()
         elif choice == "0":
             print("Goodbye!")
             break
