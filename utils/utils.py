@@ -38,6 +38,26 @@ def catch_news_fragment(text):
 
     return news_collection
 
+def extract_entradas_cabotaje(text: str) -> list:
+    # Case-insensitive regex to handle OCR variations
+    pattern = re.compile(
+        r'(ENTRADAS\s+DE\s+CAB[O0]TAJE[\w\W]*?[\n\s]+'
+        r'([\-:.\n\sA-Z]{1,2}[\w\s\d.,:\-\W]+?(?=\b[A-ZÁÉÍÓÚÜÑ]{5,}(?:\s+[A-ZÁÉÍÓÚÜÑ]{2,})*\b)))',
+        re.MULTILINE
+    )
+
+    news_collection = []
+
+    for match in pattern.finditer(text):
+        news_collection.append(
+            {
+                "info_text": match.group(0).strip()
+            }
+        )
+            
+    return news_collection
+
+
 
 def group_and_concatenate_txt_by_date(input_dir: str, output_dir: str):
     input_path = Path(input_dir)

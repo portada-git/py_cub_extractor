@@ -1,1 +1,4 @@
 /llm_service/openai_key.txt
+__pycache__/
+*.pyc
+.env
