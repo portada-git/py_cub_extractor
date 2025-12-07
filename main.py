@@ -83,7 +83,6 @@ def extract_cabotage_data():
     output_dir = input("Enter path to output directory of extraction result: ").strip()
     file_name_json = input("Enter name only of output file (CSV and JSON): ").strip()
     
-    # Read all files and extract cabotage sections
     all_cabotage_entries = []
     dates_from_file = []
     
@@ -94,7 +93,6 @@ def extract_cabotage_data():
         print(f"\n📄 Processing file: {file_path}")
         date_file = file_path.stem[:10]
         
-        # Extract cabotage sections
         cabotage_sections = extract_entradas_cabotaje(content)
         
         for section in cabotage_sections:
@@ -103,14 +101,11 @@ def extract_cabotage_data():
                 'date_file': date_file
             })
     
-    # Process each cabotage entry with LLM
     results = []
     for entry in all_cabotage_entries:
-        # Split entries by line breaks (each line is typically one ship entry)
         lines = [line.strip() for line in entry['text'].split('\n') if line.strip() and not line.strip().startswith('ENTRADAS')]
         
         for line in lines:
-            # Skip lines that are too short or look like headers
             if len(line) < 10 or line.isupper():
                 continue
             
@@ -125,7 +120,6 @@ def extract_cabotage_data():
                 row['arrival_date'] = arrival_date
                 results.append(row)
     
-    # Save results
     output_json = f"{output_dir}/{file_name_json}.json"
     
     with open(output_json, "w", encoding="utf-8") as out:
