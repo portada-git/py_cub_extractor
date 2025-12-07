@@ -37,8 +37,8 @@ def show_menu():
      
     """)
     print("1. Concatenate OCR text files by date")
-    print("2. Extract structured data from concatenated files")
-    print("3. Extract Cabotage Entries from Maritime News")
+    print("2. Extract TRAVERSING ENTRANCES")
+    print("3. Extract CABOTAGE ENTRIES")
     print("0. Exit")
     return input("Choose an option: ")
 
