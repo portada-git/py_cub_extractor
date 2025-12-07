@@ -39,30 +39,23 @@ def catch_news_fragment(text):
     return news_collection
 
 def extract_entradas_cabotaje(text: str) -> list:
-    extracted_entries = []
-    header_pattern = re.compile(r'(?i)ENTRAD[A-Z\W]{0,5}S?\s+D[EO0]\s+CAB[O0]TAJE')
-    
-    match = header_pattern.search(text)
-    if not match:
-        return []
+    # Case-insensitive regex to handle OCR variations
+    pattern = re.compile(
+        r'(ENTRADAS\s+DE\s+CAB[O0]TAJE[\w\W]*?[\n\s]+'
+        r'([\-:.\n\sA-Z]{1,2}[\w\s\d.,:\-\W]+?(?=\b[A-ZÁÉÍÓÚÜÑ]{5,}(?:\s+[A-ZÁÉÍÓÚÜÑ]{2,})*\b)))',
+        re.MULTILINE
+    )
 
-    content_block = text[match.end():]
-    stop_pattern = re.compile(r'(?i)^\s*(?:SALIDAS|ENTRADAS\s+DE\s+TRAVESIA|PASAJEROS|BUQUES|EXPORTACI[O0]N|NOTICIAS|TELEGRAMAS|MERCADO)')
-    entry_pattern = re.compile(r'(?mi)^\s*(?:Dia\s*\d+[:.,\s]*)?(?:[-—]|\bD[eao]l?)\b\s+([A-ZÁÉÍÓÚÑ].+)')
+    news_collection = []
 
-    lines = content_block.split('\n')
-    for line in lines:
-        line = line.strip()
-        if not line:
-            continue
-
-        if stop_pattern.match(line):
-            break
-        
-        if entry_pattern.match(line):
-            extracted_entries.append(line)
+    for match in pattern.finditer(text):
+        news_collection.append(
+            {
+                "info_text": match.group(0).strip()
+            }
+        )
             
-    return extracted_entries
+    return news_collection
 
 
 

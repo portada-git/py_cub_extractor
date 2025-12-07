@@ -22,7 +22,7 @@ def process_directory(base_dir: str):
 
 
 def show_menu():
-    print("""
+    print(r"""
     *** Cuban Node Traversing Entrances Extractor ***
     === Diario de la Marina Newspaper ===
     
@@ -77,6 +77,66 @@ def extract_structured_data():
     print(f"\n✅ Extracted {len(results)} valid entries into {output_json}")
 
 
+def extract_cabotage_data():
+    """Extract and process cabotage entries using LLM service"""
+    input_dir = input("Enter path from joined TXT to extract cabotage info: ").strip()
+    output_dir = input("Enter path to output directory of extraction result: ").strip()
+    file_name_json = input("Enter name only of output file (CSV and JSON): ").strip()
+    
+    # Read all files and extract cabotage sections
+    all_cabotage_entries = []
+    dates_from_file = []
+    
+    for file_path in read_txt_files_recursively(input_dir):
+        with open(file_path, encoding="utf-8", errors="ignore") as f:
+            content = f.read()
+        
+        print(f"\n📄 Processing file: {file_path}")
+        date_file = file_path.stem[:10]
+        
+        # Extract cabotage sections
+        cabotage_sections = extract_entradas_cabotaje(content)
+        
+        for section in cabotage_sections:
+            all_cabotage_entries.append({
+                'text': section['info_text'],
+                'date_file': date_file
+            })
+    
+    # Process each cabotage entry with LLM
+    results = []
+    for entry in all_cabotage_entries:
+        # Split entries by line breaks (each line is typically one ship entry)
+        lines = [line.strip() for line in entry['text'].split('\n') if line.strip() and not line.strip().startswith('ENTRADAS')]
+        
+        for line in lines:
+            # Skip lines that are too short or look like headers
+            if len(line) < 10 or line.isupper():
+                continue
+            
+            row = extract_cabotaje_data_with_openai(line)
+            if 'raw_text' in row and row['raw_text'] is not None:
+                departure_date, arrival_date = compute_important_dates(
+                    entry['date_file'], 
+                    row.get('travel_duration'), 
+                    row.get('publication_day')
+                )
+                row['departure_date'] = departure_date
+                row['arrival_date'] = arrival_date
+                results.append(row)
+    
+    # Save results
+    output_json = f"{output_dir}/{file_name_json}.json"
+    
+    with open(output_json, "w", encoding="utf-8") as out:
+        json.dump(results, out, ensure_ascii=False, indent=4)
+    
+    save_in_csv_file(f"{output_dir}/{file_name_json}.csv", results)
+    
+    print(f"\n✅ Extracted {len(results)} cabotage entries into {output_json}")
+
+
+
 def main():
     while True:
         choice = show_menu()
@@ -85,7 +145,7 @@ def main():
         elif choice == "2":
             extract_structured_data()
         elif choice == "3":
-            extract_entradas_cabotaje()
+            extract_cabotage_data()
         elif choice == "0":
             print("Goodbye!")
             break
