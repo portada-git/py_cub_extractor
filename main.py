@@ -133,49 +133,22 @@ def extract_cabotage_data():
 def extract_both_entries():
     """
     Extract both TRAVERSING ENTRANCES and CABOTAGE ENTRIES in a single workflow.
-    Runs both extraction processes sequentially.
+    Processes each file once, extracting both types of entries simultaneously.
     """
     print("\n🚢 Combined Extraction: Traversing + Cabotage")
     
     input_dir = input("Enter path from joined TXT to extract info: ").strip()
     output_dir = input("Enter path to output directory of extraction result: ").strip()
     base_file_name = input("Enter base name for output files: ").strip()
-    
+
     traversing_results = []
     cabotage_results = []
     traversing_error = None
     cabotage_error = None
+
+    print("\n📍 Processing files for BOTH extraction types...")
     
-    # Step 1: Extract Traversing Entrances
-    print("\n📍 STEP 1: Extracting TRAVERSING ENTRANCES...")
     try:
-        content_extracted, dates_from_file = process_directory(input_dir)
-        
-        for content, date_file in zip(content_extracted, dates_from_file):
-            news_delimited = extract_news_list_with_openai(content['info_text'])
-            news_delimited = news_delimited.split("###")
-            for news in news_delimited[1:len(news_delimited)-1]:
-                row = extract_structured_data_with_openai(news)
-                if 'raw_text' in row and row['raw_text'] is not None:
-                    departure_date, arrival_date = compute_important_dates(date_file, row['travel_duration'], row['publication_day'])
-                    row['departure_date'] = departure_date
-                    row['arrival_date'] = arrival_date
-                    traversing_results.append(row)
-        
-        traversing_json = f"{output_dir}/{base_file_name}_traversing.json"
-        with open(traversing_json, "w", encoding="utf-8") as out:
-            json.dump(traversing_results, out, ensure_ascii=False, indent=4)
-        save_in_csv_file(f"{output_dir}/{base_file_name}_traversing.csv", traversing_results)
-        print(f"\n✅ Extracted {len(traversing_results)} traversing entries")
-    except Exception as e:
-        traversing_error = str(e)
-        print(f"\n❌ Error during traversing extraction: {traversing_error}")
-    
-    # Step 2: Extract Cabotage Entries
-    print("\n📍 STEP 2: Extracting CABOTAGE ENTRIES...")
-    try:
-        all_cabotage_entries = []
-        
         for file_path in read_txt_files_recursively(input_dir):
             with open(file_path, encoding="utf-8", errors="ignore") as f:
                 content = f.read()
@@ -183,58 +156,87 @@ def extract_both_entries():
             print(f"\n📄 Processing file: {file_path}")
             date_file = file_path.stem[:10]
             
-            cabotage_sections = extract_entradas_cabotaje(content)
+            # --- TRAVERSING EXTRACTION ---
+            try:
+                cached_news_frag = catch_news_fragment(content)
+                for news_frag in cached_news_frag:
+                    news_delimited = extract_news_list_with_openai(news_frag['info_text'])
+                    news_delimited = news_delimited.split("###")
+                    
+                    for news in news_delimited[1:len(news_delimited)-1]:
+                        row = extract_structured_data_with_openai(news)
+                        if 'raw_text' in row and row['raw_text'] is not None:
+                            departure_date, arrival_date = compute_important_dates(
+                                date_file, row['travel_duration'], row['publication_day']
+                            )
+                            row['departure_date'] = departure_date
+                            row['arrival_date'] = arrival_date
+                            traversing_results.append(row)
+            except Exception as e:
+                if traversing_error is None:
+                    traversing_error = str(e)
+                print(f"   ⚠️ Traversing error in {file_path}: {e}")
             
-            for section in cabotage_sections:
-                all_cabotage_entries.append({
-                    'text': section['info_text'],
-                    'date_file': date_file
-                })
-        
-        for entry in all_cabotage_entries:
-            lines = [line.strip() for line in entry['text'].split('\n') if line.strip() and not line.strip().startswith('ENTRADAS')]
-            
-            for line in lines:
-                if len(line) < 10 or line.isupper():
-                    continue
+            # --- CABOTAGE EXTRACTION ---
+            try:
+                cabotage_sections = extract_entradas_cabotaje(content)
                 
-                row = extract_cabotaje_data_with_openai(line)
-                if 'raw_text' in row and row['raw_text'] is not None:
-                    departure_date, arrival_date = compute_important_dates(
-                        entry['date_file'], 
-                        row.get('travel_duration'), 
-                        row.get('publication_day')
-                    )
-                    row['departure_date'] = departure_date
-                    row['arrival_date'] = arrival_date
-                    cabotage_results.append(row)
-        
+                for section in cabotage_sections:
+                    lines = [line.strip() for line in section['info_text'].split('\n') 
+                             if line.strip() and not line.strip().startswith('ENTRADAS')]
+                    
+                    for line in lines:
+                        if len(line) < 10 or line.isupper():
+                            continue
+                        row = extract_cabotaje_data_with_openai(line)
+                        if 'raw_text' in row and row['raw_text'] is not None:
+                            departure_date, arrival_date = compute_important_dates(
+                                date_file, row.get('travel_duration'), row.get('publication_day')
+                            )
+                            row['departure_date'] = departure_date
+                            row['arrival_date'] = arrival_date
+                            cabotage_results.append(row)
+            except Exception as e:
+                if cabotage_error is None:
+                    cabotage_error = str(e)
+                print(f"   ⚠️ Cabotage error in {file_path}: {e}")
+
+    except Exception as e:
+        print(f"\n❌ Error reading files: {e}")
+
+    # Save traversing results
+    if traversing_results:
+        traversing_json = f"{output_dir}/{base_file_name}_traversing.json"
+        with open(traversing_json, "w", encoding="utf-8") as out:
+            json.dump(traversing_results, out, ensure_ascii=False, indent=4)
+        save_in_csv_file(f"{output_dir}/{base_file_name}_traversing.csv", traversing_results)
+
+    # Save cabotage results
+    if cabotage_results:
         cabotage_json = f"{output_dir}/{base_file_name}_cabotage.json"
         with open(cabotage_json, "w", encoding="utf-8") as out:
             json.dump(cabotage_results, out, ensure_ascii=False, indent=4)
         save_in_csv_file(f"{output_dir}/{base_file_name}_cabotage.csv", cabotage_results)
-        print(f"\n✅ Extracted {len(cabotage_results)} cabotage entries")
-    except Exception as e:
-        cabotage_error = str(e)
-        print(f"\n❌ Error during cabotage extraction: {cabotage_error}")
-    
+
     # Summary
     print("\n📊 COMBINED EXTRACTION SUMMARY")
     
     if traversing_error:
-        print(f"❌ Traversing: FAILED - {traversing_error}")
+        print(f"❌ Traversing: PARTIAL/FAILED - {traversing_error}")
     else:
         print(f"✅ Traversing: {len(traversing_results)} entries")
+    if traversing_results:
         print(f"   → {output_dir}/{base_file_name}_traversing.json")
         print(f"   → {output_dir}/{base_file_name}_traversing.csv")
-    
+
     if cabotage_error:
-        print(f"❌ Cabotage: FAILED - {cabotage_error}")
+        print(f"❌ Cabotage: PARTIAL/FAILED - {cabotage_error}")
     else:
         print(f"✅ Cabotage: {len(cabotage_results)} entries")
+    if cabotage_results:
         print(f"   → {output_dir}/{base_file_name}_cabotage.json")
         print(f"   → {output_dir}/{base_file_name}_cabotage.csv")
-    
+
     total = len(traversing_results) + len(cabotage_results)
     print(f"\n🎯 Total entries extracted: {total}")
 
