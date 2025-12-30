@@ -65,7 +65,10 @@ def extract_structured_data():
         for news in news_delimited[1:len(news_delimited)-1]:
             row = extract_structured_data_with_openai(news)
             if 'raw_text' in row and row['raw_text'] is not None:
-                departure_date, arrival_date = compute_important_dates(date_file, row['travel_duration'], row['publication_day'])
+                try:
+                    departure_date, arrival_date = compute_important_dates(date_file, row['travel_duration'], row['publication_day'])
+                except ValueError:
+                    departure_date, arrival_date = None, None
                 row['departure_date'] = departure_date
                 row['arrival_date'] = arrival_date
                 results.append(row)
@@ -111,11 +114,14 @@ def extract_cabotage_data():
             
             row = extract_cabotaje_data_with_openai(line)
             if 'raw_text' in row and row['raw_text'] is not None:
-                departure_date, arrival_date = compute_important_dates(
-                    entry['date_file'], 
-                    row.get('travel_duration'), 
-                    row.get('publication_day')
-                )
+                try:
+                    departure_date, arrival_date = compute_important_dates(
+                        entry['date_file'], 
+                        row.get('travel_duration'), 
+                        row.get('publication_day')
+                    )
+                except ValueError:
+                    departure_date, arrival_date = None, None
                 row['departure_date'] = departure_date
                 row['arrival_date'] = arrival_date
                 results.append(row)
@@ -166,9 +172,12 @@ def extract_both_entries():
                     for news in news_delimited[1:len(news_delimited)-1]:
                         row = extract_structured_data_with_openai(news)
                         if 'raw_text' in row and row['raw_text'] is not None:
-                            departure_date, arrival_date = compute_important_dates(
-                                date_file, row['travel_duration'], row['publication_day']
-                            )
+                            try:
+                                departure_date, arrival_date = compute_important_dates(
+                                    date_file, row['travel_duration'], row['publication_day']
+                                )
+                            except ValueError:
+                                departure_date, arrival_date = None, None
                             row['departure_date'] = departure_date
                             row['arrival_date'] = arrival_date
                             traversing_results.append(row)
@@ -190,9 +199,12 @@ def extract_both_entries():
                             continue
                         row = extract_cabotaje_data_with_openai(line)
                         if 'raw_text' in row and row['raw_text'] is not None:
-                            departure_date, arrival_date = compute_important_dates(
-                                date_file, row.get('travel_duration'), row.get('publication_day')
-                            )
+                            try:
+                                departure_date, arrival_date = compute_important_dates(
+                                    date_file, row.get('travel_duration'), row.get('publication_day')
+                                )
+                            except ValueError:
+                                departure_date, arrival_date = None, None
                             row['departure_date'] = departure_date
                             row['arrival_date'] = arrival_date
                             cabotage_results.append(row)
