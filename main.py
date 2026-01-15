@@ -43,7 +43,8 @@ def show_menu():
     print("2. Extract TRAVERSING ENTRANCES")
     print("3. Extract CABOTAGE ENTRIES")
     print("4. Extract BOTH (Traversing + Cabotage)")
-    print("5. Extract by YEAR (Professional - 4 files per year)")
+    print("5. Extract by YEAR (Professional - 16 threads)")
+    print("5b. Extract by MONTH (Professional - 16 threads)")
     print()
     print("DATABASE & ANALYSIS:")
     print("6. Check missing files to process")
@@ -268,6 +269,38 @@ def extract_by_year():
     extractor.extract_all_years()
 
 
+def extract_by_month():
+    """Opción 5b: Extrae por mes específico"""
+    input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
+    output_dir = input("Enter path to output directory: ").strip()
+    year = input("Enter year (e.g., 1852): ").strip()
+    month = input("Enter month (1-12): ").strip()
+    
+    try:
+        max_workers = int(input("Number of threads (default 16): ").strip() or "16")
+    except:
+        max_workers = 16
+    
+    try:
+        month = int(month)
+        if month < 1 or month > 12:
+            print("❌ Invalid month. Must be 1-12")
+            return
+    except:
+        print("❌ Invalid month")
+        return
+    
+    extractor = Extractor(input_dir, output_dir, max_workers)
+    result = extractor.extract_month(year, month)
+    
+    if result:
+        print(f"\n✅ Extraction completed for {year}-{month:02d}")
+        print(f"   Traversing: {result['traversing']}")
+        print(f"   Cabotage: {result['cabotage']}")
+        print(f"   Tokens: {result['tokens']:,}")
+        print(f"   Files processed: {result['processed']}")
+
+
 def check_missing():
     """Opción 6: Verifica qué archivos faltan por procesar"""
     import subprocess
@@ -403,6 +436,8 @@ def main():
             extract_both_entries()
         elif choice == "5":
             extract_by_year()
+        elif choice == "5b":
+            extract_by_month()
         elif choice == "6":
             check_missing()
         elif choice == "7":

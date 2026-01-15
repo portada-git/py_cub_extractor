@@ -50,6 +50,75 @@ class Extractor:
             force=True
         )
     
+    def extract_month(self, year, month):
+        """Extrae travesías y cabotajes para un mes específico"""
+        self.logger.info(f"Starting extraction for {year}-{month:02d}")
+        reset_token_usage()
+        
+        month_dir = self.input_dir / str(year) / f"{month:02d}"
+        if not month_dir.exists():
+            self.logger.error(f"Month directory not found: {month_dir}")
+            return None
+        
+        traversing_data = []
+        cabotage_data = []
+        
+        # Encontrar todos los archivos del mes
+        all_files = sorted(month_dir.glob("*.txt"))
+        relevant_files = [f for f in all_files if "_V_" in f.name or "_C_" in f.name]
+        
+        # Filtrar solo archivos no procesados
+        files_to_process = [f for f in relevant_files if not self.db.is_file_processed(f)]
+        
+        self.logger.info(f"Found {len(relevant_files)} files for {year}-{month:02d}")
+        self.logger.info(f"Already processed: {len(relevant_files) - len(files_to_process)}")
+        self.logger.info(f"To process: {len(files_to_process)}")
+        
+        if not files_to_process:
+            self.logger.info(f"All files for {year}-{month:02d} already processed")
+            return {
+                'year': year,
+                'month': month,
+                'traversing': 0,
+                'cabotage': 0,
+                'tokens': 0,
+                'processed': 0
+            }
+        
+        # Procesar archivos con hilos
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            futures = {executor.submit(self._process_file, f): f for f in files_to_process}
+            
+            processed_count = 0
+            for future in as_completed(futures):
+                file_path = futures[future]
+                try:
+                    trav_results, cab_results = future.result()
+                    
+                    with self.lock:
+                        traversing_data.extend(trav_results)
+                        cabotage_data.extend(cab_results)
+                        
+                        # Marcar archivo como procesado
+                        self.db.mark_file_processed(file_path, len(trav_results), len(cab_results))
+                    
+                    processed_count += 1
+                    self.logger.debug(f"Processed {file_path.name}: {len(trav_results)} traversing, {len(cab_results)} cabotage")
+                except Exception as e:
+                    self.logger.error(f"Error processing {file_path.name}: {e}")
+        
+        tokens = get_token_usage()
+        self.logger.info(f"{year}-{month:02d} completed: {len(traversing_data)} traversing, {len(cabotage_data)} cabotage, {tokens:,} tokens")
+        
+        return {
+            'year': year,
+            'month': month,
+            'traversing': len(traversing_data),
+            'cabotage': len(cabotage_data),
+            'tokens': tokens,
+            'processed': processed_count
+        }
+    
     def extract_year(self, year):
         """Extrae travesías y cabotajes para un año específico"""
         self.logger.info(f"Starting extraction for year {year}")

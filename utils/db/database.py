@@ -346,6 +346,8 @@ class ExtractionDB:
                 ORDER BY master_name
             ''')
             return [row[0] for row in cursor.fetchall()]
+    
+    def get_stats(self):
         """Obtiene estadísticas de la base de datos"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
