@@ -40,6 +40,7 @@ def show_menu():
     print("2. Extract TRAVERSING ENTRANCES")
     print("3. Extract CABOTAGE ENTRIES")
     print("4. Extract BOTH (Traversing + Cabotage)")
+    print("5. Extract by YEAR (Professional - 4 files per year)")
     print("0. Exit")
     return input("Choose an option: ")
 
@@ -242,6 +243,22 @@ def extract_both_entries():
 
 
 
+def extract_by_year():
+    """Opción 5: Extrae por año, genera 4 archivos por año"""
+    from extractor import Extractor
+    
+    input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
+    output_dir = input("Enter path to output directory: ").strip()
+    
+    try:
+        max_workers = int(input("Number of threads (default 8): ").strip() or "8")
+    except:
+        max_workers = 8
+    
+    extractor = Extractor(input_dir, output_dir, max_workers)
+    extractor.extract_all_years()
+
+
 def main():
     while True:
         choice = show_menu()
@@ -253,6 +270,8 @@ def main():
             extract_cabotage_data()
         elif choice == "4":
             extract_both_entries()
+        elif choice == "5":
+            extract_by_year()
         elif choice == "0":
             print("Goodbye!")
             break
