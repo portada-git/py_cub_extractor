@@ -1,6 +1,8 @@
 from utils.utils import read_txt_files_recursively, catch_news_fragment, group_and_concatenate_txt_by_date, extract_entradas_cabotaje
 from utils.utils import compute_important_dates, save_in_csv_file
 from llm_service.llm_openai import extract_structured_data_with_openai, extract_news_list_with_openai, extract_cabotaje_data_with_openai
+from utils.extractor import Extractor
+from utils.db import ExtractionDB
 import json
 
 
@@ -36,11 +38,20 @@ def show_menu():
      ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~~ ~ ~ ~ ~
      
     """)
+    print("EXTRACTION OPTIONS:")
     print("1. Concatenate OCR text files by date")
     print("2. Extract TRAVERSING ENTRANCES")
     print("3. Extract CABOTAGE ENTRIES")
     print("4. Extract BOTH (Traversing + Cabotage)")
     print("5. Extract by YEAR (Professional - 4 files per year)")
+    print()
+    print("DATABASE & ANALYSIS:")
+    print("6. Check missing files to process")
+    print("7. Show database statistics")
+    print("8. Export data (year/month/day/port/ship/captain)")
+    print("9. Analyze data (year/port/ship/captain)")
+    print("10. Database utilities (backup/reset/optimize)")
+    print()
     print("0. Exit")
     return input("Choose an option: ")
 
@@ -245,18 +256,138 @@ def extract_both_entries():
 
 def extract_by_year():
     """Opción 5: Extrae por año, genera 4 archivos por año"""
-    from extractor import Extractor
-    
     input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
     output_dir = input("Enter path to output directory: ").strip()
     
     try:
-        max_workers = int(input("Number of threads (default 8): ").strip() or "8")
+        max_workers = int(input("Number of threads (default 16): ").strip() or "16")
     except:
-        max_workers = 8
+        max_workers = 16
     
     extractor = Extractor(input_dir, output_dir, max_workers)
     extractor.extract_all_years()
+
+
+def check_missing():
+    """Opción 6: Verifica qué archivos faltan por procesar"""
+    import subprocess
+    subprocess.run(["python3", "utils/db/check_missing.py", "status"])
+
+
+def show_db_stats():
+    """Opción 7: Muestra estadísticas de la base de datos"""
+    import subprocess
+    subprocess.run(["python3", "utils/db/db_utils.py", "info"])
+
+
+def export_data_menu():
+    """Opción 8: Menú de exportación"""
+    print("\n📊 EXPORT DATA")
+    print("="*50)
+    print("1. Export year from DB (JSON + CSV)")
+    print("2. Export month")
+    print("3. Export day")
+    print("4. Export by port")
+    print("5. Export by ship")
+    print("6. Export by captain")
+    print("7. List ports")
+    print("8. List ships")
+    print("9. List captains")
+    print("0. Back")
+    
+    choice = input("Choose option: ").strip()
+    
+    import subprocess
+    
+    if choice == "1":
+        year = input("Enter year: ").strip()
+        output_dir = input("Enter output directory: ").strip()
+        subprocess.run(["python3", "utils/export_by_year.py", year, output_dir])
+    elif choice == "2":
+        year = input("Enter year: ").strip()
+        month = input("Enter month (1-12): ").strip()
+        output_dir = input("Enter output directory: ").strip()
+        subprocess.run(["python3", "utils/export_data.py", "month", year, month, output_dir])
+    elif choice == "3":
+        year = input("Enter year: ").strip()
+        month = input("Enter month (1-12): ").strip()
+        day = input("Enter day (1-31): ").strip()
+        output_dir = input("Enter output directory: ").strip()
+        subprocess.run(["python3", "utils/export_data.py", "day", year, month, day, output_dir])
+    elif choice == "4":
+        port = input("Enter port name: ").strip()
+        output_dir = input("Enter output directory: ").strip()
+        subprocess.run(["python3", "utils/export_data.py", "port", port, output_dir])
+    elif choice == "5":
+        ship = input("Enter ship name: ").strip()
+        output_dir = input("Enter output directory: ").strip()
+        subprocess.run(["python3", "utils/export_data.py", "ship", ship, output_dir])
+    elif choice == "6":
+        master = input("Enter captain name: ").strip()
+        output_dir = input("Enter output directory: ").strip()
+        subprocess.run(["python3", "utils/export_data.py", "master", master, output_dir])
+    elif choice == "7":
+        subprocess.run(["python3", "utils/export_data.py", "list-ports"])
+    elif choice == "8":
+        subprocess.run(["python3", "utils/export_data.py", "list-ships"])
+    elif choice == "9":
+        subprocess.run(["python3", "utils/export_data.py", "list-masters"])
+
+
+def analyze_data_menu():
+    """Opción 9: Menú de análisis"""
+    print("\n📈 ANALYZE DATA")
+    print("="*50)
+    print("1. Analyze year")
+    print("2. Analyze port")
+    print("3. Analyze ship")
+    print("4. Analyze captain")
+    print("0. Back")
+    
+    choice = input("Choose option: ").strip()
+    
+    import subprocess
+    
+    if choice == "1":
+        year = input("Enter year: ").strip()
+        subprocess.run(["python3", "utils/analyze_data.py", "year", year])
+    elif choice == "2":
+        port = input("Enter port name: ").strip()
+        subprocess.run(["python3", "utils/analyze_data.py", "port", port])
+    elif choice == "3":
+        ship = input("Enter ship name: ").strip()
+        subprocess.run(["python3", "utils/analyze_data.py", "ship", ship])
+    elif choice == "4":
+        master = input("Enter captain name: ").strip()
+        subprocess.run(["python3", "utils/analyze_data.py", "master", master])
+
+
+def db_utils_menu():
+    """Opción 10: Menú de utilidades de BD"""
+    print("\n🗄️  DATABASE UTILITIES")
+    print("="*50)
+    print("1. Show database info")
+    print("2. Create backup")
+    print("3. Delete year data")
+    print("4. Delete duplicates")
+    print("5. Optimize database")
+    print("0. Back")
+    
+    choice = input("Choose option: ").strip()
+    
+    import subprocess
+    
+    if choice == "1":
+        subprocess.run(["python3", "utils/db/db_utils.py", "info"])
+    elif choice == "2":
+        subprocess.run(["python3", "utils/db/db_utils.py", "backup"])
+    elif choice == "3":
+        year = input("Enter year to delete: ").strip()
+        subprocess.run(["python3", "utils/db/db_utils.py", "delete-year", year])
+    elif choice == "4":
+        subprocess.run(["python3", "utils/db/db_utils.py", "delete-duplicates"])
+    elif choice == "5":
+        subprocess.run(["python3", "utils/db/db_utils.py", "vacuum"])
 
 
 def main():
@@ -272,6 +403,16 @@ def main():
             extract_both_entries()
         elif choice == "5":
             extract_by_year()
+        elif choice == "6":
+            check_missing()
+        elif choice == "7":
+            show_db_stats()
+        elif choice == "8":
+            export_data_menu()
+        elif choice == "9":
+            analyze_data_menu()
+        elif choice == "10":
+            db_utils_menu()
         elif choice == "0":
             print("Goodbye!")
             break

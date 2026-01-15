@@ -1,0 +1,94 @@
+PROJECT STRUCTURE
+=================
+
+py_cub_extractor/
+├── main.py                          # Main menu with all options
+├── requirements.txt                 # Python dependencies
+├── .env                             # Environment variables
+├── quickstart.sh                    # Quick start script
+│
+├── docs/                            # Documentation
+│   ├── OPCION5_README.txt          # Option 5 documentation
+│   ├── SYSTEM_OVERVIEW.txt         # System overview
+│   └── STRUCTURE.txt               # This file
+│
+├── utils/                           # Utility modules
+│   ├── __init__.py
+│   ├── utils.py                    # General utilities (regex, parsing)
+│   ├── decrypt.py                  # Decryption utilities
+│   ├── extractor.py                # Main extraction class
+│   ├── export_data.py              # Data export script
+│   ├── analyze_data.py             # Data analysis script
+│   │
+│   └── db/                         # Database utilities
+│       ├── __init__.py
+│       ├── database.py             # SQLite database class
+│       ├── db_utils.py             # Database management utilities
+│       └── check_missing.py        # Check missing files to process
+│
+├── test/                            # Tests
+│   └── test_extraction.py          # Extraction test
+│
+├── llm_service/                     # LLM integration
+│   ├── __init__.py
+│   ├── llm_openai.py               # OpenAI API integration
+│   ├── llm_ollama.py               # Ollama integration
+│   └── openai_key.txt              # Encrypted OpenAI key
+│
+└── .data/                           # Data directory
+    ├── Nuevo/                      # Input OCR files
+    │   ├── 1852/
+    │   ├── 1887/
+    │   ├── 1892/
+    │   └── 1903/
+    ├── extraction.db               # SQLite database
+    ├── output/                     # Exported files
+    └── extraction_*.log            # Extraction logs
+
+MAIN MENU OPTIONS:
+
+1. Concatenate OCR text files by date
+2. Extract TRAVERSING ENTRANCES
+3. Extract CABOTAGE ENTRIES
+4. Extract BOTH (Traversing + Cabotage)
+5. Extract by YEAR (Professional - 4 files per year)
+6. Check missing files to process
+7. Show database statistics
+8. Export data (year/month/day/port/ship/captain)
+9. Analyze data (year/port/ship/captain)
+10. Database utilities (backup/reset/optimize)
+0. Exit
+
+WORKFLOW:
+
+1. Extract data (Option 5)
+   → Data saved to .data/extraction.db
+
+2. Check progress (Option 6)
+   → See what files are missing
+
+3. Analyze data (Option 9)
+   → Generate reports and statistics
+
+4. Export data (Option 8)
+   → Generate JSON and CSV files
+
+5. Manage database (Option 10)
+   → Backup, optimize, clean data
+
+KEY FILES:
+
+- main.py: Entry point, all menu options
+- utils/extractor.py: Core extraction logic
+- utils/db/database.py: SQLite database schema
+- utils/export_data.py: Export to JSON/CSV
+- utils/analyze_data.py: Generate reports
+- utils/db/db_utils.py: Database management
+- utils/db/check_missing.py: Track progress
+
+RUNNING:
+
+source .env && source .venv/bin/activate && python3 main.py
+
+Or use quickstart script:
+./quickstart.sh

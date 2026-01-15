@@ -6,6 +6,9 @@ from utils import decrypt
 api_key = decrypt.decrypt_file_openssl('llm_service/openai_key.txt', os.environ.get("ADATROP_TERCES"))
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", api_key))
 
+# Global token tracking
+_token_usage = {'total': 0}
+
 
 def extract_structured_data_with_openai(text: str) -> dict:
     prompt = """
@@ -86,7 +89,10 @@ def extract_structured_data_with_openai(text: str) -> dict:
     content = response.choices[0].message.content.strip()
 
     try:
-        return json.loads(content)
+        result = json.loads(content)
+        if hasattr(response, 'usage') and response.usage:
+            _token_usage['total'] += response.usage.total_tokens
+        return result
     except json.JSONDecodeError:
         print("❌ JSON inválido:\n", content)
         return {}
@@ -128,6 +134,9 @@ def extract_news_list_with_openai(text: str) -> dict:
 
     content = response.choices[0].message.content.strip()
 
+    if hasattr(response, 'usage') and response.usage:
+        _token_usage['total'] += response.usage.total_tokens
+    
     return content
 
 
@@ -185,75 +194,19 @@ def extract_cabotaje_data_with_openai(text: str) -> dict:
         data = json.loads(content)
         # Aseguramos que raw_text siempre esté presente y sea el original
         data["raw_text"] = text
+        if hasattr(response, 'usage') and response.usage:
+            _token_usage['total'] += response.usage.total_tokens
         return data
     except json.JSONDecodeError:
         print(f"❌ Error parseando JSON para: {text[:30]}...")
         return {}
-    prompt = """
-    Extrae información estructurada de la siguiente entrada de cabotaje (tráfico marítimo interno), 
-    utilizando el formato JSON exacto descrito abajo.
 
-    Formato JSON de salida:
-    {{
-        "publication_day": null,
-        "travel_duration": null,
-        "travel_departure_port": null,
-        "ship_type": null,
-        "ship_name": null,
-        "ship_tons_capacity": null,
-        "ship_tons_units": null,
-        "master_role": null,
-        "master_name": null,
-        "cargo_list": [],
-        "raw_text": null
-    }}
 
-    Instrucciones de extracción:
-    - publication_day: Extraer si aparece explícito (ej: "Dia 30"). Si no está en el texto, null.
-    - travel_departure_port: Nombre del puerto de origen (suele estar después de "De" o "Del").
-    - ship_type: Tipo de embarcación abreviado (ej: "gol.", "berg.", "paq.", "vap.").
-    - ship_name: Nombre del barco (suele estar con mayúscula después del tipo).
-    - master_role: Rol del mando (ej: "pat." para patrón, "cap." para capitán).
-    - master_name: Apellido o nombre del patrón/capitán.
-    - cargo_list: Lista de mercancías transportadas (ej: ["10 cajas azúcar", "2 pipas aguardiente"]).
-    - raw_text: El texto original de entrada.
+def get_token_usage():
+    """Retorna el uso total de tokens"""
+    return _token_usage['total']
 
-    Ejemplo de referencia:
-    Input: "De Cárdenas gol. Victoria, pat. Llanger, con 10 cajas de azúcar."
-    Output:
-    {{
-        "publication_day": null,
-        "travel_duration": null,
-        "travel_departure_port": "Cárdenas",
-        "ship_type": "gol.",
-        "ship_name": "Victoria",
-        "ship_tons_capacity": null,
-        "ship_tons_units": null,
-        "master_role": "pat.",
-        "master_name": "Llanger",
-        "cargo_list": ["10 cajas de azúcar"],
-        "raw_text": "De Cárdenas gol. Victoria, pat. Llanger, con 10 cajas de azúcar."
-    }}
 
-    Texto a procesar: {}
-    """.format(text)
-
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system",
-             "content": "Eres un asistente especializado en historia marítima y OCR. Tu tarea es extraer datos estructurados de entradas portuarias de cabotaje. Responde SOLAMENTE con el JSON válido."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.0,
-        max_tokens=1000
-    )
-
-    content = response.choices[0].message.content.strip()
-
-    try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        print("❌ JSON inválido en cabotaje:\n", content)
-        return {}
+def reset_token_usage():
+    """Reinicia el contador de tokens"""
+    _token_usage['total'] = 0

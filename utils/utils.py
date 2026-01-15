@@ -19,42 +19,74 @@ def read_txt_files_recursively(base_dir: str) -> Generator[Path, None, None]:
 
 
 def catch_news_fragment(text):
-
-    pattern = re.compile(
-        r'(PUERT.+.+HA[\w\W]*?[\n\s]+(?:ENTR[\w\W].*[\n\s])*'
-        r'([EFMAMJASOND][a-zA-Z_íÍ]{2,10}\s?\d{0,2}(?=[\-:.]?[\n\s]?))'
-        r'([\-:.\n\sA-Z]{1,2}[\w\s\d.,:\-\W]+?(?=\b[A-ZÁÉÍÓÚÜÑ]{5,}(?:\s+[A-ZÁÉÍÓÚÜÑ]{2,})*\b)))',
-        re.MULTILINE
-    )
-
+    """
+    Extrae líneas individuales de travesía del texto.
+    Busca líneas que comienzan con "De" (puerto de origen) o que contienen información de barcos.
+    """
+    lines = text.split('\n')
     news_collection = []
-
-    for match in pattern.finditer(text):
-        news_collection.append(
-            {
-                "info_text": match.group(0).strip()
-            }
-        )
-
+    
+    for line in lines:
+        line = line.strip()
+        
+        # Saltar líneas vacías, encabezados y líneas muy cortas
+        if not line or len(line) < 15:
+            continue
+        
+        # Saltar encabezados
+        if any(header in line.upper() for header in ['ENTRADAS', 'PUERTO', 'DIARIO', 'HABANA']):
+            continue
+        
+        # Buscar líneas que comienzan con "De" (puerto de origen)
+        if line.startswith('De ') or line.startswith('—De ') or line.startswith('-De '):
+            news_collection.append({'info_text': line})
+        # O líneas que contienen información de barcos (palabras clave)
+        elif any(keyword in line for keyword in ['berg.', 'vap.', 'pol.', 'frag.', 'gol.', 'paq.', 'cap.', 'pat.', 'tons.']):
+            # Pero que no sean encabezados
+            if not line.isupper():
+                news_collection.append({'info_text': line})
+    
     return news_collection
 
 def extract_entradas_cabotaje(text: str) -> list:
-    # Case-insensitive regex to handle OCR variations
-    pattern = re.compile(
-        r'(ENTRADAS\s+DE\s+CAB[O0]TAJE[\w\W]*?[\n\s]+'
-        r'([\-:.\n\sA-Z]{1,2}[\w\s\d.,:\-\W]+?(?=\b[A-ZÁÉÍÓÚÜÑ]{5,}(?:\s+[A-ZÁÉÍÓÚÜÑ]{2,})*\b)))',
-        re.MULTILINE
-    )
-
+    """
+    Extrae líneas individuales de cabotaje del texto.
+    Busca líneas que comienzan con "De" (puerto de origen) en secciones de cabotaje.
+    """
+    lines = text.split('\n')
     news_collection = []
-
-    for match in pattern.finditer(text):
-        news_collection.append(
-            {
-                "info_text": match.group(0).strip()
-            }
-        )
+    in_cabotage_section = False
+    
+    for line in lines:
+        line_stripped = line.strip()
+        
+        # Detectar si estamos en sección de cabotaje
+        if 'CABOTAJE' in line_stripped.upper():
+            in_cabotage_section = True
+            continue
+        
+        # Si encontramos otra sección, salir
+        if in_cabotage_section and any(header in line_stripped.upper() for header in ['ENTRADAS DE TRAYESIA', 'PUERTO']):
+            in_cabotage_section = False
+        
+        # Procesar líneas en sección de cabotaje
+        if in_cabotage_section:
+            # Saltar líneas vacías, encabezados y líneas muy cortas
+            if not line_stripped or len(line_stripped) < 15:
+                continue
             
+            # Saltar encabezados
+            if line_stripped.isupper() or 'ENTRADAS' in line_stripped.upper():
+                continue
+            
+            # Buscar líneas que comienzan con "De" (puerto de origen)
+            if line_stripped.startswith('De ') or line_stripped.startswith('—De ') or line_stripped.startswith('-De '):
+                news_collection.append({'info_text': line_stripped})
+            # O líneas que contienen información de barcos (palabras clave de cabotaje)
+            elif any(keyword in line_stripped for keyword in ['gol.', 'berg.', 'paq.', 'pat.', 'cap.', 'con ']):
+                if not line_stripped.isupper():
+                    news_collection.append({'info_text': line_stripped})
+    
     return news_collection
 
 
