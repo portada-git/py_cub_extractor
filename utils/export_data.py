@@ -17,24 +17,26 @@ def export_year(db, year, output_dir):
     # Travesías
     traversing = db.get_traversing_by_year(year)
     if traversing:
+        traversing_clean = _remove_excluded_fields(traversing)
         json_file = output_path / f"{year}_traversing.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(traversing, f, ensure_ascii=False, indent=2)
+            json.dump(traversing_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(traversing)} traversing to {json_file}")
         
         csv_file = output_path / f"{year}_traversing.csv"
-        _export_to_csv(csv_file, traversing)
+        _export_to_csv(csv_file, traversing_clean)
     
     # Cabotajes
     cabotage = db.get_cabotage_by_year(year)
     if cabotage:
+        cabotage_clean = _remove_excluded_fields(cabotage)
         json_file = output_path / f"{year}_cabotage.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(cabotage, f, ensure_ascii=False, indent=2)
+            json.dump(cabotage_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(cabotage)} cabotage to {json_file}")
         
         csv_file = output_path / f"{year}_cabotage.csv"
-        _export_to_csv(csv_file, cabotage)
+        _export_to_csv(csv_file, cabotage_clean)
 
 
 def export_month(db, year, month, output_dir):
@@ -45,24 +47,26 @@ def export_month(db, year, month, output_dir):
     # Travesías
     traversing = db.get_traversing_by_month(year, month)
     if traversing:
+        traversing_clean = _remove_excluded_fields(traversing)
         json_file = output_path / f"{year}_{month:02d}_traversing.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(traversing, f, ensure_ascii=False, indent=2)
+            json.dump(traversing_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(traversing)} traversing to {json_file}")
         
         csv_file = output_path / f"{year}_{month:02d}_traversing.csv"
-        _export_to_csv(csv_file, traversing)
+        _export_to_csv(csv_file, traversing_clean)
     
     # Cabotajes
     cabotage = db.get_cabotage_by_month(year, month)
     if cabotage:
+        cabotage_clean = _remove_excluded_fields(cabotage)
         json_file = output_path / f"{year}_{month:02d}_cabotage.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(cabotage, f, ensure_ascii=False, indent=2)
+            json.dump(cabotage_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(cabotage)} cabotage to {json_file}")
         
         csv_file = output_path / f"{year}_{month:02d}_cabotage.csv"
-        _export_to_csv(csv_file, cabotage)
+        _export_to_csv(csv_file, cabotage_clean)
 
 
 def export_day(db, year, month, day, output_dir):
@@ -73,24 +77,26 @@ def export_day(db, year, month, day, output_dir):
     # Travesías
     traversing = db.get_traversing_by_day(year, month, day)
     if traversing:
+        traversing_clean = _remove_excluded_fields(traversing)
         json_file = output_path / f"{year}_{month:02d}_{day:02d}_traversing.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(traversing, f, ensure_ascii=False, indent=2)
+            json.dump(traversing_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(traversing)} traversing to {json_file}")
         
         csv_file = output_path / f"{year}_{month:02d}_{day:02d}_traversing.csv"
-        _export_to_csv(csv_file, traversing)
+        _export_to_csv(csv_file, traversing_clean)
     
     # Cabotajes
     cabotage = db.get_cabotage_by_day(year, month, day)
     if cabotage:
+        cabotage_clean = _remove_excluded_fields(cabotage)
         json_file = output_path / f"{year}_{month:02d}_{day:02d}_cabotage.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(cabotage, f, ensure_ascii=False, indent=2)
+            json.dump(cabotage_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(cabotage)} cabotage to {json_file}")
         
         csv_file = output_path / f"{year}_{month:02d}_{day:02d}_cabotage.csv"
-        _export_to_csv(csv_file, cabotage)
+        _export_to_csv(csv_file, cabotage_clean)
 
 
 def export_port(db, port_name, output_dir):
@@ -103,24 +109,26 @@ def export_port(db, port_name, output_dir):
     # Travesías
     traversing = db.get_traversing_by_port(port_name)
     if traversing:
+        traversing_clean = _remove_excluded_fields(traversing)
         json_file = output_path / f"port_{safe_name}_traversing.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(traversing, f, ensure_ascii=False, indent=2)
+            json.dump(traversing_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(traversing)} traversing from {port_name}")
         
         csv_file = output_path / f"port_{safe_name}_traversing.csv"
-        _export_to_csv(csv_file, traversing)
+        _export_to_csv(csv_file, traversing_clean)
     
     # Cabotajes
     cabotage = db.get_cabotage_by_port(port_name)
     if cabotage:
+        cabotage_clean = _remove_excluded_fields(cabotage)
         json_file = output_path / f"port_{safe_name}_cabotage.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(cabotage, f, ensure_ascii=False, indent=2)
+            json.dump(cabotage_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(cabotage)} cabotage from {port_name}")
         
         csv_file = output_path / f"port_{safe_name}_cabotage.csv"
-        _export_to_csv(csv_file, cabotage)
+        _export_to_csv(csv_file, cabotage_clean)
 
 
 def export_ship(db, ship_name, output_dir):
@@ -133,24 +141,26 @@ def export_ship(db, ship_name, output_dir):
     # Travesías
     traversing = db.get_traversing_by_ship(ship_name)
     if traversing:
+        traversing_clean = _remove_excluded_fields(traversing)
         json_file = output_path / f"ship_{safe_name}_traversing.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(traversing, f, ensure_ascii=False, indent=2)
+            json.dump(traversing_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(traversing)} traversing for ship {ship_name}")
         
         csv_file = output_path / f"ship_{safe_name}_traversing.csv"
-        _export_to_csv(csv_file, traversing)
+        _export_to_csv(csv_file, traversing_clean)
     
     # Cabotajes
     cabotage = db.get_cabotage_by_ship(ship_name)
     if cabotage:
+        cabotage_clean = _remove_excluded_fields(cabotage)
         json_file = output_path / f"ship_{safe_name}_cabotage.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(cabotage, f, ensure_ascii=False, indent=2)
+            json.dump(cabotage_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(cabotage)} cabotage for ship {ship_name}")
         
         csv_file = output_path / f"ship_{safe_name}_cabotage.csv"
-        _export_to_csv(csv_file, cabotage)
+        _export_to_csv(csv_file, cabotage_clean)
 
 
 def export_master(db, master_name, output_dir):
@@ -163,24 +173,26 @@ def export_master(db, master_name, output_dir):
     # Travesías
     traversing = db.get_traversing_by_master(master_name)
     if traversing:
+        traversing_clean = _remove_excluded_fields(traversing)
         json_file = output_path / f"master_{safe_name}_traversing.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(traversing, f, ensure_ascii=False, indent=2)
+            json.dump(traversing_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(traversing)} traversing for captain {master_name}")
         
         csv_file = output_path / f"master_{safe_name}_traversing.csv"
-        _export_to_csv(csv_file, traversing)
+        _export_to_csv(csv_file, traversing_clean)
     
     # Cabotajes
     cabotage = db.get_cabotage_by_master(master_name)
     if cabotage:
+        cabotage_clean = _remove_excluded_fields(cabotage)
         json_file = output_path / f"master_{safe_name}_cabotage.json"
         with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(cabotage, f, ensure_ascii=False, indent=2)
+            json.dump(cabotage_clean, f, ensure_ascii=False, indent=2)
         print(f"✅ Exported {len(cabotage)} cabotage for captain {master_name}")
         
         csv_file = output_path / f"master_{safe_name}_cabotage.csv"
-        _export_to_csv(csv_file, cabotage)
+        _export_to_csv(csv_file, cabotage_clean)
 
 
 def list_ports(db):
@@ -214,6 +226,16 @@ def list_masters(db):
         print(f"  ... and {len(masters) - 50} more")
 
 
+def _remove_excluded_fields(data):
+    """Remueve campos excluidos (id, obs) de los datos"""
+    exclude_fields = {'id', 'obs'}
+    cleaned = []
+    for row in data:
+        cleaned_row = {k: v for k, v in row.items() if k not in exclude_fields}
+        cleaned.append(cleaned_row)
+    return cleaned
+
+
 def _export_to_csv(csv_file, data):
     """Exporta datos a CSV"""
     if not data:
@@ -225,8 +247,8 @@ def _export_to_csv(csv_file, data):
         for row in data:
             all_keys.update(row.keys())
         
-        # Excluir solo el campo obs
-        exclude_fields = {'obs'}
+        # Excluir id y obs
+        exclude_fields = {'id', 'obs'}
         fieldnames = sorted([k for k in all_keys if k not in exclude_fields])
         
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';')

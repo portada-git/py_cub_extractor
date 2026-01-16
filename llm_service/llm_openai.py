@@ -38,8 +38,7 @@ def extract_structured_data_with_openai(text: str) -> dict:
         DEFINICIONES DE CAMPOS:
 
         - publication_day: Fecha de publicación en formato DD-MM-YYYY (ej: 01-01-1852)
-        - arrival_date: Texto original de la fecha de llegada (ej: "Día 31:")
-        - arrival_date_calc: Fecha calculada de llegada en formato DD-MM-YYYY
+        - arrival_date: Texto original de la fecha de llegada en formato DD-MM-YYYY (ej: 01-01-1852)
         - travel_departure_port: Puerto de salida (ej: "Liverpool", "Nueva York")
         - ship_type: Tipo de barco (vap., berg., gol., bea., paq., can., bal., brig., pol.)
         - ship_flag: Bandera (esp., am., ing., etc.) - puede ser vacío
@@ -57,7 +56,6 @@ def extract_structured_data_with_openai(text: str) -> dict:
         Output: {{
             "publication_day": "01-01-1892",
             "arrival_date": "Día 31:",
-            "arrival_date_calc": "31-12-1891",
             "travel_departure_port": "Cuba",
             "ship_type": "vapor",
             "ship_flag": "",
@@ -164,11 +162,10 @@ def extract_cabotaje_data_with_openai(text: str) -> dict:
         {{
             "publication_day": "DD-MM-YYYY",
             "arrival_date": "Día XX:",
-            "arrival_date_calc": "DD-MM-YYYY",
             "travel_departure_port": "Puerto",
-            "ship_type": "tipo",
+            "ship_type": "tipo de barco",
             "ship_flag": "bandera",
-            "ship_name": "nombre",
+            "ship_name": "nombre del barco",
             "master_role": "pat./cap./pil.",
             "master_name": "nombre",
             "cargo_list": [
