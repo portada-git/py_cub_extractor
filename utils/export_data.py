@@ -227,11 +227,19 @@ def list_masters(db):
 
 
 def _remove_excluded_fields(data):
-    """Remueve campos excluidos (id, obs) de los datos"""
+    """Remueve campos excluidos (id, obs) de los datos y convierte cargo_list a dict"""
     exclude_fields = {'id', 'obs'}
     cleaned = []
     for row in data:
         cleaned_row = {k: v for k, v in row.items() if k not in exclude_fields}
+        
+        # Convertir cargo_list de string JSON a dict/list
+        if 'cargo_list' in cleaned_row and isinstance(cleaned_row['cargo_list'], str):
+            try:
+                cleaned_row['cargo_list'] = json.loads(cleaned_row['cargo_list'])
+            except (json.JSONDecodeError, TypeError):
+                pass
+        
         cleaned.append(cleaned_row)
     return cleaned
 
