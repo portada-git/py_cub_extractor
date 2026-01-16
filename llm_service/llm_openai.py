@@ -16,104 +16,69 @@ def extract_structured_data_with_openai(text: str) -> dict:
         
         FORMATO JSON REQUERIDO:
         {{
-            "travel_arrival_date": "YYYY-MM-DD",
+            "publication_day": "DD-MM-YYYY",
+            "arrival_date": "Día XX:",
+            "arrival_date_calc": "DD-MM-YYYY",
             "travel_departure_port": "Puerto",
-            "travel_port_of_call_list": null,
-            "travel_duration_value": número,
-            "travel_duration_unit": "días/horas",
             "ship_type": "tipo",
             "ship_flag": "bandera",
             "ship_name": "nombre",
-            "ship_tons_capacity": número,
-            "ship_tons_unit": "ton.",
             "master_role": "cap./pat./pil.",
             "master_name": "nombre",
-            "crew_number": null,
-            "passenger_account": null,
             "cargo_list": [
                 {{
-                    "cargo_merchant_name": "destinatario",
-                    "cargo": [
-                        {{
-                            "cargo_commodity": "producto",
-                            "cargo_quantity": "cantidad",
-                            "cargo_unit": "unidad"
-                        }}
-                    ]
+                    "cargo_name": "producto",
+                    "cargo_units": "unidad",
+                    "cargo_count": "cantidad"
                 }}
             ],
-            "quarantine": false,
-            "forced_arrival": false,
-            "parsed_text": "texto original",
-            "obs": "observaciones"
+            "raw_text": "texto original"
         }}
 
         DEFINICIONES DE CAMPOS:
 
-        - travel_arrival_date: Fecha de llegada (YYYY-MM-DD). Extrae del nombre del archivo si es necesario.
-        - travel_departure_port: Puerto de salida (después de "De", "Del", "Do")
-        - travel_port_of_call_list: Puertos intermedios (si aparecen "escalas en...")
-        - travel_duration_value: Número de días/horas (solo el número)
-        - travel_duration_unit: "días", "horas", "d.", "h.", etc.
+        - publication_day: Fecha de publicación en formato DD-MM-YYYY (ej: 01-01-1852)
+        - arrival_date: Texto original de la fecha de llegada (ej: "Día 31:")
+        - arrival_date_calc: Fecha calculada de llegada en formato DD-MM-YYYY
+        - travel_departure_port: Puerto de salida (ej: "Liverpool", "Nueva York")
         - ship_type: Tipo de barco (vap., berg., gol., bea., paq., can., bal., brig., pol.)
-            * IGNORAR: esp., am., ing., por el sol., por la sol. (son descriptores/errores)
-        - ship_flag: Bandera del barco (esp., am., ing., etc.)
+        - ship_flag: Bandera (esp., am., ing., etc.) - puede ser vacío
         - ship_name: Nombre del barco
-        - ship_tons_capacity: Capacidad en toneladas (número)
-        - ship_tons_unit: "ton.", "tons.", "t."
         - master_role: "cap.", "c.", "pat.", "p.", "pil."
         - master_name: Nombre del capitán
-        - crew_number: Número de tripulantes (si aparece "trip.", "trp.")
-        - passenger_account: Número de pasajeros (si aparece)
-        - cargo_list: Lista de cargas con destinatarios
-        - quarantine: true si menciona cuarentena
-        - forced_arrival: true si menciona llegada forzosa
-        - parsed_text: El texto original completo
-        - obs: Observaciones sobre errores OCR o ambigüedades
+        - cargo_list: Lista de cargas con nombre, unidades y cantidad
+        - raw_text: El texto original completo
 
         ESTRUCTURA TÍPICA:
-        "De [PUERTO] en [DÍAS] días, [TIPO]. [BANDERA]. [NOMBRE], cap. [CAPITÁN], ton. [TONELADAS], con [CARGA], á [DESTINATARIO]"
+        "De [PUERTO] en [DÍAS] días, [TIPO]. [BANDERA]. [NOMBRE], cap. [CAPITÁN], con [CARGA]"
 
         EJEMPLO:
-        Input: "De Mallorca en 42 dias pol. csp. Isabel, cap. Palmer, ton 157, con frutos, á D. F. Ventosa."
+        Input: "De Cuba; vapor Cosme de Herrera, cap. Vaca: con 250 reyes; 100 carneros; 1.363 sacos azúcar; 301 sacos maíz y efectos."
         Output: {{
-            "travel_arrival_date": "1852-01-27",
-            "travel_departure_port": "Mallorca",
-            "travel_port_of_call_list": null,
-            "travel_duration_value": 42,
-            "travel_duration_unit": "días",
-            "ship_type": "pol.",
-            "ship_flag": "csp.",
-            "ship_name": "Isabel",
-            "ship_tons_capacity": 157,
-            "ship_tons_unit": "ton.",
+            "publication_day": "01-01-1892",
+            "arrival_date": "Día 31:",
+            "arrival_date_calc": "31-12-1891",
+            "travel_departure_port": "Cuba",
+            "ship_type": "vapor",
+            "ship_flag": "",
+            "ship_name": "Cosme de Herrera",
             "master_role": "cap.",
-            "master_name": "Palmer",
-            "crew_number": null,
-            "passenger_account": null,
+            "master_name": "Vaca",
             "cargo_list": [
-                {{
-                    "cargo_merchant_name": "D. F. Ventosa",
-                    "cargo": [
-                        {{
-                            "cargo_commodity": "frutos",
-                            "cargo_quantity": "",
-                            "cargo_unit": ""
-                        }}
-                    ]
-                }}
+                {{"cargo_name": "reyes", "cargo_units": "", "cargo_count": "250"}},
+                {{"cargo_name": "carneros", "cargo_units": "", "cargo_count": "100"}},
+                {{"cargo_name": "azúcar", "cargo_units": "sacos", "cargo_count": "1.363"}},
+                {{"cargo_name": "maíz", "cargo_units": "sacos", "cargo_count": "301"}},
+                {{"cargo_name": "efectos", "cargo_units": "", "cargo_count": ""}}
             ],
-            "quarantine": false,
-            "forced_arrival": false,
-            "parsed_text": "De Mallorca en 42 dias pol. csp. Isabel, cap. Palmer, ton 157, con frutos, á D. F. Ventosa.",
-            "obs": "Bandera 'csp.' probable error OCR por 'esp.'. Tipo de barco 'pol.' probablemente 'gol.' (goleta) o 'pol.' (polacra)."
+            "raw_text": "De Cuba; vapor Cosme de Herrera, cap. Vaca: con 250 reyes; 100 carneros; 1.363 sacos azúcar; 301 sacos maíz y efectos."
         }}
 
         IMPORTANTE:
-        - Si no encuentras información clara, usa null
+        - Si no encuentras información clara, usa null o cadena vacía
         - NO inventes datos
-        - Incluye observaciones sobre errores OCR o ambigüedades
-        - El campo parsed_text debe ser el texto original completo
+        - cargo_list es una lista simple de objetos con cargo_name, cargo_units, cargo_count
+        - El campo raw_text debe ser el texto original completo
 
         Texto a procesar: {}
     """.format(text)
@@ -125,8 +90,8 @@ def extract_structured_data_with_openai(text: str) -> dict:
             {"role": "system",
              "content": "Eres un especialista en digitalización de registros marítimos históricos. "
                         "Tu prioridad es la PRECISIÓN. Debes responder EXCLUSIVAMENTE con un objeto JSON válido. "
-                        "Si no encuentras información clara para algún campo, debes responder con null. "
-                        "NUNCA inventes datos. Incluye observaciones sobre errores OCR o ambigüedades."},
+                        "Si no encuentras información clara para algún campo, debes responder con null o cadena vacía. "
+                        "NUNCA inventes datos."},
             {"role": "user", "content": prompt}
         ],
         temperature=0.0,
@@ -190,92 +155,66 @@ def extract_news_list_with_openai(text: str) -> dict:
 def extract_cabotaje_data_with_openai(text: str) -> dict:
     """
     Extrae datos estructurados de una línea de 'Entrada de Cabotaje'.
-    Especializada en abreviaturas domésticas (gol., pat., p.) y manejo de datos faltantes.
+    Usa el formato antiguo definido originalmente.
     """
     prompt = """
         Analiza la siguiente entrada de tráfico marítimo de CABOTAJE (doméstico) y extrae los datos en JSON.
         
         FORMATO JSON REQUERIDO:
         {{
-            "travel_arrival_date": "YYYY-MM-DD",
+            "publication_day": "DD-MM-YYYY",
+            "arrival_date": "Día XX:",
+            "arrival_date_calc": "DD-MM-YYYY",
             "travel_departure_port": "Puerto",
-            "travel_port_of_call_list": null,
-            "travel_duration_value": número,
-            "travel_duration_unit": "horas/días",
             "ship_type": "tipo",
             "ship_flag": "bandera",
             "ship_name": "nombre",
-            "ship_tons_capacity": número,
-            "ship_tons_unit": "ton.",
             "master_role": "pat./cap./pil.",
             "master_name": "nombre",
-            "crew_number": null,
-            "passenger_account": null,
             "cargo_list": [
                 {{
-                    "cargo_merchant_name": "destinatario",
-                    "cargo": [
-                        {{
-                            "cargo_commodity": "producto",
-                            "cargo_quantity": "cantidad",
-                            "cargo_unit": "unidad"
-                        }}
-                    ]
+                    "cargo_name": "producto",
+                    "cargo_units": "unidad",
+                    "cargo_count": "cantidad"
                 }}
             ],
-            "quarantine": false,
-            "forced_arrival": false,
-            "parsed_text": "texto original",
-            "obs": "observaciones"
+            "raw_text": "texto original"
         }}
 
         REGLAS ESPECÍFICAS PARA CABOTAJE:
         1. Puerto Origen: Ubicado después de "De", "Del", "Do"
-        2. Tipo de Barco: Busca "gol." (goleta), "paq." (paquete), "b." (balandra), "can." (cañonera), "berg.", "vap."
-        3. Bandera: esp., am., ing., etc.
+        2. Tipo de Barco: gol., paq., b., can., berg., vap., etc.
+        3. Bandera: esp., am., ing., etc. - puede ser vacío
         4. Mando: "pat." (patrón), "p.", "cap." (capitán), "pil." (piloto)
-        5. Duración: En HORAS (típicamente 2-48 horas), no días
-        6. Toneladas: RARAMENTE aparecen en cabotaje - si no está explícito, usa null
-        7. Carga: Lista de productos con cantidad y unidad (ej: "392 tercios de tabaco")
-        8. Crew: A veces aparece "trip." (tripulación)
+        5. Carga: Lista simple de productos con nombre, unidades y cantidad
+        6. publication_day: Fecha en formato DD-MM-YYYY (ej: 01-01-1887)
+        7. arrival_date: Texto original de la fecha (ej: "Día 31:")
+        8. arrival_date_calc: Fecha calculada en formato DD-MM-YYYY
 
         EJEMPLO:
         Input: "De Mantua gol. Anuta pat. Mayans, con 392 tercios de tabaco, 20 % de cera, á D. Pepe Gonzalez"
         Output: {{
-            "travel_arrival_date": null,
+            "publication_day": "01-01-1887",
+            "arrival_date": "Día 01:",
+            "arrival_date_calc": "01-01-1887",
             "travel_departure_port": "Mantua",
-            "travel_port_of_call_list": null,
-            "travel_duration_value": null,
-            "travel_duration_unit": null,
             "ship_type": "gol.",
-            "ship_flag": null,
+            "ship_flag": "",
             "ship_name": "Anuta",
-            "ship_tons_capacity": null,
-            "ship_tons_unit": null,
             "master_role": "pat.",
             "master_name": "Mayans",
-            "crew_number": null,
-            "passenger_account": null,
             "cargo_list": [
-                {{
-                    "cargo_merchant_name": "D. Pepe Gonzalez",
-                    "cargo": [
-                        {{"cargo_commodity": "tabaco", "cargo_quantity": "392", "cargo_unit": "tercios"}},
-                        {{"cargo_commodity": "cera", "cargo_quantity": "20", "cargo_unit": "%"}}
-                    ]
-                }}
+                {{"cargo_name": "tabaco", "cargo_units": "tercios", "cargo_count": "392"}},
+                {{"cargo_name": "cera", "cargo_units": "%", "cargo_count": "20"}}
             ],
-            "quarantine": false,
-            "forced_arrival": false,
-            "parsed_text": "De Mantua gol. Anuta pat. Mayans, con 392 tercios de tabaco, 20 % de cera, á D. Pepe Gonzalez",
-            "obs": "Cabotaje doméstico"
+            "raw_text": "De Mantua gol. Anuta pat. Mayans, con 392 tercios de tabaco, 20 % de cera, á D. Pepe Gonzalez"
         }}
 
         IMPORTANTE:
-        - Si no encuentras información clara, usa null
+        - Si no encuentras información clara, usa null o cadena vacía
         - NO inventes datos
-        - Incluye observaciones sobre errores OCR o ambigüedades
-        - El campo parsed_text debe ser el texto original completo
+        - cargo_list es una lista simple de objetos
+        - El campo raw_text debe ser el texto original completo
 
         Texto a procesar: {}
     """.format(text)
@@ -284,7 +223,7 @@ def extract_cabotaje_data_with_openai(text: str) -> dict:
         model="gpt-4o-mini",
         response_format={"type": "json_object"},
         messages=[
-            {"role": "system", "content": "Eres un especialista en digitalización de registros marítimos históricos. Tu prioridad es la precisión: si un dato no está, usa null. NUNCA inventes datos."},
+            {"role": "system", "content": "Eres un especialista en digitalización de registros marítimos históricos. Tu prioridad es la precisión: si un dato no está, usa null o cadena vacía. NUNCA inventes datos."},
             {"role": "user", "content": prompt}
         ],
         temperature=0.0,

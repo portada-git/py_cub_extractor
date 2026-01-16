@@ -222,8 +222,6 @@ class Extractor:
                     if row and isinstance(row, dict) and len(row) > 0:
                         # Agregar información del archivo
                         row['source_file'] = date_file
-                        row['publication_date'] = date_file
-                        row['extracted_at'] = date_file
                         
                         results.append(row)
                         
@@ -249,8 +247,6 @@ class Extractor:
                     if row and isinstance(row, dict) and len(row) > 0:
                         # Agregar información del archivo
                         row['source_file'] = date_file
-                        row['publication_date'] = date_file
-                        row['extracted_at'] = date_file
                         
                         results.append(row)
                         

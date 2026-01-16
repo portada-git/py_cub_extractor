@@ -225,19 +225,45 @@ def _export_to_csv(csv_file, data):
         for row in data:
             all_keys.update(row.keys())
         
-        fieldnames = sorted(list(all_keys))
+        # Excluir solo el campo obs
+        exclude_fields = {'obs'}
+        fieldnames = sorted([k for k in all_keys if k not in exclude_fields])
+        
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';')
         writer.writeheader()
         
         for row in data:
             row_copy = row.copy()
-            # Convertir cargo_list de JSON a string
-            if isinstance(row_copy.get('cargo_list'), str):
-                try:
-                    cargo_list = json.loads(row_copy['cargo_list'])
-                    row_copy['cargo_list'] = ', '.join(str(x) for x in cargo_list)
-                except:
-                    pass
+            
+            # Remover campos excluidos
+            for field in exclude_fields:
+                row_copy.pop(field, None)
+            
+            # Convertir cargo_list de JSON a string legible
+            if 'cargo_list' in row_copy:
+                cargo_list = row_copy.get('cargo_list')
+                if isinstance(cargo_list, str):
+                    try:
+                        cargo_list = json.loads(cargo_list)
+                    except:
+                        pass
+                
+                if isinstance(cargo_list, list) and len(cargo_list) > 0:
+                    # Formatear cargo_list de forma legible
+                    cargo_items = []
+                    for item in cargo_list:
+                        if isinstance(item, dict):
+                            merchant = item.get('cargo_merchant_name', 'N/A')
+                            cargos = item.get('cargo', [])
+                            cargo_str = '; '.join([
+                                f"{c.get('cargo_quantity', '')} {c.get('cargo_unit', '')} {c.get('cargo_commodity', '')}"
+                                for c in cargos if isinstance(c, dict)
+                            ])
+                            cargo_items.append(f"{merchant}: {cargo_str}")
+                    row_copy['cargo_list'] = ' | '.join(cargo_items)
+                else:
+                    row_copy['cargo_list'] = ''
+            
             writer.writerow(row_copy)
 
 
