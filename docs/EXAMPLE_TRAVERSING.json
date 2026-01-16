@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "source_file": "1852_01_01",
+  "publication_date": "1852-01-01",
+  "travel_arrival_date": "1852-01-01",
+  "travel_departure_port": "Liverpool",
+  "travel_port_of_call_list": null,
+  "travel_duration_value": 12,
+  "travel_duration_unit": "días",
+  "ship_type": "berg.",
+  "ship_flag": "esp.",
+  "ship_name": "Antio",
+  "ship_tons_capacity": 106,
+  "ship_tons_unit": "ton.",
+  "master_role": "cap.",
+  "master_name": "Ranton",
+  "crew_number": null,
+  "passenger_account": null,
+  "cargo_list": [
+    {
+      "cargo_merchant_name": "Dua ke, H. y comp.",
+      "cargo": [
+        {
+          "cargo_commodity": "vivares y loidines",
+          "cargo_quantity": "",
+          "cargo_unit": ""
+        }
+      ]
+    }
+  ],
+  "quarantine": false,
+  "forced_arrival": false,
+  "parsed_text": "De Liverpool en 12 días, berg. esp. Antio, cap. Ranton, ton. 106, con vivares y loidines, a los Sres. Dua ke, H. y comp.",
+  "obs": null,
+  "extracted_at": "1852-01-01"
+}

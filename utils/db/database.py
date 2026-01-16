@@ -24,21 +24,28 @@ class ExtractionDB:
                 CREATE TABLE IF NOT EXISTS traversing (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     source_file TEXT NOT NULL,
-                    publication_day TEXT,
-                    travel_duration INTEGER,
+                    publication_date TEXT,
+                    travel_arrival_date TEXT,
                     travel_departure_port TEXT,
+                    travel_port_of_call_list TEXT,
+                    travel_duration_value INTEGER,
+                    travel_duration_unit TEXT,
                     ship_type TEXT,
+                    ship_flag TEXT,
                     ship_name TEXT,
-                    ship_tons_capacity TEXT,
-                    ship_tons_units TEXT,
+                    ship_tons_capacity INTEGER,
+                    ship_tons_unit TEXT,
                     master_role TEXT,
                     master_name TEXT,
+                    crew_number INTEGER,
+                    passenger_account INTEGER,
                     cargo_list TEXT,
-                    raw_text TEXT NOT NULL,
-                    departure_date TEXT,
-                    arrival_date TEXT,
-                    extracted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    UNIQUE(raw_text, source_file)
+                    quarantine BOOLEAN,
+                    forced_arrival BOOLEAN,
+                    parsed_text TEXT NOT NULL,
+                    obs TEXT,
+                    extracted_at TEXT,
+                    UNIQUE(parsed_text, source_file)
                 )
             ''')
             
@@ -47,21 +54,28 @@ class ExtractionDB:
                 CREATE TABLE IF NOT EXISTS cabotage (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     source_file TEXT NOT NULL,
-                    publication_day TEXT,
-                    travel_duration INTEGER,
+                    publication_date TEXT,
+                    travel_arrival_date TEXT,
                     travel_departure_port TEXT,
+                    travel_port_of_call_list TEXT,
+                    travel_duration_value INTEGER,
+                    travel_duration_unit TEXT,
                     ship_type TEXT,
+                    ship_flag TEXT,
                     ship_name TEXT,
-                    ship_tons_capacity TEXT,
-                    ship_tons_units TEXT,
+                    ship_tons_capacity INTEGER,
+                    ship_tons_unit TEXT,
                     master_role TEXT,
                     master_name TEXT,
+                    crew_number INTEGER,
+                    passenger_account INTEGER,
                     cargo_list TEXT,
-                    raw_text TEXT NOT NULL,
-                    departure_date TEXT,
-                    arrival_date TEXT,
-                    extracted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    UNIQUE(raw_text, source_file)
+                    quarantine BOOLEAN,
+                    forced_arrival BOOLEAN,
+                    parsed_text TEXT NOT NULL,
+                    obs TEXT,
+                    extracted_at TEXT,
+                    UNIQUE(parsed_text, source_file)
                 )
             ''')
             
@@ -88,26 +102,35 @@ class ExtractionDB:
             try:
                 cursor.execute('''
                     INSERT INTO traversing (
-                        source_file, publication_day, travel_duration, travel_departure_port,
-                        ship_type, ship_name, ship_tons_capacity, ship_tons_units,
-                        master_role, master_name, cargo_list, raw_text,
-                        departure_date, arrival_date
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        source_file, publication_date, travel_arrival_date, travel_departure_port,
+                        travel_port_of_call_list, travel_duration_value, travel_duration_unit,
+                        ship_type, ship_flag, ship_name, ship_tons_capacity, ship_tons_unit,
+                        master_role, master_name, crew_number, passenger_account,
+                        cargo_list, quarantine, forced_arrival, parsed_text, obs, extracted_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
                     data.get('source_file'),
-                    data.get('publication_day'),
-                    data.get('travel_duration'),
+                    data.get('publication_date'),
+                    data.get('travel_arrival_date'),
                     data.get('travel_departure_port'),
+                    data.get('travel_port_of_call_list'),
+                    data.get('travel_duration_value'),
+                    data.get('travel_duration_unit'),
                     data.get('ship_type'),
+                    data.get('ship_flag'),
                     data.get('ship_name'),
                     data.get('ship_tons_capacity'),
-                    data.get('ship_tons_units'),
+                    data.get('ship_tons_unit'),
                     data.get('master_role'),
                     data.get('master_name'),
+                    data.get('crew_number'),
+                    data.get('passenger_account'),
                     cargo_json,
-                    data.get('raw_text'),
-                    data.get('departure_date'),
-                    data.get('arrival_date')
+                    data.get('quarantine', False),
+                    data.get('forced_arrival', False),
+                    data.get('parsed_text'),
+                    data.get('obs'),
+                    data.get('extracted_at')
                 ))
                 conn.commit()
                 return True
@@ -125,26 +148,35 @@ class ExtractionDB:
             try:
                 cursor.execute('''
                     INSERT INTO cabotage (
-                        source_file, publication_day, travel_duration, travel_departure_port,
-                        ship_type, ship_name, ship_tons_capacity, ship_tons_units,
-                        master_role, master_name, cargo_list, raw_text,
-                        departure_date, arrival_date
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        source_file, publication_date, travel_arrival_date, travel_departure_port,
+                        travel_port_of_call_list, travel_duration_value, travel_duration_unit,
+                        ship_type, ship_flag, ship_name, ship_tons_capacity, ship_tons_unit,
+                        master_role, master_name, crew_number, passenger_account,
+                        cargo_list, quarantine, forced_arrival, parsed_text, obs, extracted_at
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
                     data.get('source_file'),
-                    data.get('publication_day'),
-                    data.get('travel_duration'),
+                    data.get('publication_date'),
+                    data.get('travel_arrival_date'),
                     data.get('travel_departure_port'),
+                    data.get('travel_port_of_call_list'),
+                    data.get('travel_duration_value'),
+                    data.get('travel_duration_unit'),
                     data.get('ship_type'),
+                    data.get('ship_flag'),
                     data.get('ship_name'),
                     data.get('ship_tons_capacity'),
-                    data.get('ship_tons_units'),
+                    data.get('ship_tons_unit'),
                     data.get('master_role'),
                     data.get('master_name'),
+                    data.get('crew_number'),
+                    data.get('passenger_account'),
                     cargo_json,
-                    data.get('raw_text'),
-                    data.get('departure_date'),
-                    data.get('arrival_date')
+                    data.get('quarantine', False),
+                    data.get('forced_arrival', False),
+                    data.get('parsed_text'),
+                    data.get('obs'),
+                    data.get('extracted_at')
                 ))
                 conn.commit()
                 return True

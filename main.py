@@ -49,8 +49,8 @@ def show_menu():
     print("DATABASE & ANALYSIS:")
     print("6. Check missing files to process")
     print("7. Show database statistics")
-    print("8. Export data (year/month/day/port/ship/captain)")
-    print("9. Analyze data (year/port/ship/captain)")
+    print("8. Export data (year/month/)")
+    print("9. Analyze data (year/port/)")
     print("10. Database utilities (backup/reset/optimize)")
     print()
     print("0. Exit")
@@ -260,6 +260,27 @@ def extract_by_year():
     input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
     output_dir = input("Enter path to output directory: ").strip()
     
+    # Validar que sea el directorio raíz (.data/Nuevo)
+    from pathlib import Path
+    input_path = Path(input_dir)
+    
+    if not input_path.exists():
+        print(f"❌ Directory not found: {input_dir}")
+        return
+    
+    # Verificar que contiene años (4 dígitos), no meses (2 dígitos)
+    subdirs = [d.name for d in input_path.iterdir() if d.is_dir() and d.name.isdigit()]
+    
+    if not subdirs:
+        print(f"❌ No year directories found in {input_dir}")
+        return
+    
+    # Si todos los subdirectorios tienen 2 dígitos, es un directorio de meses
+    if all(len(d) == 2 for d in subdirs):
+        print(f"❌ Error: {input_dir} contains months (01-12), not years")
+        print(f"   Please use the parent directory: .data/Nuevo")
+        return
+    
     try:
         max_workers = int(input("Number of threads (default 16): ").strip() or "16")
     except:
@@ -290,6 +311,19 @@ def extract_by_month():
         print("❌ Invalid month")
         return
     
+    # Validar que sea el directorio raíz
+    from pathlib import Path
+    input_path = Path(input_dir)
+    
+    if not input_path.exists():
+        print(f"❌ Directory not found: {input_dir}")
+        return
+    
+    year_path = input_path / year
+    if not year_path.exists():
+        print(f"❌ Year directory not found: {year_path}")
+        return
+    
     extractor = Extractor(input_dir, output_dir, max_workers)
     result = extractor.extract_month(year, month)
     
@@ -303,14 +337,15 @@ def extract_by_month():
 
 def check_missing():
     """Opción 6: Verifica qué archivos faltan por procesar"""
-    import subprocess
-    subprocess.run(["python3", "utils/db/check_missing.py", "status"])
+    from utils.db.check_missing import check_by_year
+    check_by_year()
 
 
 def show_db_stats():
     """Opción 7: Muestra estadísticas de la base de datos"""
-    import subprocess
-    subprocess.run(["python3", "utils/db/db_utils.py", "info"])
+    from utils.export_data import show_stats
+    db = ExtractionDB()
+    show_stats(db)
 
 
 def export_data_menu():
@@ -330,69 +365,81 @@ def export_data_menu():
     
     choice = input("Choose option: ").strip()
     
-    import subprocess
+    from utils.export_data import (
+        export_year, export_month, export_day, export_port, 
+        export_ship, export_master, list_ports, list_ships, list_masters
+    )
+    
+    db = ExtractionDB()
     
     if choice == "1":
         year = input("Enter year: ").strip()
         output_dir = input("Enter output directory: ").strip()
-        subprocess.run(["python3", "utils/export_by_year.py", year, output_dir])
+        export_year(db, year, output_dir)
     elif choice == "2":
         year = input("Enter year: ").strip()
         month = input("Enter month (1-12): ").strip()
         output_dir = input("Enter output directory: ").strip()
-        subprocess.run(["python3", "utils/export_data.py", "month", year, month, output_dir])
+        try:
+            month = int(month)
+            export_month(db, year, month, output_dir)
+        except ValueError:
+            print("❌ Invalid month")
     elif choice == "3":
         year = input("Enter year: ").strip()
         month = input("Enter month (1-12): ").strip()
         day = input("Enter day (1-31): ").strip()
         output_dir = input("Enter output directory: ").strip()
-        subprocess.run(["python3", "utils/export_data.py", "day", year, month, day, output_dir])
+        try:
+            month = int(month)
+            day = int(day)
+            export_day(db, year, month, day, output_dir)
+        except ValueError:
+            print("❌ Invalid month or day")
     elif choice == "4":
         port = input("Enter port name: ").strip()
         output_dir = input("Enter output directory: ").strip()
-        subprocess.run(["python3", "utils/export_data.py", "port", port, output_dir])
+        export_port(db, port, output_dir)
     elif choice == "5":
         ship = input("Enter ship name: ").strip()
         output_dir = input("Enter output directory: ").strip()
-        subprocess.run(["python3", "utils/export_data.py", "ship", ship, output_dir])
+        export_ship(db, ship, output_dir)
     elif choice == "6":
         master = input("Enter captain name: ").strip()
         output_dir = input("Enter output directory: ").strip()
-        subprocess.run(["python3", "utils/export_data.py", "master", master, output_dir])
+        export_master(db, master, output_dir)
     elif choice == "7":
-        subprocess.run(["python3", "utils/export_data.py", "list-ports"])
+        list_ports(db)
     elif choice == "8":
-        subprocess.run(["python3", "utils/export_data.py", "list-ships"])
+        list_ships(db)
     elif choice == "9":
-        subprocess.run(["python3", "utils/export_data.py", "list-masters"])
+        list_masters(db)
 
 
 def analyze_data_menu():
     """Opción 9: Menú de análisis"""
     print("\n📈 ANALYZE DATA")
     print("="*50)
-    print("1. Analyze year")
-    print("2. Analyze port")
-    print("3. Analyze ship")
-    print("4. Analyze captain")
+    print("1. Show database statistics")
+    print("2. List all ports")
+    print("3. List all ships")
+    print("4. List all captains")
     print("0. Back")
     
     choice = input("Choose option: ").strip()
     
-    import subprocess
+    from utils.export_data import show_stats, list_ports, list_ships, list_masters
+    
+    db = ExtractionDB()
     
     if choice == "1":
-        year = input("Enter year: ").strip()
-        subprocess.run(["python3", "utils/analyze_data.py", "year", year])
+        show_stats(db)
     elif choice == "2":
-        port = input("Enter port name: ").strip()
-        subprocess.run(["python3", "utils/analyze_data.py", "port", port])
+        list_ports(db)
     elif choice == "3":
-        ship = input("Enter ship name: ").strip()
-        subprocess.run(["python3", "utils/analyze_data.py", "ship", ship])
+        list_ships(db)
     elif choice == "4":
-        master = input("Enter captain name: ").strip()
-        subprocess.run(["python3", "utils/analyze_data.py", "master", master])
+        list_masters(db)
 
 
 def db_utils_menu():
@@ -400,27 +447,15 @@ def db_utils_menu():
     print("\n🗄️  DATABASE UTILITIES")
     print("="*50)
     print("1. Show database info")
-    print("2. Create backup")
-    print("3. Delete year data")
-    print("4. Delete duplicates")
-    print("5. Optimize database")
     print("0. Back")
     
     choice = input("Choose option: ").strip()
     
-    import subprocess
+    from utils.export_data import show_stats
     
     if choice == "1":
-        subprocess.run(["python3", "utils/db/db_utils.py", "info"])
-    elif choice == "2":
-        subprocess.run(["python3", "utils/db/db_utils.py", "backup"])
-    elif choice == "3":
-        year = input("Enter year to delete: ").strip()
-        subprocess.run(["python3", "utils/db/db_utils.py", "delete-year", year])
-    elif choice == "4":
-        subprocess.run(["python3", "utils/db/db_utils.py", "delete-duplicates"])
-    elif choice == "5":
-        subprocess.run(["python3", "utils/db/db_utils.py", "vacuum"])
+        db = ExtractionDB()
+        show_stats(db)
 
 
 def main():

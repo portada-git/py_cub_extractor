@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "source_file": "1852_01_15",
+  "publication_date": "1852-01-15",
+  "travel_arrival_date": "1852-01-15",
+  "travel_departure_port": "Matanzas",
+  "travel_port_of_call_list": null,
+  "travel_duration_value": 12,
+  "travel_duration_unit": "horas",
+  "ship_type": "gol.",
+  "ship_flag": "esp.",
+  "ship_name": "Alicia",
+  "ship_tons_capacity": 45,
+  "ship_tons_unit": "ton.",
+  "master_role": "pat.",
+  "master_name": "Arribi",
+  "crew_number": 8,
+  "passenger_account": null,
+  "cargo_list": [
+    {
+      "cargo_merchant_name": "Deulofeu é hijo",
+      "cargo": [
+        {
+          "cargo_commodity": "azúcar",
+          "cargo_quantity": "50",
+          "cargo_unit": "cajas"
+        },
+        {
+          "cargo_commodity": "ron",
+          "cargo_quantity": "20",
+          "cargo_unit": "barriles"
+        }
+      ]
+    }
+  ],
+  "quarantine": false,
+  "forced_arrival": false,
+  "parsed_text": "Matanzas en 12 horas, gol. esp. Alicia, pat. Arribi, trip. 8, ton. 45, con azúcar y ron, á Deulofeu é hijo.",
+  "obs": "Cabotaje doméstico. Duración en horas en lugar de días.",
+  "extracted_at": "1852-01-15"
+}

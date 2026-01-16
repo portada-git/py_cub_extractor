@@ -196,10 +196,12 @@ class Extractor:
             with open(file_path, encoding='utf-8', errors='ignore') as f:
                 content = f.read()
             
+            # Procesar según el tipo de archivo
             if "_V_" in file_path.name:
+                # Archivo de travesías - procesar SOLO travesías
                 self._process_traversing(content, date_file, traversing_results)
-            
-            if "_C_" in file_path.name:
+            elif "_C_" in file_path.name:
+                # Archivo de cabotajes - procesar SOLO cabotajes
                 self._process_cabotage(content, date_file, cabotage_results)
         
         except Exception as e:
@@ -216,22 +218,19 @@ class Extractor:
                 try:
                     row = extract_structured_data_with_openai(line_obj['info_text'])
                     
-                    if row.get('raw_text'):
-                        try:
-                            departure_date, arrival_date = compute_important_dates(
-                                date_file, row.get('travel_duration'), row.get('publication_day')
-                            )
-                            row['departure_date'] = departure_date
-                            row['arrival_date'] = arrival_date
-                        except:
-                            row['departure_date'] = None
-                            row['arrival_date'] = None
-                        
+                    # Verificar que el LLM retornó datos válidos
+                    if row and isinstance(row, dict) and len(row) > 0:
+                        # Agregar información del archivo
                         row['source_file'] = date_file
+                        row['publication_date'] = date_file
+                        row['extracted_at'] = date_file
+                        
                         results.append(row)
                         
                         # Guardar en base de datos
                         self.db.save_traversing(row)
+                    else:
+                        self.logger.debug(f"Empty response from LLM for traversing: {line_obj['info_text'][:50]}")
                 except Exception as e:
                     self.logger.debug(f"Error extracting traversing line: {e}")
         except Exception as e:
@@ -246,22 +245,19 @@ class Extractor:
                 try:
                     row = extract_cabotaje_data_with_openai(line_obj['info_text'])
                     
-                    if row.get('raw_text'):
-                        try:
-                            departure_date, arrival_date = compute_important_dates(
-                                date_file, row.get('travel_duration'), row.get('publication_day')
-                            )
-                            row['departure_date'] = departure_date
-                            row['arrival_date'] = arrival_date
-                        except:
-                            row['departure_date'] = None
-                            row['arrival_date'] = None
-                        
+                    # Verificar que el LLM retornó datos válidos
+                    if row and isinstance(row, dict) and len(row) > 0:
+                        # Agregar información del archivo
                         row['source_file'] = date_file
+                        row['publication_date'] = date_file
+                        row['extracted_at'] = date_file
+                        
                         results.append(row)
                         
                         # Guardar en base de datos
                         self.db.save_cabotage(row)
+                    else:
+                        self.logger.debug(f"Empty response from LLM for cabotage: {line_obj['info_text'][:50]}")
                 except Exception as e:
                     self.logger.debug(f"Error extracting cabotage line: {e}")
         except Exception as e:
