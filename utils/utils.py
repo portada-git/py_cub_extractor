@@ -22,6 +22,7 @@ def catch_news_fragment(text):
     """
     Extrae líneas individuales de travesía del texto.
     Busca líneas que comienzan con "De" (puerto de origen) o que contienen información de barcos.
+    Filtra líneas incompletas o fragmentos que no son entradas válidas.
     """
     lines = text.split('\n')
     news_collection = []
@@ -37,14 +38,29 @@ def catch_news_fragment(text):
         if any(header in line.upper() for header in ['ENTRADAS', 'PUERTO', 'DIARIO', 'HABANA']):
             continue
         
+        line_lower = line.lower()
+        
+        # Saltar líneas que son notas finales del día (barcos en el horizonte)
+        # Estas líneas hablan de barcos que "quedaban" o "quedaban por" al final del día
+        if 'queda' in line_lower:
+            continue
+        
+        # Saltar líneas que son solo notas o comentarios
+        if any(skip in line_lower for skip in ['nota:', 'obs:', 'observ', 'error', 'ilegible']):
+            continue
+        
         # Buscar líneas que comienzan con "De" (puerto de origen)
         if line.startswith('De ') or line.startswith('—De ') or line.startswith('-De '):
             news_collection.append({'info_text': line})
         # O líneas que contienen información de barcos (palabras clave)
+        # Pero deben tener estructura mínima: puerto + tipo de barco + nombre
         elif any(keyword in line for keyword in ['berg.', 'vap.', 'pol.', 'frag.', 'gol.', 'paq.', 'cap.', 'pat.', 'tons.']):
             # Pero que no sean encabezados
             if not line.isupper():
-                news_collection.append({'info_text': line})
+                # Verificar que tiene estructura mínima (al menos 2 palabras clave)
+                keyword_count = sum(1 for keyword in ['berg.', 'vap.', 'pol.', 'frag.', 'gol.', 'paq.', 'cap.', 'pat.', 'tons.'] if keyword in line)
+                if keyword_count >= 2:
+                    news_collection.append({'info_text': line})
     
     return news_collection
 
@@ -53,6 +69,7 @@ def extract_entradas_cabotaje(text: str) -> list:
     Extrae líneas individuales de cabotaje del texto.
     Busca líneas que comienzan con "De" (puerto de origen).
     Para archivos _C_, extrae TODAS las líneas relevantes (no busca sección específica).
+    Filtra líneas incompletas o fragmentos que no son entradas válidas.
     """
     lines = text.split('\n')
     news_collection = []
@@ -68,13 +85,26 @@ def extract_entradas_cabotaje(text: str) -> list:
         if line_stripped.isupper() or 'ENTRADAS' in line_stripped.upper() or 'CABOTAJE' in line_stripped.upper():
             continue
         
+        line_lower = line_stripped.lower()
+        
+        # Saltar líneas que son notas finales del día (barcos en el horizonte)
+        if 'queda' in line_lower:
+            continue
+        
+        # Saltar líneas que son solo notas o comentarios
+        if any(skip in line_lower for skip in ['nota:', 'obs:', 'observ', 'error', 'ilegible']):
+            continue
+        
         # Buscar líneas que comienzan con "De" (puerto de origen)
         if line_stripped.startswith('De ') or line_stripped.startswith('—De ') or line_stripped.startswith('-De '):
             news_collection.append({'info_text': line_stripped})
         # O líneas que contienen información de barcos (palabras clave de cabotaje)
         elif any(keyword in line_stripped for keyword in ['gol.', 'berg.', 'paq.', 'pat.', 'cap.', 'con ']):
             if not line_stripped.isupper():
-                news_collection.append({'info_text': line_stripped})
+                # Verificar que tiene estructura mínima (al menos 2 palabras clave)
+                keyword_count = sum(1 for keyword in ['gol.', 'berg.', 'paq.', 'pat.', 'cap.', 'con '] if keyword in line_stripped)
+                if keyword_count >= 2:
+                    news_collection.append({'info_text': line_stripped})
     
     return news_collection
 
