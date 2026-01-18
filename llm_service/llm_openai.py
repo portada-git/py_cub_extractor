@@ -176,31 +176,53 @@ def extract_news_list_with_openai(text: str) -> dict:
 def extract_cabotaje_data_with_openai(text: str) -> dict:
     """
     Extrae datos estructurados de una línea de 'Entrada de Cabotaje'.
-    Usa el mismo formato que travesías.
     """
     prompt = """
-Eres experto en extraer información de texto no estructurado contenido en archivos textos obtenidos de un proceso de OCR a periódicos de la época del 1850 al 1915 relacionada con entradas de buques mercantes al puerto de la Habana. Este contenido frecuentemente contiene errores propios del proceso pero también errores tipográficos u ortográficos y a través de la lógica y semántica logras obtenerla y estructurarla.
+Eres experto en extraer información de texto no estructurado contenido en archivos textos obtenidos de un proceso de OCR a periódicos de la época del 1850 al 1915 relacionada con entradas de buques mercantes al puerto de la Habana. Este contenido que frecuencia contiene errores propios del proceso pero también errores tipográficos u ortográficos y a través de la lógica y semántica logras obtenerla y estructurarla en una estructura que ha continuación te describo:
 
-ESTRUCTURA DE SALIDA REQUERIDA (JSON) - CABOTAJE:
+publication_date: Muestra la fecha del periódico, el nombre del archivo contiene la fecha de al inicio YYYY_MM_DD_... en este ejemplo 1876-01-01El nombre del archivo aporta información que se necesita extraer, este nombre tiene el siguiente formato: Ej.: 1876_01_01_HAB_DM_U_01_0_C_003-001.txt
+
+travel_arrival_date: Indica la fecha en la que el barco llegó al puerto de llegada (Marsella, Buenos Aires, La Habana o Barcelona) en formato YYYY-MM-DD.
+
+travel_departure_port: Indica el puerto de salida del buque en este viaje.
+
+travel_port_of_call_list: Indica la lista de puertos (y opcionalmente más información como fechas de llegada o salida) en los que el barco había hecho escala durante su trayecto al puerto de llegada. Si la información de esta lista es solo el nombre de los puertos, la lista estará compuesta por nombres de puertos separados por comas.
+
+ship_type: Describe el tipo de barco (bergantín, goleta, vapor, etc.) que menciona el periódico
+
+ship_flag: Hace referencia al nombre del país o región de la bandera del barco descrito por el periódico, pero es poco común en entradas de cabotaje
+
+ship_name: Indica el nombre del barco que normalmente se presenta completo, como se menciona en la fuente del periódico
+
+master_role: Hace referencia a la categoría de la persona que comanda el buque. Puede ser capitán o patrón, aunque en algunos casos también aparece piloto. Las abreviaturas que se utilizan para designarlos suelen ser "c" y "p", respectivamente
+
+master_name: Es la identificación nominal de la persona que comanda el buque. Puede aparecer de varias formas, al menos lleva el apellido, precedido de su cargo (rol). Indica el apellido del capitán del buque, a menudo precedido de "cap." o "c."
+
+cargo_list: Es la lista con la información relativa a toda la carga transportada por el buque entrante (tipo de carga, cantidad, unidad de la carga, etc.). Cada mercancía se descompondrá en los siguientes campos.
+- cargo_merchant_name: Es la persona a la que iba destinada la carga, muchas veces será el comerciante que la había comprado y que se hizo cargo de ella en el momento de la descarga. Indica el destinatario de la carga, con ocasional mención a "divers" [varios/diversos]. En este caso vemos nombres de personas o empresas. Estos nombres tienen las mismas características y dificultades que el resto de denominaciones. En ocasiones los barcos llegaban a carga completa y estaban destinados a la misma persona, y en otros casos, cada carga tenía su destinatario. También aparece con frecuencia la expresión "a la orden", que en principio es una carga para ser vendida a su llegada a puerto y que, por el contrario, no tiene un propietario anterior, más allá del propio capitán personalmente o por cuenta de alguien.
+- cargo: Lista de mercancias y cada una de ellas se descompone en:
+  - cargo_commodity: Expresa los productos o tipos de mercancías que han llegado. Es un valor muy variable, las mercancías más habituales son el carbón o el algodón, pero existe una extraordinaria diversidad de productos que llegan al puerto.
+  - cargo_quantity: Expresión numérica del importe de la carga
+  - cargo_unit: Expresa las unidades en las que aparece la carga. Estas pueden ser unidades de peso, volumen, recuentos o unidades relativas al embalaje.
+
+Nota: En ocasiones un mismo producto se expresa en una misma entrada con diferentes unidades de medidas y cantidades, lo que deberás separar en dos entradas de mercancías diferentes.
+
+obs: Notas o comentarios adicionales que aborden aspectos no contemplados en las variables registradas, proporcionando información contextual o relevante sobre el evento.
+
+FORMATO DE SALIDA JSON:
 {{
     "publication_day": "YYYY-MM-DD",
     "travel_arrival_date": "YYYY-MM-DD",
     "travel_departure_port": "Puerto",
-    "travel_port_of_call_list": [],
-    "travel_duration_value": número o null,
-    "travel_duration_unit": "días" o "horas" o null,
+    "travel_port_of_call_list": ["Puerto1", "Puerto2"] o [],
     "ship_type": "tipo de barco",
     "ship_flag": "bandera" o null,
     "ship_name": "nombre del barco" o null,
-    "ship_tons_capacity": número o null,
-    "ship_tons_unit": "ton." o "t." o null,
-    "master_role": "pat." o "cap." o null,
+    "master_role": "pat." o "cap." o "pil." o null,
     "master_name": "nombre del patrón" o null,
-    "crew_number": null,
-    "passenger_account": null,
     "cargo_list": [
         {{
-            "cargo_merchant_name": "destinatario",
+            "cargo_merchant_name": "destinatario" o "",
             "cargo": [
                 {{
                     "cargo_commodity": "producto",
@@ -210,28 +232,19 @@ ESTRUCTURA DE SALIDA REQUERIDA (JSON) - CABOTAJE:
             ]
         }}
     ],
-    "quarantine": false,
-    "forced_arrival": false,
     "parsed_text": "texto original",
-    "obs": ""
+    "obs": "observaciones" o ""
 }}
 
-REGLAS PARA CABOTAJE:
-1. Puerto Origen: Ubicado después de "De", "Del", "Do"
-2. Tipo de Barco: gol., paq., berg., vap., etc.
-3. Bandera: esp., am., ing., etc. - puede ser null
-4. Mando: "pat." (patrón), "cap." (capitán)
-5. Carga: Lista simple de productos con nombre, unidades y cantidad
-6. publication_day: Fecha en formato YYYY-MM-DD
-7. travel_arrival_date: Fecha de llegada en formato YYYY-MM-DD
-8. travel_port_of_call_list: Generalmente vacía para cabotaje
+OBSERVACIONES:
+- Los archivos comienzan con títulos que debes ignorar y continuan con la representación de una fecha en varios formatos que debes traducir al formato "YYYY-MM-DD"
+- Usualmente para fechas de publicación a inicios de mes o año, vienen con fechas de arribo del mes anterior, lo que debes tener en cuenta para determinar correctamente la fecha en su formato "YYYY-MM-DD"
+- Las entradas pueden comenzar usualmente con las palabras "De", "Do", "-", "--", o simplemente al inicio de la línea, se asume la fecha de arribo a partir de la primera vez que aparece representada en el texto y continua hasta tanto no aparezca otra que defina el cambio
+- Los campos, atributos o grupos de atributos no siempre vienen en el mismo orden dentro de cada entrada, y alguno de ellos no siempre están presentes por lo que no son obligatorios
+- Existen campos o atributos que su valor es "..." o "..", por tanto asignarás el valor de "???"
+- Es común que se utilice las palabras 'id', 'id.' o 'idem' para referirse al puerto origen, la cantidad, unidad o mercancía inmediatamente anterior, evitando la repetición.
 
-REGLAS IMPORTANTES:
-1. Si un campo no tiene información clara, usa null
-2. NO inventes datos
-3. Si encuentras "..." o ".." asigna "???"
-4. Las fechas deben estar en formato YYYY-MM-DD
-5. Usa lógica y semántica para corregir errores OCR obvios
+IMPORTANTE: No me especifiques ni expliques nada al respecto solo espera a que te solicite la información cuando te anexe los archivos y te especifique el orden, pues un mismo contenido puede estar en más de un archivo.
 
 Texto a procesar: {}
     """.format(text)
