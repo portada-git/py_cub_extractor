@@ -339,6 +339,7 @@ def reprocess_year():
     except:
         max_workers = 16
     
+    # Crear nuevo extractor (esto reinicia el contador de tokens)
     extractor = Extractor(input_dir, output_dir, max_workers)
     result = extractor.extract_year(year)
     
@@ -368,10 +369,10 @@ def check_missing():
 
 
 def show_db_stats():
-    """Opción 7: Muestra estadísticas de la base de datos"""
-    from utils.export_data import show_stats
+    """Opción 7: Muestra estadísticas de la base de datos por año"""
+    from utils.export_data import show_stats_by_year
     db = ExtractionDB()
-    show_stats(db)
+    show_stats_by_year(db)
 
 
 def export_all_years():

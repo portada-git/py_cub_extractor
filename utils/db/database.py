@@ -35,6 +35,16 @@ class ExtractionDB:
                     master_name TEXT,
                     cargo_list TEXT,
                     raw_text TEXT NOT NULL,
+                    travel_duration_value INTEGER,
+                    travel_duration_unit TEXT,
+                    ship_tons_capacity INTEGER,
+                    ship_tons_unit TEXT,
+                    crew_number INTEGER,
+                    passenger_account INTEGER,
+                    quarantine BOOLEAN,
+                    forced_arrival BOOLEAN,
+                    obs TEXT,
+                    parsed_text TEXT,
                     UNIQUE(raw_text, source_file)
                 )
             ''')
@@ -55,6 +65,16 @@ class ExtractionDB:
                     master_name TEXT,
                     cargo_list TEXT,
                     raw_text TEXT NOT NULL,
+                    travel_duration_value INTEGER,
+                    travel_duration_unit TEXT,
+                    ship_tons_capacity INTEGER,
+                    ship_tons_unit TEXT,
+                    crew_number INTEGER,
+                    passenger_account INTEGER,
+                    quarantine BOOLEAN,
+                    forced_arrival BOOLEAN,
+                    obs TEXT,
+                    parsed_text TEXT,
                     UNIQUE(raw_text, source_file)
                 )
             ''')
@@ -84,8 +104,11 @@ class ExtractionDB:
                     INSERT INTO traversing (
                         source_file, publication_day, arrival_date, arrival_date_calc,
                         travel_departure_port, ship_type, ship_flag, ship_name,
-                        master_role, master_name, cargo_list, raw_text
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        master_role, master_name, cargo_list, raw_text,
+                        travel_duration_value, travel_duration_unit, ship_tons_capacity,
+                        ship_tons_unit, crew_number, passenger_account, quarantine,
+                        forced_arrival, obs, parsed_text
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
                     data.get('source_file'),
                     data.get('publication_day'),
@@ -98,7 +121,17 @@ class ExtractionDB:
                     data.get('master_role'),
                     data.get('master_name'),
                     cargo_json,
-                    data.get('raw_text')
+                    data.get('raw_text'),
+                    data.get('travel_duration_value'),
+                    data.get('travel_duration_unit'),
+                    data.get('ship_tons_capacity'),
+                    data.get('ship_tons_unit'),
+                    data.get('crew_number'),
+                    data.get('passenger_account'),
+                    data.get('quarantine'),
+                    data.get('forced_arrival'),
+                    data.get('obs'),
+                    data.get('parsed_text')
                 ))
                 conn.commit()
                 return True
@@ -117,8 +150,11 @@ class ExtractionDB:
                     INSERT INTO cabotage (
                         source_file, publication_day, arrival_date, arrival_date_calc,
                         travel_departure_port, ship_type, ship_flag, ship_name,
-                        master_role, master_name, cargo_list, raw_text
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        master_role, master_name, cargo_list, raw_text,
+                        travel_duration_value, travel_duration_unit, ship_tons_capacity,
+                        ship_tons_unit, crew_number, passenger_account, quarantine,
+                        forced_arrival, obs, parsed_text
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
                     data.get('source_file'),
                     data.get('publication_day'),
@@ -131,7 +167,17 @@ class ExtractionDB:
                     data.get('master_role'),
                     data.get('master_name'),
                     cargo_json,
-                    data.get('raw_text')
+                    data.get('raw_text'),
+                    data.get('travel_duration_value'),
+                    data.get('travel_duration_unit'),
+                    data.get('ship_tons_capacity'),
+                    data.get('ship_tons_unit'),
+                    data.get('crew_number'),
+                    data.get('passenger_account'),
+                    data.get('quarantine'),
+                    data.get('forced_arrival'),
+                    data.get('obs'),
+                    data.get('parsed_text')
                 ))
                 conn.commit()
                 return True
@@ -338,6 +384,10 @@ class ExtractionDB:
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
+            # Obtener todos los file_path que contienen el año
+            cursor.execute('SELECT file_path FROM processed_files WHERE file_path LIKE ?', (f'%{year}%',))
+            file_paths = [row[0] for row in cursor.fetchall()]
+            
             # Eliminar travesías del año
             cursor.execute('DELETE FROM traversing WHERE source_file LIKE ?', (f'{year}%',))
             traversing_deleted = cursor.rowcount
@@ -347,7 +397,7 @@ class ExtractionDB:
             cabotage_deleted = cursor.rowcount
             
             # Eliminar archivos procesados del año
-            cursor.execute('DELETE FROM processed_files WHERE file_path LIKE ?', (f'{year}%',))
+            cursor.execute('DELETE FROM processed_files WHERE file_path LIKE ?', (f'%{year}%',))
             files_deleted = cursor.rowcount
             
             conn.commit()

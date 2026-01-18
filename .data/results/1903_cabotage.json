@@ -22,7 +22,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Caibarién vapor Alava, capitán Octube, con 500³ tabaco y efectos."
+    "raw_text": "De Caibarién vapor Alava, capitán Octube, con 500³ tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -47,7 +56,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Caibarién vapor Avilés, capitán González, con 362³ tabaco y efectos."
+    "raw_text": "De Caibarién vapor Avilés, capitán González, con 362³ tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -72,7 +90,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Mantua vapor Rita, capitán Planell, con 990³ tabaco y efectos."
+    "raw_text": "De Mantua vapor Rita, capitán Planell, con 990³ tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -92,7 +119,16 @@
         "cargo_count": "1300"
       }
     ],
-    "raw_text": "De Sagua goleta María Andrea, patrón Durán, con 1.300 sacos carbón."
+    "raw_text": "De Sagua goleta María Andrea, patrón Durán, con 1.300 sacos carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -122,7 +158,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Dímas goleta Carmita, patrón Mary, con leña, carbón y madera."
+    "raw_text": "De Dímas goleta Carmita, patrón Mary, con leña, carbón y madera.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -142,7 +187,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "De Arroyos goleta Joven Jaime, patrón Sánchez, con 800 sacos carbón."
+    "raw_text": "De Arroyos goleta Joven Jaime, patrón Sánchez, con 800 sacos carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -162,7 +216,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "De Sagua goleta Dos Amigos, patrón Yem, con 800 sacos carbón."
+    "raw_text": "De Sagua goleta Dos Amigos, patrón Yem, con 800 sacos carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -182,7 +245,16 @@
         "cargo_count": "3"
       }
     ],
-    "raw_text": "De Banes goleta Josefa, patrón Gil.—En las tres."
+    "raw_text": "De Banes goleta Josefa, patrón Gil.—En las tres.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -202,7 +274,16 @@
         "cargo_count": "300"
       }
     ],
-    "raw_text": "De Caabañas goleta Victoria, patrón Bosch, con 300 pacas heno."
+    "raw_text": "De Caabañas goleta Victoria, patrón Bosch, con 300 pacas heno.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -222,7 +303,16 @@
         "cargo_count": "350"
       }
     ],
-    "raw_text": "De San Cayetano goleta Féliz, patrón Alemañy, con 350 polines."
+    "raw_text": "De San Cayetano goleta Féliz, patrón Alemañy, con 350 polines.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -247,7 +337,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cárdenas goleta María del Carmen, patrón Fleixas, con 80 pipas aguardiente y efectos."
+    "raw_text": "De Cárdenas goleta María del Carmen, patrón Fleixas, con 80 pipas aguardiente y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -272,7 +371,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Manzanillo goleta 2 gertrudis, patrón Ferrer, con 1584 paquetes tablillas y efectos."
+    "raw_text": "De Manzanillo goleta 2 gertrudis, patrón Ferrer, con 1584 paquetes tablillas y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_06",
@@ -297,7 +405,16 @@
         "cargo_count": "200"
       }
     ],
-    "raw_text": "De Cárdenas goleta Julia, patrón Masot, con 20 barriles y 200 sacos azúcar y efectos."
+    "raw_text": "De Cárdenas goleta Julia, patrón Masot, con 20 barriles y 200 sacos azúcar y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_10",
@@ -317,7 +434,16 @@
         "cargo_count": "1000"
       }
     ],
-    "raw_text": "Margaritas, gol. 2: Rosa, pat. Juan, 1000 sacos"
+    "raw_text": "Margaritas, gol. 2: Rosa, pat. Juan, 1000 sacos",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_10",
@@ -337,7 +463,16 @@
         "cargo_count": "90"
       }
     ],
-    "raw_text": "Cárdenas, gol. Rosita, pat. Fleixas, 90 pipas"
+    "raw_text": "Cárdenas, gol. Rosita, pat. Fleixas, 90 pipas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_10",
@@ -357,7 +492,16 @@
         "cargo_count": "78"
       }
     ],
-    "raw_text": "Cárdenas, gol. Mercedita, pat. Pujol, 78 pipas"
+    "raw_text": "Cárdenas, gol. Mercedita, pat. Pujol, 78 pipas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_10",
@@ -377,7 +521,16 @@
         "cargo_count": "7213"
       }
     ],
-    "raw_text": "Nuevitas, gol. Tímina, pat. Piera, 7213 miel abe-"
+    "raw_text": "Nuevitas, gol. Tímina, pat. Piera, 7213 miel abe-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_13",
@@ -391,7 +544,16 @@
     "master_role": "pat.",
     "master_name": "Fleixas",
     "cargo_list": [],
-    "raw_text": "Cárdenas, gol. María del Carmen, pat. Fleixas,"
+    "raw_text": "Cárdenas, gol. María del Carmen, pat. Fleixas,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_13",
@@ -411,7 +573,16 @@
         "cargo_count": "35"
       }
     ],
-    "raw_text": "Cárdenas, gol. Crisalida, pat. Masot, 35 pipas"
+    "raw_text": "Cárdenas, gol. Crisalida, pat. Masot, 35 pipas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_23",
@@ -431,7 +602,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cabañas, bdro Rosita, pat. Juan, con hierro"
+    "raw_text": "Cabañas, bdro Rosita, pat. Juan, con hierro",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_23",
@@ -451,7 +631,16 @@
         "cargo_count": "100"
       }
     ],
-    "raw_text": "Baracoa, gol. Colón, pat. Pujol. 100 s. açúcar y"
+    "raw_text": "Baracoa, gol. Colón, pat. Pujol. 100 s. açúcar y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_23",
@@ -471,7 +660,16 @@
         "cargo_count": "600"
       }
     ],
-    "raw_text": "Cabañas, gol. Victoria, pat. Bosch, 600 pacas"
+    "raw_text": "Cabañas, gol. Victoria, pat. Bosch, 600 pacas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_23",
@@ -491,7 +689,16 @@
         "cargo_count": "150"
       }
     ],
-    "raw_text": "Cárdenas, gol. Rosita, pat. Mir, 150 pp. aguar-"
+    "raw_text": "Cárdenas, gol. Rosita, pat. Mir, 150 pp. aguar-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_23",
@@ -505,7 +712,16 @@
     "master_role": "pat.",
     "master_name": "Moner",
     "cargo_list": [],
-    "raw_text": "San Cayetano, gol. Buenaventura, pat. Moner,"
+    "raw_text": "San Cayetano, gol. Buenaventura, pat. Moner,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_23",
@@ -525,7 +741,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "Sagua, gol. Rosita, pat. Rubíños, 800 sacos car-"
+    "raw_text": "Sagua, gol. Rosita, pat. Rubíños, 800 sacos car-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -545,7 +770,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "Sagua, gol. Amalia, pat. Rubífos, 800 sacos carbón."
+    "raw_text": "Sagua, gol. Amalia, pat. Rubífos, 800 sacos carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -565,7 +799,16 @@
         "cargo_count": "248"
       }
     ],
-    "raw_text": "Arroyos, gol. Lince, pat. Roman, 248, sacos id."
+    "raw_text": "Arroyos, gol. Lince, pat. Roman, 248, sacos id.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -579,7 +822,16 @@
     "master_role": "pat.",
     "master_name": "Gil",
     "cargo_list": [],
-    "raw_text": "Banes, gol. Joseta, pat. Gil, con efectos."
+    "raw_text": "Banes, gol. Joseta, pat. Gil, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -599,7 +851,16 @@
         "cargo_count": "128"
       }
     ],
-    "raw_text": "Rio de la Palma, gol. Joven Herminia, pat. Ferrer, 128 caballos carbón."
+    "raw_text": "Rio de la Palma, gol. Joven Herminia, pat. Ferrer, 128 caballos carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -624,7 +885,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Bahía Honda, gol. Natividad, pat. Amengual, 50 toneladas hierro y efectos."
+    "raw_text": "Bahía Honda, gol. Natividad, pat. Amengual, 50 toneladas hierro y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -644,7 +914,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "San Cayetano, gol. Trinidad, pat. Alemañy, con maderas."
+    "raw_text": "San Cayetano, gol. Trinidad, pat. Alemañy, con maderas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -669,7 +948,16 @@
         "cargo_count": "450"
       }
     ],
-    "raw_text": "Idem, gol. Feliz, pat. Alemañy, con 350 polines Dominica, gol. María Magdalena, pat. Villalon- ga, 450 sacos azúcar."
+    "raw_text": "Idem, gol. Feliz, pat. Alemañy, con 350 polines Dominica, gol. María Magdalena, pat. Villalon- ga, 450 sacos azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -689,7 +977,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "Idem, gol. Joven Gertrúdis, pat. Villalonga 500 sacos azúcar."
+    "raw_text": "Idem, gol. Joven Gertrúdis, pat. Villalonga 500 sacos azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -714,7 +1011,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cárdenas, gol. Crisálida, pat. Mas, 30 pipas aguardiente y efectos."
+    "raw_text": "Cárdenas, gol. Crisálida, pat. Mas, 30 pipas aguardiente y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -734,7 +1040,16 @@
         "cargo_count": "90"
       }
     ],
-    "raw_text": "Idem, gol. Juana Mercedes, pat. Pujol, 90 pipas aguardiente."
+    "raw_text": "Idem, gol. Juana Mercedes, pat. Pujol, 90 pipas aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_27",
@@ -754,7 +1069,16 @@
         "cargo_count": "85"
       }
     ],
-    "raw_text": "Matanzas, gol. 2 Hermanas, pat. Carregado, 85 pipas aguardiente."
+    "raw_text": "Matanzas, gol. 2 Hermanas, pat. Carregado, 85 pipas aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_31",
@@ -774,7 +1098,16 @@
         "cargo_count": "70"
       }
     ],
-    "raw_text": "Santa Cruz, gol. Joven Manuel, pat. Macip, 70"
+    "raw_text": "Santa Cruz, gol. Joven Manuel, pat. Macip, 70",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_31",
@@ -794,7 +1127,16 @@
         "cargo_count": "120"
       }
     ],
-    "raw_text": "Casilda, gol. Unión, pat. Mas, 120 toneladas"
+    "raw_text": "Casilda, gol. Unión, pat. Mas, 120 toneladas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_31",
@@ -814,7 +1156,16 @@
         "cargo_count": "1100/3"
       }
     ],
-    "raw_text": "Caibarién, gol. María Luisa, pat. Font, 1100/3"
+    "raw_text": "Caibarién, gol. María Luisa, pat. Font, 1100/3",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_01_31",
@@ -828,7 +1179,16 @@
     "master_role": "pat.",
     "master_name": "Gil",
     "cargo_list": [],
-    "raw_text": "Banes, gol. Josefa, pat. Gil, en lastre."
+    "raw_text": "Banes, gol. Josefa, pat. Gil, en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_07",
@@ -848,7 +1208,16 @@
         "cargo_count": "250|3"
       }
     ],
-    "raw_text": "Arroyos, gol. Rita, pat. Planell, 250|3 tabaoo."
+    "raw_text": "Arroyos, gol. Rita, pat. Planell, 250|3 tabaoo.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_07",
@@ -873,7 +1242,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dimar, gol. Carmita, pat. Marí, 600 sacos carbón y leña."
+    "raw_text": "Dimar, gol. Carmita, pat. Marí, 600 sacos carbón y leña.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_07",
@@ -898,7 +1276,16 @@
         "cargo_count": "4"
       }
     ],
-    "raw_text": "Matanzas, gol. Marfa, pat. Carregado, 170|4 miel y efectos."
+    "raw_text": "Matanzas, gol. Marfa, pat. Carregado, 170|4 miel y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_07",
@@ -923,7 +1310,16 @@
         "cargo_count": "65"
       }
     ],
-    "raw_text": "Nuevitas, gol. San Fernando, pat. Ensefat, 66 tercerolas miel de abejas y 65 sacos cera,"
+    "raw_text": "Nuevitas, gol. San Fernando, pat. Ensefat, 66 tercerolas miel de abejas y 65 sacos cera,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_10",
@@ -948,7 +1344,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Caibarién M: Luisa, pt. Font, tabaco y efe-"
+    "raw_text": "De Caibarién M: Luisa, pt. Font, tabaco y efe-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_10",
@@ -962,7 +1367,16 @@
     "master_role": null,
     "master_name": "Marcelino",
     "cargo_list": [],
-    "raw_text": "De San Cayerano Joven Marcelino, pt. Gonzá-"
+    "raw_text": "De San Cayerano Joven Marcelino, pt. Gonzá-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_10",
@@ -982,7 +1396,16 @@
         "cargo_count": "80"
       }
     ],
-    "raw_text": "De Cárdenas M: del Carmen, pt. Piera, 80 pipas"
+    "raw_text": "De Cárdenas M: del Carmen, pt. Piera, 80 pipas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_11",
@@ -1002,7 +1425,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Nuevís 9: Nuevas, vap. San Juan, cap. Ventura, con efectos."
+    "raw_text": "Nuevís 9: Nuevas, vap. San Juan, cap. Ventura, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_11",
@@ -1022,7 +1454,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "Dominica, gol. Marfa del Carmen, pat. Pérez, 500 sacos azúcar."
+    "raw_text": "Dominica, gol. Marfa del Carmen, pat. Pérez, 500 sacos azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_11",
@@ -1042,7 +1483,16 @@
         "cargo_count": "240"
       }
     ],
-    "raw_text": "Banes, gol. Josefa, pat. Gil, 240 cajas miel de abejas."
+    "raw_text": "Banes, gol. Josefa, pat. Gil, 240 cajas miel de abejas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_11",
@@ -1062,7 +1512,16 @@
         "cargo_count": "1100"
       }
     ],
-    "raw_text": "Cabañas, gol. Joven Pilar, pat. Alemañy, 1100 pacas heno."
+    "raw_text": "Cabañas, gol. Joven Pilar, pat. Alemañy, 1100 pacas heno.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_11",
@@ -1082,7 +1541,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "San Cayetano, gol. Joven Marcelino, pat. Gonzalez, 500 polines."
+    "raw_text": "San Cayetano, gol. Joven Marcelino, pat. Gonzalez, 500 polines.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_11",
@@ -1102,7 +1570,16 @@
         "cargo_count": "80"
       }
     ],
-    "raw_text": "Dominica, gol. Marfa Magdalena, pat. Villalonga, 80 bocoyes miel."
+    "raw_text": "Dominica, gol. Marfa Magdalena, pat. Villalonga, 80 bocoyes miel.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1122,7 +1599,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "MarieI, gol, Altagracia, pat. Marantes, con 500"
+    "raw_text": "MarieI, gol, Altagracia, pat. Marantes, con 500",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1136,7 +1622,16 @@
     "master_role": "pat.",
     "master_name": "Duran",
     "cargo_list": [],
-    "raw_text": "Sagua, gol. María Andrea Andrea, pat. Duran."
+    "raw_text": "Sagua, gol. María Andrea Andrea, pat. Duran.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1156,7 +1651,16 @@
         "cargo_count": "90"
       }
     ],
-    "raw_text": "Cardenas, gol. Rosita, pat. Flenz, con 90 pipas"
+    "raw_text": "Cardenas, gol. Rosita, pat. Flenz, con 90 pipas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1176,7 +1680,16 @@
         "cargo_count": "35"
       }
     ],
-    "raw_text": "Cardenas, gol. Crisalida, pat. Masot, con 35"
+    "raw_text": "Cardenas, gol. Crisalida, pat. Masot, con 35",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1190,7 +1703,16 @@
     "master_role": "pat.",
     "master_name": "Carregado",
     "cargo_list": [],
-    "raw_text": "Matanzas, gol. Dos Hermanas, pat. Carregado,"
+    "raw_text": "Matanzas, gol. Dos Hermanas, pat. Carregado,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1204,7 +1726,16 @@
     "master_role": "pat.",
     "master_name": "Pellicer",
     "cargo_list": [],
-    "raw_text": "Sierra Morena, gol. Habanera, pat. Pellicer,"
+    "raw_text": "Sierra Morena, gol. Habanera, pat. Pellicer,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1218,7 +1749,16 @@
     "master_role": "pat.",
     "master_name": "Nadal",
     "cargo_list": [],
-    "raw_text": "Jaruco, gol. Paquete de Jaruco, pat. Nadal,"
+    "raw_text": "Jaruco, gol. Paquete de Jaruco, pat. Nadal,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1232,7 +1772,16 @@
     "master_role": "pat.",
     "master_name": "Ber-",
     "cargo_list": [],
-    "raw_text": "Puerto Padre, gol. Tres Hermanas, pat. Ber-"
+    "raw_text": "Puerto Padre, gol. Tres Hermanas, pat. Ber-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1246,7 +1795,16 @@
     "master_role": "pat.",
     "master_name": "Villa-",
     "cargo_list": [],
-    "raw_text": "Dominica, gol. María Magdalena, pat. Villa-"
+    "raw_text": "Dominica, gol. María Magdalena, pat. Villa-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_12",
@@ -1266,7 +1824,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Sagua, gol. Ceferina, pat. Juan, con maderas."
+    "raw_text": "Sagua, gol. Ceferina, pat. Juan, con maderas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_21",
@@ -1286,7 +1853,16 @@
         "cargo_count": "90"
       }
     ],
-    "raw_text": "Cárdenas, gol. M' del Carmen, pat. Fleixas, 90"
+    "raw_text": "Cárdenas, gol. M' del Carmen, pat. Fleixas, 90",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_21",
@@ -1300,7 +1876,16 @@
     "master_role": "pat.",
     "master_name": "Enseñat",
     "cargo_list": [],
-    "raw_text": "Nuevitas, gol. San Fernando, pat. Enseñat, con"
+    "raw_text": "Nuevitas, gol. San Fernando, pat. Enseñat, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_21",
@@ -1320,7 +1905,16 @@
         "cargo_count": "70"
       }
     ],
-    "raw_text": "Matanzas, gol. Amalia, pat. Cayuso, 70 pipas"
+    "raw_text": "Matanzas, gol. Amalia, pat. Cayuso, 70 pipas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_28",
@@ -1345,7 +1939,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Jaruco, gol. Pte. de Jaruco, pt. Nadal, con carbón y leña."
+    "raw_text": "Jaruco, gol. Pte. de Jaruco, pt. Nadal, con carbón y leña.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_02_28",
@@ -1365,7 +1968,16 @@
         "cargo_count": "460"
       }
     ],
-    "raw_text": "Idem, gol. Mª Magdalena, pt. Villalonga, con 460 sacos azúcar."
+    "raw_text": "Idem, gol. Mª Magdalena, pt. Villalonga, con 460 sacos azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_03_04",
@@ -1379,7 +1991,16 @@
     "master_role": "pat.",
     "master_name": "Villalon",
     "cargo_list": [],
-    "raw_text": "Dominico, gol. Joven Gertrudis, pat. Villalon-"
+    "raw_text": "Dominico, gol. Joven Gertrudis, pat. Villalon-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_03_12",
@@ -1404,7 +2025,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "B. Honda, gol. Mercedita, pt. Torres, con madera y carbón."
+    "raw_text": "B. Honda, gol. Mercedita, pt. Torres, con madera y carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_03_17",
@@ -1424,7 +2054,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Bajas, gol. Carmita, pt. Marf, con carbón."
+    "raw_text": "Bajas, gol. Carmita, pt. Marf, con carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_03_20",
@@ -1438,7 +2077,16 @@
     "master_role": "cap.",
     "master_name": "Sanson",
     "cargo_list": [],
-    "raw_text": "Nuevitas San Juan cap. Sanson con efectos."
+    "raw_text": "Nuevitas San Juan cap. Sanson con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_03_31",
@@ -1452,7 +2100,16 @@
     "master_role": "pt.",
     "master_name": "Planell",
     "cargo_list": [],
-    "raw_text": "Mantua, gol. Rita, pt. Planell, con efectos."
+    "raw_text": "Mantua, gol. Rita, pt. Planell, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1472,7 +2129,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "De Cabañas gt. Caballo Marino, p. Inclán: 800 s. azúcar."
+    "raw_text": "De Cabañas gt. Caballo Marino, p. Inclán: 800 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1492,7 +2158,16 @@
         "cargo_count": "100"
       }
     ],
-    "raw_text": "De Sagua gt. M: Andrea, p. Durán: 100 sacos carbón."
+    "raw_text": "De Sagua gt. M: Andrea, p. Durán: 100 sacos carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1517,7 +2192,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Bajas gt. Angelita, p. Loret: carbón y maderas."
+    "raw_text": "De Bajas gt. Angelita, p. Loret: carbón y maderas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1537,7 +2221,16 @@
         "cargo_count": "1,000"
       }
     ],
-    "raw_text": "De Carahatás gt. Tres Hermanas, p. Ponte: 1,000 s. azúcar."
+    "raw_text": "De Carahatás gt. Tres Hermanas, p. Ponte: 1,000 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1562,7 +2255,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cárdenes gt. Julia, p. Alemania: 500 s. y barriles azúcar y efectos."
+    "raw_text": "De Cárdenes gt. Julia, p. Alemania: 500 s. y barriles azúcar y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1582,7 +2284,16 @@
         "cargo_count": "460"
       }
     ],
-    "raw_text": "De Dominica gt. M: Magdalena, p. Villalonga: 460 s. azúcar."
+    "raw_text": "De Dominica gt. M: Magdalena, p. Villalonga: 460 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_09",
@@ -1602,7 +2313,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "De idem gt. J. Gertrudis, p. Villalonga: 500 s. azúcar."
+    "raw_text": "De idem gt. J. Gertrudis, p. Villalonga: 500 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_15",
@@ -1622,7 +2342,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cienfuegos, gol. Whitewater, cp. Orozco, con maderas."
+    "raw_text": "Cienfuegos, gol. Whitewater, cp. Orozco, con maderas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_17",
@@ -1636,7 +2365,16 @@
     "master_role": "pt.",
     "master_name": "Prieto",
     "cargo_list": [],
-    "raw_text": "Manzanillo, gol. Blanca, pt. Prieto, con made-"
+    "raw_text": "Manzanillo, gol. Blanca, pt. Prieto, con made-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_04_22",
@@ -1656,7 +2394,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "Canasi, gol. Sabas, pat. Simó, 500 sacos azúcar."
+    "raw_text": "Canasi, gol. Sabas, pat. Simó, 500 sacos azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1676,7 +2423,16 @@
         "cargo_count": "1,200"
       }
     ],
-    "raw_text": "De Sagna gol. Mercedita, pt. Iern: 1,200 sacos"
+    "raw_text": "De Sagna gol. Mercedita, pt. Iern: 1,200 sacos",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1690,7 +2446,16 @@
     "master_role": "pt.",
     "master_name": null,
     "cargo_list": [],
-    "raw_text": "De Santa Cruz gol. Joven Manuel, pt. Ma-"
+    "raw_text": "De Santa Cruz gol. Joven Manuel, pt. Ma-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1710,7 +2475,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "De Cabañas gol. Emilia A., pt. Enseñat: 800"
+    "raw_text": "De Cabañas gol. Emilia A., pt. Enseñat: 800",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1724,7 +2498,16 @@
     "master_role": "pt.",
     "master_name": "Villa-",
     "cargo_list": [],
-    "raw_text": "De Dominica gol. M: Magdalena, pt. Villa-"
+    "raw_text": "De Dominica gol. M: Magdalena, pt. Villa-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1738,7 +2521,16 @@
     "master_role": "pt.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De ld. gol. Joven Gertrudis, pt. Villalonga:"
+    "raw_text": "De ld. gol. Joven Gertrudis, pt. Villalonga:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1752,7 +2544,16 @@
     "master_role": "pt.",
     "master_name": null,
     "cargo_list": [],
-    "raw_text": "De Manzanillo gol. Joven Catalina, pt. Vis-"
+    "raw_text": "De Manzanillo gol. Joven Catalina, pt. Vis-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1766,7 +2567,16 @@
     "master_role": "pt.",
     "master_name": "Inclán",
     "cargo_list": [],
-    "raw_text": "De Cabañas gol. Caballo Marino, pt. Inclán:"
+    "raw_text": "De Cabañas gol. Caballo Marino, pt. Inclán:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1780,7 +2590,16 @@
     "master_role": "pt.",
     "master_name": "Pérez",
     "cargo_list": [],
-    "raw_text": "De Dominica gol. M: del Carmen, pt. Pérez:"
+    "raw_text": "De Dominica gol. M: del Carmen, pt. Pérez:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_05",
@@ -1794,7 +2613,16 @@
     "master_role": "pt.",
     "master_name": "Juan",
     "cargo_list": [],
-    "raw_text": "De Sierra Morena gol. M: Teresa, pt. Juan:"
+    "raw_text": "De Sierra Morena gol. M: Teresa, pt. Juan:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1814,7 +2642,16 @@
         "cargo_count": "140"
       }
     ],
-    "raw_text": "De Caibarien vp. Alava, cap. Octubre: 140"
+    "raw_text": "De Caibarien vp. Alava, cap. Octubre: 140",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1834,7 +2671,16 @@
         "cargo_count": "162"
       }
     ],
-    "raw_text": "De Sagua vp. Avilés, cap. Sansoris 162 tercios"
+    "raw_text": "De Sagua vp. Avilés, cap. Sansoris 162 tercios",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1854,7 +2700,16 @@
         "cargo_count": "300"
       }
     ],
-    "raw_text": "De Banes, gol. Josefa, pt. Gil, 300 s. azúcar."
+    "raw_text": "De Banes, gol. Josefa, pt. Gil, 300 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1874,7 +2729,16 @@
         "cargo_count": "600"
       }
     ],
-    "raw_text": "De Banes, gol. 2 Hermanas, pt. Bernaza, 600"
+    "raw_text": "De Banes, gol. 2 Hermanas, pt. Bernaza, 600",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1888,7 +2752,16 @@
     "master_role": "pt.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De San Cuyetano vp. gol. Natividad, pt. A-"
+    "raw_text": "De San Cuyetano vp. gol. Natividad, pt. A-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1908,7 +2781,16 @@
         "cargo_count": "1000"
       }
     ],
-    "raw_text": "De Sagua, gol. 2: Losa, pt. Juan, 1000 sacos"
+    "raw_text": "De Sagua, gol. 2: Losa, pt. Juan, 1000 sacos",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1922,7 +2804,16 @@
     "master_role": "pt.",
     "master_name": "Alemafiy",
     "cargo_list": [],
-    "raw_text": "De Matanzas, gol. María, pt. Alemafiy, 25"
+    "raw_text": "De Matanzas, gol. María, pt. Alemafiy, 25",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1936,7 +2827,16 @@
     "master_role": "pt.",
     "master_name": "Carrega",
     "cargo_list": [],
-    "raw_text": "De Matanzas, gol. 2 Hermanas, pt. Carrega-"
+    "raw_text": "De Matanzas, gol. 2 Hermanas, pt. Carrega-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_05_07",
@@ -1956,7 +2856,16 @@
         "cargo_count": "300"
       }
     ],
-    "raw_text": "De Sagua, gol. Esperanza, pt. Santo, 300 btos."
+    "raw_text": "De Sagua, gol. Esperanza, pt. Santo, 300 btos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_06_19",
@@ -1976,7 +2885,16 @@
         "cargo_count": "345"
       }
     ],
-    "raw_text": "De Sta. Cruz gt. J. Manuel, p. Macip: 345 sa-"
+    "raw_text": "De Sta. Cruz gt. J. Manuel, p. Macip: 345 sa-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_06_19",
@@ -1990,7 +2908,16 @@
     "master_role": "p.",
     "master_name": "Portela",
     "cargo_list": [],
-    "raw_text": "De Arroyo gt. Amable Rosita, p. Portela:"
+    "raw_text": "De Arroyo gt. Amable Rosita, p. Portela:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_06_19",
@@ -2004,7 +2931,16 @@
     "master_role": "p.",
     "master_name": "Maura",
     "cargo_list": [],
-    "raw_text": "De Margajita gt. San Francisco, p. Maura:"
+    "raw_text": "De Margajita gt. San Francisco, p. Maura:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_06_19",
@@ -2018,7 +2954,16 @@
     "master_role": "p.",
     "master_name": "Enseñat",
     "cargo_list": [],
-    "raw_text": "De S. Moreno gt. Isla de Cuba, p. Enseñat:"
+    "raw_text": "De S. Moreno gt. Isla de Cuba, p. Enseñat:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_06_19",
@@ -2038,7 +2983,16 @@
         "cargo_count": "500"
       }
     ],
-    "raw_text": "De Canasí gt. Josefina, p. Simó: 500 s. azú-"
+    "raw_text": "De Canasí gt. Josefina, p. Simó: 500 s. azú-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_01",
@@ -2058,7 +3012,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Manzanillo, gol. María Vazquez, pt. Oliver, con maderas."
+    "raw_text": "Manzanillo, gol. María Vazquez, pt. Oliver, con maderas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2083,7 +3046,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cuba vap. Cosme Herrera. cp. Vifolas: 40.000 plátanos y efectos."
+    "raw_text": "De Cuba vap. Cosme Herrera. cp. Vifolas: 40.000 plátanos y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2108,7 +3080,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Mántua vp. Vuelta Abajo, cp. Golle: 1723 tercios tabaco y efectos."
+    "raw_text": "De Mántua vp. Vuelta Abajo, cp. Golle: 1723 tercios tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2133,7 +3114,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Banes gt. Josefa, pt. Gil: 153 s. azúcar y efectos."
+    "raw_text": "De Banes gt. Josefa, pt. Gil: 153 s. azúcar y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2153,7 +3143,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "De S. Morena g. Isla de Cuba, pt. Enseñat: 800 s. carbón."
+    "raw_text": "De S. Morena g. Isla de Cuba, pt. Enseñat: 800 s. carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2178,7 +3177,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Arroyos gt. Hermosa Guanera: p. Isern: carbón y leña."
+    "raw_text": "De Arroyos gt. Hermosa Guanera: p. Isern: carbón y leña.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2198,7 +3206,16 @@
         "cargo_count": "1000"
       }
     ],
-    "raw_text": "De Id. gt. Margarita, p. Enseñat; 1000 s. carbón."
+    "raw_text": "De Id. gt. Margarita, p. Enseñat; 1000 s. carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2218,7 +3235,16 @@
         "cargo_count": "400"
       }
     ],
-    "raw_text": "De Dominica gt. M. Magdalena, p. Villalonga: 400 s. azúcar."
+    "raw_text": "De Dominica gt. M. Magdalena, p. Villalonga: 400 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2243,7 +3269,16 @@
         "cargo_count": "52"
       }
     ],
-    "raw_text": "De Cárdenas gt. Rosita, p. Mir: 800 s. azúcar, 52 pipas aguardiente."
+    "raw_text": "De Cárdenas gt. Rosita, p. Mir: 800 s. azúcar, 52 pipas aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2263,7 +3298,16 @@
         "cargo_count": "900"
       }
     ],
-    "raw_text": "De Id. gt. Juana Mercedes, p. Enseñat: 900 s. azúcar."
+    "raw_text": "De Id. gt. Juana Mercedes, p. Enseñat: 900 s. azúcar.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2283,7 +3327,16 @@
         "cargo_count": "800"
       }
     ],
-    "raw_text": "De Id. gt. Niña, p. Larucea: 800 pipas aguardiente."
+    "raw_text": "De Id. gt. Niña, p. Larucea: 800 pipas aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_10",
@@ -2308,7 +3361,16 @@
         "cargo_count": "60"
       }
     ],
-    "raw_text": "De Id. gt. Unión, p. Enseñat: 800 s. azúcar, 60 pipas aguardiente."
+    "raw_text": "De Id. gt. Unión, p. Enseñat: 800 s. azúcar, 60 pipas aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_19",
@@ -2328,7 +3390,16 @@
         "cargo_count": "1.360"
       }
     ],
-    "raw_text": "De caibarién, vap. Alava, cap. Octubre 1.360"
+    "raw_text": "De caibarién, vap. Alava, cap. Octubre 1.360",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_19",
@@ -2342,7 +3413,16 @@
     "master_role": "patrón",
     "master_name": "Alemañy",
     "cargo_list": [],
-    "raw_text": "De Cárdenas, goleta Julia, patrón Alemañy"
+    "raw_text": "De Cárdenas, goleta Julia, patrón Alemañy",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_19",
@@ -2356,7 +3436,16 @@
     "master_role": "patrón",
     "master_name": "Seifas",
     "cargo_list": [],
-    "raw_text": "De Carahatas, goleta Teresa, patrón Seifas,"
+    "raw_text": "De Carahatas, goleta Teresa, patrón Seifas,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_19",
@@ -2370,7 +3459,16 @@
     "master_role": "patrón",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cárdenas, goleta Juana Mercedes, patrón"
+    "raw_text": "De Cárdenas, goleta Juana Mercedes, patrón",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_19",
@@ -2384,7 +3482,16 @@
     "master_role": "patrón",
     "master_name": "Alemañy",
     "cargo_list": [],
-    "raw_text": "De Matanzas, goleta María, patrón Alemañy"
+    "raw_text": "De Matanzas, goleta María, patrón Alemañy",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2409,7 +3516,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Puerto Padre vp. San Juan. cp. Sanson: 1434 s. azúcar y efectos."
+    "raw_text": "De Puerto Padre vp. San Juan. cp. Sanson: 1434 s. azúcar y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2434,7 +3550,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Calibre vp. Cosme de Herrera, p. González: 662 s. tabaco y efectos."
+    "raw_text": "De Calibre vp. Cosme de Herrera, p. González: 662 s. tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2454,7 +3579,16 @@
         "cargo_count": "3006"
       }
     ],
-    "raw_text": "De Mántua gt. Antolin del Collado, p. Planell: 3006 tercios sabaco y efectos."
+    "raw_text": "De Mántua gt. Antolin del Collado, p. Planell: 3006 tercios sabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2479,7 +3613,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Margaritas gt. Paquete de Nuevitás patrón Pons: 22 tercios tabaco y efectos."
+    "raw_text": "De Margaritas gt. Paquete de Nuevitás patrón Pons: 22 tercios tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2504,7 +3647,16 @@
         "cargo_count": "50"
       }
     ],
-    "raw_text": "De Cárdenas gt. Mª del Carmen, p. Flexas: 800 s. y b. azúcar, 50 pipas aguardiente."
+    "raw_text": "De Cárdenas gt. Mª del Carmen, p. Flexas: 800 s. y b. azúcar, 50 pipas aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2529,7 +3681,16 @@
         "cargo_count": "40"
       }
     ],
-    "raw_text": "De id. gt. Crisálida, p. Masat: 800 s. azúcar, 40 pp. aguardiente."
+    "raw_text": "De id. gt. Crisálida, p. Masat: 800 s. azúcar, 40 pp. aguardiente.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2554,7 +3715,16 @@
         "cargo_count": "200"
       }
     ],
-    "raw_text": "De Bajas gt. Angelita, p. Lloret: 200 pies madera, 200 s. carbón."
+    "raw_text": "De Bajas gt. Angelita, p. Lloret: 200 pies madera, 200 s. carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_07_22",
@@ -2568,7 +3738,16 @@
     "master_role": "pt.",
     "master_name": "Inclan",
     "cargo_list": [],
-    "raw_text": "De Cabañas, gol. Caballo Marino, pt. Inclan, con efectos."
+    "raw_text": "De Cabañas, gol. Caballo Marino, pt. Inclan, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_09_02",
@@ -2593,7 +3772,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Sagua vp. Cosme de Herrera: cp. Venturada: 571 tercios tabaco y efectos."
+    "raw_text": "De Sagua vp. Cosme de Herrera: cp. Venturada: 571 tercios tabaco y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_09_08",
@@ -2607,7 +3795,16 @@
     "master_role": "p.",
     "master_name": "Ferrer",
     "cargo_list": [],
-    "raw_text": "De Manzanillo gt. Ramona, p. Ferrer: ma-"
+    "raw_text": "De Manzanillo gt. Ramona, p. Ferrer: ma-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_09_11",
@@ -2621,7 +3818,16 @@
     "master_role": "pt.",
     "master_name": "Alemañy",
     "cargo_list": [],
-    "raw_text": "Sagna, gol. Esperanza, pt. Alemañy, con ma-"
+    "raw_text": "Sagna, gol. Esperanza, pt. Alemañy, con ma-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_09_22",
@@ -2641,7 +3847,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Sierra Morena, gol. Isla de Cuba, pt. Enseñat, con efectos."
+    "raw_text": "Sierra Morena, gol. Isla de Cuba, pt. Enseñat, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_10_13",
@@ -2666,7 +3881,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cabanas gol. Caballo Marino, pat. Inclan, 200 railes y efectos."
+    "raw_text": "Cabanas gol. Caballo Marino, pat. Inclan, 200 railes y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_10_13",
@@ -2691,7 +3915,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cabañas gol. Caballo Marino, pat. Inclan, 200 ralles y efectos."
+    "raw_text": "Cabañas gol. Caballo Marino, pat. Inclan, 200 ralles y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_11_06",
@@ -2705,7 +3938,16 @@
     "master_role": "cap.",
     "master_name": "Ventura",
     "cargo_list": [],
-    "raw_text": "Nuevetas, vap. Julia, cap. Ventura, con efectos."
+    "raw_text": "Nuevetas, vap. Julia, cap. Ventura, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_11_06",
@@ -2725,7 +3967,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Mariel gol. Altgracia, p. Navarro, con efectos."
+    "raw_text": "Mariel gol. Altgracia, p. Navarro, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_12_04",
@@ -2750,7 +4001,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cárdenas, gol. Julia, pat. Alemany, 17014 pp. aguardiente y efectos."
+    "raw_text": "Cárdenas, gol. Julia, pat. Alemany, 17014 pp. aguardiente y efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1903_12_10",
@@ -2770,6 +4030,15 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cabañas, gol. Caballo Marino, pt. López, con efectos."
+    "raw_text": "Cabañas, gol. Caballo Marino, pt. López, con efectos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   }
 ]

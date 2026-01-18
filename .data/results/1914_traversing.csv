@@ -1,72 +1,72 @@
-arrival_date;arrival_date_calc;cargo_list;master_name;master_role;publication_day;raw_text;ship_flag;ship_name;ship_type;source_file;travel_departure_port
-;;;;;;"De Cayo Hueso vapor americano de recreo ""Tarántula"", en lastre.";americano;Tarántula;vapor;1914_01_02;Cayo Hueso
-;;N/A: ;;;;"De Barcelona y escalas vapor español ""Montserrat"", con carga general.";español;Montserrat;vapor;1914_01_02;Barcelona
-;;;;;;"De Cayo Hueso vapor americano ""Mascotte"" en lastre.";americano;Mascotte;vapor;1914_01_02;Cayo Hueso
-;;N/A: ;;;;"De Bilbao y escalas vapor español ""Alfonso XIII"", con carga general.";español;Alfonso XIII;vapor;1914_01_02;Bilbao
-;;N/A: ;;;;"De Key West vapor cubano ""Julién Alonso"", con carga general.";cubano;Julién Alonso;vapor;1914_01_02;Key West
-;;;;;;"De Cayo Hueso vapor americano ""Governor Cobb,"" en lastre.";americano;Governor Cobb;vapor;1914_01_04;Cayo Hueso
-;;N/A: ;;;;"De Tampa y escalas vapor americano ""Oll. vette,"" con carga.";americano;Oll. vette;vapor;1914_01_04;Tampa
-;;N/A: ;;;;"De New York (N. J.) goleta americana ""Hope Sherwood,"" con abono.";americana;Hope Sherwood;goleta;1914_01_04;New York (N. J.)
-;;N/A: ;;;;"De Saint Nazaire y escalas vapor francés ""Espagne,"" con carga.";francés;Espagne;vapor;1914_01_05;Saint Nazaire
-;;N/A: ;;;;"De Cayo Hueso vapor americano ""Mascotte,"" con lastre.";americano;Mascotte;vapor;1914_01_05;Cayo Hueso
-;;;;;;De New York vapor cubano 'Bayamo,' con carga.;cubano;Bayamo;vapor;1914_01_05;New York
-;;N/A: ;;;;"De Christiania y escalas vapor alemán ""Marie,"" con carga.";alemán;Marie;vapor;1914_01_05;Christiania
-;;;;;;"De Boston goleta americana ""Appmattox,"" en lastre.";americana;Appmattox;goleta;1914_01_05;Boston
-;;N/A: ;;;;"De New York vapor americano ""Morro Castle,"" con carga general.";americano;Morro Castle;vapor;1914_01_05;New York
-;;;;;;"De New Orleans vapor americano ""Excell-sior,"" con carga.";americano;Excell-sior;vapor;1914_01_05;New Orleans
-;;N/A: ;;;;"De Cayo Hueso vapor cubano ""Julláh Alonso,"" con carga.";cubano;Julláh Alonso;vapor;1914_01_05;Cayo Hueso
-;;N/A: ;;;;"De Veracruz y escalas vapor americano ""México,"" con carga.";americano;México;vapor;1914_01_05;Veracruz
-;;;;;;"De Key West vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;vapor;1914_01_05;Key West
-;;N/A: ;;;;"De Mobila vapor noruego ""Karen,"" con carga.";noruego;Karen;vapor;1914_01_05;Mobila
-;;;;;;"De Boston goleta americana ""Boyd & Leeden,"" en lastre.";americana;Boyd & Leeden;goleta;1914_01_05;Boston
-;;;;;;"De Cayo Hueso vapor americano ""Gover.";americano;Gover;vapor;1914_01_06;Cayo Hueso
-;;;;;;"De Tampa y escalas vapor americano ""Ollie-";americano;Ollie;vapor;1914_01_06;Tampa
-;;;;;;"De Tampico y escalas vapor alemán ""Coro-";alemán;Coro;vapor;1914_01_06;Tampico
-;;;;;;De New Orleans y escalas vapor noruego;noruego;;vapor;1914_01_06;New Orleans
-;;;;;;"De Sagua vapor noruego ""Félix,"" en lastre.";noruego;Félix;vapor;1914_01_06;Sagua
-;;N/A:  | N/A: ;;;;"De Jacksonville goleta inglesa ""Advent,"" con madera y tonelería.";ing.;Advent;goleta;1914_01_09;Jacksonville
-;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;vapor;1914_01_09;Cayo Hueso
-;;N/A: ;;;;"De Cayo Hueso vapor cubano ""J. Alonso,"" con carga.";cubano;J. Alonso;vapor;1914_01_09;Cayo Hueso
-;;;;;;"De Liverpool vapor español ""Ida,"" con carga.";español;Ida;vapor;1914_01_09;Liverpool
-;;N/A: ;;;;"De Amberes vapor inglés ""Cayo Bonito,"" con carga.";ing.;Cayo Bonito;vapor;1914_01_09;Amberes
-;;N/A: ;;;;"De Tampa vapor americano ""City of Philadelphia,"" con madera.";americano;City of Philadelphia;vapor;1914_01_09;Tampa
-;;N/A: ;;;;"De Cayo Hueso vapor cubano ""Julían Alconso,"" con carga.";cubano;Julían Alconso;vapor;1914_01_12;Cayo Hueso
-;;;;;;"De Mobila vapor noruego ""Bertha,"" con carga.";noruego;Bertha;vapor;1914_01_12;Mobila
-;;N/A: ;;;;"De Pañcagoula y escalias goleta ugla ""Cheslie,"" con madera";;Cheslie;goleta;1914_01_12;Pañcagoula
-;;N/A: ;;;;"De Veracruz y escalas vapor amarcano ""Monterey,"" con carga.";am.;Monterey;vapor;1914_01_12;Veracruz
-;;N/A: ;;;;"De Pascagoula goleta inglesa ""A. B. Bartheause,"" con madera.";ing.;A. B. Bartheause;goleta;1914_01_14;Pascagoula
-;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;vapor;1914_01_14;Cayo Hueso
-;;;;;;"De New York vapor americano ""Saratoga,"" con carga.";americano;Saratoga;vapor;1914_01_14;New York
-;;N/A: ;;;;"De Buenos Aires y escalas vapor inglés ""Hortensins,"" con carga.";ing;Hortensins;vapor;1914_01_14;Buenos Aires
-;;N/A: ;;;;"De Newport News vapor inglés ""Berwindvale,"" con carbón.";ing.;Berwindvale;vapor;1914_01_14;Newport News
-;;N/A: ;;;;"De Saint Andreu goleta americana ""Mandeeine,"" con madera.";americana;Mandeeine;goleta;1914_01_14;Saint Andreu
-;;N/A: ;;;;"De Barcelona y escalas vapor francés ""Californie,"" con carga.";francés;Californie;vapor;1914_01_16;Barcelona
-;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;vapor;1914_01_16;Cayo Hueso
-;;;;;;"De Cayo Hueso vapor cubano ""Julian Alonso,"" con carga.";cubano;Julian Alonso;vapor;1914_01_16;Cayo Hueso
-;;;;;;"De New Orleans vapor inglés ""Cartago,"" en lastre.";inglés;Cartago;vapor;1914_01_16;New Orleans
-;;;;;;"De New Orleans vapor cubano ""Mobilla,"" con carga.";cubano;Mobilla;vapor;1914_01_16;New Orleans
-;;N/A: ;;;;"De Hamburg y escalas vapor alemán ""Sovia,"" con carga.";alemán;Sovia;vapor;1914_01_16;Hamburg
-;;N/A: ;;;;"De Tampa y Key West, vapor americano ""Olivette,"" con carga general.";americano;Olivette;vapor;1914_02_03;Tampa y Key West
-;;N/A: ;;;;"De Christiania y escalas vapor alemán ""Adelheid,"" con carga general.";alemán;Adelheid;vapor;1914_02_03;Christiania
-;;N/A: ;;;;"De Barcelona, corbeta uruguaya ""Roldós,"" con carga general.";uruguaya;Roldós;corbeta;1914_02_03;Barcelona
-;;N/A: ;;cap.;;"De Virginia, vapor de guerra americano ""Des Moines,"" con pertrechos de guerra.";americano;Des Moines;vapor;1914_02_03;Virginia
-;;;;;;"De New York vapor inglés ""Lawentic,"" en lastre.";ing.;Lawentic;vapor;1914_02_04;New York
-;;N/A: ;;;;"De Hamburgo y escalas vapor alemán ""Wasgenwald,"" con carga general.";alemán;Wasgenwald;vapor;1914_02_04;Hamburgo
-;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;vapor;1914_02_04;Cayo Hueso
-;;N/A: ;;;;"De New York vapor americano ""Havana,"" con carga general.";americano;Havana;vapor;1914_02_04;New York
-;;N/A: ;;;;"De St. Nazaire y escalas vapor francés ""La Navarre,"" con carga general.";francés;La Navarre;vapor;1914_02_04;St. Nazaire
-;;N/A: ;;;;"De Cayo Hueso vapor americano ""Governor Cobb,"" con carga general.";americano;Governor Cobb;vapor;1914_02_05;Cayo Hueso
-;;;;;;"De Cayo Hueso yacht americano ""Alaciaty,"" en lastre.";americano;Alaciaty;yacht;1914_02_05;Cayo Hueso
-;;N/A: ;;;;"De Mobila goleta inglesa ""E. M. Roberts,"" con madera.";inglesa;E. M. Roberts;goleta;1914_02_05;Mobila
-;;N/A: ;;;;"De Filadelfia vapor inglés ""Yarbarough,"" con cebón mineral.";ing.;Yarbarough;vapor;1914_02_05;Filadelfia
-;;N/A: ;;;;"De Tampa y escalas vapor americano ""Mascotte,"" con carga general.";americano;Mascotte;vapor;1914_02_05;Tampa
-;;N/A: ;;;;"De Amberes vapor inglés ""Cayo Romano,"" con carga general.";ing;Cayo Romano;vapor;1914_02_05;Amberes
-;;N/A: ;;;;De New Orleans vapor 'americano' 'Chalmette,' con carga.;americano;Chalmette;vapor;1914_02_11;New Orleans
-;;;;;;"De Newport New vapor inglés ""Seman-";inglés;Seman;vapor;1914_02_11;Newport
-;;N/A: ;;;;De Cayo Hueso vapor americano 'Governor Cobb,' con carga.;americano;Governor Cobb;vapor;1914_02_11;Cayo Hueso
-;;;;;;"De Cayo Hueso vapor inglés ""Halfax,""";inglés;Halfax;vapor;1914_02_11;Cayo Hueso
-;;;;;;De Tampay escalas vapor americano 'Olivette,' con carga.;americano;Olivette;vapor;1914_02_11;Tampay
-;;;;;;De Rotterdam y escalas vapor holandés;holandés;;vapor;1914_02_11;Rotterdam
-;;;;;;"De Filadelfia vapor inglés ""Atlas,"" con";ing.;Atlas;vapor;1914_02_11;Filadelfia
-;;N/A: ;;;;De New York vapor americano 'Esperanza,' con carga.;americano;Esperanza;vapor;1914_02_11;New York
-;;;;;;"De New York vapor americano ""Sarato-";americano;Sarato;vapor;1914_02_11;New York
+arrival_date;arrival_date_calc;cargo_list;crew_number;forced_arrival;master_name;master_role;parsed_text;passenger_account;publication_day;quarantine;raw_text;ship_flag;ship_name;ship_tons_capacity;ship_tons_unit;ship_type;source_file;travel_departure_port;travel_duration_unit;travel_duration_value
+;;;;;;;;;;;"De Cayo Hueso vapor americano de recreo ""Tarántula"", en lastre.";americano;Tarántula;;;vapor;1914_01_02;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De Barcelona y escalas vapor español ""Montserrat"", con carga general.";español;Montserrat;;;vapor;1914_01_02;Barcelona;;
+;;;;;;;;;;;"De Cayo Hueso vapor americano ""Mascotte"" en lastre.";americano;Mascotte;;;vapor;1914_01_02;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De Bilbao y escalas vapor español ""Alfonso XIII"", con carga general.";español;Alfonso XIII;;;vapor;1914_01_02;Bilbao;;
+;;N/A: ;;;;;;;;;"De Key West vapor cubano ""Julién Alonso"", con carga general.";cubano;Julién Alonso;;;vapor;1914_01_02;Key West;;
+;;;;;;;;;;;"De Cayo Hueso vapor americano ""Governor Cobb,"" en lastre.";americano;Governor Cobb;;;vapor;1914_01_04;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De Tampa y escalas vapor americano ""Oll. vette,"" con carga.";americano;Oll. vette;;;vapor;1914_01_04;Tampa;;
+;;N/A: ;;;;;;;;;"De New York (N. J.) goleta americana ""Hope Sherwood,"" con abono.";americana;Hope Sherwood;;;goleta;1914_01_04;New York (N. J.);;
+;;N/A: ;;;;;;;;;"De Saint Nazaire y escalas vapor francés ""Espagne,"" con carga.";francés;Espagne;;;vapor;1914_01_05;Saint Nazaire;;
+;;N/A: ;;;;;;;;;"De Cayo Hueso vapor americano ""Mascotte,"" con lastre.";americano;Mascotte;;;vapor;1914_01_05;Cayo Hueso;;
+;;;;;;;;;;;De New York vapor cubano 'Bayamo,' con carga.;cubano;Bayamo;;;vapor;1914_01_05;New York;;
+;;N/A: ;;;;;;;;;"De Christiania y escalas vapor alemán ""Marie,"" con carga.";alemán;Marie;;;vapor;1914_01_05;Christiania;;
+;;;;;;;;;;;"De Boston goleta americana ""Appmattox,"" en lastre.";americana;Appmattox;;;goleta;1914_01_05;Boston;;
+;;N/A: ;;;;;;;;;"De New York vapor americano ""Morro Castle,"" con carga general.";americano;Morro Castle;;;vapor;1914_01_05;New York;;
+;;;;;;;;;;;"De New Orleans vapor americano ""Excell-sior,"" con carga.";americano;Excell-sior;;;vapor;1914_01_05;New Orleans;;
+;;N/A: ;;;;;;;;;"De Cayo Hueso vapor cubano ""Julláh Alonso,"" con carga.";cubano;Julláh Alonso;;;vapor;1914_01_05;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De Veracruz y escalas vapor americano ""México,"" con carga.";americano;México;;;vapor;1914_01_05;Veracruz;;
+;;;;;;;;;;;"De Key West vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;;;vapor;1914_01_05;Key West;;
+;;N/A: ;;;;;;;;;"De Mobila vapor noruego ""Karen,"" con carga.";noruego;Karen;;;vapor;1914_01_05;Mobila;;
+;;;;;;;;;;;"De Boston goleta americana ""Boyd & Leeden,"" en lastre.";americana;Boyd & Leeden;;;goleta;1914_01_05;Boston;;
+;;;;;;;;;;;"De Cayo Hueso vapor americano ""Gover.";americano;Gover;;;vapor;1914_01_06;Cayo Hueso;;
+;;;;;;;;;;;"De Tampa y escalas vapor americano ""Ollie-";americano;Ollie;;;vapor;1914_01_06;Tampa;;
+;;;;;;;;;;;"De Tampico y escalas vapor alemán ""Coro-";alemán;Coro;;;vapor;1914_01_06;Tampico;;
+;;;;;;;;;;;De New Orleans y escalas vapor noruego;noruego;;;;vapor;1914_01_06;New Orleans;;
+;;;;;;;;;;;"De Sagua vapor noruego ""Félix,"" en lastre.";noruego;Félix;;;vapor;1914_01_06;Sagua;;
+;;N/A:  | N/A: ;;;;;;;;;"De Jacksonville goleta inglesa ""Advent,"" con madera y tonelería.";ing.;Advent;;;goleta;1914_01_09;Jacksonville;;
+;;;;;;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;;;vapor;1914_01_09;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De Cayo Hueso vapor cubano ""J. Alonso,"" con carga.";cubano;J. Alonso;;;vapor;1914_01_09;Cayo Hueso;;
+;;;;;;;;;;;"De Liverpool vapor español ""Ida,"" con carga.";español;Ida;;;vapor;1914_01_09;Liverpool;;
+;;N/A: ;;;;;;;;;"De Amberes vapor inglés ""Cayo Bonito,"" con carga.";ing.;Cayo Bonito;;;vapor;1914_01_09;Amberes;;
+;;N/A: ;;;;;;;;;"De Tampa vapor americano ""City of Philadelphia,"" con madera.";americano;City of Philadelphia;;;vapor;1914_01_09;Tampa;;
+;;N/A: ;;;;;;;;;"De Cayo Hueso vapor cubano ""Julían Alconso,"" con carga.";cubano;Julían Alconso;;;vapor;1914_01_12;Cayo Hueso;;
+;;;;;;;;;;;"De Mobila vapor noruego ""Bertha,"" con carga.";noruego;Bertha;;;vapor;1914_01_12;Mobila;;
+;;N/A: ;;;;;;;;;"De Pañcagoula y escalias goleta ugla ""Cheslie,"" con madera";;Cheslie;;;goleta;1914_01_12;Pañcagoula;;
+;;N/A: ;;;;;;;;;"De Veracruz y escalas vapor amarcano ""Monterey,"" con carga.";am.;Monterey;;;vapor;1914_01_12;Veracruz;;
+;;N/A: ;;;;;;;;;"De Pascagoula goleta inglesa ""A. B. Bartheause,"" con madera.";ing.;A. B. Bartheause;;;goleta;1914_01_14;Pascagoula;;
+;;;;;;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;;;vapor;1914_01_14;Cayo Hueso;;
+;;;;;;;;;;;"De New York vapor americano ""Saratoga,"" con carga.";americano;Saratoga;;;vapor;1914_01_14;New York;;
+;;N/A: ;;;;;;;;;"De Buenos Aires y escalas vapor inglés ""Hortensins,"" con carga.";ing;Hortensins;;;vapor;1914_01_14;Buenos Aires;;
+;;N/A: ;;;;;;;;;"De Newport News vapor inglés ""Berwindvale,"" con carbón.";ing.;Berwindvale;;;vapor;1914_01_14;Newport News;;
+;;N/A: ;;;;;;;;;"De Saint Andreu goleta americana ""Mandeeine,"" con madera.";americana;Mandeeine;;;goleta;1914_01_14;Saint Andreu;;
+;;N/A: ;;;;;;;;;"De Barcelona y escalas vapor francés ""Californie,"" con carga.";francés;Californie;;;vapor;1914_01_16;Barcelona;;
+;;;;;;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;;;vapor;1914_01_16;Cayo Hueso;;
+;;;;;;;;;;;"De Cayo Hueso vapor cubano ""Julian Alonso,"" con carga.";cubano;Julian Alonso;;;vapor;1914_01_16;Cayo Hueso;;
+;;;;;;;;;;;"De New Orleans vapor inglés ""Cartago,"" en lastre.";inglés;Cartago;;;vapor;1914_01_16;New Orleans;;
+;;;;;;;;;;;"De New Orleans vapor cubano ""Mobilla,"" con carga.";cubano;Mobilla;;;vapor;1914_01_16;New Orleans;;
+;;N/A: ;;;;;;;;;"De Hamburg y escalas vapor alemán ""Sovia,"" con carga.";alemán;Sovia;;;vapor;1914_01_16;Hamburg;;
+;;N/A: ;;;;;;;;;"De Tampa y Key West, vapor americano ""Olivette,"" con carga general.";americano;Olivette;;;vapor;1914_02_03;Tampa y Key West;;
+;;N/A: ;;;;;;;;;"De Christiania y escalas vapor alemán ""Adelheid,"" con carga general.";alemán;Adelheid;;;vapor;1914_02_03;Christiania;;
+;;N/A: ;;;;;;;;;"De Barcelona, corbeta uruguaya ""Roldós,"" con carga general.";uruguaya;Roldós;;;corbeta;1914_02_03;Barcelona;;
+;;N/A: ;;;;cap.;;;;;"De Virginia, vapor de guerra americano ""Des Moines,"" con pertrechos de guerra.";americano;Des Moines;;;vapor;1914_02_03;Virginia;;
+;;;;;;;;;;;"De New York vapor inglés ""Lawentic,"" en lastre.";ing.;Lawentic;;;vapor;1914_02_04;New York;;
+;;N/A: ;;;;;;;;;"De Hamburgo y escalas vapor alemán ""Wasgenwald,"" con carga general.";alemán;Wasgenwald;;;vapor;1914_02_04;Hamburgo;;
+;;;;;;;;;;;"De Cayo Hueso vapor inglés ""Halifax,"" en lastre.";inglés;Halifax;;;vapor;1914_02_04;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De New York vapor americano ""Havana,"" con carga general.";americano;Havana;;;vapor;1914_02_04;New York;;
+;;N/A: ;;;;;;;;;"De St. Nazaire y escalas vapor francés ""La Navarre,"" con carga general.";francés;La Navarre;;;vapor;1914_02_04;St. Nazaire;;
+;;N/A: ;;;;;;;;;"De Cayo Hueso vapor americano ""Governor Cobb,"" con carga general.";americano;Governor Cobb;;;vapor;1914_02_05;Cayo Hueso;;
+;;;;;;;;;;;"De Cayo Hueso yacht americano ""Alaciaty,"" en lastre.";americano;Alaciaty;;;yacht;1914_02_05;Cayo Hueso;;
+;;N/A: ;;;;;;;;;"De Mobila goleta inglesa ""E. M. Roberts,"" con madera.";inglesa;E. M. Roberts;;;goleta;1914_02_05;Mobila;;
+;;N/A: ;;;;;;;;;"De Filadelfia vapor inglés ""Yarbarough,"" con cebón mineral.";ing.;Yarbarough;;;vapor;1914_02_05;Filadelfia;;
+;;N/A: ;;;;;;;;;"De Tampa y escalas vapor americano ""Mascotte,"" con carga general.";americano;Mascotte;;;vapor;1914_02_05;Tampa;;
+;;N/A: ;;;;;;;;;"De Amberes vapor inglés ""Cayo Romano,"" con carga general.";ing;Cayo Romano;;;vapor;1914_02_05;Amberes;;
+;;N/A: ;;;;;;;;;De New Orleans vapor 'americano' 'Chalmette,' con carga.;americano;Chalmette;;;vapor;1914_02_11;New Orleans;;
+;;;;;;;;;;;"De Newport New vapor inglés ""Seman-";inglés;Seman;;;vapor;1914_02_11;Newport;;
+;;N/A: ;;;;;;;;;De Cayo Hueso vapor americano 'Governor Cobb,' con carga.;americano;Governor Cobb;;;vapor;1914_02_11;Cayo Hueso;;
+;;;;;;;;;;;"De Cayo Hueso vapor inglés ""Halfax,""";inglés;Halfax;;;vapor;1914_02_11;Cayo Hueso;;
+;;;;;;;;;;;De Tampay escalas vapor americano 'Olivette,' con carga.;americano;Olivette;;;vapor;1914_02_11;Tampay;;
+;;;;;;;;;;;De Rotterdam y escalas vapor holandés;holandés;;;;vapor;1914_02_11;Rotterdam;;
+;;;;;;;;;;;"De Filadelfia vapor inglés ""Atlas,"" con";ing.;Atlas;;;vapor;1914_02_11;Filadelfia;;
+;;N/A: ;;;;;;;;;De New York vapor americano 'Esperanza,' con carga.;americano;Esperanza;;;vapor;1914_02_11;New York;;
+;;;;;;;;;;;"De New York vapor americano ""Sarato-";americano;Sarato;;;vapor;1914_02_11;New York;;

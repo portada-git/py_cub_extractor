@@ -1,142 +1,142 @@
-arrival_date;arrival_date_calc;cargo_list;master_name;master_role;publication_day;raw_text;ship_flag;ship_name;ship_type;source_file;travel_departure_port
-;;N/A:  | N/A: ;Octube;cap.;;De Caibarién vapor Alava, capitán Octube, con 500³ tabaco y efectos.;;Alava;vapor;1903_01_06;Caibarién
-;;N/A:  | N/A: ;González;cap.;;De Caibarién vapor Avilés, capitán González, con 362³ tabaco y efectos.;;Avilés;vapor;1903_01_06;Caibarién
-;;N/A:  | N/A: ;Planell;cap.;;De Mantua vapor Rita, capitán Planell, con 990³ tabaco y efectos.;;Rita;vapor;1903_01_06;Mantua
-;;N/A: ;Durán;patrón;;De Sagua goleta María Andrea, patrón Durán, con 1.300 sacos carbón.;;María Andrea;goleta;1903_01_06;Sagua
-;;N/A:  | N/A:  | N/A: ;Mary;patrón;;De Dímas goleta Carmita, patrón Mary, con leña, carbón y madera.;;Carmita;goleta;1903_01_06;Dímas
-;;N/A: ;Sánchez;patrón;;De Arroyos goleta Joven Jaime, patrón Sánchez, con 800 sacos carbón.;;Joven Jaime;goleta;1903_01_06;Arroyos
-;;N/A: ;Yem;patrón;;De Sagua goleta Dos Amigos, patrón Yem, con 800 sacos carbón.;;Dos Amigos;goleta;1903_01_06;Sagua
-;;N/A: ;Gil;patrón;;De Banes goleta Josefa, patrón Gil.—En las tres.;;Josefa;goleta;1903_01_06;Banes
-;;N/A: ;Bosch;patrón;;De Caabañas goleta Victoria, patrón Bosch, con 300 pacas heno.;;Victoria;goleta;1903_01_06;Caabañas
-;;N/A: ;Alemañy;patrón;;De San Cayetano goleta Féliz, patrón Alemañy, con 350 polines.;;Féliz;goleta;1903_01_06;San Cayetano
-;;N/A:  | N/A: ;Fleixas;patrón;;De Cárdenas goleta María del Carmen, patrón Fleixas, con 80 pipas aguardiente y efectos.;;María del Carmen;goleta;1903_01_06;Cárdenas
-;;N/A:  | N/A: ;Ferrer;patrón;;De Manzanillo goleta 2 gertrudis, patrón Ferrer, con 1584 paquetes tablillas y efectos.;;gertrudis;goleta;1903_01_06;Manzanillo
-;;N/A:  | N/A: ;Masot;patrón;;De Cárdenas goleta Julia, patrón Masot, con 20 barriles y 200 sacos azúcar y efectos.;;Julia;goleta;1903_01_06;Cárdenas
-;;N/A: ;Juan;pat.;;Margaritas, gol. 2: Rosa, pat. Juan, 1000 sacos;;2: Rosa;gol.;1903_01_10;Margaritas
-;;N/A: ;Fleixas;pat.;;Cárdenas, gol. Rosita, pat. Fleixas, 90 pipas;;Rosita;gol.;1903_01_10;Cárdenas
-;;N/A: ;Pujol;pat.;;Cárdenas, gol. Mercedita, pat. Pujol, 78 pipas;;Mercedita;gol.;1903_01_10;Cárdenas
-;;N/A: ;Piera;pat.;;Nuevitas, gol. Tímina, pat. Piera, 7213 miel abe-;;Tímina;gol.;1903_01_10;Nuevitas
-;;;Fleixas;pat.;;Cárdenas, gol. María del Carmen, pat. Fleixas,;;María del Carmen;gol.;1903_01_13;Cárdenas
-;;N/A: ;Masot;pat.;;Cárdenas, gol. Crisalida, pat. Masot, 35 pipas;;Crisalida;gol.;1903_01_13;Cárdenas
-;;N/A: ;Juan;pat.;;Cabañas, bdro Rosita, pat. Juan, con hierro;;Rosita;bdro;1903_01_23;
-;;N/A: ;Pujol;pat.;;Baracoa, gol. Colón, pat. Pujol. 100 s. açúcar y;;Colón;gol.;1903_01_23;Baracoa
-;;N/A: ;Bosch;pat.;;Cabañas, gol. Victoria, pat. Bosch, 600 pacas;;Victoria;gol.;1903_01_23;Cabañas
-;;N/A: ;Mir;pat.;;Cárdenas, gol. Rosita, pat. Mir, 150 pp. aguar-;;Rosita;gol.;1903_01_23;Cárdenas
-;;;Moner;pat.;;San Cayetano, gol. Buenaventura, pat. Moner,;;Buenaventura;gol.;1903_01_23;San Cayetano
-;;N/A: ;Rubíños;pat.;;Sagua, gol. Rosita, pat. Rubíños, 800 sacos car-;;Rosita;gol.;1903_01_23;Sagua
-;;N/A: ;Rubífos;pat.;;Sagua, gol. Amalia, pat. Rubífos, 800 sacos carbón.;;Amalia;gol.;1903_01_27;Sagua
-;;N/A: ;Roman;pat.;;Arroyos, gol. Lince, pat. Roman, 248, sacos id.;;Lince;gol.;1903_01_27;Arroyos
-;;;Gil;pat.;;Banes, gol. Joseta, pat. Gil, con efectos.;;Joseta;gol.;1903_01_27;Banes
-;;N/A: ;Ferrer;pat.;;Rio de la Palma, gol. Joven Herminia, pat. Ferrer, 128 caballos carbón.;;Joven Herminia;gol.;1903_01_27;Rio de la Palma
-;;N/A:  | N/A: ;Amengual;pat.;;Bahía Honda, gol. Natividad, pat. Amengual, 50 toneladas hierro y efectos.;;Natividad;gol.;1903_01_27;Bahía Honda
-;;N/A: ;Alemañy;pat.;;San Cayetano, gol. Trinidad, pat. Alemañy, con maderas.;;Trinidad;gol.;1903_01_27;San Cayetano
-;;N/A:  | N/A: ;Alemañy;pat.;;Idem, gol. Feliz, pat. Alemañy, con 350 polines Dominica, gol. María Magdalena, pat. Villalon- ga, 450 sacos azúcar.;;Feliz;gol.;1903_01_27;Dominica
-;;N/A: ;Villalonga;pat.;;Idem, gol. Joven Gertrúdis, pat. Villalonga 500 sacos azúcar.;;Joven Gertrúdis;gol.;1903_01_27;
-;;N/A:  | N/A: ;Mas;pat.;;Cárdenas, gol. Crisálida, pat. Mas, 30 pipas aguardiente y efectos.;;Crisálida;gol.;1903_01_27;Cárdenas
-;;N/A: ;Pujol;pat.;;Idem, gol. Juana Mercedes, pat. Pujol, 90 pipas aguardiente.;;Juana Mercedes;gol.;1903_01_27;
-;;N/A: ;Carregado;pat.;;Matanzas, gol. 2 Hermanas, pat. Carregado, 85 pipas aguardiente.;;2 Hermanas;gol.;1903_01_27;Matanzas
-;;N/A: ;Macip;pat.;;Santa Cruz, gol. Joven Manuel, pat. Macip, 70;;Joven Manuel;gol.;1903_01_31;Santa Cruz
-;;N/A: ;Mas;pat.;;Casilda, gol. Unión, pat. Mas, 120 toneladas;;Unión;gol.;1903_01_31;Casilda
-;;N/A: ;Font;pat.;;Caibarién, gol. María Luisa, pat. Font, 1100/3;;María Luisa;gol.;1903_01_31;Caibarién
-;;;Gil;pat.;;Banes, gol. Josefa, pat. Gil, en lastre.;;Josefa;gol.;1903_01_31;Banes
-;;N/A: ;Planell;pat.;;Arroyos, gol. Rita, pat. Planell, 250|3 tabaoo.;;Rita;gol.;1903_02_07;Arroyos
-;;N/A:  | N/A: ;Marí;pat.;;Dimar, gol. Carmita, pat. Marí, 600 sacos carbón y leña.;;Carmita;gol.;1903_02_07;Dimar
-;;N/A:  | N/A: ;Carregado;pat.;;Matanzas, gol. Marfa, pat. Carregado, 170|4 miel y efectos.;;Marfa;gol.;1903_02_07;Matanzas
-;;N/A:  | N/A: ;Ensefat;pat.;;Nuevitas, gol. San Fernando, pat. Ensefat, 66 tercerolas miel de abejas y 65 sacos cera,;;San Fernando;gol.;1903_02_07;Nuevitas
-;;N/A:  | N/A: ;Font;;;De Caibarién M: Luisa, pt. Font, tabaco y efe-;;Luisa;pt.;1903_02_10;Caibarién
-;;;Marcelino;;;De San Cayerano Joven Marcelino, pt. Gonzá-;;Gonzá-;pt.;1903_02_10;San Cayerano
-;;N/A: ;;;;De Cárdenas M: del Carmen, pt. Piera, 80 pipas;;Piera;pt.;1903_02_10;Cárdenas
-Día 09:;;N/A: ;Ventura;cap.;;Nuevís 9: Nuevas, vap. San Juan, cap. Ventura, con efectos.;;San Juan;vap.;1903_02_11;Nuevís
-;;N/A: ;Pérez;pat.;;Dominica, gol. Marfa del Carmen, pat. Pérez, 500 sacos azúcar.;;Marfa del Carmen;gol.;1903_02_11;Dominica
-;;N/A: ;Gil;pat.;;Banes, gol. Josefa, pat. Gil, 240 cajas miel de abejas.;;Josefa;gol.;1903_02_11;Banes
-;;N/A: ;Alemañy;pat.;;Cabañas, gol. Joven Pilar, pat. Alemañy, 1100 pacas heno.;;Joven Pilar;gol.;1903_02_11;Cabañas
-;;N/A: ;Gonzalez;pat.;;San Cayetano, gol. Joven Marcelino, pat. Gonzalez, 500 polines.;;Joven Marcelino;gol.;1903_02_11;San Cayetano
-;;N/A: ;Villalonga;pat.;;Dominica, gol. Marfa Magdalena, pat. Villalonga, 80 bocoyes miel.;;Marfa Magdalena;gol.;1903_02_11;Dominica
-;;N/A: ;Marantes;pat.;;MarieI, gol, Altagracia, pat. Marantes, con 500;;Altagracia;gol;1903_02_12;
-;;;Duran;pat.;;Sagua, gol. María Andrea Andrea, pat. Duran.;;María Andrea;gol.;1903_02_12;Sagua
-;;N/A: ;Flenz;pat.;;Cardenas, gol. Rosita, pat. Flenz, con 90 pipas;;Rosita;gol.;1903_02_12;Cardenas
-;;N/A: ;Masot;pat.;;Cardenas, gol. Crisalida, pat. Masot, con 35;;Crisalida;gol.;1903_02_12;Cardenas
-;;;Carregado;pat.;;Matanzas, gol. Dos Hermanas, pat. Carregado,;;Dos Hermanas;gol.;1903_02_12;Matanzas
-;;;Pellicer;pat.;;Sierra Morena, gol. Habanera, pat. Pellicer,;;Habanera;gol.;1903_02_12;
-;;;Nadal;pat.;;Jaruco, gol. Paquete de Jaruco, pat. Nadal,;;Paquete de Jaruco;gol.;1903_02_12;Jaruco
-;;;Ber-;pat.;;Puerto Padre, gol. Tres Hermanas, pat. Ber-;;Tres Hermanas;gol.;1903_02_12;Puerto Padre
-;;;Villa-;pat.;;Dominica, gol. María Magdalena, pat. Villa-;;María Magdalena;gol.;1903_02_12;Dominica
-;;N/A: ;Juan;pat.;;Sagua, gol. Ceferina, pat. Juan, con maderas.;;Ceferina;gol.;1903_02_12;Sagua
-;;N/A: ;Fleixas;pat.;;Cárdenas, gol. M' del Carmen, pat. Fleixas, 90;;M' del Carmen;gol.;1903_02_21;Cárdenas
-;;;Enseñat;pat.;;Nuevitas, gol. San Fernando, pat. Enseñat, con;;San Fernando;gol.;1903_02_21;Nuevitas
-;;N/A: ;Cayuso;pat.;;Matanzas, gol. Amalia, pat. Cayuso, 70 pipas;;Amalia;gol.;1903_02_21;Matanzas
-;;N/A:  | N/A: ;Nadal;pt.;;Jaruco, gol. Pte. de Jaruco, pt. Nadal, con carbón y leña.;;Pte. de Jaruco;gol.;1903_02_28;Jaruco
-;;N/A: ;;pt.;;Idem, gol. Mª Magdalena, pt. Villalonga, con 460 sacos azúcar.;;Mª Magdalena;gol.;1903_02_28;Villalonga
-;;;Villalon;pat.;;Dominico, gol. Joven Gertrudis, pat. Villalon-;;Joven Gertrudis;gol.;1903_03_04;Dominico
-;;N/A:  | N/A: ;Torres;pt.;;B. Honda, gol. Mercedita, pt. Torres, con madera y carbón.;;Mercedita;gol.;1903_03_12;
-;;N/A: ;Marf;pt.;;Bajas, gol. Carmita, pt. Marf, con carbón.;;Carmita;gol.;1903_03_17;
-;;;Sanson;cap.;;Nuevitas San Juan cap. Sanson con efectos.;;;San Juan;1903_03_20;Nuevitas
-;;;Planell;pt.;;Mantua, gol. Rita, pt. Planell, con efectos.;;Rita;gol.;1903_03_31;Mantua
-;;N/A: ;Inclán;p.;;De Cabañas gt. Caballo Marino, p. Inclán: 800 s. azúcar.;;Caballo Marino;gt.;1903_04_09;Cabañas
-;;N/A: ;Durán;p.;;De Sagua gt. M: Andrea, p. Durán: 100 sacos carbón.;;M: Andrea;gt.;1903_04_09;Sagua
-;;N/A:  | N/A: ;Loret;p.;;De Bajas gt. Angelita, p. Loret: carbón y maderas.;;Angelita;gt.;1903_04_09;Bajas
-;;N/A: ;Ponte;p.;;De Carahatás gt. Tres Hermanas, p. Ponte: 1,000 s. azúcar.;;Tres Hermanas;gt.;1903_04_09;Carahatás
-;;N/A:  | N/A: ;;p.;;De Cárdenes gt. Julia, p. Alemania: 500 s. y barriles azúcar y efectos.;Alemania;Julia;gt.;1903_04_09;Cárdenes
-;;N/A: ;Villalonga;p.;;De Dominica gt. M: Magdalena, p. Villalonga: 460 s. azúcar.;;M: Magdalena;gt.;1903_04_09;Dominica
-;;N/A: ;Villalonga;p.;;De idem gt. J. Gertrudis, p. Villalonga: 500 s. azúcar.;;J. Gertrudis;gt.;1903_04_09;idem
-;;N/A: ;Orozco;cp.;;Cienfuegos, gol. Whitewater, cp. Orozco, con maderas.;;Whitewater;gol.;1903_04_15;Cienfuegos
-;;;Prieto;pt.;;Manzanillo, gol. Blanca, pt. Prieto, con made-;;Blanca;gol.;1903_04_17;Manzanillo
-;;N/A: ;Simó;pat.;;Canasi, gol. Sabas, pat. Simó, 500 sacos azúcar.;;Sabas;gol.;1903_04_22;Canasi
-;;N/A: ;Iern;pt.;;De Sagna gol. Mercedita, pt. Iern: 1,200 sacos;;Mercedita;gol.;1903_05_05;Sagna
-;;;;pt.;;De Santa Cruz gol. Joven Manuel, pt. Ma-;;Joven Manuel;gol.;1903_05_05;Santa Cruz
-;;N/A: ;Enseñat;pt.;;De Cabañas gol. Emilia A., pt. Enseñat: 800;;Emilia A.;gol.;1903_05_05;Cabañas
-;;;Villa-;pt.;;De Dominica gol. M: Magdalena, pt. Villa-;;M: Magdalena;gol.;1903_05_05;Dominica
-;;;;pt.;;De ld. gol. Joven Gertrudis, pt. Villalonga:;;Joven Gertrudis;gol.;1903_05_05;Villalonga
-;;;;pt.;;De Manzanillo gol. Joven Catalina, pt. Vis-;;Joven Catalina;gol.;1903_05_05;Manzanillo
-Día :;;;Inclán;pt.;;De Cabañas gol. Caballo Marino, pt. Inclán:;;Caballo Marino;gol.;1903_05_05;Cabañas
-Día XX:;;;Pérez;pt.;;De Dominica gol. M: del Carmen, pt. Pérez:;;M: del Carmen;gol.;1903_05_05;Dominica
-Día 01:;;;Juan;pt.;;De Sierra Morena gol. M: Teresa, pt. Juan:;;M: Teresa;gol.;1903_05_05;Sierra Morena
-Día Octubre:;;N/A: ;;cap.;;De Caibarien vp. Alava, cap. Octubre: 140;;Alava;vp.;1903_05_07;Caibarien
-;;N/A: ;Sansoris;cap.;;De Sagua vp. Avilés, cap. Sansoris 162 tercios;;Avilés;vp.;1903_05_07;Sagua
-;;N/A: ;Gil;pt.;;De Banes, gol. Josefa, pt. Gil, 300 s. azúcar.;;Josefa;gol.;1903_05_07;Banes
-;;N/A: ;Bernaza;pt.;;De Banes, gol. 2 Hermanas, pt. Bernaza, 600;;2 Hermanas;gol.;1903_05_07;Banes
-;;;;pt.;;De San Cuyetano vp. gol. Natividad, pt. A-;;Natividad;vp.;1903_05_07;San Cuyetano
-;;N/A: ;Juan;pt.;;De Sagua, gol. 2: Losa, pt. Juan, 1000 sacos;;2: Losa;gol.;1903_05_07;Sagua
-;;;Alemafiy;pt.;;De Matanzas, gol. María, pt. Alemafiy, 25;;María;gol.;1903_05_07;Matanzas
-;;;Carrega;pt.;;De Matanzas, gol. 2 Hermanas, pt. Carrega-;;2 Hermanas;gol.;1903_05_07;Matanzas
-;;N/A: ;Santo;pt.;;De Sagua, gol. Esperanza, pt. Santo, 300 btos.;;Esperanza;gol.;1903_05_07;Sagua
-;;N/A: ;Macip;p.;;De Sta. Cruz gt. J. Manuel, p. Macip: 345 sa-;;J. Manuel;gt.;1903_06_19;Sta. Cruz
-Día :;;;Portela;p.;;De Arroyo gt. Amable Rosita, p. Portela:;;Amable Rosita;gt.;1903_06_19;Arroyo
-Día :;;;Maura;p.;;De Margajita gt. San Francisco, p. Maura:;;San Francisco;gt.;1903_06_19;Margajita
-Día :;;;Enseñat;p.;;De S. Moreno gt. Isla de Cuba, p. Enseñat:;;Isla de Cuba;gt.;1903_06_19;S. Moreno
-;;N/A: ;Simó;p.;;De Canasí gt. Josefina, p. Simó: 500 s. azú-;;Josefina;gt.;1903_06_19;Canasí
-;;N/A: ;Oliver;pt.;;Manzanillo, gol. María Vazquez, pt. Oliver, con maderas.;;María Vazquez;gol.;1903_07_01;Manzanillo
-;;N/A:  | N/A: ;Vifolas;cp.;;De Cuba vap. Cosme Herrera. cp. Vifolas: 40.000 plátanos y efectos.;;Cosme Herrera.;vap.;1903_07_10;Cuba
-;;N/A:  | N/A: ;Golle;cp.;;De Mántua vp. Vuelta Abajo, cp. Golle: 1723 tercios tabaco y efectos.;;Vuelta Abajo;vp.;1903_07_10;Mántua
-;;N/A:  | N/A: ;Gil;pt.;;De Banes gt. Josefa, pt. Gil: 153 s. azúcar y efectos.;;Josefa;gt.;1903_07_10;Banes
-;;N/A: ;Enseñat;pt.;;De S. Morena g. Isla de Cuba, pt. Enseñat: 800 s. carbón.;;Isla de Cuba;g.;1903_07_10;S. Morena
-Día 01:;;N/A:  | N/A: ;Isern;p.;;De Arroyos gt. Hermosa Guanera: p. Isern: carbón y leña.;;Hermosa Guanera;gt.;1903_07_10;Arroyos
-;;N/A: ;Enseñat;p.;;"De Id. gt. Margarita, p. Enseñat; 1000 s. carbón.";;Margarita;gt.;1903_07_10;Id.
-;;N/A: ;Villalonga;p.;;De Dominica gt. M. Magdalena, p. Villalonga: 400 s. azúcar.;;M. Magdalena;gt.;1903_07_10;Dominica
-;;N/A:  | N/A: ;Mir;p.;;De Cárdenas gt. Rosita, p. Mir: 800 s. azúcar, 52 pipas aguardiente.;;Rosita;gt.;1903_07_10;Cárdenas
-;;N/A: ;Enseñat;p.;;De Id. gt. Juana Mercedes, p. Enseñat: 900 s. azúcar.;;Juana Mercedes;gt.;1903_07_10;Id.
-;;N/A: ;Larucea;p.;;De Id. gt. Niña, p. Larucea: 800 pipas aguardiente.;;Niña;gt.;1903_07_10;Id.
-;;N/A:  | N/A: ;Enseñat;p.;;De Id. gt. Unión, p. Enseñat: 800 s. azúcar, 60 pipas aguardiente.;;Unión;gt.;1903_07_10;Id.
-Día 01:;;N/A: ;;cap.;;De caibarién, vap. Alava, cap. Octubre 1.360;;Alava;vap.;1903_07_19;caibarién
-;;;Alemañy;patrón;;De Cárdenas, goleta Julia, patrón Alemañy;;Julia;goleta;1903_07_19;Cárdenas
-;;;Seifas;patrón;;De Carahatas, goleta Teresa, patrón Seifas,;;Teresa;goleta;1903_07_19;Carahatas
-;;;;patrón;;De Cárdenas, goleta Juana Mercedes, patrón;;Juana Mercedes;goleta;1903_07_19;Cárdenas
-;;;Alemañy;patrón;;De Matanzas, goleta María, patrón Alemañy;;María;goleta;1903_07_19;Matanzas
-Día null:;;N/A:  | N/A: ;Sanson;cp.;;De Puerto Padre vp. San Juan. cp. Sanson: 1434 s. azúcar y efectos.;;San Juan;vp.;1903_07_22;Puerto Padre
-;;N/A:  | N/A: ;González;p.;;De Calibre vp. Cosme de Herrera, p. González: 662 s. tabaco y efectos.;;Cosme de Herrera;vp.;1903_07_22;Calibre
-;;N/A: ;Planell;p.;;De Mántua gt. Antolin del Collado, p. Planell: 3006 tercios sabaco y efectos.;;Antolin del Collado;gt.;1903_07_22;Mántua
-Día 01:;;N/A:  | N/A: ;Pons;patrón;;De Margaritas gt. Paquete de Nuevitás patrón Pons: 22 tercios tabaco y efectos.;;Paquete de Nuevitás;gt.;1903_07_22;Margaritas
-;;N/A:  | N/A: ;Flexas;p.;;De Cárdenas gt. Mª del Carmen, p. Flexas: 800 s. y b. azúcar, 50 pipas aguardiente.;;Mª del Carmen;gt.;1903_07_22;Cárdenas
-;;N/A:  | N/A: ;Masat;p.;;De id. gt. Crisálida, p. Masat: 800 s. azúcar, 40 pp. aguardiente.;;Crisálida;gt.;1903_07_22;id.
-;;N/A:  | N/A: ;Lloret;p.;;De Bajas gt. Angelita, p. Lloret: 200 pies madera, 200 s. carbón.;;Angelita;gt.;1903_07_22;Bajas
-;;;Inclan;pt.;;De Cabañas, gol. Caballo Marino, pt. Inclan, con efectos.;;Caballo Marino;gol.;1903_07_22;Cabañas
-Día XX:;;N/A:  | N/A: ;Venturada;cp.;;De Sagua vp. Cosme de Herrera: cp. Venturada: 571 tercios tabaco y efectos.;;Cosme de Herrera;vp.;1903_09_02;Sagua
-;;;Ferrer;p.;;De Manzanillo gt. Ramona, p. Ferrer: ma-;;Ramona;gt.;1903_09_08;Manzanillo
-;;;Alemañy;pt.;;Sagna, gol. Esperanza, pt. Alemañy, con ma-;;Esperanza;gol.;1903_09_11;
-;;N/A: ;Enseñat;pt.;;Sierra Morena, gol. Isla de Cuba, pt. Enseñat, con efectos.;;Isla de Cuba;gol.;1903_09_22;
-;;N/A:  | N/A: ;Inclan;pat.;;Cabanas gol. Caballo Marino, pat. Inclan, 200 railes y efectos.;;Caballo Marino;gol.;1903_10_13;
-;;N/A:  | N/A: ;Inclan;pat.;;Cabañas gol. Caballo Marino, pat. Inclan, 200 ralles y efectos.;;Caballo Marino;gol.;1903_10_13;Cabañas
-;;;Ventura;cap.;;Nuevetas, vap. Julia, cap. Ventura, con efectos.;;Julia;vap.;1903_11_06;Nuevetas
-;;N/A: ;Navarro;p.;;Mariel gol. Altgracia, p. Navarro, con efectos.;;Altgracia;gol.;1903_11_06;
-;;N/A:  | N/A: ;Alemany;pat.;;Cárdenas, gol. Julia, pat. Alemany, 17014 pp. aguardiente y efectos.;;Julia;gol.;1903_12_04;Cárdenas
-;;N/A: ;López;pt.;;Cabañas, gol. Caballo Marino, pt. López, con efectos.;;Caballo Marino;gol.;1903_12_10;Cabañas
+arrival_date;arrival_date_calc;cargo_list;crew_number;forced_arrival;master_name;master_role;parsed_text;passenger_account;publication_day;quarantine;raw_text;ship_flag;ship_name;ship_tons_capacity;ship_tons_unit;ship_type;source_file;travel_departure_port;travel_duration_unit;travel_duration_value
+;;N/A:  | N/A: ;;;Octube;cap.;;;;;De Caibarién vapor Alava, capitán Octube, con 500³ tabaco y efectos.;;Alava;;;vapor;1903_01_06;Caibarién;;
+;;N/A:  | N/A: ;;;González;cap.;;;;;De Caibarién vapor Avilés, capitán González, con 362³ tabaco y efectos.;;Avilés;;;vapor;1903_01_06;Caibarién;;
+;;N/A:  | N/A: ;;;Planell;cap.;;;;;De Mantua vapor Rita, capitán Planell, con 990³ tabaco y efectos.;;Rita;;;vapor;1903_01_06;Mantua;;
+;;N/A: ;;;Durán;patrón;;;;;De Sagua goleta María Andrea, patrón Durán, con 1.300 sacos carbón.;;María Andrea;;;goleta;1903_01_06;Sagua;;
+;;N/A:  | N/A:  | N/A: ;;;Mary;patrón;;;;;De Dímas goleta Carmita, patrón Mary, con leña, carbón y madera.;;Carmita;;;goleta;1903_01_06;Dímas;;
+;;N/A: ;;;Sánchez;patrón;;;;;De Arroyos goleta Joven Jaime, patrón Sánchez, con 800 sacos carbón.;;Joven Jaime;;;goleta;1903_01_06;Arroyos;;
+;;N/A: ;;;Yem;patrón;;;;;De Sagua goleta Dos Amigos, patrón Yem, con 800 sacos carbón.;;Dos Amigos;;;goleta;1903_01_06;Sagua;;
+;;N/A: ;;;Gil;patrón;;;;;De Banes goleta Josefa, patrón Gil.—En las tres.;;Josefa;;;goleta;1903_01_06;Banes;;
+;;N/A: ;;;Bosch;patrón;;;;;De Caabañas goleta Victoria, patrón Bosch, con 300 pacas heno.;;Victoria;;;goleta;1903_01_06;Caabañas;;
+;;N/A: ;;;Alemañy;patrón;;;;;De San Cayetano goleta Féliz, patrón Alemañy, con 350 polines.;;Féliz;;;goleta;1903_01_06;San Cayetano;;
+;;N/A:  | N/A: ;;;Fleixas;patrón;;;;;De Cárdenas goleta María del Carmen, patrón Fleixas, con 80 pipas aguardiente y efectos.;;María del Carmen;;;goleta;1903_01_06;Cárdenas;;
+;;N/A:  | N/A: ;;;Ferrer;patrón;;;;;De Manzanillo goleta 2 gertrudis, patrón Ferrer, con 1584 paquetes tablillas y efectos.;;gertrudis;;;goleta;1903_01_06;Manzanillo;;
+;;N/A:  | N/A: ;;;Masot;patrón;;;;;De Cárdenas goleta Julia, patrón Masot, con 20 barriles y 200 sacos azúcar y efectos.;;Julia;;;goleta;1903_01_06;Cárdenas;;
+;;N/A: ;;;Juan;pat.;;;;;Margaritas, gol. 2: Rosa, pat. Juan, 1000 sacos;;2: Rosa;;;gol.;1903_01_10;Margaritas;;
+;;N/A: ;;;Fleixas;pat.;;;;;Cárdenas, gol. Rosita, pat. Fleixas, 90 pipas;;Rosita;;;gol.;1903_01_10;Cárdenas;;
+;;N/A: ;;;Pujol;pat.;;;;;Cárdenas, gol. Mercedita, pat. Pujol, 78 pipas;;Mercedita;;;gol.;1903_01_10;Cárdenas;;
+;;N/A: ;;;Piera;pat.;;;;;Nuevitas, gol. Tímina, pat. Piera, 7213 miel abe-;;Tímina;;;gol.;1903_01_10;Nuevitas;;
+;;;;;Fleixas;pat.;;;;;Cárdenas, gol. María del Carmen, pat. Fleixas,;;María del Carmen;;;gol.;1903_01_13;Cárdenas;;
+;;N/A: ;;;Masot;pat.;;;;;Cárdenas, gol. Crisalida, pat. Masot, 35 pipas;;Crisalida;;;gol.;1903_01_13;Cárdenas;;
+;;N/A: ;;;Juan;pat.;;;;;Cabañas, bdro Rosita, pat. Juan, con hierro;;Rosita;;;bdro;1903_01_23;;;
+;;N/A: ;;;Pujol;pat.;;;;;Baracoa, gol. Colón, pat. Pujol. 100 s. açúcar y;;Colón;;;gol.;1903_01_23;Baracoa;;
+;;N/A: ;;;Bosch;pat.;;;;;Cabañas, gol. Victoria, pat. Bosch, 600 pacas;;Victoria;;;gol.;1903_01_23;Cabañas;;
+;;N/A: ;;;Mir;pat.;;;;;Cárdenas, gol. Rosita, pat. Mir, 150 pp. aguar-;;Rosita;;;gol.;1903_01_23;Cárdenas;;
+;;;;;Moner;pat.;;;;;San Cayetano, gol. Buenaventura, pat. Moner,;;Buenaventura;;;gol.;1903_01_23;San Cayetano;;
+;;N/A: ;;;Rubíños;pat.;;;;;Sagua, gol. Rosita, pat. Rubíños, 800 sacos car-;;Rosita;;;gol.;1903_01_23;Sagua;;
+;;N/A: ;;;Rubífos;pat.;;;;;Sagua, gol. Amalia, pat. Rubífos, 800 sacos carbón.;;Amalia;;;gol.;1903_01_27;Sagua;;
+;;N/A: ;;;Roman;pat.;;;;;Arroyos, gol. Lince, pat. Roman, 248, sacos id.;;Lince;;;gol.;1903_01_27;Arroyos;;
+;;;;;Gil;pat.;;;;;Banes, gol. Joseta, pat. Gil, con efectos.;;Joseta;;;gol.;1903_01_27;Banes;;
+;;N/A: ;;;Ferrer;pat.;;;;;Rio de la Palma, gol. Joven Herminia, pat. Ferrer, 128 caballos carbón.;;Joven Herminia;;;gol.;1903_01_27;Rio de la Palma;;
+;;N/A:  | N/A: ;;;Amengual;pat.;;;;;Bahía Honda, gol. Natividad, pat. Amengual, 50 toneladas hierro y efectos.;;Natividad;;;gol.;1903_01_27;Bahía Honda;;
+;;N/A: ;;;Alemañy;pat.;;;;;San Cayetano, gol. Trinidad, pat. Alemañy, con maderas.;;Trinidad;;;gol.;1903_01_27;San Cayetano;;
+;;N/A:  | N/A: ;;;Alemañy;pat.;;;;;Idem, gol. Feliz, pat. Alemañy, con 350 polines Dominica, gol. María Magdalena, pat. Villalon- ga, 450 sacos azúcar.;;Feliz;;;gol.;1903_01_27;Dominica;;
+;;N/A: ;;;Villalonga;pat.;;;;;Idem, gol. Joven Gertrúdis, pat. Villalonga 500 sacos azúcar.;;Joven Gertrúdis;;;gol.;1903_01_27;;;
+;;N/A:  | N/A: ;;;Mas;pat.;;;;;Cárdenas, gol. Crisálida, pat. Mas, 30 pipas aguardiente y efectos.;;Crisálida;;;gol.;1903_01_27;Cárdenas;;
+;;N/A: ;;;Pujol;pat.;;;;;Idem, gol. Juana Mercedes, pat. Pujol, 90 pipas aguardiente.;;Juana Mercedes;;;gol.;1903_01_27;;;
+;;N/A: ;;;Carregado;pat.;;;;;Matanzas, gol. 2 Hermanas, pat. Carregado, 85 pipas aguardiente.;;2 Hermanas;;;gol.;1903_01_27;Matanzas;;
+;;N/A: ;;;Macip;pat.;;;;;Santa Cruz, gol. Joven Manuel, pat. Macip, 70;;Joven Manuel;;;gol.;1903_01_31;Santa Cruz;;
+;;N/A: ;;;Mas;pat.;;;;;Casilda, gol. Unión, pat. Mas, 120 toneladas;;Unión;;;gol.;1903_01_31;Casilda;;
+;;N/A: ;;;Font;pat.;;;;;Caibarién, gol. María Luisa, pat. Font, 1100/3;;María Luisa;;;gol.;1903_01_31;Caibarién;;
+;;;;;Gil;pat.;;;;;Banes, gol. Josefa, pat. Gil, en lastre.;;Josefa;;;gol.;1903_01_31;Banes;;
+;;N/A: ;;;Planell;pat.;;;;;Arroyos, gol. Rita, pat. Planell, 250|3 tabaoo.;;Rita;;;gol.;1903_02_07;Arroyos;;
+;;N/A:  | N/A: ;;;Marí;pat.;;;;;Dimar, gol. Carmita, pat. Marí, 600 sacos carbón y leña.;;Carmita;;;gol.;1903_02_07;Dimar;;
+;;N/A:  | N/A: ;;;Carregado;pat.;;;;;Matanzas, gol. Marfa, pat. Carregado, 170|4 miel y efectos.;;Marfa;;;gol.;1903_02_07;Matanzas;;
+;;N/A:  | N/A: ;;;Ensefat;pat.;;;;;Nuevitas, gol. San Fernando, pat. Ensefat, 66 tercerolas miel de abejas y 65 sacos cera,;;San Fernando;;;gol.;1903_02_07;Nuevitas;;
+;;N/A:  | N/A: ;;;Font;;;;;;De Caibarién M: Luisa, pt. Font, tabaco y efe-;;Luisa;;;pt.;1903_02_10;Caibarién;;
+;;;;;Marcelino;;;;;;De San Cayerano Joven Marcelino, pt. Gonzá-;;Gonzá-;;;pt.;1903_02_10;San Cayerano;;
+;;N/A: ;;;;;;;;;De Cárdenas M: del Carmen, pt. Piera, 80 pipas;;Piera;;;pt.;1903_02_10;Cárdenas;;
+Día 09:;;N/A: ;;;Ventura;cap.;;;;;Nuevís 9: Nuevas, vap. San Juan, cap. Ventura, con efectos.;;San Juan;;;vap.;1903_02_11;Nuevís;;
+;;N/A: ;;;Pérez;pat.;;;;;Dominica, gol. Marfa del Carmen, pat. Pérez, 500 sacos azúcar.;;Marfa del Carmen;;;gol.;1903_02_11;Dominica;;
+;;N/A: ;;;Gil;pat.;;;;;Banes, gol. Josefa, pat. Gil, 240 cajas miel de abejas.;;Josefa;;;gol.;1903_02_11;Banes;;
+;;N/A: ;;;Alemañy;pat.;;;;;Cabañas, gol. Joven Pilar, pat. Alemañy, 1100 pacas heno.;;Joven Pilar;;;gol.;1903_02_11;Cabañas;;
+;;N/A: ;;;Gonzalez;pat.;;;;;San Cayetano, gol. Joven Marcelino, pat. Gonzalez, 500 polines.;;Joven Marcelino;;;gol.;1903_02_11;San Cayetano;;
+;;N/A: ;;;Villalonga;pat.;;;;;Dominica, gol. Marfa Magdalena, pat. Villalonga, 80 bocoyes miel.;;Marfa Magdalena;;;gol.;1903_02_11;Dominica;;
+;;N/A: ;;;Marantes;pat.;;;;;MarieI, gol, Altagracia, pat. Marantes, con 500;;Altagracia;;;gol;1903_02_12;;;
+;;;;;Duran;pat.;;;;;Sagua, gol. María Andrea Andrea, pat. Duran.;;María Andrea;;;gol.;1903_02_12;Sagua;;
+;;N/A: ;;;Flenz;pat.;;;;;Cardenas, gol. Rosita, pat. Flenz, con 90 pipas;;Rosita;;;gol.;1903_02_12;Cardenas;;
+;;N/A: ;;;Masot;pat.;;;;;Cardenas, gol. Crisalida, pat. Masot, con 35;;Crisalida;;;gol.;1903_02_12;Cardenas;;
+;;;;;Carregado;pat.;;;;;Matanzas, gol. Dos Hermanas, pat. Carregado,;;Dos Hermanas;;;gol.;1903_02_12;Matanzas;;
+;;;;;Pellicer;pat.;;;;;Sierra Morena, gol. Habanera, pat. Pellicer,;;Habanera;;;gol.;1903_02_12;;;
+;;;;;Nadal;pat.;;;;;Jaruco, gol. Paquete de Jaruco, pat. Nadal,;;Paquete de Jaruco;;;gol.;1903_02_12;Jaruco;;
+;;;;;Ber-;pat.;;;;;Puerto Padre, gol. Tres Hermanas, pat. Ber-;;Tres Hermanas;;;gol.;1903_02_12;Puerto Padre;;
+;;;;;Villa-;pat.;;;;;Dominica, gol. María Magdalena, pat. Villa-;;María Magdalena;;;gol.;1903_02_12;Dominica;;
+;;N/A: ;;;Juan;pat.;;;;;Sagua, gol. Ceferina, pat. Juan, con maderas.;;Ceferina;;;gol.;1903_02_12;Sagua;;
+;;N/A: ;;;Fleixas;pat.;;;;;Cárdenas, gol. M' del Carmen, pat. Fleixas, 90;;M' del Carmen;;;gol.;1903_02_21;Cárdenas;;
+;;;;;Enseñat;pat.;;;;;Nuevitas, gol. San Fernando, pat. Enseñat, con;;San Fernando;;;gol.;1903_02_21;Nuevitas;;
+;;N/A: ;;;Cayuso;pat.;;;;;Matanzas, gol. Amalia, pat. Cayuso, 70 pipas;;Amalia;;;gol.;1903_02_21;Matanzas;;
+;;N/A:  | N/A: ;;;Nadal;pt.;;;;;Jaruco, gol. Pte. de Jaruco, pt. Nadal, con carbón y leña.;;Pte. de Jaruco;;;gol.;1903_02_28;Jaruco;;
+;;N/A: ;;;;pt.;;;;;Idem, gol. Mª Magdalena, pt. Villalonga, con 460 sacos azúcar.;;Mª Magdalena;;;gol.;1903_02_28;Villalonga;;
+;;;;;Villalon;pat.;;;;;Dominico, gol. Joven Gertrudis, pat. Villalon-;;Joven Gertrudis;;;gol.;1903_03_04;Dominico;;
+;;N/A:  | N/A: ;;;Torres;pt.;;;;;B. Honda, gol. Mercedita, pt. Torres, con madera y carbón.;;Mercedita;;;gol.;1903_03_12;;;
+;;N/A: ;;;Marf;pt.;;;;;Bajas, gol. Carmita, pt. Marf, con carbón.;;Carmita;;;gol.;1903_03_17;;;
+;;;;;Sanson;cap.;;;;;Nuevitas San Juan cap. Sanson con efectos.;;;;;San Juan;1903_03_20;Nuevitas;;
+;;;;;Planell;pt.;;;;;Mantua, gol. Rita, pt. Planell, con efectos.;;Rita;;;gol.;1903_03_31;Mantua;;
+;;N/A: ;;;Inclán;p.;;;;;De Cabañas gt. Caballo Marino, p. Inclán: 800 s. azúcar.;;Caballo Marino;;;gt.;1903_04_09;Cabañas;;
+;;N/A: ;;;Durán;p.;;;;;De Sagua gt. M: Andrea, p. Durán: 100 sacos carbón.;;M: Andrea;;;gt.;1903_04_09;Sagua;;
+;;N/A:  | N/A: ;;;Loret;p.;;;;;De Bajas gt. Angelita, p. Loret: carbón y maderas.;;Angelita;;;gt.;1903_04_09;Bajas;;
+;;N/A: ;;;Ponte;p.;;;;;De Carahatás gt. Tres Hermanas, p. Ponte: 1,000 s. azúcar.;;Tres Hermanas;;;gt.;1903_04_09;Carahatás;;
+;;N/A:  | N/A: ;;;;p.;;;;;De Cárdenes gt. Julia, p. Alemania: 500 s. y barriles azúcar y efectos.;Alemania;Julia;;;gt.;1903_04_09;Cárdenes;;
+;;N/A: ;;;Villalonga;p.;;;;;De Dominica gt. M: Magdalena, p. Villalonga: 460 s. azúcar.;;M: Magdalena;;;gt.;1903_04_09;Dominica;;
+;;N/A: ;;;Villalonga;p.;;;;;De idem gt. J. Gertrudis, p. Villalonga: 500 s. azúcar.;;J. Gertrudis;;;gt.;1903_04_09;idem;;
+;;N/A: ;;;Orozco;cp.;;;;;Cienfuegos, gol. Whitewater, cp. Orozco, con maderas.;;Whitewater;;;gol.;1903_04_15;Cienfuegos;;
+;;;;;Prieto;pt.;;;;;Manzanillo, gol. Blanca, pt. Prieto, con made-;;Blanca;;;gol.;1903_04_17;Manzanillo;;
+;;N/A: ;;;Simó;pat.;;;;;Canasi, gol. Sabas, pat. Simó, 500 sacos azúcar.;;Sabas;;;gol.;1903_04_22;Canasi;;
+;;N/A: ;;;Iern;pt.;;;;;De Sagna gol. Mercedita, pt. Iern: 1,200 sacos;;Mercedita;;;gol.;1903_05_05;Sagna;;
+;;;;;;pt.;;;;;De Santa Cruz gol. Joven Manuel, pt. Ma-;;Joven Manuel;;;gol.;1903_05_05;Santa Cruz;;
+;;N/A: ;;;Enseñat;pt.;;;;;De Cabañas gol. Emilia A., pt. Enseñat: 800;;Emilia A.;;;gol.;1903_05_05;Cabañas;;
+;;;;;Villa-;pt.;;;;;De Dominica gol. M: Magdalena, pt. Villa-;;M: Magdalena;;;gol.;1903_05_05;Dominica;;
+;;;;;;pt.;;;;;De ld. gol. Joven Gertrudis, pt. Villalonga:;;Joven Gertrudis;;;gol.;1903_05_05;Villalonga;;
+;;;;;;pt.;;;;;De Manzanillo gol. Joven Catalina, pt. Vis-;;Joven Catalina;;;gol.;1903_05_05;Manzanillo;;
+Día :;;;;;Inclán;pt.;;;;;De Cabañas gol. Caballo Marino, pt. Inclán:;;Caballo Marino;;;gol.;1903_05_05;Cabañas;;
+Día XX:;;;;;Pérez;pt.;;;;;De Dominica gol. M: del Carmen, pt. Pérez:;;M: del Carmen;;;gol.;1903_05_05;Dominica;;
+Día 01:;;;;;Juan;pt.;;;;;De Sierra Morena gol. M: Teresa, pt. Juan:;;M: Teresa;;;gol.;1903_05_05;Sierra Morena;;
+Día Octubre:;;N/A: ;;;;cap.;;;;;De Caibarien vp. Alava, cap. Octubre: 140;;Alava;;;vp.;1903_05_07;Caibarien;;
+;;N/A: ;;;Sansoris;cap.;;;;;De Sagua vp. Avilés, cap. Sansoris 162 tercios;;Avilés;;;vp.;1903_05_07;Sagua;;
+;;N/A: ;;;Gil;pt.;;;;;De Banes, gol. Josefa, pt. Gil, 300 s. azúcar.;;Josefa;;;gol.;1903_05_07;Banes;;
+;;N/A: ;;;Bernaza;pt.;;;;;De Banes, gol. 2 Hermanas, pt. Bernaza, 600;;2 Hermanas;;;gol.;1903_05_07;Banes;;
+;;;;;;pt.;;;;;De San Cuyetano vp. gol. Natividad, pt. A-;;Natividad;;;vp.;1903_05_07;San Cuyetano;;
+;;N/A: ;;;Juan;pt.;;;;;De Sagua, gol. 2: Losa, pt. Juan, 1000 sacos;;2: Losa;;;gol.;1903_05_07;Sagua;;
+;;;;;Alemafiy;pt.;;;;;De Matanzas, gol. María, pt. Alemafiy, 25;;María;;;gol.;1903_05_07;Matanzas;;
+;;;;;Carrega;pt.;;;;;De Matanzas, gol. 2 Hermanas, pt. Carrega-;;2 Hermanas;;;gol.;1903_05_07;Matanzas;;
+;;N/A: ;;;Santo;pt.;;;;;De Sagua, gol. Esperanza, pt. Santo, 300 btos.;;Esperanza;;;gol.;1903_05_07;Sagua;;
+;;N/A: ;;;Macip;p.;;;;;De Sta. Cruz gt. J. Manuel, p. Macip: 345 sa-;;J. Manuel;;;gt.;1903_06_19;Sta. Cruz;;
+Día :;;;;;Portela;p.;;;;;De Arroyo gt. Amable Rosita, p. Portela:;;Amable Rosita;;;gt.;1903_06_19;Arroyo;;
+Día :;;;;;Maura;p.;;;;;De Margajita gt. San Francisco, p. Maura:;;San Francisco;;;gt.;1903_06_19;Margajita;;
+Día :;;;;;Enseñat;p.;;;;;De S. Moreno gt. Isla de Cuba, p. Enseñat:;;Isla de Cuba;;;gt.;1903_06_19;S. Moreno;;
+;;N/A: ;;;Simó;p.;;;;;De Canasí gt. Josefina, p. Simó: 500 s. azú-;;Josefina;;;gt.;1903_06_19;Canasí;;
+;;N/A: ;;;Oliver;pt.;;;;;Manzanillo, gol. María Vazquez, pt. Oliver, con maderas.;;María Vazquez;;;gol.;1903_07_01;Manzanillo;;
+;;N/A:  | N/A: ;;;Vifolas;cp.;;;;;De Cuba vap. Cosme Herrera. cp. Vifolas: 40.000 plátanos y efectos.;;Cosme Herrera.;;;vap.;1903_07_10;Cuba;;
+;;N/A:  | N/A: ;;;Golle;cp.;;;;;De Mántua vp. Vuelta Abajo, cp. Golle: 1723 tercios tabaco y efectos.;;Vuelta Abajo;;;vp.;1903_07_10;Mántua;;
+;;N/A:  | N/A: ;;;Gil;pt.;;;;;De Banes gt. Josefa, pt. Gil: 153 s. azúcar y efectos.;;Josefa;;;gt.;1903_07_10;Banes;;
+;;N/A: ;;;Enseñat;pt.;;;;;De S. Morena g. Isla de Cuba, pt. Enseñat: 800 s. carbón.;;Isla de Cuba;;;g.;1903_07_10;S. Morena;;
+Día 01:;;N/A:  | N/A: ;;;Isern;p.;;;;;De Arroyos gt. Hermosa Guanera: p. Isern: carbón y leña.;;Hermosa Guanera;;;gt.;1903_07_10;Arroyos;;
+;;N/A: ;;;Enseñat;p.;;;;;"De Id. gt. Margarita, p. Enseñat; 1000 s. carbón.";;Margarita;;;gt.;1903_07_10;Id.;;
+;;N/A: ;;;Villalonga;p.;;;;;De Dominica gt. M. Magdalena, p. Villalonga: 400 s. azúcar.;;M. Magdalena;;;gt.;1903_07_10;Dominica;;
+;;N/A:  | N/A: ;;;Mir;p.;;;;;De Cárdenas gt. Rosita, p. Mir: 800 s. azúcar, 52 pipas aguardiente.;;Rosita;;;gt.;1903_07_10;Cárdenas;;
+;;N/A: ;;;Enseñat;p.;;;;;De Id. gt. Juana Mercedes, p. Enseñat: 900 s. azúcar.;;Juana Mercedes;;;gt.;1903_07_10;Id.;;
+;;N/A: ;;;Larucea;p.;;;;;De Id. gt. Niña, p. Larucea: 800 pipas aguardiente.;;Niña;;;gt.;1903_07_10;Id.;;
+;;N/A:  | N/A: ;;;Enseñat;p.;;;;;De Id. gt. Unión, p. Enseñat: 800 s. azúcar, 60 pipas aguardiente.;;Unión;;;gt.;1903_07_10;Id.;;
+Día 01:;;N/A: ;;;;cap.;;;;;De caibarién, vap. Alava, cap. Octubre 1.360;;Alava;;;vap.;1903_07_19;caibarién;;
+;;;;;Alemañy;patrón;;;;;De Cárdenas, goleta Julia, patrón Alemañy;;Julia;;;goleta;1903_07_19;Cárdenas;;
+;;;;;Seifas;patrón;;;;;De Carahatas, goleta Teresa, patrón Seifas,;;Teresa;;;goleta;1903_07_19;Carahatas;;
+;;;;;;patrón;;;;;De Cárdenas, goleta Juana Mercedes, patrón;;Juana Mercedes;;;goleta;1903_07_19;Cárdenas;;
+;;;;;Alemañy;patrón;;;;;De Matanzas, goleta María, patrón Alemañy;;María;;;goleta;1903_07_19;Matanzas;;
+Día null:;;N/A:  | N/A: ;;;Sanson;cp.;;;;;De Puerto Padre vp. San Juan. cp. Sanson: 1434 s. azúcar y efectos.;;San Juan;;;vp.;1903_07_22;Puerto Padre;;
+;;N/A:  | N/A: ;;;González;p.;;;;;De Calibre vp. Cosme de Herrera, p. González: 662 s. tabaco y efectos.;;Cosme de Herrera;;;vp.;1903_07_22;Calibre;;
+;;N/A: ;;;Planell;p.;;;;;De Mántua gt. Antolin del Collado, p. Planell: 3006 tercios sabaco y efectos.;;Antolin del Collado;;;gt.;1903_07_22;Mántua;;
+Día 01:;;N/A:  | N/A: ;;;Pons;patrón;;;;;De Margaritas gt. Paquete de Nuevitás patrón Pons: 22 tercios tabaco y efectos.;;Paquete de Nuevitás;;;gt.;1903_07_22;Margaritas;;
+;;N/A:  | N/A: ;;;Flexas;p.;;;;;De Cárdenas gt. Mª del Carmen, p. Flexas: 800 s. y b. azúcar, 50 pipas aguardiente.;;Mª del Carmen;;;gt.;1903_07_22;Cárdenas;;
+;;N/A:  | N/A: ;;;Masat;p.;;;;;De id. gt. Crisálida, p. Masat: 800 s. azúcar, 40 pp. aguardiente.;;Crisálida;;;gt.;1903_07_22;id.;;
+;;N/A:  | N/A: ;;;Lloret;p.;;;;;De Bajas gt. Angelita, p. Lloret: 200 pies madera, 200 s. carbón.;;Angelita;;;gt.;1903_07_22;Bajas;;
+;;;;;Inclan;pt.;;;;;De Cabañas, gol. Caballo Marino, pt. Inclan, con efectos.;;Caballo Marino;;;gol.;1903_07_22;Cabañas;;
+Día XX:;;N/A:  | N/A: ;;;Venturada;cp.;;;;;De Sagua vp. Cosme de Herrera: cp. Venturada: 571 tercios tabaco y efectos.;;Cosme de Herrera;;;vp.;1903_09_02;Sagua;;
+;;;;;Ferrer;p.;;;;;De Manzanillo gt. Ramona, p. Ferrer: ma-;;Ramona;;;gt.;1903_09_08;Manzanillo;;
+;;;;;Alemañy;pt.;;;;;Sagna, gol. Esperanza, pt. Alemañy, con ma-;;Esperanza;;;gol.;1903_09_11;;;
+;;N/A: ;;;Enseñat;pt.;;;;;Sierra Morena, gol. Isla de Cuba, pt. Enseñat, con efectos.;;Isla de Cuba;;;gol.;1903_09_22;;;
+;;N/A:  | N/A: ;;;Inclan;pat.;;;;;Cabanas gol. Caballo Marino, pat. Inclan, 200 railes y efectos.;;Caballo Marino;;;gol.;1903_10_13;;;
+;;N/A:  | N/A: ;;;Inclan;pat.;;;;;Cabañas gol. Caballo Marino, pat. Inclan, 200 ralles y efectos.;;Caballo Marino;;;gol.;1903_10_13;Cabañas;;
+;;;;;Ventura;cap.;;;;;Nuevetas, vap. Julia, cap. Ventura, con efectos.;;Julia;;;vap.;1903_11_06;Nuevetas;;
+;;N/A: ;;;Navarro;p.;;;;;Mariel gol. Altgracia, p. Navarro, con efectos.;;Altgracia;;;gol.;1903_11_06;;;
+;;N/A:  | N/A: ;;;Alemany;pat.;;;;;Cárdenas, gol. Julia, pat. Alemany, 17014 pp. aguardiente y efectos.;;Julia;;;gol.;1903_12_04;Cárdenas;;
+;;N/A: ;;;López;pt.;;;;;Cabañas, gol. Caballo Marino, pt. López, con efectos.;;Caballo Marino;;;gol.;1903_12_10;Cabañas;;

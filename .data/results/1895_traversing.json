@@ -17,7 +17,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Pascagoula, en 4 días, gol. Bertha Lauose, capitán Hannok. trip. 6, tons. 220, con madera, á"
+    "raw_text": "-Pascagoula, en 4 días, gol. Bertha Lauose, capitán Hannok. trip. 6, tons. 220, con madera, á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_01",
@@ -31,7 +40,16 @@
     "master_role": "cap.",
     "master_name": "Burley",
     "cargo_list": [],
-    "raw_text": "ington, cap. Burley, trip. 70, tons. 1,649, con"
+    "raw_text": "ington, cap. Burley, trip. 70, tons. 1,649, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_01",
@@ -51,7 +69,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Sproul, trip. 7, tons. 358, con madera, á la"
+    "raw_text": "cap. Sproul, trip. 7, tons. 358, con madera, á la",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_01",
@@ -71,7 +98,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Mewell, trip. 8, tons. 491, con carbón, á la"
+    "raw_text": "cap. Mewell, trip. 8, tons. 491, con carbón, á la",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_03",
@@ -91,7 +127,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York en 4 días vap. am. Seguranca, capitán Hoffmann, trip. 70, tons. 2896, con carga á"
+    "raw_text": "-Nueva York en 4 días vap. am. Seguranca, capitán Hoffmann, trip. 70, tons. 2896, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_03",
@@ -105,7 +150,16 @@
     "master_role": "cap.",
     "master_name": "Hodgdon",
     "cargo_list": [],
-    "raw_text": "Stinsson, cap. Hodgdon, trip. 11, tons. 932, con"
+    "raw_text": "Stinsson, cap. Hodgdon, trip. 11, tons. 932, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_05",
@@ -119,7 +173,16 @@
     "master_role": "cap.",
     "master_name": "Pashley",
     "cargo_list": [],
-    "raw_text": "cap. Pashley, trip. 7, tons. 266."
+    "raw_text": "cap. Pashley, trip. 7, tons. 266.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_08",
@@ -133,7 +196,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De arribada por traer descomposición en la máquina"
+    "raw_text": "De arribada por traer descomposición en la máquina",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_08",
@@ -153,7 +225,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York, en 4 días vap. am. Saratoga, capitán Boyce, trip. 70, tons. 1692, con carga a Hidolgo y Ca"
+    "raw_text": "-Nueva York, en 4 días vap. am. Saratoga, capitán Boyce, trip. 70, tons. 1692, con carga a Hidolgo y Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_08",
@@ -188,7 +269,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva Orleans en 8 días vap. esp. Catalina, capitán Diez, t ip 57, tons. con carga de tránPito á Loychate, Saenz y Ca"
+    "raw_text": "-Nueva Orleans en 8 días vap. esp. Catalina, capitán Diez, t ip 57, tons. con carga de tránPito á Loychate, Saenz y Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_08",
@@ -202,7 +292,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De arribada por traer fuego á bordo."
+    "raw_text": "De arribada por traer fuego á bordo.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_08",
@@ -216,7 +315,16 @@
     "master_role": "cap.",
     "master_name": "Fit h.",
     "cargo_list": [],
-    "raw_text": "W. Fit h. cap. Beller, trip. 10, tons. 1221, con"
+    "raw_text": "W. Fit h. cap. Beller, trip. 10, tons. 1221, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_09",
@@ -246,7 +354,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "True, cap. Longh'in, trip. 10, tons. 1123, co"
+    "raw_text": "True, cap. Longh'in, trip. 10, tons. 1123, co",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_09",
@@ -260,7 +377,16 @@
     "master_role": "cap.",
     "master_name": "Castellá",
     "cargo_list": [],
-    "raw_text": "Cndal, cap. Castellá, trip. 70 tons. 1616. con"
+    "raw_text": "Cndal, cap. Castellá, trip. 70 tons. 1616. con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_15",
@@ -280,7 +406,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 18: De Liverpool y escalas, en 28 dias, vap. esp. Satnrnina, cap. Bengoa, trip. 4!, tons. 1785, con carbón á Loychate, Saenz y Ca"
+    "raw_text": "Día 18: De Liverpool y escalas, en 28 dias, vap. esp. Satnrnina, cap. Bengoa, trip. 4!, tons. 1785, con carbón á Loychate, Saenz y Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_15",
@@ -310,7 +445,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Halifax y escalas, en 14 dias, vap. ing. Beta, capitán Hapkins. trip. 27, tons. 677, con carga á"
+    "raw_text": "-Halifax y escalas, en 14 dias, vap. ing. Beta, capitán Hapkins. trip. 27, tons. 677, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_15",
@@ -335,7 +479,16 @@
         "cargo_count": "678"
       }
     ],
-    "raw_text": "-Nueva Orleans y escalas, en 5 dias vap. americano Aransas, cap. Maxon, trip. 35, tons. 678,"
+    "raw_text": "-Nueva Orleans y escalas, en 5 dias vap. americano Aransas, cap. Maxon, trip. 35, tons. 678,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_18",
@@ -349,7 +502,16 @@
     "master_role": "cap.",
     "master_name": "Guernica",
     "cargo_list": [],
-    "raw_text": "Día 16: De Liverpool y escalas en 24 dí 18 vap. esp. Palentino, cap. Guernica, trip. 29, tons. 1456 con carg"
+    "raw_text": "Día 16: De Liverpool y escalas en 24 dí 18 vap. esp. Palentino, cap. Guernica, trip. 29, tons. 1456 con carg",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_18",
@@ -369,7 +531,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Hoffmana, trip. 74, tons. 2806 con carga á"
+    "raw_text": "cap. Hoffmana, trip. 74, tons. 2806 con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_22",
@@ -383,7 +554,16 @@
     "master_role": "cap.",
     "master_name": "Decker",
     "cargo_list": [],
-    "raw_text": "-Tampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,"
+    "raw_text": "-Tampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_29",
@@ -403,7 +583,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York en 4 días vap. am. City of Washington, cap. Burley, trip 64 ton. 1743, con carga Hidalgo y Ca"
+    "raw_text": "-Nueva York en 4 días vap. am. City of Washington, cap. Burley, trip 64 ton. 1743, con carga Hidalgo y Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_29",
@@ -433,7 +622,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dí 2: -Tampa y Cayo-Hueso, en 30 horas, vapor americano Olivette, cap Harlon, ton. 1105. trip 53. en lastre á Lawton Hnos. Pascagoula en 14 días gol. ing Utilitz, capitán Tapp, trip. 6, tou. 124, con madera à R. Trufin y Ca - Panzacola, en 7 días, gol. am. Jennie Lasa, capitán Dadge, trip. 7, ton. 330, con madera à R. P. Santa María. -New Castle en 23 ins, vap. ing. D'Griflammé, cap. Staunard, trip. 31, tons. 2129, con carga á la o den"
+    "raw_text": "Dí 2: -Tampa y Cayo-Hueso, en 30 horas, vapor americano Olivette, cap Harlon, ton. 1105. trip 53. en lastre á Lawton Hnos. Pascagoula en 14 días gol. ing Utilitz, capitán Tapp, trip. 6, tou. 124, con madera à R. Trufin y Ca - Panzacola, en 7 días, gol. am. Jennie Lasa, capitán Dadge, trip. 7, ton. 330, con madera à R. P. Santa María. -New Castle en 23 ins, vap. ing. D'Griflammé, cap. Staunard, trip. 31, tons. 2129, con carga á la o den",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_29",
@@ -453,7 +651,16 @@
         "cargo_count": "380"
       }
     ],
-    "raw_text": "eria cap. Dodge trip. 7, tons. 380 con madera"
+    "raw_text": "eria cap. Dodge trip. 7, tons. 380 con madera",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_29",
@@ -478,7 +685,16 @@
         "cargo_count": "760"
       }
     ],
-    "raw_text": "Industria cap. Homaza trip. 16 tons. 760 con"
+    "raw_text": "Industria cap. Homaza trip. 16 tons. 760 con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_01_30",
@@ -492,7 +708,16 @@
     "master_role": "cap.",
     "master_name": "Eúskaro",
     "cargo_list": [],
-    "raw_text": "Día 28: De Liverpool y escalas en 31 días vap. cap. Eúskaro"
+    "raw_text": "Día 28: De Liverpool y escalas en 31 días vap. cap. Eúskaro",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_03",
@@ -506,7 +731,16 @@
     "master_role": "cap.",
     "master_name": "Alemany",
     "cargo_list": [],
-    "raw_text": "Iguacio, cap. Alemany trip. 84, tons. 2298 con"
+    "raw_text": "Iguacio, cap. Alemany trip. 84, tons. 2298 con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_05",
@@ -520,7 +754,16 @@
     "master_role": "cap.",
     "master_name": "O'Neill",
     "cargo_list": [],
-    "raw_text": "-Mobila, en 3 dias berg. ing. Estalla, cap. O'Neill"
+    "raw_text": "-Mobila, en 3 dias berg. ing. Estalla, cap. O'Neill",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_05",
@@ -545,7 +788,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Compañís. De Pazcagon'a, en 8 ds., goal, am. Anna M. Stammer, cap. Sou hard, trips. 10, tons. 419, con madora. & R. Truffin y Cp."
+    "raw_text": "Compañís. De Pazcagon'a, en 8 ds., goal, am. Anna M. Stammer, cap. Sou hard, trips. 10, tons. 419, con madora. & R. Truffin y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_08",
@@ -565,7 +817,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "vap. francés Washington, cap. Barglliat, tripulautes 151, tons. 1558, con carga á Bridat, Montros y Ca"
+    "raw_text": "vap. francés Washington, cap. Barglliat, tripulautes 151, tons. 1558, con carga á Bridat, Montros y Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_08",
@@ -590,7 +851,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "con ca ga á Hidalgo y Ca De Veracruz y escala vap. amer. \"Séneca\" cap. St veas trip. 67 toas 1911 con carga á IIidalgo y"
+    "raw_text": "con ca ga á Hidalgo y Ca De Veracruz y escala vap. amer. \"Séneca\" cap. St veas trip. 67 toas 1911 con carga á IIidalgo y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_10",
@@ -604,7 +874,16 @@
     "master_role": "cap.",
     "master_name": "Staples",
     "cargo_list": [],
-    "raw_text": "fablanca De Nueva Orleans y escalas, en 5 días, vap. americano Whitney, cap. Staples, trip. 33, tons. 676,"
+    "raw_text": "fablanca De Nueva Orleans y escalas, en 5 días, vap. americano Whitney, cap. Staples, trip. 33, tons. 676,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_10",
@@ -618,7 +897,16 @@
     "master_role": "cap.",
     "master_name": "Decker",
     "cargo_list": [],
-    "raw_text": "-Tampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,"
+    "raw_text": "-Tampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_12",
@@ -653,7 +941,16 @@
         "cargo_count": "36"
       }
     ],
-    "raw_text": "Dia 11: -Tampa y Cayo-Hueso, en 30 horas, vapor americano Olivette, cap. Hanlon, ton. 1105, en lastre á Lawton y Hnos. De Liverpool y escalas, en 30 días vap. esp. Baenaventura, cap. Luzárrega, trip. 36, ton. 1831 con"
+    "raw_text": "Dia 11: -Tampa y Cayo-Hueso, en 30 horas, vapor americano Olivette, cap. Hanlon, ton. 1105, en lastre á Lawton y Hnos. De Liverpool y escalas, en 30 días vap. esp. Baenaventura, cap. Luzárrega, trip. 36, ton. 1831 con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_14",
@@ -667,7 +964,16 @@
     "master_role": "cap.",
     "master_name": "Ozamis",
     "cargo_list": [],
-    "raw_text": "Sienz, cap. Ozamis, trip. 52, tons. 3466, con"
+    "raw_text": "Sienz, cap. Ozamis, trip. 52, tons. 3466, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_14",
@@ -681,7 +987,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Nueva York, en 5 días, vap. am. Yumuri, cap."
+    "raw_text": "-Nueva York, en 5 días, vap. am. Yumuri, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_14",
@@ -701,7 +1016,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Veracruz y esca'as. en 4 ise, vap. am. Saratoga, cap. Boyce, trip. 54, ton 1692, con carga á"
+    "raw_text": "-Veracruz y esca'as. en 4 ise, vap. am. Saratoga, cap. Boyce, trip. 54, ton 1692, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_16",
@@ -715,7 +1039,16 @@
     "master_role": "cap.",
     "master_name": "Jover",
     "cargo_list": [],
-    "raw_text": "cap. Jover, trip. 58, tons. 2551, con carga de"
+    "raw_text": "cap. Jover, trip. 58, tons. 2551, con carga de",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_19",
@@ -729,7 +1062,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Nueva York, en 4 días, vap. am. Vigilancia,"
+    "raw_text": "De Nueva York, en 4 días, vap. am. Vigilancia,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_19",
@@ -743,7 +1085,16 @@
     "master_role": "cap.",
     "master_name": "Decker",
     "cargo_list": [],
-    "raw_text": "-Tampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,"
+    "raw_text": "-Tampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_19",
@@ -788,7 +1139,16 @@
         "cargo_count": "Florence"
       }
     ],
-    "raw_text": "-Liverpool y escalas, en 30 días, vap. eap Madrileño, cap. Arizaga, trip. 37, ton. 2035, con Jer carga á C. Blanch y Comp. De Baltimore en 15 dias goleta americana Florence"
+    "raw_text": "-Liverpool y escalas, en 30 días, vap. eap Madrileño, cap. Arizaga, trip. 37, ton. 2035, con Jer carga á C. Blanch y Comp. De Baltimore en 15 dias goleta americana Florence",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_19",
@@ -808,7 +1168,16 @@
         "cargo_count": "8"
       }
     ],
-    "raw_text": "cap. Warmell trp. 8 tons. 661 con carbón á los"
+    "raw_text": "cap. Warmell trp. 8 tons. 661 con carbón á los",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_20",
@@ -838,7 +1207,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Liverpool y escalos, en 31 días, vap. esp. Gracia, cap. Cirarda, trips. 38, sons. 3133, con carba"
+    "raw_text": "Liverpool y escalos, en 31 días, vap. esp. Gracia, cap. Cirarda, trips. 38, sons. 3133, con carba",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_20",
@@ -858,7 +1236,16 @@
         "cargo_count": "731"
       }
     ],
-    "raw_text": "-Cárdenas, on 1 día, vapor og. Portia, cap. Farrell, tri, s 22, tons. 731, con carga de tránsitá"
+    "raw_text": "-Cárdenas, on 1 día, vapor og. Portia, cap. Farrell, tri, s 22, tons. 731, con carga de tránsitá",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_21",
@@ -878,7 +1265,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Liverpool v Cardiff. en 30 días, vap. ing Amettyst, cap. Brown, trip. 23, ton. 1373, con carbón"
+    "raw_text": "-Liverpool v Cardiff. en 30 días, vap. ing Amettyst, cap. Brown, trip. 23, ton. 1373, con carbón",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_23",
@@ -892,7 +1288,16 @@
     "master_role": "cap.",
     "master_name": "Staples",
     "cargo_list": [],
-    "raw_text": "Dia 22: De Nueva Orlean y escalas, en 5 días, vap. am. Winey, cap. Staples, trip. 33, ton. 1337, con carga"
+    "raw_text": "Dia 22: De Nueva Orlean y escalas, en 5 días, vap. am. Winey, cap. Staples, trip. 33, ton. 1337, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_23",
@@ -906,7 +1311,16 @@
     "master_role": "cap.",
     "master_name": "Livett",
     "cargo_list": [],
-    "raw_text": "-Kinston (Jamaica), en 4 dias, vap. ing. Lusitania, cap. Livett, trip. 114, ton. 2494, á Deulofeu"
+    "raw_text": "-Kinston (Jamaica), en 4 dias, vap. ing. Lusitania, cap. Livett, trip. 114, ton. 2494, á Deulofeu",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_23",
@@ -936,7 +1350,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Veracruz y escalas, en 3 días, vap. franc. Washington, cap. Bargilliat, trip. 151, ton. 2085, á"
+    "raw_text": "-Veracruz y escalas, en 3 días, vap. franc. Washington, cap. Bargilliat, trip. 151, ton. 2085, á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_24",
@@ -950,7 +1373,16 @@
     "master_role": "cap.",
     "master_name": "Decker",
     "cargo_list": [],
-    "raw_text": "Tampa y Cayo-Hueo, en 30 horas, vapor americane Mascotte, cap. Decker, trip. 43, tons. 520,"
+    "raw_text": "Tampa y Cayo-Hueo, en 30 horas, vapor americane Mascotte, cap. Decker, trip. 43, tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_26",
@@ -985,7 +1417,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 24: -Tampico y Veracruz. en 6 días, vep. am. Orizaha, cap. Dovons, trip. 66, ton. 2334, con carga á Hiralgo y Ca -Liverpool y escalas, en 23 días, vap. esp. Serra, cap. Luzárrega, trip. 38, tons. 1471, con carga á Deulofeu, Hijo y Co Nueva York, en 4 días, vap. am. City of Washin0ton, cap. Burley, trip. 70, ton. 1619, con carga á Hidalgo y Ca -Amberes, en 23 días, vav. ing. Louise, cap. Ramsay, trip. 23, ton. 1027, con carga á Dusaqq Comp."
+    "raw_text": "Dia 24: -Tampico y Veracruz. en 6 días, vep. am. Orizaha, cap. Dovons, trip. 66, ton. 2334, con carga á Hiralgo y Ca -Liverpool y escalas, en 23 días, vap. esp. Serra, cap. Luzárrega, trip. 38, tons. 1471, con carga á Deulofeu, Hijo y Co Nueva York, en 4 días, vap. am. City of Washin0ton, cap. Burley, trip. 70, ton. 1619, con carga á Hidalgo y Ca -Amberes, en 23 días, vav. ing. Louise, cap. Ramsay, trip. 23, ton. 1027, con carga á Dusaqq Comp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_26",
@@ -999,7 +1440,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-De Veracruz en 4 días, vap. esp. Montevideo,"
+    "raw_text": "-De Veracruz en 4 días, vap. esp. Montevideo,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_26",
@@ -1029,7 +1479,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York, en 5 días, vap. esp. Ciudad Condal, cap. Castellá, trip. 72, ton. 1616, con carga"
+    "raw_text": "-Nueva York, en 5 días, vap. esp. Ciudad Condal, cap. Castellá, trip. 72, ton. 1616, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_28",
@@ -1049,7 +1508,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Tampico y escalas, en 44 días, vap. am. V gilancia cap. Mc Intesh, trip. 72, ton, 2,934, con carga á Hidalgay Ca"
+    "raw_text": "-Tampico y escalas, en 44 días, vap. am. V gilancia cap. Mc Intesh, trip. 72, ton, 2,934, con carga á Hidalgay Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_02_28",
@@ -1074,7 +1542,16 @@
         "cargo_count": "520"
       }
     ],
-    "raw_text": "Temps y Cayo-tiueo, en 30 horas, vapor americano Mascotto, cap. Decker, trip. 43. tons. 520,"
+    "raw_text": "Temps y Cayo-tiueo, en 30 horas, vapor americano Mascotto, cap. Decker, trip. 43. tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_05",
@@ -1094,7 +1571,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Filadelfia, en 8 días vap. ing. City of New Castle, cap. Jones, trip. 23, ton. 1215. con carbón á"
+    "raw_text": "-Filadelfia, en 8 días vap. ing. City of New Castle, cap. Jones, trip. 23, ton. 1215. con carbón á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_05",
@@ -1108,7 +1594,16 @@
     "master_role": "cap.",
     "master_name": "Goiccechea",
     "cargo_list": [],
-    "raw_text": "-Liverpool y escalas, en 27 dias, vap. esp. español Navarro, cap. Goiccechea, trip. 2530, con"
+    "raw_text": "-Liverpool y escalas, en 27 dias, vap. esp. español Navarro, cap. Goiccechea, trip. 2530, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_05",
@@ -1122,7 +1617,16 @@
     "master_role": "cap.",
     "master_name": "Decker",
     "cargo_list": [],
-    "raw_text": "-1ampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,"
+    "raw_text": "-1ampa y Cayo-Hueo, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_08",
@@ -1147,7 +1651,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "vapor eap. Pio IX, cap. Ugarte, trip. 56, tons."
+    "raw_text": "vapor eap. Pio IX, cap. Ugarte, trip. 56, tons.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_08",
@@ -1161,7 +1674,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-De Pases goula en 5 días, gta. ing. Syanara, cap."
+    "raw_text": "-De Pases goula en 5 días, gta. ing. Syanara, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_09",
@@ -1175,7 +1697,16 @@
     "master_role": "cap.",
     "master_name": "Carreras",
     "cargo_list": [],
-    "raw_text": "Dia 8: De Cádiz y Barcelona, en 15 días, vap. correo español Cataluña, cap. Carreras, trip. 111, ton 2214,"
+    "raw_text": "Dia 8: De Cádiz y Barcelona, en 15 días, vap. correo español Cataluña, cap. Carreras, trip. 111, ton 2214,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_09",
@@ -1189,7 +1720,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Filadelfia, en 10 dias, vap. ing. Ardandhse, cap."
+    "raw_text": "Filadelfia, en 10 dias, vap. ing. Ardandhse, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_10",
@@ -1203,7 +1743,16 @@
     "master_role": "cap.",
     "master_name": "Segura",
     "cargo_list": [],
-    "raw_text": "cap. Segura, trip. 47, tons. 1741, con carga de"
+    "raw_text": "cap. Segura, trip. 47, tons. 1741, con carga de",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_12",
@@ -1223,7 +1772,16 @@
         "cargo_count": "520"
       }
     ],
-    "raw_text": "Tampa y Cayo-Ruso, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43. tons. 520,"
+    "raw_text": "Tampa y Cayo-Ruso, en 30 horas, vapor americano Mascotte, cap. Decker, trip. 43. tons. 520,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_12",
@@ -1253,7 +1811,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Amberes y escalas en 23 días vap. ing. Cayo Romano cap. Widgery trip. 28 t. 1731 con carga"
+    "raw_text": "-Amberes y escalas en 23 días vap. ing. Cayo Romano cap. Widgery trip. 28 t. 1731 con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_12",
@@ -1267,7 +1834,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Canniff en 26 días vap. ing Kate Fancell cap."
+    "raw_text": "Canniff en 26 días vap. ing Kate Fancell cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_14",
@@ -1287,7 +1863,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Garteiz, trip. 36, tons. 1,670: con carga, á"
+    "raw_text": "cap. Garteiz, trip. 36, tons. 1,670: con carga, á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_17",
@@ -1307,7 +1892,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Veracruz y escalas, en 8 días vap. am. Saratoga, cap. Boycá, ton. 1973, con carga á Hidalgo"
+    "raw_text": "-Veracruz y escalas, en 8 días vap. am. Saratoga, cap. Boycá, ton. 1973, con carga á Hidalgo",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_19",
@@ -1332,7 +1926,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Gibsen, trip 23, ton. 1177, con carbón á Bidat, Montros y Cp. -Tamps y Cayoueo, ou 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520, en lastre & Lawton y Hnos."
+    "raw_text": "Gibsen, trip 23, ton. 1177, con carbón á Bidat, Montros y Cp. -Tamps y Cayoueo, ou 30 horas, vapor americano Mascotte, cap. Decker, trip. 43, tons. 520, en lastre & Lawton y Hnos.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_24",
@@ -1346,7 +1949,16 @@
     "master_role": "cap.",
     "master_name": "Torres",
     "cargo_list": [],
-    "raw_text": "-Barcelona y escalas en 24 dias vap. esp. J. Jover y Serra. cap. Torres, trip. 51, ton 3712, con"
+    "raw_text": "-Barcelona y escalas en 24 dias vap. esp. J. Jover y Serra. cap. Torres, trip. 51, ton 3712, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1366,7 +1978,16 @@
         "cargo_count": "10"
       }
     ],
-    "raw_text": "Dia 23:0 De Filadelfia, en 19 días gol. am. Henry J. Smith, 90cap. Adams, trip. 10, ton. 1053, con carbón á L."
+    "raw_text": "Dia 23:0 De Filadelfia, en 19 días gol. am. Henry J. Smith, 90cap. Adams, trip. 10, ton. 1053, con carbón á L.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1380,7 +2001,16 @@
     "master_role": "cap.",
     "master_name": "Burley",
     "cargo_list": [],
-    "raw_text": "-Nueva York, en 4 días, vap. am. City of Washington, cap. Burley, trip. 64, ton. 1743, con"
+    "raw_text": "-Nueva York, en 4 días, vap. am. City of Washington, cap. Burley, trip. 64, ton. 1743, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1405,7 +2035,16 @@
         "cargo_count": "Calvey Cp."
       }
     ],
-    "raw_text": "-Barcelona y escalas, en 13 días, vap. esp. Alfon80 XIII, cap. López, trip. 181, ton. 8585 con Acarga 4 M. Calvey Cp."
+    "raw_text": "-Barcelona y escalas, en 13 días, vap. esp. Alfon80 XIII, cap. López, trip. 181, ton. 8585 con Acarga 4 M. Calvey Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1430,7 +2069,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Blair. trip. 9, ton. 683, con carbón á la orden. -Baltimore, en 16 días, gol. am. Haraldine, capitán Fisten, trip. 30, ton. 1291, con carbón á Barrios y Cp."
+    "raw_text": "cap. Blair. trip. 9, ton. 683, con carbón á la orden. -Baltimore, en 16 días, gol. am. Haraldine, capitán Fisten, trip. 30, ton. 1291, con carbón á Barrios y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1444,7 +2092,16 @@
     "master_role": "cap.",
     "master_name": "Lavin",
     "cargo_list": [],
-    "raw_text": "-Cádiz y escalas, en 16 días, vap. esp. Santo Domingo, cap. Lavin, trip. 95, ton. 1928, en lastre á oa M. Calvo y . Cp08170010001"
+    "raw_text": "-Cádiz y escalas, en 16 días, vap. esp. Santo Domingo, cap. Lavin, trip. 95, ton. 1928, en lastre á oa M. Calvo y . Cp08170010001",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1464,7 +2121,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Nueva York, en 4 días, vap. esp. Ciudad Condal, cap. Castellá, trip. 72, ton. 1616, con carga"
+    "raw_text": "Nueva York, en 4 días, vap. esp. Ciudad Condal, cap. Castellá, trip. 72, ton. 1616, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_26",
@@ -1484,7 +2150,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Filadelfia, en 11 días. gol. am. Arthur Me Ardale, cap. Meqec, trip. 9, ton. 850, con carbón á la"
+    "raw_text": "Filadelfia, en 11 días. gol. am. Arthur Me Ardale, cap. Meqec, trip. 9, ton. 850, con carbón á la",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_27",
@@ -1509,7 +2184,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "de Larrañaga, cap. Echevarría, trip. 38, tons."
+    "raw_text": "de Larrañaga, cap. Echevarría, trip. 38, tons.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_27",
@@ -1534,7 +2218,16 @@
         "cargo_count": "1299"
       }
     ],
-    "raw_text": "Rice, trip. 11, ton. 617, con carga á Luis V. [り] Placé. ah Filadelfia, en 14 días, gol. am. Eoern Hagget, do cap. Pael, trip. 10, tom. 1299, con carbón á la oorden. la ang 9110 BI singh 2010s an"
+    "raw_text": "Rice, trip. 11, ton. 617, con carga á Luis V. [り] Placé. ah Filadelfia, en 14 días, gol. am. Eoern Hagget, do cap. Pael, trip. 10, tom. 1299, con carbón á la oorden. la ang 9110 BI singh 2010s an",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_27",
@@ -1554,7 +2247,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Santander y Coruña, en 17 dias vap. esp. León an XIII, cap. Galiano, trip. 130, ton. 2957, con carga á M. Calvo y Cp."
+    "raw_text": "Santander y Coruña, en 17 dias vap. esp. León an XIII, cap. Galiano, trip. 130, ton. 2957, con carga á M. Calvo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_03_28",
@@ -1574,7 +2276,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Morris, trip. 7, tons. 245: can madera, á la"
+    "raw_text": "cap. Morris, trip. 7, tons. 245: can madera, á la",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_03",
@@ -1599,7 +2310,16 @@
         "cargo_count": "317"
       }
     ],
-    "raw_text": "De Barcelona en 74 dias goleta española \"Juanita capitan M. Martínez trip. 11 tons 317 con carga á Astorguir Ca"
+    "raw_text": "De Barcelona en 74 dias goleta española \"Juanita capitan M. Martínez trip. 11 tons 317 con carga á Astorguir Ca",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_05",
@@ -1619,7 +2339,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-De Nueva York, en 5 dias. vap. esp. M. L. Villaverde, cap. E Tomasi, con carga, á M. Calvo"
+    "raw_text": "-De Nueva York, en 5 dias. vap. esp. M. L. Villaverde, cap. E Tomasi, con carga, á M. Calvo",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_06",
@@ -1639,7 +2368,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Lazárraga, trip. 83, tons. 1331, con carga á"
+    "raw_text": "cap. Lazárraga, trip. 83, tons. 1331, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_06",
@@ -1653,7 +2391,16 @@
     "master_role": "cap.",
     "master_name": "Peterson",
     "cargo_list": [],
-    "raw_text": "Fladelfia, vap. ing. Ovingham, cap. Peterson,"
+    "raw_text": "Fladelfia, vap. ing. Ovingham, cap. Peterson,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_06",
@@ -1678,7 +2425,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "trip. 23, ton 1250, con carbón & L. V. Placé. -Vigo y Torrevieia, en 67 días, berg. gol. Amazona, cap. Taberna, trip. 11, ton. 443 con carga á"
+    "raw_text": "trip. 23, ton 1250, con carbón & L. V. Placé. -Vigo y Torrevieia, en 67 días, berg. gol. Amazona, cap. Taberna, trip. 11, ton. 443 con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_06",
@@ -1698,7 +2454,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Nueva Orleans en 2 días, vap, esp. Jaan Forgas, cap. Nacher, trip. 47, tons. 2,223: can carga"
+    "raw_text": "Nueva Orleans en 2 días, vap, esp. Jaan Forgas, cap. Nacher, trip. 47, tons. 2,223: can carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_06",
@@ -1718,7 +2483,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Santander y Coruña, en 15 días, vap. correo español Ciudad de Santander, cap. García, tripulentes 114, ton. 2941 con carga á M. Calvo y Op."
+    "raw_text": "Santander y Coruña, en 15 días, vap. correo español Ciudad de Santander, cap. García, tripulentes 114, ton. 2941 con carga á M. Calvo y Op.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_10",
@@ -1738,7 +2512,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Di 9: De Nueva Yor an 2 dias, vap. esp. Pio IX, cap. Ugarte, trip. 59, tons. 2958, con carga de tránsito"
+    "raw_text": "Di 9: De Nueva Yor an 2 dias, vap. esp. Pio IX, cap. Ugarte, trip. 59, tons. 2958, con carga de tránsito",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_11",
@@ -1758,7 +2541,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "to Bol Do Tampa y Cavo Hnoso, en 8 horas. vap. am MasMcotte, cap. Hewes, trip. 42, ton 520, en lastre á el Lawton y Hnos. ab asanamedev sain sods"
+    "raw_text": "to Bol Do Tampa y Cavo Hnoso, en 8 horas. vap. am MasMcotte, cap. Hewes, trip. 42, ton 520, en lastre á el Lawton y Hnos. ab asanamedev sain sods",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_11",
@@ -1783,7 +2575,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Tampico, vap. am. Saratoga, cap. Boyce, tripuJantes 61, ton. 1972 con carga á Hidalgo y Cp."
+    "raw_text": "Tampico, vap. am. Saratoga, cap. Boyce, tripuJantes 61, ton. 1972 con carga á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_16",
@@ -1803,7 +2604,16 @@
         "cargo_count": "eqo"
       }
     ],
-    "raw_text": "-Nueva York, en 4 días, vap. am. City of Washington, cap. Burley, trip. 60, ton. 1743, con eqo carga á Hidalgo y Cp."
+    "raw_text": "-Nueva York, en 4 días, vap. am. City of Washington, cap. Burley, trip. 60, ton. 1743, con eqo carga á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_16",
@@ -1817,7 +2627,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Nueva York, en 4 días, vap. esp. Panamá, cap."
+    "raw_text": "-Nueva York, en 4 días, vap. esp. Panamá, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_18",
@@ -1837,7 +2656,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 17: De Tampico, en 3 dias vap. am. Yumuri. cap. Hasen, trip. 54, ton. 2382, con carga á Hidalgo y"
+    "raw_text": "Día 17: De Tampico, en 3 dias vap. am. Yumuri. cap. Hasen, trip. 54, ton. 2382, con carga á Hidalgo y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_19",
@@ -1857,7 +2685,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Brown, trips. 29, tons. 2132; en lastre: á R."
+    "raw_text": "cap. Brown, trips. 29, tons. 2132; en lastre: á R.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_19",
@@ -1877,7 +2714,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Echevarría, trips. 33, tons. 1587, con carga"
+    "raw_text": "cap. Echevarría, trips. 33, tons. 1587, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_20",
@@ -1891,7 +2737,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Montevideo, en 67 días berg. esp. Gustavo, cap."
+    "raw_text": "-Montevideo, en 67 días berg. esp. Gustavo, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_21",
@@ -1905,7 +2760,16 @@
     "master_role": "cap.",
     "master_name": "Jhonson",
     "cargo_list": [],
-    "raw_text": ") a 20 Para Cárdenas, vap. ing. Castlefield, cap. Jhonson --Cayo Hueso y Tampa, aap am. Olivette, capitán Hanlon, por Lawton y Hnos. Para Coruña y escalas vapor-corrзo \"Alfonso XIII\", cap. López Nueva York vap. 6sp. \"Panam\", capitán Casquero. --Naeva York, vap. amer. \"Yucatán\", capitán"
+    "raw_text": ") a 20 Para Cárdenas, vap. ing. Castlefield, cap. Jhonson --Cayo Hueso y Tampa, aap am. Olivette, capitán Hanlon, por Lawton y Hnos. Para Coruña y escalas vapor-corrзo \"Alfonso XIII\", cap. López Nueva York vap. 6sp. \"Panam\", capitán Casquero. --Naeva York, vap. amer. \"Yucatán\", capitán",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_24",
@@ -1925,7 +2789,16 @@
         "cargo_count": "10"
       }
     ],
-    "raw_text": "Nueva York en 19 dis harosa ame. Reveca Crowell, cap. Dow. trip 10 tons. 557. con losas,"
+    "raw_text": "Nueva York en 19 dis harosa ame. Reveca Crowell, cap. Dow. trip 10 tons. 557. con losas,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_24",
@@ -1955,7 +2828,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Barcelona y escalas on 62 dias, barca esp. Montornés cap. J. Riera, trip. 17, tons. 791 con carato ga á Balcells y y Comp."
+    "raw_text": "Barcelona y escalas on 62 dias, barca esp. Montornés cap. J. Riera, trip. 17, tons. 791 con carato ga á Balcells y y Comp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_25",
@@ -1969,7 +2851,16 @@
     "master_role": "cap.",
     "master_name": "Jate",
     "cargo_list": [],
-    "raw_text": "Dia 24:o De Baltimore, en 6 días vap. ing. Acme, cap. Jate,"
+    "raw_text": "Dia 24:o De Baltimore, en 6 días vap. ing. Acme, cap. Jate,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_25",
@@ -1989,7 +2880,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Dunglass, trip. 8, tons. 583: con carbón, á"
+    "raw_text": "cap. Dunglass, trip. 8, tons. 583: con carbón, á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_25",
@@ -2003,7 +2903,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-De la Plata en 66 días, barca española Roca,"
+    "raw_text": "-De la Plata en 66 días, barca española Roca,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_26",
@@ -2017,7 +2926,16 @@
     "master_role": "cap.",
     "master_name": "Castellà",
     "cargo_list": [],
-    "raw_text": "Día 24: De Nueva York, en 4 días vap. esp. Ciudad Condal, cap. Castellà, trip. 72, ton. 1616, con carga"
+    "raw_text": "Día 24: De Nueva York, en 4 días vap. esp. Ciudad Condal, cap. Castellà, trip. 72, ton. 1616, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_26",
@@ -2037,7 +2955,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Hall, trip. 9, tons. 839; con carbón á P."
+    "raw_text": "cap. Hall, trip. 9, tons. 839; con carbón á P.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_26",
@@ -2057,7 +2984,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Hemp el, trips. 8, tons. 686; con carbón: á"
+    "raw_text": "cap. Hemp el, trips. 8, tons. 686; con carbón: á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_27",
@@ -2071,7 +3007,16 @@
     "master_role": "cap.",
     "master_name": "Maxon",
     "cargo_list": [],
-    "raw_text": "Día 26: De Nueva Orleans y escalas, en 5 días. vap. am. Aransas. cap. Maxon, trip. 35, ton. 678, con carga"
+    "raw_text": "Día 26: De Nueva Orleans y escalas, en 5 días. vap. am. Aransas. cap. Maxon, trip. 35, ton. 678, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_27",
@@ -2091,7 +3036,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Santander y escalas, en 21 días vap. esp. San Agustín, cap. Grau, ton. 1568, con carga á M."
+    "raw_text": "-Santander y escalas, en 21 días vap. esp. San Agustín, cap. Grau, ton. 1568, con carga á M.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_28",
@@ -2111,7 +3065,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Barcelona y escalas, en 39 días vap. esp. Calaina, cap. Diez, ton. 3495, con carga á Loychate,"
+    "raw_text": "-Barcelona y escalas, en 39 días vap. esp. Calaina, cap. Diez, ton. 3495, con carga á Loychate,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_28",
@@ -2125,7 +3088,16 @@
     "master_role": "cap.",
     "master_name": "Smith",
     "cargo_list": [],
-    "raw_text": "Saenz y Cp. --Fil delfia, vap. ing. Schiehalloin, cap. Smith, toneladas 1041, en lustre á L. V. Placé.."
+    "raw_text": "Saenz y Cp. --Fil delfia, vap. ing. Schiehalloin, cap. Smith, toneladas 1041, en lustre á L. V. Placé..",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_28",
@@ -2145,7 +3117,16 @@
         "cargo_count": "1366"
       }
     ],
-    "raw_text": "México, cap. Manach, trips. 73, tons. 1366, con"
+    "raw_text": "México, cap. Manach, trips. 73, tons. 1366, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_04_28",
@@ -2165,7 +3146,16 @@
         "cargo_count": "199"
       }
     ],
-    "raw_text": "Dieguito, cap. Isern, trips. 11, tons. 199, con"
+    "raw_text": "Dieguito, cap. Isern, trips. 11, tons. 199, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_01",
@@ -2179,7 +3169,16 @@
     "master_role": "cap.",
     "master_name": "Grau",
     "cargo_list": [],
-    "raw_text": "Jenit l al of Día 20: sl Para Vigo, Coruña, Gijón y Santander, vap. correo Boleap. San Agustín, cap. Grau. 0700 fom"
+    "raw_text": "Jenit l al of Día 20: sl Para Vigo, Coruña, Gijón y Santander, vap. correo Boleap. San Agustín, cap. Grau. 0700 fom",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_02",
@@ -2199,7 +3198,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 19: De Tampico, en 3 díie, vap. am. Séneca, cap. Stevens, ton. 1912, con carga de tránsito á Hidalgo"
+    "raw_text": "Día 19: De Tampico, en 3 díie, vap. am. Séneca, cap. Stevens, ton. 1912, con carga de tránsito á Hidalgo",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_02",
@@ -2213,7 +3221,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Nueva York, en 3 días. vap. am. Yumuri, cap."
+    "raw_text": "Nueva York, en 3 días. vap. am. Yumuri, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_04",
@@ -2238,7 +3255,16 @@
         "cargo_count": "767"
       }
     ],
-    "raw_text": "Día 3: om De Nueva Orleans y escalas, en 5 días vap. americano Whitney, cap. Staples, trip. 33, tons. 767,"
+    "raw_text": "Día 3: om De Nueva Orleans y escalas, en 5 días vap. americano Whitney, cap. Staples, trip. 33, tons. 767,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_04",
@@ -2258,7 +3284,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Panzacola, en 2 días. vap. ing. Amethys, cap. lle Brown, trip. 22, ton. 872, con carga á Deulofen,"
+    "raw_text": "-Panzacola, en 2 días. vap. ing. Amethys, cap. lle Brown, trip. 22, ton. 872, con carga á Deulofen,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_04",
@@ -2278,7 +3313,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Liverpool y escalas, en 27 días vap. esp. Saturnina, cap. Bengoa, trip. 38, ton. 1786, con carga gorá Loychate, Saenz y Cp."
+    "raw_text": "-Liverpool y escalas, en 27 días vap. esp. Saturnina, cap. Bengoa, trip. 38, ton. 1786, con carga gorá Loychate, Saenz y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_05",
@@ -2292,7 +3336,16 @@
     "master_role": "cap.",
     "master_name": "Howes",
     "cargo_list": [],
-    "raw_text": "general á Sobrinos de Horrera. De Tampa y Caro Hueso, en 8 horas. vap. am. Mascotte. cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "general á Sobrinos de Horrera. De Tampa y Caro Hueso, en 8 horas. vap. am. Mascotte. cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_07",
@@ -2317,7 +3370,16 @@
         "cargo_count": "1743"
       }
     ],
-    "raw_text": "-Nueva York, en 4 dias, vap. am. City of Waahington, cap. Burley, trip. 65, ton. 1743, con"
+    "raw_text": "-Nueva York, en 4 dias, vap. am. City of Waahington, cap. Burley, trip. 65, ton. 1743, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_08",
@@ -2342,7 +3404,16 @@
         "cargo_count": "32"
       }
     ],
-    "raw_text": "Día 7: De Hamburgo y escalas en 31 dias vap. alemán Saxonia eap. Schaarschmidt, tons. 1264, trip. 32"
+    "raw_text": "Día 7: De Hamburgo y escalas en 31 dias vap. alemán Saxonia eap. Schaarschmidt, tons. 1264, trip. 32",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_09",
@@ -2362,7 +3433,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 8: De Tampa y Cavo Hueso, en 8 horas, vap. am. Mas-cotte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Día 8: De Tampa y Cavo Hueso, en 8 horas, vap. am. Mas-cotte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_11",
@@ -2387,7 +3467,16 @@
         "cargo_count": "678"
       }
     ],
-    "raw_text": "-Nueva Orleana y escalas, en 5 días, vap. americano Aransas. cap. Maxson, trip. 35 ton. 678,"
+    "raw_text": "-Nueva Orleana y escalas, en 5 días, vap. americano Aransas. cap. Maxson, trip. 35 ton. 678,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_11",
@@ -2407,7 +3496,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Veracruz, en 10 días, vaa. am, Seguranca, capitin Hoffmann, trip. 70, ton. 2806, con carga á Hidalgo y Cp. -Barcelona en 40 días, vap. esp. Miguel Gallart, cap. Mas, trip. 46, tons. 2,404: con carga, á C. Blanch y Cp."
+    "raw_text": "-Veracruz, en 10 días, vaa. am, Seguranca, capitin Hoffmann, trip. 70, ton. 2806, con carga á Hidalgo y Cp. -Barcelona en 40 días, vap. esp. Miguel Gallart, cap. Mas, trip. 46, tons. 2,404: con carga, á C. Blanch y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_12",
@@ -2427,7 +3525,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 11: De Tampa y Cavo Hueso, en 8 horas, vap. am. Mascotte. cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Día 11: De Tampa y Cavo Hueso, en 8 horas, vap. am. Mascotte. cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_14",
@@ -2447,7 +3554,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Liverpool y oscalas, en 30 días vap. eap. Carolina, cap. Calzada, trip. 37, ton. 1350 con carga á"
+    "raw_text": "-Liverpool y oscalas, en 30 días vap. eap. Carolina, cap. Calzada, trip. 37, ton. 1350 con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_15",
@@ -2477,7 +3593,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Canarias y escalas en 28 dias, berg. esp. S. Salvador cap J. Roca, trip. 9, tons. 190 con Cebolas á Astorqui y Cp."
+    "raw_text": "-Canarias y escalas en 28 dias, berg. esp. S. Salvador cap J. Roca, trip. 9, tons. 190 con Cebolas á Astorqui y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_15",
@@ -2507,7 +3632,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Filadalfia en 20 dias berg. am. Motleg, cap. Harper, trip. 10, tons. 567 con carbón á conill y Archbodl."
+    "raw_text": "-Filadalfia en 20 dias berg. am. Motleg, cap. Harper, trip. 10, tons. 567 con carbón á conill y Archbodl.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_16",
@@ -2527,7 +3661,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 15: De Tampa y Cavo Hneso, en 8 horas, vap. am. Massob cotte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Día 15: De Tampa y Cavo Hneso, en 8 horas, vap. am. Massob cotte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_16",
@@ -2547,7 +3690,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Stevens, trip. 62, tons. 1,911: con carga, ald Hidalgo y Cp."
+    "raw_text": "cap. Stevens, trip. 62, tons. 1,911: con carga, ald Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_17",
@@ -2561,7 +3713,16 @@
     "master_role": "cap.",
     "master_name": "Me InJaitosh",
     "cargo_list": [],
-    "raw_text": "Nueva York, vap. am. Vigilancia cap. Me InJaitosh."
+    "raw_text": "Nueva York, vap. am. Vigilancia cap. Me InJaitosh.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_17",
@@ -2575,7 +3736,16 @@
     "master_role": "cap.",
     "master_name": "Stevens",
     "cargo_list": [],
-    "raw_text": "-Veracruz vap. am. Séneca cap. Stevens,"
+    "raw_text": "-Veracruz vap. am. Séneca cap. Stevens,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_18",
@@ -2589,7 +3759,16 @@
     "master_role": "cap.",
     "master_name": "Gorordo",
     "cargo_list": [],
-    "raw_text": "Día 17: De Veracruz, en 2 días, vap. ecp. Reina M Cristina. cap. Gorordo, trip. 140, ton. 3633, con carga"
+    "raw_text": "Día 17: De Veracruz, en 2 días, vap. ecp. Reina M Cristina. cap. Gorordo, trip. 140, ton. 3633, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_19",
@@ -2609,7 +3788,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Tampa y Cayo Hnoso, en 8 horas. vap. am Mastofocotte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "-Tampa y Cayo Hnoso, en 8 horas. vap. am Mastofocotte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_21",
@@ -2623,7 +3811,16 @@
     "master_role": "cap.",
     "master_name": "Lavin",
     "cargo_list": [],
-    "raw_text": "-Blbao y escalas, en 22 dfa. vap. en. Santo Domingo, cap. Lavin, trip. 99 ton. 1927, con carga"
+    "raw_text": "-Blbao y escalas, en 22 dfa. vap. en. Santo Domingo, cap. Lavin, trip. 99 ton. 1927, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_23",
@@ -2643,7 +3840,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Tampa y Cavo Hneso, en 8 horas. vap. am. Mascotte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "-Tampa y Cavo Hneso, en 8 horas. vap. am. Mascotte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_23",
@@ -2668,7 +3874,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Barcelona y escalas en 42 dias vapor eap. Migael M. Pinillos, cap. Bergochea. trip. 53, tons."
+    "raw_text": "-Barcelona y escalas en 42 dias vapor eap. Migael M. Pinillos, cap. Bergochea. trip. 53, tons.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_24",
@@ -2693,7 +3908,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 23: Nueva Orleans, en 3 días, vap. eap. Catalina, cap. Diez, trip. 59, ton. 3491, con carga de tránsito & Loychate, Saenz y Cp. -Cádiz y escalas, en 14 días, vap. esp. León XIII cap. Galiana, trip. 130, ton. 2959, con carga á M. Calvo y Cp."
+    "raw_text": "Día 23: Nueva Orleans, en 3 días, vap. eap. Catalina, cap. Diez, trip. 59, ton. 3491, con carga de tránsito & Loychate, Saenz y Cp. -Cádiz y escalas, en 14 días, vap. esp. León XIII cap. Galiana, trip. 130, ton. 2959, con carga á M. Calvo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_26",
@@ -2707,7 +3931,16 @@
     "master_role": "cap.",
     "master_name": "Storm",
     "cargo_list": [],
-    "raw_text": "-Cárdenas, vap. ing. Falaharo, cap. Storm, trip."
+    "raw_text": "-Cárdenas, vap. ing. Falaharo, cap. Storm, trip.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_26",
@@ -2721,7 +3954,16 @@
     "master_role": "cap.",
     "master_name": "Howes",
     "cargo_list": [],
-    "raw_text": "-Tampa y Cavo Hneso, en 8 horas, vap. am. Mascotte, cap. Howes, trip. 43, ton 520, en lastra á"
+    "raw_text": "-Tampa y Cavo Hneso, en 8 horas, vap. am. Mascotte, cap. Howes, trip. 43, ton 520, en lastra á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_26",
@@ -2741,7 +3983,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Filade fia, en 29 da., gol. am. F. H. Small, capitán Thompson, trip. 8, tons. 588 con petrolio:"
+    "raw_text": "-Filade fia, en 29 da., gol. am. F. H. Small, capitán Thompson, trip. 8, tons. 588 con petrolio:",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_28",
@@ -2761,7 +4012,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Filadelfia, en 7 duas vap. ing Gallina, cap. Whte, trip. 23, ton. 1135, con carbón á la C Hispano Americana de Gas."
+    "raw_text": "-Filadelfia, en 7 duas vap. ing Gallina, cap. Whte, trip. 23, ton. 1135, con carbón á la C Hispano Americana de Gas.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_05_31",
@@ -2786,7 +4046,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York, en 4 días, vap. am. Yumuri, canitán Hansen, trip. 61 tons. 2332, con carga á Hidalgo y Cp."
+    "raw_text": "-Nueva York, en 4 días, vap. am. Yumuri, canitán Hansen, trip. 61 tons. 2332, con carga á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_01",
@@ -2806,7 +4075,16 @@
         "cargo_count": "302"
       }
     ],
-    "raw_text": "-Nueva York. en 15 días. gol. am. Harri Knowiten, cap. Jeluff, ton. 302, con madera á A. Jiménez."
+    "raw_text": "-Nueva York. en 15 días. gol. am. Harri Knowiten, cap. Jeluff, ton. 302, con madera á A. Jiménez.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_01",
@@ -2826,7 +4104,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Baltimore, en 28 días, gol. am. Willian J. Len-mond. cap. Hupper, ton. 839, con carbón á Ba"
+    "raw_text": "-Baltimore, en 28 días, gol. am. Willian J. Len-mond. cap. Hupper, ton. 839, con carbón á Ba",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_04",
@@ -2840,7 +4127,16 @@
     "master_role": "cap.",
     "master_name": "Mas",
     "cargo_list": [],
-    "raw_text": "-Naeva Orleans, en 3 días, vap. ep. Migael Gallart, cap. Mas, trip. 45, ton. 2404, con carga de"
+    "raw_text": "-Naeva Orleans, en 3 días, vap. ep. Migael Gallart, cap. Mas, trip. 45, ton. 2404, con carga de",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_06",
@@ -2854,7 +4150,16 @@
     "master_role": "cap.",
     "master_name": "Howes",
     "cargo_list": [],
-    "raw_text": "-Tampa y Cavo Hneso, en 8 horas. vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastra á"
+    "raw_text": "-Tampa y Cavo Hneso, en 8 horas. vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastra á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_06",
@@ -2879,7 +4184,16 @@
         "cargo_count": "2035"
       }
     ],
-    "raw_text": "-Liverpool y escalas, en 24 días. vap. es. Madri'eño, cap. Arr balzaga, trip 38, ton. 2035 con"
+    "raw_text": "-Liverpool y escalas, en 24 días. vap. es. Madri'eño, cap. Arr balzaga, trip 38, ton. 2035 con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_07",
@@ -2893,7 +4207,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-De Pazcaguola, en diez días, goleta americana"
+    "raw_text": "-De Pazcaguola, en diez días, goleta americana",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_13",
@@ -2907,7 +4230,16 @@
     "master_role": "cap.",
     "master_name": "Widgery",
     "cargo_list": [],
-    "raw_text": "Dia 11: De Londres y eanalas, en 31 dias vap. ing. Cavo Romano, cap. Widgery, trip. 27, ton. 1735, con"
+    "raw_text": "Dia 11: De Londres y eanalas, en 31 dias vap. ing. Cavo Romano, cap. Widgery, trip. 27, ton. 1735, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_16",
@@ -2921,7 +4253,16 @@
     "master_role": "cap.",
     "master_name": "Howes",
     "cargo_list": [],
-    "raw_text": "-Tampa y Cayo Hueso, en 8 horas, vap. am. Mascotte, cap. Howes, trip. 42, ton 520, en la stre á"
+    "raw_text": "-Tampa y Cayo Hueso, en 8 horas, vap. am. Mascotte, cap. Howes, trip. 42, ton 520, en la stre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_18",
@@ -2941,7 +4282,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 16: -Cádiz y escalas, en 15 días, vap esp. Ciudad de Cádiz, cap. Alemany, trip. 117, ton. 1840, con carga á M Calvo y Cp. -Nueva York, en 4 días, vap. am. Orizaba, capltán Downs, trip. 64, ton. 2334, con carga á Hidalgo y Cp. -Liverpool y escalas, en 21 días, vap. esp Alicia, cap. Aldamiz, trip. 36, ton. 1837, con carga á Deulofeu, Hijo y Cp. -Barcelona y escalas, en 16 días, vap. esp. Baenos Aires, cap. Genis, trip. 136, ton. 3764 con carga á M. Calvo y Cp"
+    "raw_text": "Día 16: -Cádiz y escalas, en 15 días, vap esp. Ciudad de Cádiz, cap. Alemany, trip. 117, ton. 1840, con carga á M Calvo y Cp. -Nueva York, en 4 días, vap. am. Orizaba, capltán Downs, trip. 64, ton. 2334, con carga á Hidalgo y Cp. -Liverpool y escalas, en 21 días, vap. esp Alicia, cap. Aldamiz, trip. 36, ton. 1837, con carga á Deulofeu, Hijo y Cp. -Barcelona y escalas, en 16 días, vap. esp. Baenos Aires, cap. Genis, trip. 136, ton. 3764 con carga á M. Calvo y Cp",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_23",
@@ -2955,7 +4305,16 @@
     "master_role": "cap.",
     "master_name": "Jover",
     "cargo_list": [],
-    "raw_text": "Barcelona y escalas en 22 días. vap. esp. J. Jover Barra, cap. Jover, trip. 37, ton. 1211, con"
+    "raw_text": "Barcelona y escalas en 22 días. vap. esp. J. Jover Barra, cap. Jover, trip. 37, ton. 1211, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_06_30",
@@ -2969,7 +4328,16 @@
     "master_role": "cap.",
     "master_name": "Howes",
     "cargo_list": [],
-    "raw_text": "Día 29: De Tampa y Cayo Hueso, en 8 horas. vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastre &"
+    "raw_text": "Día 29: De Tampa y Cayo Hueso, en 8 horas. vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastre &",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_02",
@@ -2994,7 +4362,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 30: De Nueva York, en 4 días vap. am. City of Washington, cap. Burley, trip. 70, ton. 2626, con carga á Hidalgo y Cp."
+    "raw_text": "Día 30: De Nueva York, en 4 días vap. am. City of Washington, cap. Burley, trip. 70, ton. 2626, con carga á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_04",
@@ -3014,7 +4391,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 3: Da Tampa y Cavo Huese, en 8 horas. vap. am Mascette, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Dia 3: Da Tampa y Cavo Huese, en 8 horas. vap. am Mascette, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_04",
@@ -3034,7 +4420,16 @@
         "cargo_count": "204"
       }
     ],
-    "raw_text": "berg. esp. Rosario, cap. Rodríguez, ton. 204, con"
+    "raw_text": "berg. esp. Rosario, cap. Rodríguez, ton. 204, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_04",
@@ -3064,7 +4459,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York en 4 dias. vap. amer. Yucatán, capitán Reynolds, trip. 70, tons. 2,317: con carga,"
+    "raw_text": "-Nueva York en 4 dias. vap. amer. Yucatán, capitán Reynolds, trip. 70, tons. 2,317: con carga,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_06",
@@ -3078,7 +4482,16 @@
     "master_role": "cap.",
     "master_name": "Maxon",
     "cargo_list": [],
-    "raw_text": "-Nueдa Orleans y escalas, en 5 días, vap. amoricano Aransas, cap. Maxon, trip. 678, con carga"
+    "raw_text": "-Nueдa Orleans y escalas, en 5 días, vap. amoricano Aransas, cap. Maxon, trip. 678, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_07",
@@ -3098,7 +4511,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dis 6: De Tampa y Cavo Hueso, en 8 horas, vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Dis 6: De Tampa y Cavo Hueso, en 8 horas, vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_09",
@@ -3128,7 +4550,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 7: De St Nazaire y escalas. en 19 días vap. franc. Washing on, cap. Bargilhat, trip. ton. 1551, con carga & Bridat, Menaros y Cp."
+    "raw_text": "Día 7: De St Nazaire y escalas. en 19 días vap. franc. Washing on, cap. Bargilhat, trip. ton. 1551, con carga & Bridat, Menaros y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_09",
@@ -3148,7 +4579,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Veracruz y escalas, en 4 días vap. correo eapañol Ciutad Condal, cap. Lavin, trip 68, toneladas 1616, con carga á M. Calvo y Cp."
+    "raw_text": "Veracruz y escalas, en 4 días vap. correo eapañol Ciutad Condal, cap. Lavin, trip 68, toneladas 1616, con carga á M. Calvo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_11",
@@ -3168,7 +4608,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 10: Da Tampa y Cayo Hueso, en 8 hores. vap. am Mascatte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Dia 10: Da Tampa y Cayo Hueso, en 8 hores. vap. am Mascatte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_12",
@@ -3198,7 +4647,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dis 10: De Veracruz, en 4 días, vap. am. City of Washington, cap. Barley, tríp. 70 ton. 2626, con carga &"
+    "raw_text": "Dis 10: De Veracruz, en 4 días, vap. am. City of Washington, cap. Barley, tríp. 70 ton. 2626, con carga &",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_14",
@@ -3212,7 +4670,16 @@
     "master_role": "cap.",
     "master_name": "He was",
     "cargo_list": [],
-    "raw_text": "13: De Tampa y Cavo Hueso, en 30 horas, vap. am Mascotte, cap. He was, trip 42, ton 520, en lastre á"
+    "raw_text": "13: De Tampa y Cavo Hueso, en 30 horas, vap. am Mascotte, cap. He was, trip 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_14",
@@ -3232,7 +4699,16 @@
         "cargo_count": "1,537"
       }
     ],
-    "raw_text": "-De Liverpool y escalas, 123 días vap. esp. Palentino, cap Guer ica irip 33, tons. 1,537, con"
+    "raw_text": "-De Liverpool y escalas, 123 días vap. esp. Palentino, cap Guer ica irip 33, tons. 1,537, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_16",
@@ -3246,7 +4722,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Di 14. De Nueva York en 4 dias, vap. am. Yumuri, cap."
+    "raw_text": "Di 14. De Nueva York en 4 dias, vap. am. Yumuri, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_18",
@@ -3266,7 +4751,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 17: Do Tampa y Caro Hueso, en 30 horas, vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastre á"
+    "raw_text": "Dia 17: Do Tampa y Caro Hueso, en 30 horas, vap. am Mascotte, cap. Howes, trip. 42, ton 520, en lastre á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_19",
@@ -3280,7 +4774,16 @@
     "master_role": "cap.",
     "master_name": "Gómez",
     "cargo_list": [],
-    "raw_text": "-De Cadiz y escalas, vía de Cuba en 19 dias vapor español Baldomero Iglesias, cap. Gómez,"
+    "raw_text": "-De Cadiz y escalas, vía de Cuba en 19 dias vapor español Baldomero Iglesias, cap. Gómez,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_19",
@@ -3300,7 +4803,16 @@
         "cargo_count": "57"
       }
     ],
-    "raw_text": "Jover Serra\" cap. Jover trip 57 tons. 2311"
+    "raw_text": "Jover Serra\" cap. Jover trip 57 tons. 2311",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_20",
@@ -3314,7 +4826,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Dis 19: De New Orleans en 5 dias vap. am. Aransas, cap."
+    "raw_text": "Dis 19: De New Orleans en 5 dias vap. am. Aransas, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_21",
@@ -3328,7 +4849,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Nueva York vap. americano \"Yucatán\" cap."
+    "raw_text": "-Nueva York vap. americano \"Yucatán\" cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_23",
@@ -3342,7 +4872,16 @@
     "master_role": "cap.",
     "master_name": "Boyca",
     "cargo_list": [],
-    "raw_text": "Dia 21 De NUEVA YORK en 4 dius vap. americano \"Saratoga\" cap. Boyca trip. 60 ton. 1973 con carga"
+    "raw_text": "Dia 21 De NUEVA YORK en 4 dius vap. americano \"Saratoga\" cap. Boyca trip. 60 ton. 1973 con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_27",
@@ -3367,7 +4906,16 @@
         "cargo_count": "2934"
       }
     ],
-    "raw_text": "Dia 36 De VERACRUZ y escalas en 8lias vap. americano Vigilancia, cap. Mc. Intorh trip. 70 ton. 2934"
+    "raw_text": "Dia 36 De VERACRUZ y escalas en 8lias vap. americano Vigilancia, cap. Mc. Intorh trip. 70 ton. 2934",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_27",
@@ -3381,7 +4929,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Nueva Orleans en 2 dias vap. esp. Pio IX cap."
+    "raw_text": "-Nueva Orleans en 2 dias vap. esp. Pio IX cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_07_31",
@@ -3395,7 +4952,16 @@
     "master_role": "cap.",
     "master_name": "Uribolarrea",
     "cargo_list": [],
-    "raw_text": "-Liverpool y escalas, en 34 días, vap. esp. Gaditano, cap. Uribolarrea, t.ip 34. ton. 1710, con"
+    "raw_text": "-Liverpool y escalas, en 34 días, vap. esp. Gaditano, cap. Uribolarrea, t.ip 34. ton. 1710, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_02",
@@ -3409,7 +4975,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Dia 31: De Nueva York, en 41 días. vap. am. Orizaba, cap."
+    "raw_text": "Dia 31: De Nueva York, en 41 días. vap. am. Orizaba, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_06",
@@ -3423,7 +4998,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Nueva York en 4 dias vap. esp. Hahana cap."
+    "raw_text": "-Nueva York en 4 dias vap. esp. Hahana cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_10",
@@ -3448,7 +5032,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 8: De Nueva York, en 37 días, gol. am. John R. Bergeu. cap. Paterson, trip. 8 ton. 615, con petróleo á L. V. Placé"
+    "raw_text": "Día 8: De Nueva York, en 37 días, gol. am. John R. Bergeu. cap. Paterson, trip. 8 ton. 615, con petróleo á L. V. Placé",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_13",
@@ -3462,7 +5055,16 @@
     "master_role": "cap.",
     "master_name": "Brumester",
     "cargo_list": [],
-    "raw_text": "-Hamburgo y escalas, en 84 di 18 vap. alem Dalecarlin, cap. Brumester, trip. 33, ton. 1429, con"
+    "raw_text": "-Hamburgo y escalas, en 84 di 18 vap. alem Dalecarlin, cap. Brumester, trip. 33, ton. 1429, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_15",
@@ -3487,7 +5089,16 @@
         "cargo_count": "215"
       }
     ],
-    "raw_text": "-De Veracruz en 2 dias, vapor francés La Navarre, cap. Ducrot, tons 2469, trips. 215, con carga á Bridal M. y Comp."
+    "raw_text": "-De Veracruz en 2 dias, vapor francés La Navarre, cap. Ducrot, tons 2469, trips. 215, con carga á Bridal M. y Comp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_15",
@@ -3512,7 +5123,16 @@
         "cargo_count": "70"
       }
     ],
-    "raw_text": "-De Nueva York en 4 día, vapor americano Segurar gs, cap Naffmann, tons. 2806, trips. 70,"
+    "raw_text": "-De Nueva York en 4 día, vapor americano Segurar gs, cap Naffmann, tons. 2806, trips. 70,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_20",
@@ -3526,7 +5146,16 @@
     "master_role": "cap.",
     "master_name": "1más",
     "cargo_list": [],
-    "raw_text": "Dia 18: De Cayo Hueso, en 1 día vap. am. Petrel, cap. 1más"
+    "raw_text": "Dia 18: De Cayo Hueso, en 1 día vap. am. Petrel, cap. 1más",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_20",
@@ -3546,7 +5175,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Zarste, Buenos Aires, en 72 días berg. eap Clotilde, cap. Vivó, ton. 278, con tasajo á J. Balcele"
+    "raw_text": "-Zarste, Buenos Aires, en 72 días berg. eap Clotilde, cap. Vivó, ton. 278, con tasajo á J. Balcele",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_23",
@@ -3566,7 +5204,16 @@
         "cargo_count": "2534"
       }
     ],
-    "raw_text": "-Tampico y Matanzas, en 6 días. vap. am. Vigilancia, cap. Me Intosh, toa. 2534, con carga á"
+    "raw_text": "-Tampico y Matanzas, en 6 días. vap. am. Vigilancia, cap. Me Intosh, toa. 2534, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_24",
@@ -3591,7 +5238,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 22: De Rosario de Santa Fe en 51 dias, hoa. esp. Angelits, cap. Rosra, tons. 703. con tasajo, & Jané y"
+    "raw_text": "Día 22: De Rosario de Santa Fe en 51 dias, hoa. esp. Angelits, cap. Rosra, tons. 703. con tasajo, & Jané y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_27",
@@ -3611,7 +5267,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 25: De Nueva York, en 5 días. vap. esp. Ciudad Condal, cap. Lavín, trip. 78, ton. 1616, con carga á"
+    "raw_text": "Dia 25: De Nueva York, en 5 días. vap. esp. Ciudad Condal, cap. Lavín, trip. 78, ton. 1616, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_27",
@@ -3625,7 +5290,16 @@
     "master_role": "cap.",
     "master_name": "Cerarda",
     "cargo_list": [],
-    "raw_text": "-Liverpool y escalas, en 23 dias, vap. esp. Gracia, cap. Cerarda, trip. 38, ton. 2122, con carga"
+    "raw_text": "-Liverpool y escalas, en 23 dias, vap. esp. Gracia, cap. Cerarda, trip. 38, ton. 2122, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_27",
@@ -3655,7 +5329,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Nueva York, en 4 días, vap. am. C ty of Washington, cap. Burley, trip. 70, ton. 1743, cou"
+    "raw_text": "Nueva York, en 4 días, vap. am. C ty of Washington, cap. Burley, trip. 70, ton. 1743, cou",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_27",
@@ -3675,7 +5358,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 25: -Nueva York, en 5 días, vap. eap. M. L. Villaverde, cap. Amézaga, trip. 61, ton. 950, con carga á M. Calvo y Cp."
+    "raw_text": "Día 25: -Nueva York, en 5 días, vap. eap. M. L. Villaverde, cap. Amézaga, trip. 61, ton. 950, con carga á M. Calvo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_29",
@@ -3695,7 +5387,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva Orleans y cacales, en 5 días. vap. americaro Morgan, cap. Staples, ton. 537, con carga á"
+    "raw_text": "-Nueva Orleans y cacales, en 5 días. vap. americaro Morgan, cap. Staples, ton. 537, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_30",
@@ -3709,7 +5410,16 @@
     "master_role": "cap.",
     "master_name": "Gómez",
     "cargo_list": [],
-    "raw_text": "-Veracrus y escalas, en 4 días, vap. esp. Baldomero Iglesias. cap. Gómez, trip. 61 ton. 1114,"
+    "raw_text": "-Veracrus y escalas, en 4 días, vap. esp. Baldomero Iglesias. cap. Gómez, trip. 61 ton. 1114,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_08_31",
@@ -3729,7 +5439,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 30: De Veracruz v escalas, en 4 días vap. am. Seguranea, cap. Hoffmann. ton. 2806, trip. 71, con carga & Hidalgo y Cp."
+    "raw_text": "Dia 30: De Veracruz v escalas, en 4 días vap. am. Seguranea, cap. Hoffmann. ton. 2806, trip. 71, con carga & Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_01",
@@ -3743,7 +5462,16 @@
     "master_role": "cap.",
     "master_name": "Carreras",
     "cargo_list": [],
-    "raw_text": "-Cádiz y escalas, en 15 días vap. correo esp. Cataluña, cap. Carreras, ton. 2247, trip. 112, con"
+    "raw_text": "-Cádiz y escalas, en 15 días vap. correo esp. Cataluña, cap. Carreras, ton. 2247, trip. 112, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_03",
@@ -3757,7 +5485,16 @@
     "master_role": "cap.",
     "master_name": "Benga",
     "cargo_list": [],
-    "raw_text": "Dia 19: De Livervool y escalas en 35 días, vapor esp. Saturnina, cap. Benga, trip. 35, tons. 1786, con"
+    "raw_text": "Dia 19: De Livervool y escalas en 35 días, vapor esp. Saturnina, cap. Benga, trip. 35, tons. 1786, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_03",
@@ -3777,7 +5514,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "cap. Bil, trip. 28, tons. 2554, con carga de tránsito, & J. Balcells y Cp."
+    "raw_text": "cap. Bil, trip. 28, tons. 2554, con carga de tránsito, & J. Balcells y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_03",
@@ -3797,7 +5543,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Santander y escalas, en 13 días, vap. correo español Reina Maria Cristina, cap. Gorordo, tripulación 144, tons. 3633, con carga, á M. Calvo"
+    "raw_text": "-Santander y escalas, en 13 días, vap. correo español Reina Maria Cristina, cap. Gorordo, tripulación 144, tons. 3633, con carga, á M. Calvo",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_06",
@@ -3811,7 +5566,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Día 4: De Nueva York, en 4 días vap. am Vigilancia, cap."
+    "raw_text": "Día 4: De Nueva York, en 4 días vap. am Vigilancia, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_06",
@@ -3825,7 +5589,16 @@
     "master_role": "cap.",
     "master_name": "Maxson",
     "cargo_list": [],
-    "raw_text": "Dia 5: -Nueva Orleans y escalas, en 5 días, vap. americano Aransas. cap. Maxson, trip. 45, ton. 767,"
+    "raw_text": "Dia 5: -Nueva Orleans y escalas, en 5 días, vap. americano Aransas. cap. Maxson, trip. 45, ton. 767,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_10",
@@ -3845,7 +5618,16 @@
         "cargo_count": "2,332"
       }
     ],
-    "raw_text": "N. York, en 4 dias, vap. am. Yumuri, cap. Hauseu. ton. 2,332, con carga general, á H dalgo y"
+    "raw_text": "N. York, en 4 dias, vap. am. Yumuri, cap. Hauseu. ton. 2,332, con carga general, á H dalgo y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_10",
@@ -3865,7 +5647,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Santander y escalas, en 17 dias, vap. esp. Sanring, cap. Alemany, ton. 3,417, con carga, á M."
+    "raw_text": "-Santander y escalas, en 17 dias, vap. esp. Sanring, cap. Alemany, ton. 3,417, con carga, á M.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_14",
@@ -3879,7 +5670,16 @@
     "master_role": "cap.",
     "master_name": "Scopinich",
     "cargo_list": [],
-    "raw_text": "-Cardiff vap. autriaco Bo-kenna, cap. Scopinich"
+    "raw_text": "-Cardiff vap. autriaco Bo-kenna, cap. Scopinich",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_15",
@@ -3893,7 +5693,16 @@
     "master_role": "cap.",
     "master_name": "Staples",
     "cargo_list": [],
-    "raw_text": "-Nueva Orleans y escalas, cn 5 días. vap. americano Morgan, cap. Staples, ton. 537. con carga"
+    "raw_text": "-Nueva Orleans y escalas, cn 5 días. vap. americano Morgan, cap. Staples, ton. 537. con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_17",
@@ -3907,7 +5716,16 @@
     "master_role": "cap.",
     "master_name": "Ariba'ziga",
     "cargo_list": [],
-    "raw_text": "-Liverpool y escalas, en 26 díus. vap. esp. Madrileño cap. Ariba'ziga, trip. 38, ten 2035, con"
+    "raw_text": "-Liverpool y escalas, en 26 díus. vap. esp. Madrileño cap. Ariba'ziga, trip. 38, ten 2035, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_19",
@@ -3921,7 +5739,16 @@
     "master_role": "cap.",
     "master_name": "San Emeteric",
     "cargo_list": [],
-    "raw_text": "Dia 18: De Cádiz y escales en 17 dias vap. esp. Santa Bárbara, cap. San Emeteric, trip. 102, ton. 3971 con"
+    "raw_text": "Dia 18: De Cádiz y escales en 17 dias vap. esp. Santa Bárbara, cap. San Emeteric, trip. 102, ton. 3971 con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_21",
@@ -3941,7 +5768,16 @@
         "cargo_count": "coá"
       }
     ],
-    "raw_text": "Día 20: De Nueva Orleans y escalas. en 5 días, vap. Aransas, cap. Maxon, ton. 678, coá carga á Galbán y"
+    "raw_text": "Día 20: De Nueva Orleans y escalas. en 5 días, vap. Aransas, cap. Maxon, ton. 678, coá carga á Galbán y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_21",
@@ -3961,7 +5797,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Veracruz y escalas, en 5 días vap. am. Vigilancia, cap. Me Intosh, ton. 2934, con carga á"
+    "raw_text": "-Veracruz y escalas, en 5 días vap. am. Vigilancia, cap. Me Intosh, ton. 2934, con carga á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_25",
@@ -3986,7 +5831,16 @@
         "cargo_count": "1,364"
       }
     ],
-    "raw_text": "México, cap. Marroig, trip. 69, tons. 1,364, con"
+    "raw_text": "México, cap. Marroig, trip. 69, tons. 1,364, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_09_29",
@@ -4011,7 +5865,16 @@
         "cargo_count": "678"
       }
     ],
-    "raw_text": "Nueva Orleans y escales, en 5 días, vap. americano Whitney, cap. Staples, trip. 57, ton. 678,"
+    "raw_text": "Nueva Orleans y escales, en 5 días, vap. americano Whitney, cap. Staples, trip. 57, ton. 678,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_01",
@@ -4041,7 +5904,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Liverpool y canalas, en 21 días vap. am. Francisca, cap. Larrauri, trip, 37. ton 1839, con carga"
+    "raw_text": "-Liverpool y canalas, en 21 días vap. am. Francisca, cap. Larrauri, trip, 37. ton 1839, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_08",
@@ -4071,7 +5943,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Barcelona y escalas en 43 días; vapor esp. MiBguel Pinillos, cap. Bengoechea, trip. 51, tons. aa 2,124, con carga á Loychate, Saenz y Cp."
+    "raw_text": "-Barcelona y escalas en 43 días; vapor esp. MiBguel Pinillos, cap. Bengoechea, trip. 51, tons. aa 2,124, con carga á Loychate, Saenz y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_08",
@@ -4085,7 +5966,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Nueva York, en 4 días, vap. am. Saratoga, cap."
+    "raw_text": "Nueva York, en 4 días, vap. am. Saratoga, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_08",
@@ -4099,7 +5989,16 @@
     "master_role": "cap.",
     "master_name": "Luzárraga",
     "cargo_list": [],
-    "raw_text": "-Barcelona y escalas, en 21 días, vap. eap. Santanderino, cap. Luzárraga, trip. 37, ton. 2074,"
+    "raw_text": "-Barcelona y escalas, en 21 días, vap. eap. Santanderino, cap. Luzárraga, trip. 37, ton. 2074,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_13",
@@ -4124,7 +6023,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Veracruz, en 8 días, vap. am. Yucatán, cap. Yuthcatón, cap. Reynolds, trip. 2317, con carga á Hiodalgo y Cp"
+    "raw_text": "Veracruz, en 8 días, vap. am. Yucatán, cap. Yuthcatón, cap. Reynolds, trip. 2317, con carga á Hiodalgo y Cp",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_15",
@@ -4144,7 +6052,16 @@
         "cargo_count": "33 ton."
       }
     ],
-    "raw_text": "-Hamburgo v escalas, eu 35 días, vap. alem. Valesis, cap. Khtewe n. tit. 33 ton. 1778, con"
+    "raw_text": "-Hamburgo v escalas, eu 35 días, vap. alem. Valesis, cap. Khtewe n. tit. 33 ton. 1778, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_18",
@@ -4164,7 +6081,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 17: De Tampico en tres dias, vap. amer. Saratoga, caSpitán Boyce, trip. 63, tons. 1,973: con carga, A"
+    "raw_text": "Dia 17: De Tampico en tres dias, vap. amer. Saratoga, caSpitán Boyce, trip. 63, tons. 1,973: con carga, A",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_20",
@@ -4184,7 +6110,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 19: De Veracruz. en 8 días vap. am. Orizaba, cap. Dows, trip. 73, ton. 2334, con carga á Hidalgo y"
+    "raw_text": "Dia 19: De Veracruz. en 8 días vap. am. Orizaba, cap. Dows, trip. 73, ton. 2334, con carga á Hidalgo y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_24",
@@ -4198,7 +6133,16 @@
     "master_role": "cap.",
     "master_name": "Hoffman",
     "cargo_list": [],
-    "raw_text": "Día 23: De Tampico y escalas, en 4 días, vap. am. Seguranca. cap. Hoffman, trip. 67, ton. 2806, con carga"
+    "raw_text": "Día 23: De Tampico y escalas, en 4 días, vap. am. Seguranca. cap. Hoffman, trip. 67, ton. 2806, con carga",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_26",
@@ -4212,7 +6156,16 @@
     "master_role": "cap.",
     "master_name": "Meak",
     "cargo_list": [],
-    "raw_text": "-Filadelfia, en 8 días vap. ing. Ealidg, cap. Meak"
+    "raw_text": "-Filadelfia, en 8 días vap. ing. Ealidg, cap. Meak",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_29",
@@ -4226,7 +6179,16 @@
     "master_role": "cap.",
     "master_name": "Davey",
     "cargo_list": [],
-    "raw_text": "Nuueva York, vap. ing. Ardanmhor, cap. Davey"
+    "raw_text": "Nuueva York, vap. ing. Ardanmhor, cap. Davey",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_29",
@@ -4261,7 +6223,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Cardiff, en 24 días, vap. ing. Llag, cap. Buce, 9 trip. 23, eon carbón á Bridat, Montros y Cp. b"
+    "raw_text": "Cardiff, en 24 días, vap. ing. Llag, cap. Buce, 9 trip. 23, eon carbón á Bridat, Montros y Cp. b",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_31",
@@ -4286,7 +6257,16 @@
         "cargo_count": "30"
       }
     ],
-    "raw_text": "Día 30: De Colón y ercalas. vap. México, cap. Cunell, tripulantes 76; ton. 1633, con carga de tránsito y 30 a pasajeros á M. Calvo y Cp. RECALS"
+    "raw_text": "Día 30: De Colón y ercalas. vap. México, cap. Cunell, tripulantes 76; ton. 1633, con carga de tránsito y 30 a pasajeros á M. Calvo y Cp. RECALS",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_10_31",
@@ -4306,7 +6286,16 @@
         "cargo_count": "Hi5199"
       }
     ],
-    "raw_text": "-Nueva York, vap. am. Saratoga, cap. Boyce, tripulantes 70, ton. 1692, con carga general á Hi5199"
+    "raw_text": "-Nueva York, vap. am. Saratoga, cap. Boyce, tripulantes 70, ton. 1692, con carga general á Hi5199",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_02",
@@ -4336,7 +6325,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 10: De Veracruz y escalas, vap. am. Séneca, cap. SteOvens, trip. 63, ton. 1912, con parga general á Hidalgo y Cp."
+    "raw_text": "Dia 10: De Veracruz y escalas, vap. am. Séneca, cap. SteOvens, trip. 63, ton. 1912, con parga general á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_05",
@@ -4366,7 +6364,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Nueva York, vap. am. Orizaba, cap. Danus, triTulantes 70, ton. 2331 á Hidalgo y Cp."
+    "raw_text": "-Nueva York, vap. am. Orizaba, cap. Danus, triTulantes 70, ton. 2331 á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_05",
@@ -4380,7 +6387,16 @@
     "master_role": "cap.",
     "master_name": "Casquero",
     "cargo_list": [],
-    "raw_text": "-Neva York, vap. esp. Panamá, cap. Casquero,"
+    "raw_text": "-Neva York, vap. esp. Panamá, cap. Casquero,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_08",
@@ -4394,7 +6410,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-Filadelfia en 8 días, vap. ing. Southery, cap."
+    "raw_text": "-Filadelfia en 8 días, vap. ing. Southery, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_10",
@@ -4414,7 +6439,16 @@
         "cargo_count": "5500"
       }
     ],
-    "raw_text": "Serra\" cap. José Jover trip. 56 tons. 5500 con"
+    "raw_text": "Serra\" cap. José Jover trip. 56 tons. 5500 con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_14",
@@ -4428,7 +6462,16 @@
     "master_role": "cap.",
     "master_name": "Ukermaun",
     "cargo_list": [],
-    "raw_text": "Halifax, vap. noruego Braters, cap. Ukermaun,"
+    "raw_text": "Halifax, vap. noruego Braters, cap. Ukermaun,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_14",
@@ -4442,7 +6485,16 @@
     "master_role": "cap.",
     "master_name": "Veutura",
     "cargo_list": [],
-    "raw_text": "Canarias, vap. esp. María Herrera, cap. Veutura. trip. 69, ton. 1307, con carga á Sobrinos de"
+    "raw_text": "Canarias, vap. esp. María Herrera, cap. Veutura. trip. 69, ton. 1307, con carga á Sobrinos de",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_14",
@@ -4462,7 +6514,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Tampico en 3 días. vap. am. Orizaba, cap. Doea mis, trip. 64, ton. 2334, con carga á Hidalgo y"
+    "raw_text": "Tampico en 3 días. vap. am. Orizaba, cap. Doea mis, trip. 64, ton. 2334, con carga á Hidalgo y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_15",
@@ -4476,7 +6537,16 @@
     "master_role": "cap.",
     "master_name": "Smith",
     "cargo_list": [],
-    "raw_text": "-Matanzas, vap. ing. Ardamronse, cap. Smith,"
+    "raw_text": "-Matanzas, vap. ing. Ardamronse, cap. Smith,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_20",
@@ -4496,7 +6566,16 @@
         "cargo_count": "35"
       }
     ],
-    "raw_text": "Día 19: De Diverpool, Santander y Coruña, vap. eap. Euseaao, cap. L. Aralueca, srip. 35 tons. 1866, con"
+    "raw_text": "Día 19: De Diverpool, Santander y Coruña, vap. eap. Euseaao, cap. L. Aralueca, srip. 35 tons. 1866, con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_22",
@@ -4521,7 +6600,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Día 21: De Londres, vap. ing. Binkburn, cap. Jacobs, tripulantes 40, ton. 260, con 5 lanchas, pólvora y"
+    "raw_text": "Día 21: De Londres, vap. ing. Binkburn, cap. Jacobs, tripulantes 40, ton. 260, con 5 lanchas, pólvora y",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_22",
@@ -4535,7 +6623,16 @@
     "master_role": "cap.",
     "master_name": "Yacker",
     "cargo_list": [],
-    "raw_text": "-Filadelfia vap. ing. Castledale, cap. Yacker,"
+    "raw_text": "-Filadelfia vap. ing. Castledale, cap. Yacker,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_24",
@@ -4549,7 +6646,16 @@
     "master_role": "cap.",
     "master_name": "Hoffman",
     "cargo_list": [],
-    "raw_text": "-Veracruz, vap. am. Seguranca, cap. Hoffman,"
+    "raw_text": "-Veracruz, vap. am. Seguranca, cap. Hoffman,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_26",
@@ -4563,7 +6669,16 @@
     "master_role": "cap.",
     "master_name": "Hamen",
     "cargo_list": [],
-    "raw_text": "Nueva York vap. am. Yumuri, cap. Hamen,"
+    "raw_text": "Nueva York vap. am. Yumuri, cap. Hamen,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_26",
@@ -4577,7 +6692,16 @@
     "master_role": "cap.",
     "master_name": "Lavin",
     "cargo_list": [],
-    "raw_text": "- Barcelona, vap. eap. Ciudad Condal, cap. Lavin"
+    "raw_text": "- Barcelona, vap. eap. Ciudad Condal, cap. Lavin",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_27",
@@ -4591,7 +6715,16 @@
     "master_role": "cap.",
     "master_name": "Brown",
     "cargo_list": [],
-    "raw_text": "-Pascagoula, vap. ing. Amethyst, cap. Brown,"
+    "raw_text": "-Pascagoula, vap. ing. Amethyst, cap. Brown,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_28",
@@ -4611,7 +6744,16 @@
         "cargo_count": "243"
       }
     ],
-    "raw_text": "Día 26: De Port Willians (N. E.) en 13 días, gol. ing. Preference, cap. Baxter, trip. 8, ton: 243, con papas"
+    "raw_text": "Día 26: De Port Willians (N. E.) en 13 días, gol. ing. Preference, cap. Baxter, trip. 8, ton: 243, con papas",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_11_29",
@@ -4631,7 +6773,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Filadelfia en 8 días, gol. amor. Chas L. Dorenfort, cap. Walta, trip. 10, tons. 980: con carbón,"
+    "raw_text": "-Filadelfia en 8 días, gol. amor. Chas L. Dorenfort, cap. Walta, trip. 10, tons. 980: con carbón,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_03",
@@ -4645,7 +6796,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-De Pascagoula on 5 dias go!. am. \"Osora G.\""
+    "raw_text": "-De Pascagoula on 5 dias go!. am. \"Osora G.\"",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_04",
@@ -4665,7 +6825,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 2 De Liverpool y escalas, en 25 dias, vap. eap. Leonora cap. Bustinza, ton. 1764, con carga general á Denlofen, Hijo y Co"
+    "raw_text": "Dia 2 De Liverpool y escalas, en 25 dias, vap. eap. Leonora cap. Bustinza, ton. 1764, con carga general á Denlofen, Hijo y Co",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_04",
@@ -4685,7 +6854,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Liverpool y escalas, en 32 días vap. eap. Saturnina; cap. Bengoa. ton. 1785, con earga geners!"
+    "raw_text": "-Liverpool y escalas, en 32 días vap. eap. Saturnina; cap. Bengoa. ton. 1785, con earga geners!",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_08",
@@ -4705,7 +6883,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Liverpoci y escalas, en 28 día, vap. esp. Gleg, cap. Olano, trip. 35, ton. 1515, con cerga amá. Blanch y Cp."
+    "raw_text": "Liverpoci y escalas, en 28 día, vap. esp. Gleg, cap. Olano, trip. 35, ton. 1515, con cerga amá. Blanch y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_10",
@@ -4719,7 +6906,16 @@
     "master_role": "cap.",
     "master_name": "H ffman",
     "cargo_list": [],
-    "raw_text": "-Nueva York, vap. am Seguranca, cap. H ffman"
+    "raw_text": "-Nueva York, vap. am Seguranca, cap. H ffman",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_10",
@@ -4749,7 +6945,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Dia 9: De Cádiz, vap. esp. P. de Fatrústegui, cap. Dechamps, frip 125, ton. 3090, con carga general á"
+    "raw_text": "Dia 9: De Cádiz, vap. esp. P. de Fatrústegui, cap. Dechamps, frip 125, ton. 3090, con carga general á",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_10",
@@ -4763,7 +6968,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "Curuf y escslas, vap. cap. León XIII, capitán"
+    "raw_text": "Curuf y escslas, vap. cap. León XIII, capitán",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_10",
@@ -4777,7 +6991,16 @@
     "master_role": "cap.",
     "master_name": "Alemany",
     "cargo_list": [],
-    "raw_text": "-Barcelona, vap. esp. Santiago, cap. Alemany,"
+    "raw_text": "-Barcelona, vap. esp. Santiago, cap. Alemany,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_10",
@@ -4797,7 +7020,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "-Barcelona y escalas vap. esp. Colón, cap. Ugarte, trip. 133, ton. 3500, con cargs general á M."
+    "raw_text": "-Barcelona y escalas vap. esp. Colón, cap. Ugarte, trip. 133, ton. 3500, con cargs general á M.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_21",
@@ -4817,7 +7049,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "trip. 34. tons. 678, con carga genera', á J. Galbán y Op. --Port Williams, en 20 días. gol. ing Delta, capitán Pratt, trip. 7, tons. 286, con carga general, a"
+    "raw_text": "trip. 34. tons. 678, con carga genera', á J. Galbán y Op. --Port Williams, en 20 días. gol. ing Delta, capitán Pratt, trip. 7, tons. 286, con carga general, a",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_21",
@@ -4837,7 +7078,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "Lawton hermano. -Veracruz, en 8 días, vap. am Vigilancia, cspitán Iastosh, trip. 70, tons. 2931, con carga general, á Hidalgo y Cp."
+    "raw_text": "Lawton hermano. -Veracruz, en 8 días, vap. am Vigilancia, cspitán Iastosh, trip. 70, tons. 2931, con carga general, á Hidalgo y Cp.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_22",
@@ -4851,7 +7101,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Tampa y C Hueso, vap am. Olivette, cap."
+    "raw_text": "De Tampa y C Hueso, vap am. Olivette, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_24",
@@ -4865,7 +7124,16 @@
     "master_role": "cap.",
     "master_name": "Hau",
     "cargo_list": [],
-    "raw_text": "-New York en 4 dias vap. am. Yumuri, cap. Hau"
+    "raw_text": "-New York en 4 dias vap. am. Yumuri, cap. Hau",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_24",
@@ -4879,7 +7147,16 @@
     "master_role": "cap.",
     "master_name": "Yarker",
     "cargo_list": [],
-    "raw_text": "-Filadelfia, vap. inglés Castldale cap. Yarker,"
+    "raw_text": "-Filadelfia, vap. inglés Castldale cap. Yarker,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_25",
@@ -4893,7 +7170,16 @@
     "master_role": "cap.",
     "master_name": "Foster",
     "cargo_list": [],
-    "raw_text": "Dia 23: De Filadelfia, gol. am. Horoldine, cap. Foster, trip."
+    "raw_text": "Dia 23: De Filadelfia, gol. am. Horoldine, cap. Foster, trip.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_25",
@@ -4907,7 +7193,16 @@
     "master_role": "cap.",
     "master_name": "Brown",
     "cargo_list": [],
-    "raw_text": "Panzacola, vap. ing. Amethyst. cap. Brown,"
+    "raw_text": "Panzacola, vap. ing. Amethyst. cap. Brown,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_25",
@@ -4921,7 +7216,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "-De Caibarien, en 24 ha. vap. ing. Bea Bellido,"
+    "raw_text": "-De Caibarien, en 24 ha. vap. ing. Bea Bellido,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_25",
@@ -4935,7 +7239,16 @@
     "master_role": "cap.",
     "master_name": "Young",
     "cargo_list": [],
-    "raw_text": "cap. Young, tons. 1202, trip. 26. En laltre á L."
+    "raw_text": "cap. Young, tons. 1202, trip. 26. En laltre á L.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_25",
@@ -4960,7 +7273,16 @@
         "cargo_count": "10"
       }
     ],
-    "raw_text": "V. Place. -De Bridjivater, N. E. en 32 dias, gol. am, Morrls W. Child, cap. Bick, tons, 512 trip. 10, & la"
+    "raw_text": "V. Place. -De Bridjivater, N. E. en 32 dias, gol. am, Morrls W. Child, cap. Bick, tons, 512 trip. 10, & la",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_27",
@@ -4974,7 +7296,16 @@
     "master_role": "cap.",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Tampa y C. Hueso, vap am. Olivette, cap."
+    "raw_text": "De Tampa y C. Hueso, vap am. Olivette, cap.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1895_12_27",
@@ -4999,6 +7330,15 @@
         "cargo_count": "2,832"
       }
     ],
-    "raw_text": "Fernando, cap. Moreno, trip. 135, tons. 2,832,"
+    "raw_text": "Fernando, cap. Moreno, trip. 135, tons. 2,832,",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   }
 ]

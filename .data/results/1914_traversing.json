@@ -11,7 +11,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor americano de recreo \"Tarántula\", en lastre."
+    "raw_text": "De Cayo Hueso vapor americano de recreo \"Tarántula\", en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_02",
@@ -31,7 +40,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Barcelona y escalas vapor español \"Montserrat\", con carga general."
+    "raw_text": "De Barcelona y escalas vapor español \"Montserrat\", con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_02",
@@ -45,7 +63,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor americano \"Mascotte\" en lastre."
+    "raw_text": "De Cayo Hueso vapor americano \"Mascotte\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_02",
@@ -65,7 +92,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Bilbao y escalas vapor español \"Alfonso XIII\", con carga general."
+    "raw_text": "De Bilbao y escalas vapor español \"Alfonso XIII\", con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_02",
@@ -85,7 +121,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Key West vapor cubano \"Julién Alonso\", con carga general."
+    "raw_text": "De Key West vapor cubano \"Julién Alonso\", con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_04",
@@ -99,7 +144,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor americano \"Governor Cobb,\" en lastre."
+    "raw_text": "De Cayo Hueso vapor americano \"Governor Cobb,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_04",
@@ -119,7 +173,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Tampa y escalas vapor americano \"Oll. vette,\" con carga."
+    "raw_text": "De Tampa y escalas vapor americano \"Oll. vette,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_04",
@@ -139,7 +202,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De New York (N. J.) goleta americana \"Hope Sherwood,\" con abono."
+    "raw_text": "De New York (N. J.) goleta americana \"Hope Sherwood,\" con abono.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -159,7 +231,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Saint Nazaire y escalas vapor francés \"Espagne,\" con carga."
+    "raw_text": "De Saint Nazaire y escalas vapor francés \"Espagne,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -179,7 +260,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cayo Hueso vapor americano \"Mascotte,\" con lastre."
+    "raw_text": "De Cayo Hueso vapor americano \"Mascotte,\" con lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -193,7 +283,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New York vapor cubano 'Bayamo,' con carga."
+    "raw_text": "De New York vapor cubano 'Bayamo,' con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -213,7 +312,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Christiania y escalas vapor alemán \"Marie,\" con carga."
+    "raw_text": "De Christiania y escalas vapor alemán \"Marie,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -227,7 +335,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Boston goleta americana \"Appmattox,\" en lastre."
+    "raw_text": "De Boston goleta americana \"Appmattox,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -247,7 +364,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De New York vapor americano \"Morro Castle,\" con carga general."
+    "raw_text": "De New York vapor americano \"Morro Castle,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -261,7 +387,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New Orleans vapor americano \"Excell-sior,\" con carga."
+    "raw_text": "De New Orleans vapor americano \"Excell-sior,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -281,7 +416,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cayo Hueso vapor cubano \"Julláh Alonso,\" con carga."
+    "raw_text": "De Cayo Hueso vapor cubano \"Julláh Alonso,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -301,7 +445,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Veracruz y escalas vapor americano \"México,\" con carga."
+    "raw_text": "De Veracruz y escalas vapor americano \"México,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -315,7 +468,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Key West vapor inglés \"Halifax,\" en lastre."
+    "raw_text": "De Key West vapor inglés \"Halifax,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -335,7 +497,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Mobila vapor noruego \"Karen,\" con carga."
+    "raw_text": "De Mobila vapor noruego \"Karen,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_05",
@@ -349,7 +520,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Boston goleta americana \"Boyd & Leeden,\" en lastre."
+    "raw_text": "De Boston goleta americana \"Boyd & Leeden,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_06",
@@ -363,7 +543,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor americano \"Gover."
+    "raw_text": "De Cayo Hueso vapor americano \"Gover.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_06",
@@ -377,7 +566,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Tampa y escalas vapor americano \"Ollie-"
+    "raw_text": "De Tampa y escalas vapor americano \"Ollie-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_06",
@@ -391,7 +589,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Tampico y escalas vapor alemán \"Coro-"
+    "raw_text": "De Tampico y escalas vapor alemán \"Coro-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_06",
@@ -405,7 +612,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New Orleans y escalas vapor noruego"
+    "raw_text": "De New Orleans y escalas vapor noruego",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_06",
@@ -419,7 +635,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Sagua vapor noruego \"Félix,\" en lastre."
+    "raw_text": "De Sagua vapor noruego \"Félix,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_09",
@@ -444,7 +669,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Jacksonville goleta inglesa \"Advent,\" con madera y tonelería."
+    "raw_text": "De Jacksonville goleta inglesa \"Advent,\" con madera y tonelería.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_09",
@@ -458,7 +692,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre."
+    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_09",
@@ -478,7 +721,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cayo Hueso vapor cubano \"J. Alonso,\" con carga."
+    "raw_text": "De Cayo Hueso vapor cubano \"J. Alonso,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_09",
@@ -492,7 +744,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Liverpool vapor español \"Ida,\" con carga."
+    "raw_text": "De Liverpool vapor español \"Ida,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_09",
@@ -512,7 +773,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Amberes vapor inglés \"Cayo Bonito,\" con carga."
+    "raw_text": "De Amberes vapor inglés \"Cayo Bonito,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_09",
@@ -532,7 +802,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Tampa vapor americano \"City of Philadelphia,\" con madera."
+    "raw_text": "De Tampa vapor americano \"City of Philadelphia,\" con madera.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_12",
@@ -552,7 +831,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cayo Hueso vapor cubano \"Julían Alconso,\" con carga."
+    "raw_text": "De Cayo Hueso vapor cubano \"Julían Alconso,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_12",
@@ -566,7 +854,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Mobila vapor noruego \"Bertha,\" con carga."
+    "raw_text": "De Mobila vapor noruego \"Bertha,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_12",
@@ -586,7 +883,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Pañcagoula y escalias goleta ugla \"Cheslie,\" con madera"
+    "raw_text": "De Pañcagoula y escalias goleta ugla \"Cheslie,\" con madera",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_12",
@@ -606,7 +912,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Veracruz y escalas vapor amarcano \"Monterey,\" con carga."
+    "raw_text": "De Veracruz y escalas vapor amarcano \"Monterey,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_14",
@@ -626,7 +941,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Pascagoula goleta inglesa \"A. B. Bartheause,\" con madera."
+    "raw_text": "De Pascagoula goleta inglesa \"A. B. Bartheause,\" con madera.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_14",
@@ -640,7 +964,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre."
+    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_14",
@@ -654,7 +987,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New York vapor americano \"Saratoga,\" con carga."
+    "raw_text": "De New York vapor americano \"Saratoga,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_14",
@@ -674,7 +1016,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Buenos Aires y escalas vapor inglés \"Hortensins,\" con carga."
+    "raw_text": "De Buenos Aires y escalas vapor inglés \"Hortensins,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_14",
@@ -694,7 +1045,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Newport News vapor inglés \"Berwindvale,\" con carbón."
+    "raw_text": "De Newport News vapor inglés \"Berwindvale,\" con carbón.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_14",
@@ -714,7 +1074,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Saint Andreu goleta americana \"Mandeeine,\" con madera."
+    "raw_text": "De Saint Andreu goleta americana \"Mandeeine,\" con madera.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_16",
@@ -734,7 +1103,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Barcelona y escalas vapor francés \"Californie,\" con carga."
+    "raw_text": "De Barcelona y escalas vapor francés \"Californie,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_16",
@@ -748,7 +1126,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre."
+    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_16",
@@ -762,7 +1149,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor cubano \"Julian Alonso,\" con carga."
+    "raw_text": "De Cayo Hueso vapor cubano \"Julian Alonso,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_16",
@@ -776,7 +1172,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New Orleans vapor inglés \"Cartago,\" en lastre."
+    "raw_text": "De New Orleans vapor inglés \"Cartago,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_16",
@@ -790,7 +1195,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New Orleans vapor cubano \"Mobilla,\" con carga."
+    "raw_text": "De New Orleans vapor cubano \"Mobilla,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_01_16",
@@ -810,7 +1224,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Hamburg y escalas vapor alemán \"Sovia,\" con carga."
+    "raw_text": "De Hamburg y escalas vapor alemán \"Sovia,\" con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_03",
@@ -830,7 +1253,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Tampa y Key West, vapor americano \"Olivette,\" con carga general."
+    "raw_text": "De Tampa y Key West, vapor americano \"Olivette,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_03",
@@ -850,7 +1282,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Christiania y escalas vapor alemán \"Adelheid,\" con carga general."
+    "raw_text": "De Christiania y escalas vapor alemán \"Adelheid,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_03",
@@ -870,7 +1311,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Barcelona, corbeta uruguaya \"Roldós,\" con carga general."
+    "raw_text": "De Barcelona, corbeta uruguaya \"Roldós,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_03",
@@ -890,7 +1340,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Virginia, vapor de guerra americano \"Des Moines,\" con pertrechos de guerra."
+    "raw_text": "De Virginia, vapor de guerra americano \"Des Moines,\" con pertrechos de guerra.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_04",
@@ -904,7 +1363,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New York vapor inglés \"Lawentic,\" en lastre."
+    "raw_text": "De New York vapor inglés \"Lawentic,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_04",
@@ -924,7 +1392,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Hamburgo y escalas vapor alemán \"Wasgenwald,\" con carga general."
+    "raw_text": "De Hamburgo y escalas vapor alemán \"Wasgenwald,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_04",
@@ -938,7 +1415,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre."
+    "raw_text": "De Cayo Hueso vapor inglés \"Halifax,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_04",
@@ -958,7 +1444,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De New York vapor americano \"Havana,\" con carga general."
+    "raw_text": "De New York vapor americano \"Havana,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_04",
@@ -978,7 +1473,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De St. Nazaire y escalas vapor francés \"La Navarre,\" con carga general."
+    "raw_text": "De St. Nazaire y escalas vapor francés \"La Navarre,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_05",
@@ -998,7 +1502,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cayo Hueso vapor americano \"Governor Cobb,\" con carga general."
+    "raw_text": "De Cayo Hueso vapor americano \"Governor Cobb,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_05",
@@ -1012,7 +1525,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso yacht americano \"Alaciaty,\" en lastre."
+    "raw_text": "De Cayo Hueso yacht americano \"Alaciaty,\" en lastre.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_05",
@@ -1032,7 +1554,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Mobila goleta inglesa \"E. M. Roberts,\" con madera."
+    "raw_text": "De Mobila goleta inglesa \"E. M. Roberts,\" con madera.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_05",
@@ -1052,7 +1583,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Filadelfia vapor inglés \"Yarbarough,\" con cebón mineral."
+    "raw_text": "De Filadelfia vapor inglés \"Yarbarough,\" con cebón mineral.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_05",
@@ -1072,7 +1612,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Tampa y escalas vapor americano \"Mascotte,\" con carga general."
+    "raw_text": "De Tampa y escalas vapor americano \"Mascotte,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_05",
@@ -1092,7 +1641,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Amberes vapor inglés \"Cayo Romano,\" con carga general."
+    "raw_text": "De Amberes vapor inglés \"Cayo Romano,\" con carga general.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1112,7 +1670,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De New Orleans vapor 'americano' 'Chalmette,' con carga."
+    "raw_text": "De New Orleans vapor 'americano' 'Chalmette,' con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1126,7 +1693,16 @@
     "master_role": null,
     "master_name": null,
     "cargo_list": [],
-    "raw_text": "De Newport New vapor inglés \"Seman-"
+    "raw_text": "De Newport New vapor inglés \"Seman-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1146,7 +1722,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De Cayo Hueso vapor americano 'Governor Cobb,' con carga."
+    "raw_text": "De Cayo Hueso vapor americano 'Governor Cobb,' con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1160,7 +1745,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Cayo Hueso vapor inglés \"Halfax,\""
+    "raw_text": "De Cayo Hueso vapor inglés \"Halfax,\"",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1174,7 +1768,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Tampay escalas vapor americano 'Olivette,' con carga."
+    "raw_text": "De Tampay escalas vapor americano 'Olivette,' con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1188,7 +1791,16 @@
     "master_role": null,
     "master_name": null,
     "cargo_list": [],
-    "raw_text": "De Rotterdam y escalas vapor holandés"
+    "raw_text": "De Rotterdam y escalas vapor holandés",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1202,7 +1814,16 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De Filadelfia vapor inglés \"Atlas,\" con"
+    "raw_text": "De Filadelfia vapor inglés \"Atlas,\" con",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1222,7 +1843,16 @@
         "cargo_count": ""
       }
     ],
-    "raw_text": "De New York vapor americano 'Esperanza,' con carga."
+    "raw_text": "De New York vapor americano 'Esperanza,' con carga.",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   },
   {
     "source_file": "1914_02_11",
@@ -1236,6 +1866,15 @@
     "master_role": "",
     "master_name": "",
     "cargo_list": [],
-    "raw_text": "De New York vapor americano \"Sarato-"
+    "raw_text": "De New York vapor americano \"Sarato-",
+    "travel_duration_value": null,
+    "travel_duration_unit": null,
+    "ship_tons_capacity": null,
+    "ship_tons_unit": null,
+    "crew_number": null,
+    "passenger_account": null,
+    "quarantine": null,
+    "forced_arrival": null,
+    "parsed_text": null
   }
 ]
