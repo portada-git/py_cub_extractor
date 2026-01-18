@@ -43,11 +43,12 @@ def show_menu():
     print("2. Extract TRAVERSING ENTRANCES")
     print("3. Extract CABOTAGE ENTRIES")
     print("4. Extract TRAVERSING ENTRANCES, CABOTAGE ENTRIES by YEAR (by threads)")
+    print("5. Reprocess YEAR (delete old data and re-extract)")
     print()
     print("DATABASE & ANALYSIS:")
-    print("5. Check missing files to process")
-    print("6. Show database statistics")
-    print("7. Export all years (JSON + CSV)")
+    print("6. Check missing files to process")
+    print("7. Show database statistics")
+    print("8. Export all years (JSON + CSV)")
     print()
     print("0. Exit")
     return input("Choose an option: ")
@@ -252,11 +253,10 @@ def extract_both_entries():
 
 
 def extract_by_year():
-    """Opción 5: Extrae por año, genera 4 archivos por año"""
+    """Opción 4: Extrae por año (primera vez)"""
     input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
     output_dir = input("Enter path to output directory: ").strip()
     
-    # Validar que sea el directorio raíz (.data/Nuevo)
     from pathlib import Path
     input_path = Path(input_dir)
     
@@ -264,14 +264,12 @@ def extract_by_year():
         print(f"❌ Directory not found: {input_dir}")
         return
     
-    # Verificar que contiene años (4 dígitos), no meses (2 dígitos)
     subdirs = [d.name for d in input_path.iterdir() if d.is_dir() and d.name.isdigit()]
     
     if not subdirs:
         print(f"❌ No year directories found in {input_dir}")
         return
     
-    # Si todos los subdirectorios tienen 2 dígitos, es un directorio de meses
     if all(len(d) == 2 for d in subdirs):
         print(f"❌ Error: {input_dir} contains months (01-12), not years")
         print(f"   Please use the parent directory: .data/Nuevo")
@@ -284,6 +282,83 @@ def extract_by_year():
     
     extractor = Extractor(input_dir, output_dir, max_workers)
     extractor.extract_all_years()
+
+
+def reprocess_year():
+    """Opción 5: Reprocessa un año, eliminando datos antiguos y reemplazándolos"""
+    input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
+    output_dir = input("Enter path to output directory: ").strip()
+    year = input("Enter year to reprocess (e.g., 1852): ").strip()
+    
+    from pathlib import Path
+    input_path = Path(input_dir)
+    
+    if not input_path.exists():
+        print(f"❌ Directory not found: {input_dir}")
+        return
+    
+    year_path = input_path / year
+    if not year_path.exists():
+        print(f"❌ Year directory not found: {year_path}")
+        return
+    
+    # Confirmar reprocessing
+    db = ExtractionDB()
+    stats = db.get_stats()
+    
+    print()
+    print("="*60)
+    print(f"⚠️  REPROCESSING YEAR {year}")
+    print("="*60)
+    print(f"Current database statistics:")
+    print(f"  • Traversing entries: {stats['traversing']:,}")
+    print(f"  • Cabotage entries: {stats['cabotage']:,}")
+    print(f"  • Files processed: {stats['files_processed']:,}")
+    print()
+    print(f"This will DELETE all {year} data and reprocess from OCR files.")
+    confirm = input("Continue? (yes/no): ").strip().lower()
+    
+    if confirm != "yes":
+        print("❌ Reprocessing cancelled")
+        return
+    
+    # Eliminar datos del año
+    print()
+    print(f"🗑️  Deleting {year} data from database...")
+    deleted = db.delete_year_data(year)
+    print(f"  ✅ Deleted {deleted['traversing']} traversing entries")
+    print(f"  ✅ Deleted {deleted['cabotage']} cabotage entries")
+    print(f"  ✅ Deleted {deleted['files']} file records")
+    
+    # Reprocessar año
+    print()
+    print(f"🔄 Reprocessing {year}...")
+    
+    try:
+        max_workers = int(input("Number of threads (default 16): ").strip() or "16")
+    except:
+        max_workers = 16
+    
+    extractor = Extractor(input_dir, output_dir, max_workers)
+    result = extractor.extract_year(year)
+    
+    if result:
+        print()
+        print("="*60)
+        print(f"✅ REPROCESSING COMPLETED FOR {year}")
+        print("="*60)
+        print(f"  Traversing: {result['traversing']:,}")
+        print(f"  Cabotage: {result['cabotage']:,}")
+        print(f"  Tokens: {result['tokens']:,}")
+        print(f"  Files processed: {result['processed']}")
+        print()
+        
+        # Mostrar nuevas estadísticas
+        new_stats = db.get_stats()
+        print("Updated database statistics:")
+        print(f"  • Total traversing: {new_stats['traversing']:,}")
+        print(f"  • Total cabotage: {new_stats['cabotage']:,}")
+        print(f"  • Total files processed: {new_stats['files_processed']:,}")
 
 
 def check_missing():
@@ -401,10 +476,12 @@ def main():
         elif choice == "4":
             extract_by_year()
         elif choice == "5":
-            check_missing()
+            reprocess_year()
         elif choice == "6":
-            show_db_stats()
+            check_missing()
         elif choice == "7":
+            show_db_stats()
+        elif choice == "8":
             export_all_years()
         elif choice == "0":
             print("Goodbye!")

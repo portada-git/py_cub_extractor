@@ -128,17 +128,23 @@ python3 main.py
 1. **Concatenate OCR text files by date** - Merge multiple OCR files by publication date
 2. **Extract TRAVERSING ENTRANCES** - Extract international ship arrivals
 3. **Extract CABOTAGE ENTRIES** - Extract domestic ship arrivals
-4. **Extract TRAVERSING ENTRANCES, CABOTAGE ENTRIES by YEAR (by threads)** - Professional extraction with 16 threads
-5. **Check missing files to process** - Identify unprocessed files
-6. **Show database statistics** - View extraction summary
-7. **Export all years (JSON + CSV)** - Export entire database to files
+4. **Extract TRAVERSING ENTRANCES, CABOTAGE ENTRIES by YEAR (by threads)** - Professional extraction with 16 threads (first time)
+5. **Reprocess YEAR (delete old data and re-extract)** - Delete existing year data and re-extract with updated prompts
+6. **Check missing files to process** - Identify unprocessed files
+7. **Show database statistics** - View extraction summary
+8. **Export all years (JSON + CSV)** - Export entire database to files
 0. **Exit**
 
 ### Quick Extraction
 
-Extract a specific year:
+Extract a specific year (first time):
 ```bash
-python3 extract_1852.py
+python3 main.py  # Option 4
+```
+
+Reprocess a year (replace existing data):
+```bash
+python3 main.py  # Option 5
 ```
 
 ### Export Data
@@ -288,6 +294,16 @@ Files must follow naming convention: `YYYY_MM_DD_*_V_*.txt` (traversing) or `*_C
 4. **LLM Processing** - Send to OpenAI for structured extraction
 5. **Database Storage** - Save to SQLite with duplicate detection
 6. **Export** - Generate JSON and CSV files
+
+### Reprocessing Workflow
+
+When reprocessing a year:
+1. **Backup Check** - System shows current database statistics
+2. **Confirmation** - User confirms deletion of old data
+3. **Data Deletion** - All entries for the year are removed from database
+4. **Fresh Extraction** - OCR files are reprocessed with current LLM prompts
+5. **Database Update** - New data replaces old entries
+6. **Statistics** - System displays before/after comparison
 
 ## Performance
 

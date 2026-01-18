@@ -333,6 +333,31 @@ class ExtractionDB:
             ''')
             return [row[0] for row in cursor.fetchall()]
     
+    def delete_year_data(self, year):
+        """Elimina todos los datos de un año específico"""
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            
+            # Eliminar travesías del año
+            cursor.execute('DELETE FROM traversing WHERE source_file LIKE ?', (f'{year}%',))
+            traversing_deleted = cursor.rowcount
+            
+            # Eliminar cabotajes del año
+            cursor.execute('DELETE FROM cabotage WHERE source_file LIKE ?', (f'{year}%',))
+            cabotage_deleted = cursor.rowcount
+            
+            # Eliminar archivos procesados del año
+            cursor.execute('DELETE FROM processed_files WHERE file_path LIKE ?', (f'{year}%',))
+            files_deleted = cursor.rowcount
+            
+            conn.commit()
+            
+            return {
+                'traversing': traversing_deleted,
+                'cabotage': cabotage_deleted,
+                'files': files_deleted
+            }
+    
     def get_stats(self):
         """Obtiene estadísticas de la base de datos"""
         with sqlite3.connect(self.db_path) as conn:
