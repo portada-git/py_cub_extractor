@@ -1,0 +1,3104 @@
+[
+  {
+    "source_file": "1893_01_01",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Peterson",
+    "cargo_list": [
+      {
+        "cargo_name": "carga á R.",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Peterson, trip. 20, tons. 621, con carga á R."
+  },
+  {
+    "source_file": "1893_01_01",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Alegría",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "ra, cap. Alegría, trip. 38, tons. 1,806, con carga,"
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "Día 19:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Coruña",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "San Franeisco",
+    "master_role": "cap.",
+    "master_name": "Bayona",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 19: De Coruña y escalas, en 20 días, vap. esp. San Franeisco, cap. Bayona, trip. 70, tons. 1,671. con carga, á M. Calvo y Comp."
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Meggee",
+    "master_role": "cap.",
+    "master_name": "Rogers",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": "12"
+      },
+      {
+        "cargo_name": "",
+        "cargo_units": "tons",
+        "cargo_count": "1,026"
+      }
+    ],
+    "raw_text": "Meggee, cap. Rogers, trip. 12, tons. 1,026, con"
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "Día 3:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "City of Washington",
+    "master_role": "cap.",
+    "master_name": "Curtis",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "62"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1,743"
+      },
+      {
+        "cargo_name": "con",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-York. en 3 días, vap. amer. City of Washington, cap. Curtis, trip. 62, tons. 1,743, con"
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Orizaba",
+    "master_role": "cap.",
+    "master_name": "Mc Intosh",
+    "cargo_list": [
+      {
+        "cargo_name": "Hidalgo y Comp.",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Veracruz y escalas, en 4 días, vap. amer. Orizaba, cap. Mc Intosh, trip. 65, tons. 2,334, con carga, á Hidalgo y Comp."
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Mc Danald",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "B., cap. Mc Danald, trip. 10, tons. 121, con carga, á R. Trnffin y Comp."
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "Día 82:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Alicante",
+    "ship_type": "gol.",
+    "ship_flag": "esp.",
+    "ship_name": "Pepe Tono",
+    "master_role": "cap.",
+    "master_name": "Albi",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Alicante, en 82 días, gol. esp. Pepe Tono, capitán Albi, trip. -- tons. 241, con carga, á San"
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "Día 2:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Cayo-Hueso y Tampa",
+    "ship_type": "vapor",
+    "ship_flag": "amerieano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Haulon",
+    "cargo_list": [],
+    "raw_text": "Día 2: De Cayo-Hueso y Tampa, en 1 días, vapor amerieano Mascotte, cap. Haulon, trip. 42, tons. 520,"
+  },
+  {
+    "source_file": "1893_01_03",
+    "publication_day": "",
+    "arrival_date": "Día 19:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Burdeos",
+    "ship_type": "vapor",
+    "ship_flag": "francés",
+    "ship_name": "París",
+    "master_role": "cap.",
+    "master_name": "Chevalier",
+    "cargo_list": [],
+    "raw_text": "-Burdeos y escalas, en 19 días, vapor froncés París, cap. Chevalier, trip. 119, tons. 2,662, con"
+  },
+  {
+    "source_file": "1893_01_05",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Colonia",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Peterson",
+    "cargo_list": [],
+    "raw_text": "Colonia, cap. Peterson, trip. 34, tons. .., Coll ---"
+  },
+  {
+    "source_file": "1893_01_06",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vapor-correo",
+    "ship_flag": "esp.",
+    "ship_name": "Panamá",
+    "master_role": "cap.",
+    "master_name": "70",
+    "cargo_list": [
+      {
+        "cargo_name": "carga general",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-York, en 5 dias, vapor-correo esp. Panamá, cap. 70, tons. ..., con carga general, á"
+  },
+  {
+    "source_file": "1893_01_06",
+    "publication_day": "",
+    "arrival_date": "Día 16:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Santander",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Montevideo",
+    "master_role": "cap.",
+    "master_name": "Izaguirre",
+    "cargo_list": [],
+    "raw_text": "Santander y escalas en 16 días vap. esp. Montevideo, cap. Izaguirre, trip. 132, tons. 1316, con"
+  },
+  {
+    "source_file": "1893_01_11",
+    "publication_day": "",
+    "arrival_date": "Día 12:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Londres",
+    "ship_type": "vap.",
+    "ship_flag": "ing.",
+    "ship_name": "Wilesikue",
+    "master_role": "cap.",
+    "master_name": "Stowkey",
+    "cargo_list": [],
+    "raw_text": "Londres y Amberes, en 12 días, vap. ing. Wilesikue, cap. Stowkey, trip. 28, tons. 1882, con"
+  },
+  {
+    "source_file": "1893_01_11",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Gaditano",
+    "master_role": "cap.",
+    "master_name": "Chirapuzo",
+    "cargo_list": [],
+    "raw_text": "-Matanzas, vap. esp. Gaditano, cap. Chirapuzo."
+  },
+  {
+    "source_file": "1893_01_12",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva Orleans",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Aransas",
+    "master_role": "cap.",
+    "master_name": "Staples",
+    "cargo_list": [],
+    "raw_text": "-Nueva Orleans, vap. amer. Aransas, cap. Staples."
+  },
+  {
+    "source_file": "1893_01_13",
+    "publication_day": null,
+    "arrival_date": "Día 12:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Séneca",
+    "master_role": "cap.",
+    "master_name": "Stevens",
+    "cargo_list": [
+      {
+        "cargo_name": "carga general",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 12: De Nueva York, en 4 días, vap. amer. Séneca, capitán Stevens, trip. 80, tons. 1,912, con carga general, á Hidalgo y Comp"
+  },
+  {
+    "source_file": "1893_01_13",
+    "publication_day": "",
+    "arrival_date": "Día 3:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Yumurf",
+    "master_role": "cap.",
+    "master_name": "Hansen",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "72"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "2,332"
+      },
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Veracruz y escalas, en 3 días, vap. amer. Yumurf, cap. Hansen, trip. 72, tons. 2,332, con carga"
+  },
+  {
+    "source_file": "1893_01_13",
+    "publication_day": "",
+    "arrival_date": "Día 12:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Panzacola",
+    "ship_type": "gol.",
+    "ship_flag": "ing.",
+    "ship_name": "Mayrtle M.",
+    "master_role": "cap.",
+    "master_name": "Goul",
+    "cargo_list": [],
+    "raw_text": "Día 12: Para Panzacola, gol. ing. Mayrtle M., cap. Goul.."
+  },
+  {
+    "source_file": "1893_01_13",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "gol.",
+    "ship_flag": "amer.",
+    "ship_name": "Alice Mc Donald",
+    "master_role": "cap.",
+    "master_name": "Dukerhire",
+    "cargo_list": [],
+    "raw_text": "Mobila, gol. amer. Alice Mc Donald, cap. Dukerhire."
+  },
+  {
+    "source_file": "1893_01_14",
+    "publication_day": "",
+    "arrival_date": "Día 13:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Baltimore",
+    "ship_type": "gol.",
+    "ship_flag": "amer.",
+    "ship_name": "Hattie P. Simpson",
+    "master_role": "cap.",
+    "master_name": "Chaney",
+    "cargo_list": [
+      {
+        "cargo_name": "carbón",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 13: De Baltimore, en 19 días, gol. amer. Hattie P. Simpson, cap. Chaney, trip. 11, tous. 122, con carbón,"
+  },
+  {
+    "source_file": "1893_01_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Morris",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Morris, trip. 5, tons. 121, con madera, á L."
+  },
+  {
+    "source_file": "1893_01_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Seamen",
+    "master_role": "cap.",
+    "master_name": "",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Seamen, cap...., trip. 8, tons. 615, con madera, á la orden."
+  },
+  {
+    "source_file": "1893_01_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "pañol",
+    "ship_flag": "",
+    "ship_name": "Reina María",
+    "master_role": "cap.",
+    "master_name": "Corordo",
+    "cargo_list": [
+      {
+        "cargo_name": "carga general",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "pañol Reina María ristina, cap. Corordo, tripulación 140, tons. 2,683, con carga general, á M."
+  },
+  {
+    "source_file": "1893_01_15",
+    "publication_day": "",
+    "arrival_date": "Día 14:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Barcelona",
+    "ship_type": "vapor",
+    "ship_flag": "esp.",
+    "ship_name": "Ciudad de Barcelona",
+    "master_role": "cap.",
+    "master_name": "José Rodríguez",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "57"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "2085"
+      }
+    ],
+    "raw_text": "DIA 14: De Barcelona y escalas, vapor esp. Ciudad de Barcelona, cap. José Rodríguez, trip. 57, tons. 2085,"
+  },
+  {
+    "source_file": "1893_01_19",
+    "publication_day": "",
+    "arrival_date": "Día 18:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "N. York",
+    "ship_type": "vap.",
+    "ship_flag": "am.",
+    "ship_name": "Orizaba",
+    "master_role": "cap.",
+    "master_name": "Mc",
+    "cargo_list": [],
+    "raw_text": "Día 18: De N. York, en 4 días, vap. am. Orizaba, cap. Mc"
+  },
+  {
+    "source_file": "1893_01_20",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Hamnoud",
+    "cargo_list": [],
+    "raw_text": "cap. Hamnoud, trip. 50, tons. 672, en lastre, á"
+  },
+  {
+    "source_file": "1893_01_20",
+    "publication_day": "",
+    "arrival_date": "Día 6:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vap.",
+    "ship_flag": "",
+    "ship_name": "City of Washington",
+    "master_role": "cap.",
+    "master_name": "Curtis",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "66"
+      },
+      {
+        "cargo_name": "1ons.",
+        "cargo_units": "",
+        "cargo_count": "1.743"
+      }
+    ],
+    "raw_text": "-Matanzas, en 6 horas, vap. aшer. City of Washington, cap. Curtis, trip. 66, 1ons. 1,743, con"
+  },
+  {
+    "source_file": "1893_01_20",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Yucatán",
+    "master_role": "cap.",
+    "master_name": "Allén",
+    "cargo_list": [],
+    "raw_text": "-Nueva-York, vap. amer. Yucatán, cap. Allén."
+  },
+  {
+    "source_file": "1893_01_25",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "vapor",
+    "ship_flag": "nacional",
+    "ship_name": "Cataluña",
+    "master_role": "cap.",
+    "master_name": "Genis",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "días, vapor nacional Cataluña, cap. Genis, tripulantes 1 9, tons. 2,246: con carga, á M. Calvo"
+  },
+  {
+    "source_file": "1893_02_01",
+    "publication_day": "",
+    "arrival_date": "Día 27:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "trip.",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Flauser",
+    "cargo_list": [
+      {
+        "cargo_name": "carbón",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Flauser, trip. 27, tons. 1,846, con carbón, á"
+  },
+  {
+    "source_file": "1893_02_09",
+    "publication_day": null,
+    "arrival_date": "Día 8:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva-York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "City of Alexandría",
+    "master_role": "cap.",
+    "master_name": "Hoffmann",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "20"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1,966"
+      }
+    ],
+    "raw_text": "Día 8: De Nueva-York, en 4 días, vap. amer. City of Alexandría, cap. Hoffmann, trip. 20, tons. 1,966, con"
+  },
+  {
+    "source_file": "1893_02_09",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vapor-correo",
+    "ship_flag": "español",
+    "ship_name": "Ciudad Condal",
+    "master_role": "cap.",
+    "master_name": "Carmona",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,615"
+      }
+    ],
+    "raw_text": "-Veracruz y escalas, en 4 días, vapor-correo español Ciudad Condal, cap. Carmona, tons. 1,615,"
+  },
+  {
+    "source_file": "1893_02_12",
+    "publication_day": "",
+    "arrival_date": "Día 11:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Moćila",
+    "ship_type": "berg.",
+    "ship_flag": "amer.",
+    "ship_name": "Stacy Clarck",
+    "master_role": "cap.",
+    "master_name": "",
+    "cargo_list": [],
+    "raw_text": "Día 11: De Moćila en 23 dias berg. amer. Stacy Clarck, cap."
+  },
+  {
+    "source_file": "1893_02_12",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Kerwo",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Kerwo, trip. 8, tons. 392, con madera, á R."
+  },
+  {
+    "source_file": "1893_02_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Aldamiz",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Aldamiz, trip. 40, tons. 1837, con carga, á"
+  },
+  {
+    "source_file": "1893_02_16",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Pederson",
+    "cargo_list": [],
+    "raw_text": "cap. Pederson. trip. 27, tons. 621, eon carga de"
+  },
+  {
+    "source_file": "1893_02_16",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva-York",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Panamá",
+    "master_role": "cap.",
+    "master_name": "Rivera",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-York en 5 días, vap. esp. Panamá, capitán Rivera, trip. 71, tons. 1,347: con carga, á M."
+  },
+  {
+    "source_file": "1893_02_17",
+    "publication_day": "",
+    "arrival_date": "Día 16:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Brittania",
+    "master_role": "cap.",
+    "master_name": "Hanmunch",
+    "cargo_list": [
+      {
+        "cargo_name": "lastre",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 16: De Nueva York, en 5 dias, vapor americano Brittania, cap. Hanmunch, trip. 66, tons. 672, en lastre"
+  },
+  {
+    "source_file": "1893_02_18",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Niágara",
+    "master_role": "cap.",
+    "master_name": "Burley",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "70"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1,667"
+      },
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Veracruz y escalas, en 5 días, vap. amer. Niágara, cap. Burley, trip. 70, tons. 1,667, con carga, á"
+  },
+  {
+    "source_file": "1893_02_23",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "vap.",
+    "ship_flag": "ing.",
+    "ship_name": "Monmonth",
+    "master_role": "cap.",
+    "master_name": "Kook",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "24"
+      }
+    ],
+    "raw_text": "vap. ing. Monmonth, cap. Kook, trip. 24. tons."
+  },
+  {
+    "source_file": "1893_02_23",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Morras",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Morras. trip. 7, tons. 245, con madera, á la"
+  },
+  {
+    "source_file": "1893_02_25",
+    "publication_day": "",
+    "arrival_date": "Día 27:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Liverpool",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Navarro",
+    "master_role": "cap.",
+    "master_name": "Goicoechea",
+    "cargo_list": [],
+    "raw_text": "-Liverpool y escalas, en 27 días, vap. esp. Navarro, cap. Goicoechea, trip. 41, tons. 2,514, con"
+  },
+  {
+    "source_file": "1893_02_26",
+    "publication_day": "",
+    "arrival_date": "Día 24:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Mc Kay",
+    "cargo_list": [
+      {
+        "cargo_name": "trip",
+        "cargo_units": "",
+        "cargo_count": "50"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,105"
+      }
+    ],
+    "raw_text": "Día 24: De Tampa y Cayo-Hueso en 8 horas, vapor americano Olivette, cap. Mc Kay, trip. 50, tons. 1,105,"
+  },
+  {
+    "source_file": "1893_02_26",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Mosely",
+    "master_role": "cap.",
+    "master_name": "Holk",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Mosely, cap. Holk, trip..., tons..., con cargamento de madera."
+  },
+  {
+    "source_file": "1893_03_03",
+    "publication_day": "",
+    "arrival_date": "Día 2:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Orizaba",
+    "master_role": "cap.",
+    "master_name": "Me Intosh",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "70"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "2,334"
+      },
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 2: De Veracruz y escalas, en 7 días, vap. amer. Orizaba, cap. Me Intosh, trip. 70, tons. 2,334, con"
+  },
+  {
+    "source_file": "1893_03_03",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Méjico",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Alemany",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,366"
+      }
+    ],
+    "raw_text": "Méjico, cap. Alemany, trip. 70, tons. 1,366, con"
+  },
+  {
+    "source_file": "1893_03_05",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Mobila",
+    "ship_type": "gol.",
+    "ship_flag": "ing.",
+    "ship_name": "Nellie Parker",
+    "master_role": "cap.",
+    "master_name": "Barkhouse",
+    "cargo_list": [],
+    "raw_text": "-Mobila, gol. ing. Nellie Parker. cap. Barkhouse,"
+  },
+  {
+    "source_file": "1893_03_07",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "cano",
+    "ship_flag": "",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Me Kay",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,105"
+      }
+    ],
+    "raw_text": "cano Olivette, cap. Me Kay, trip. 50, tons. 1,105,"
+  },
+  {
+    "source_file": "1893_03_09",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Gaudello",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Gaudello, trip. 47, tons. 2,739: con carga, á"
+  },
+  {
+    "source_file": "1893_03_09",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Yumuri",
+    "master_role": "cap.",
+    "master_name": "Hausen",
+    "cargo_list": [
+      {
+        "cargo_name": "carga de tránsito",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Veracruz y Progreso en 5 días, vap. amer. Yumuri, cap. Hausen, trip. 70, tons. 2,332: con carga de tránsito, á Hidalgo y Cp."
+  },
+  {
+    "source_file": "1893_03_12",
+    "publication_day": "",
+    "arrival_date": "Día 11:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Mc Kay",
+    "cargo_list": [
+      {
+        "cargo_name": "trip",
+        "cargo_units": "",
+        "cargo_count": "50"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,105"
+      }
+    ],
+    "raw_text": "Día 11: De Tampa y Cayo-Hueso, en 8 horas, vapor americano Olivette, cap. Mc Kay, trip. 50, tons. 1,105,"
+  },
+  {
+    "source_file": "1893_03_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Liverpool",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Euskaro",
+    "master_role": "cap.",
+    "master_name": "Zabala",
+    "cargo_list": [
+      {
+        "cargo_name": "C. Blanch",
+        "cargo_units": "",
+        "cargo_count": "1396"
+      }
+    ],
+    "raw_text": "Liverpool y escalas vap. esp. Euskaro cap. Zabala trip. 33 tons. 1396 con carga á C. Blanch y"
+  },
+  {
+    "source_file": "1893_03_15",
+    "publication_day": "",
+    "arrival_date": "Día 14:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "gol.",
+    "ship_flag": "amer.",
+    "ship_name": "Nelson B. Arilett",
+    "master_role": "cap.",
+    "master_name": "Wastis",
+    "cargo_list": [
+      {
+        "cargo_name": "adoquines",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "losa",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 14 De Nueva York on 13 dias, gol. amer. Nelson B. Arilett, cap. Wastis, trip. 9, tons. 637: con adoquines y losa, á R. Fruffin v Cp."
+  },
+  {
+    "source_file": "1893_03_15",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Lockwood",
+    "master_role": "cap.",
+    "master_name": "Graus",
+    "cargo_list": [],
+    "raw_text": "Lockwood, cap. Graus, trip. 8, tons. 321: con"
+  },
+  {
+    "source_file": "1893_03_15",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Cirarda",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Cirarda, trip. 39, tons. 2,122: con carga, á"
+  },
+  {
+    "source_file": "1893_03_15",
+    "publication_day": "",
+    "arrival_date": "Día 40:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "gol.",
+    "ship_flag": "ing.",
+    "ship_name": "Perey F. Reed",
+    "master_role": "cap.",
+    "master_name": "Spun",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": "5"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "148"
+      }
+    ],
+    "raw_text": "Bean Riven en 40 dins, casco de la gol. ing. Perey F. Reed cap. Spun, trip. 5, tons. 148, con"
+  },
+  {
+    "source_file": "1893_03_15",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Apalachicola",
+    "ship_type": "gol.",
+    "ship_flag": "smer.",
+    "ship_name": "Charles Mithell",
+    "master_role": "cap.",
+    "master_name": "Trost",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Apalachicola en 4 dias, gol. smer. Charles Mithell, cap. Trost, trip. 9, tons. 567: con carga, á"
+  },
+  {
+    "source_file": "1893_03_16",
+    "publication_day": "",
+    "arrival_date": "Día 40:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Amberes",
+    "ship_type": "vap.",
+    "ship_flag": "ing.",
+    "ship_name": "Tanitallón",
+    "master_role": "cap.",
+    "master_name": "Sebthorpe",
+    "cargo_list": [],
+    "raw_text": "-Amberes y esca'as en 40 días, vap. ing. Tanitallón, cap. Sebthorpe, trip. 23, tons. 1,311: con"
+  },
+  {
+    "source_file": "1893_03_17",
+    "publication_day": "",
+    "arrival_date": "Día 16:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva-Orleans",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Gran Antilla",
+    "master_role": "cap.",
+    "master_name": "Larrañaga",
+    "cargo_list": [
+      {
+        "cargo_name": "carha",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 16: De Nueva-Orleans, en 2 días, vap. esp. Gran Antilla, cap. Larrañaga, trip. 53, tons. 2,112, con carha, á C. Blanch y Comp."
+  },
+  {
+    "source_file": "1893_03_17",
+    "publication_day": "",
+    "arrival_date": "Día 16:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "berg.",
+    "ship_flag": "amer.",
+    "ship_name": "L. F. Munson",
+    "master_role": "cap.",
+    "master_name": "Me",
+    "cargo_list": [],
+    "raw_text": "Día 16: Para Matanzas, berg. amer. L. F. Munson, cap. Me"
+  },
+  {
+    "source_file": "1893_03_17",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Gracia",
+    "master_role": "cap.",
+    "master_name": "Cirarda",
+    "cargo_list": [],
+    "raw_text": "-Matanzas y escalas, vap. esp. Gracia, cap. Cirarda."
+  },
+  {
+    "source_file": "1893_03_17",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Halifax",
+    "ship_type": "gol.",
+    "ship_flag": "ing.",
+    "ship_name": "A. G. Heisler",
+    "master_role": "cap.",
+    "master_name": "Maun",
+    "cargo_list": [],
+    "raw_text": "-Halifax, gol. ing. A. G. Heisler, cap. Maun."
+  },
+  {
+    "source_file": "1893_03_21",
+    "publication_day": "",
+    "arrival_date": "Día 54:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Filadelfia",
+    "ship_type": "vapor",
+    "ship_flag": "inglés",
+    "ship_name": "Russian Prince",
+    "master_role": "cap.",
+    "master_name": "Olsen",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "27"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "2,100"
+      },
+      {
+        "cargo_name": "lastre",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Filadelfia, en 54 dins, vapor inglés Russian Prince, cap. Olsen, trip. 27, tons. 2,100, en lastre, á"
+  },
+  {
+    "source_file": "1893_03_23",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "am.",
+    "ship_name": "Yumuri",
+    "master_role": "cap.",
+    "master_name": "",
+    "cargo_list": [],
+    "raw_text": "Nueva York, en 4 días, vap. am. Yumuri, cap."
+  },
+  {
+    "source_file": "1893_03_23",
+    "publication_day": "",
+    "arrival_date": "Día 25:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Liverpool",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Ernesto",
+    "master_role": "cap.",
+    "master_name": "Garteiz",
+    "cargo_list": [],
+    "raw_text": "-Liverpool y escalas, en 25 días, vap. esp. Ernesto, cap. Garteiz, trip. 37, tons. 1,690, con carga,"
+  },
+  {
+    "source_file": "1893_03_24",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Villaverde",
+    "master_role": "cap.",
+    "master_name": "Castelló",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,501"
+      }
+    ],
+    "raw_text": "Villaverde, cap. Castelló, trip. 56, tons. 1,501:"
+  },
+  {
+    "source_file": "1893_03_25",
+    "publication_day": null,
+    "arrival_date": "Día 24:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Mobila",
+    "ship_type": "berg.",
+    "ship_flag": "amer.",
+    "ship_name": "Mary Barlett",
+    "master_role": "cap.",
+    "master_name": "Naskel",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 24: De Mobila en 13 días, berg. amer. Mary Barlett, capitán Naskel, trip. 7, tons. 340, con madera, á R."
+  },
+  {
+    "source_file": "1893_03_29",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Saenz",
+    "master_role": "cap.",
+    "master_name": "Terol",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Saenz, cap. Terol, trip. 54, tons. 2,531, con carga, á Loychate, Saenz y Comp."
+  },
+  {
+    "source_file": "1893_03_29",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Montevideo",
+    "ship_type": "berg.",
+    "ship_flag": "esp.",
+    "ship_name": "Dos de Mayo",
+    "master_role": "cap.",
+    "master_name": "Ferrer",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Montevideo. berg. esp. Dos de Mayo, cap. Ferrer, trip. 11, tons. 219, con carga, á Badía y Cp."
+  },
+  {
+    "source_file": "1893_03_30",
+    "publication_day": "",
+    "arrival_date": "Día 29:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva-York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Yucatán",
+    "master_role": "cap.",
+    "master_name": "Burley",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 29: De Nueva-York, en 4 días, vap. amer. Yucatán, capitán Burley, trip. 70, tons. 2,317, con carga, á"
+  },
+  {
+    "source_file": "1893_04_02",
+    "publication_day": "",
+    "arrival_date": "Día 19:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "45"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Día 19 De Tampa y Cayo-Hueso en 10 horaa vapor americano Mascotte, cap. Decker, trips. 45, tons. 520,"
+  },
+  {
+    "source_file": "1893_04_02",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vapor-correo",
+    "ship_flag": "esp.",
+    "ship_name": "Méjico",
+    "master_role": "cap.",
+    "master_name": "Alemany",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-York. on 4 días, vapor-correo esp. Méjico, cap. Alemany, trip. 69, tons. 2,212, con carga, á M. Calvo y Comp."
+  },
+  {
+    "source_file": "1893_04_07",
+    "publication_day": "",
+    "arrival_date": "Día 6:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Filadelfia",
+    "ship_type": "vap.",
+    "ship_flag": "ing",
+    "ship_name": "Russian Prince",
+    "master_role": "cap.",
+    "master_name": "Olsen",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "37"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "2,102"
+      },
+      {
+        "cargo_name": "lastre",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "R.",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 6: De Filadelfia en 6 días, vap. ing Russian Prince, capitán Olsen, trip. 37, tons. (2,102: en lastre, á R."
+  },
+  {
+    "source_file": "1893_04_13",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Caibarión",
+    "ship_type": "gol.",
+    "ship_flag": "ing.",
+    "ship_name": "Gypsun",
+    "master_role": "cap.",
+    "master_name": "Roberts",
+    "cargo_list": [],
+    "raw_text": "Caibarión gol. ing. Gypsun, cap. Roberts. S"
+  },
+  {
+    "source_file": "1893_04_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Alfonso XII",
+    "master_role": "cap.",
+    "master_name": "Gardón",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "131"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "3,750"
+      }
+    ],
+    "raw_text": "Alfonso XII, cap. Gardón, trip. 131, tons. 3,750,"
+  },
+  {
+    "source_file": "1893_04_14",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Yucatán",
+    "ship_type": "trip",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Burley",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "2,317"
+      }
+    ],
+    "raw_text": "Yucatán. cap. Burley. trip. 70, tons. 2,317, con"
+  },
+  {
+    "source_file": "1893_04_15",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Long",
+    "master_role": "cap.",
+    "master_name": "Rolf",
+    "cargo_list": [
+      {
+        "cargo_name": "petróleo",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Long, cap. Rolf, trip. 13, tons. 521, con petróleo,"
+  },
+  {
+    "source_file": "1893_04_20",
+    "publication_day": null,
+    "arrival_date": "Día 19:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Saratoga",
+    "master_role": "cap.",
+    "master_name": "Leighton",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 19: De Nueva York, en 4 días, vap. amer. Saratoga, capitán Leighton, trip. 70, tons. 1,692, con carga, á"
+  },
+  {
+    "source_file": "1893_04_20",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Luzárraga",
+    "cargo_list": [],
+    "raw_text": "cap. Luzárraga, trip. 40, tons. 1,471, con carga,"
+  },
+  {
+    "source_file": "1893_04_23",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Washington",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Curtis",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "70"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1,743"
+      }
+    ],
+    "raw_text": "Washington, cap. Curtis, trip. 70, tons. 1,743,"
+  },
+  {
+    "source_file": "1893_04_25",
+    "publication_day": "",
+    "arrival_date": "Día 10:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Cárdenas",
+    "ship_type": "vap.",
+    "ship_flag": "ing.",
+    "ship_name": "Fo we",
+    "master_role": "cap.",
+    "master_name": "Petersen",
+    "cargo_list": [
+      {
+        "cargo_name": "carga de tránsito",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Cárdenas en 10 horas, vap. ing. Fo we. cap. Petersen, trip 18, tons. 1265, con carga de tránsito,"
+  },
+  {
+    "source_file": "1893_04_25",
+    "publication_day": "",
+    "arrival_date": "Día 21:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "amerisano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Haulon",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "37"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,105"
+      }
+    ],
+    "raw_text": "Día 21: De Tampa y Cayo-Hueso, en 8 horas, vapor amerisano Olivette, cap. Haulon. trip. 37, tons. 1,105,"
+  },
+  {
+    "source_file": "1893_04_25",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Santander",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "García",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "123"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "2275"
+      }
+    ],
+    "raw_text": "de Santander, cap. García, trip. 123, tons. 2275,"
+  },
+  {
+    "source_file": "1893_04_26",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Ellis",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Ellis, trip. 9, tons. 800. con madera, á R. P."
+  },
+  {
+    "source_file": "1893_04_26",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Amigó",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Amigó, trip. 20, tons. 1,111, con carga, á"
+  },
+  {
+    "source_file": "1893_04_26",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Luzárraga",
+    "cargo_list": [],
+    "raw_text": "cap. Luzárraga, trip. 45, tons. 1,700, con carga,"
+  },
+  {
+    "source_file": "1893_05_02",
+    "publication_day": "",
+    "arrival_date": "Día 19:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Haulon",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "37"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,105"
+      }
+    ],
+    "raw_text": "Día 19: De Tampa y Cayo-Hueso, en 8 horas, vapor americano Olivette, cap. Haulon, trip. 37, tons. 1,105,"
+  },
+  {
+    "source_file": "1893_05_04",
+    "publication_day": "",
+    "arrival_date": "Día 2:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Liverpool",
+    "ship_type": "vap.",
+    "ship_flag": "ing.",
+    "ship_name": "Teutotonia",
+    "master_role": "cap.",
+    "master_name": "Jenes",
+    "cargo_list": [
+      {
+        "cargo_name": "carga general",
+        "cargo_units": "",
+        "cargo_count": "1.550"
+      }
+    ],
+    "raw_text": "Día 2: De Liverpool y escalas, en 25 días, vap. ing. Teutotonia, cap. Jenes, tons. 1,550, con carga general,"
+  },
+  {
+    "source_file": "1893_05_04",
+    "publication_day": "",
+    "arrival_date": "Día 10:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "38"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "-Tampa y Cayo-Hueso, en 10 horas, vapor americano Mascotte, cap. Decker, trips. 38, tons. 520,"
+  },
+  {
+    "source_file": "1893_05_04",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vapor-correo",
+    "ship_flag": "esp.",
+    "ship_name": "Méjico",
+    "master_role": "cap.",
+    "master_name": "Alemany",
+    "cargo_list": [
+      {
+        "cargo_name": "earga general",
+        "cargo_units": "",
+        "cargo_count": "1.366"
+      }
+    ],
+    "raw_text": "-Nueva-York, en 5 días, vapor-correo esp. Méjico, cap. Alemany, tons. 1,366, con earga general,"
+  },
+  {
+    "source_file": "1893_05_05",
+    "publication_day": null,
+    "arrival_date": "Día 3:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "City of Alexandria",
+    "master_role": "cap.",
+    "master_name": "Hoffmann",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": "1,966"
+      }
+    ],
+    "raw_text": "Día 3: De Nueva York, en 4 días, vap. amer. City of Alexandria, cap. Hoffmann, tons. 1,966, con carga,"
+  },
+  {
+    "source_file": "1893_05_09",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "esp.",
+    "ship_name": "Reina María Cristina",
+    "master_role": "cap.",
+    "master_name": "Gorordo",
+    "cargo_list": [
+      {
+        "cargo_name": "carga general",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "esp. Reina María Cristina, cap. Gorordo, tripulación 128, tons. 2631, con carga general, á M."
+  },
+  {
+    "source_file": "1893_05_13",
+    "publication_day": "",
+    "arrival_date": "Día 12:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Bardeos",
+    "ship_type": "vapor",
+    "ship_flag": "francés",
+    "ship_name": "Dupuy de Lome",
+    "master_role": "cap.",
+    "master_name": "Bezen",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "2,663"
+      },
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 12: De Bardeos y escaias, en 34 días, vapor francés Dupuy de Lome, cap. Bezen, tons. 2,663, con carga, á Dussaq y Comp."
+  },
+  {
+    "source_file": "1893_05_13",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Neielson",
+    "cargo_list": [
+      {
+        "cargo_name": "petróleo",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Neielson, tons. 480. con petróleo, á R. Truffin y Comp."
+  },
+  {
+    "source_file": "1893_05_14",
+    "publication_day": "",
+    "arrival_date": "Día 13:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "43"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Día 13: De Tampa y Cayo-Hueso, en 10 horas, vapor americano Mascotte, cap. Decker, trips, 43, tons. 520,"
+  },
+  {
+    "source_file": "1893_05_20",
+    "publication_day": "",
+    "arrival_date": "Día 6:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "berg.",
+    "ship_flag": "am.",
+    "ship_name": "Anita Bernni",
+    "master_role": "cap.",
+    "master_name": "",
+    "cargo_list": [],
+    "raw_text": "Mobela en 6 días berg. am. Anita Bernni cap."
+  },
+  {
+    "source_file": "1893_05_24",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Saratoga",
+    "master_role": "cap.",
+    "master_name": "Leighton",
+    "cargo_list": [],
+    "raw_text": "-Matanzas, vap. amer. Saratoga, cap. Leighton,"
+  },
+  {
+    "source_file": "1893_05_25",
+    "publication_day": "",
+    "arrival_date": "Dia 24:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "las Palmas",
+    "ship_type": "berg.",
+    "ship_flag": "español",
+    "ship_name": "Senrat",
+    "master_role": "cap.",
+    "master_name": "Talavera",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Dia 24: De las Palmas en 53 dias, berg. español Senrat, eapitán Talavera, trip. 10, tons. 168, con carga á la"
+  },
+  {
+    "source_file": "1893_05_25",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "City of Washington",
+    "master_role": "cap.",
+    "master_name": "Cartes",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "70"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1649"
+      }
+    ],
+    "raw_text": "é hrjo. -Nueva York en 4 dias, vap. amer. City of Washington, cap. Cartes, trip. 70, tons. 1649, con"
+  },
+  {
+    "source_file": "1893_05_25",
+    "publication_day": "",
+    "arrival_date": "Día 50:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Montevideo",
+    "ship_type": "berg.",
+    "ship_flag": "esp",
+    "ship_name": "Pedro Maristany",
+    "master_role": "cap.",
+    "master_name": "Maristani",
+    "cargo_list": [
+      {
+        "cargo_name": "tasajo",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Adams y Jimenis. -Montevideo en 50 dias, berg. esp, Pedro Maristany, cap. Maristani, trip. 12, ton. 282, con tasajo á Coll y Cresada."
+  },
+  {
+    "source_file": "1893_05_25",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "City",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Olis",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "City, cap. Olis, trip 30, tons. -, con carga á"
+  },
+  {
+    "source_file": "1893_05_26",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Cataluña",
+    "ship_type": "",
+    "ship_flag": "esp.",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Genis",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "2,217"
+      }
+    ],
+    "raw_text": "esp. Cataluña, cap. Genis, trip. 123, tons. 2,217,"
+  },
+  {
+    "source_file": "1893_05_27",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Francisco",
+    "master_role": "cap.",
+    "master_name": "Bayona",
+    "cargo_list": [],
+    "raw_text": "Francisco, cap. Bayona, trip. 46, tons. 1,611, con"
+  },
+  {
+    "source_file": "1893_05_28",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "tons.",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Peterson",
+    "cargo_list": [],
+    "raw_text": "cap. Peterson, tons. 621, en lastre, á R. Truffin"
+  },
+  {
+    "source_file": "1893_05_28",
+    "publication_day": "",
+    "arrival_date": "Día 10:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Penzacola",
+    "ship_type": "berg.",
+    "ship_flag": "amer.",
+    "ship_name": "Henry Norwell",
+    "master_role": "cap.",
+    "master_name": "Cushman",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Penzacola en 10 días berg. amer. Henry Norwell, cap. Cushman, trips. 10, tons. 507; con madera, á R. P. Santa María."
+  },
+  {
+    "source_file": "1893_06_01",
+    "publication_day": "",
+    "arrival_date": "Día 31:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "44"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Dia 31: De Tampa y Cayo-Hueso, en 10 horas, vapor americano Mascotte, cap. Decker, trips. 44, tons. 520,"
+  },
+  {
+    "source_file": "1893_06_01",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "am.",
+    "ship_name": "Orizaba",
+    "master_role": "cap.",
+    "master_name": "M.",
+    "cargo_list": [],
+    "raw_text": "-Nneva York, en 4 ds. vap. am. Orizaba, cap. M."
+  },
+  {
+    "source_file": "1893_06_04",
+    "publication_day": "",
+    "arrival_date": "Día 10:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Ceyo-Huesu",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Maschtte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "44"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "-Tampa y Ceyo-Huesu. en 10 horas, vapor americano Maschtte, cap. Decker, trips. 44, tons. 520,"
+  },
+  {
+    "source_file": "1893_06_04",
+    "publication_day": "",
+    "arrival_date": "Día 3:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Filadelfia",
+    "ship_type": "vap.",
+    "ship_flag": "norg.",
+    "ship_name": "Cuba",
+    "master_role": "cap.",
+    "master_name": "Bonheld",
+    "cargo_list": [
+      {
+        "cargo_name": "R. Truffin",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Filadelfia en 3 dias. vap. norg. Cuba, cap. Bonheld, trip. 15, ton. 726, con carga á R. Truffin"
+  },
+  {
+    "source_file": "1893_06_06",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Daboll",
+    "cargo_list": [
+      {
+        "cargo_name": "lastre",
+        "cargo_units": "",
+        "cargo_count": "1.561"
+      }
+    ],
+    "raw_text": "cap. Daboll, tons. 1,561, en lastre, á Luis V."
+  },
+  {
+    "source_file": "1893_06_06",
+    "publication_day": "",
+    "arrival_date": "Día 34:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva-York",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "City of Alexandria",
+    "master_role": "cap.",
+    "master_name": "Hoffmann",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-York, en 34 días, vap. amer. City of Alexandria, cap. Hoffmann, tons 1,966, con carga,"
+  },
+  {
+    "source_file": "1893_06_06",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Saint Germain",
+    "master_role": "cap.",
+    "master_name": "De Kersabiec",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "tons",
+        "cargo_count": "1,886"
+      }
+    ],
+    "raw_text": "Saint Germain, cap. De Kersabiec, tons. 1,886,"
+  },
+  {
+    "source_file": "1893_06_06",
+    "publication_day": "",
+    "arrival_date": "Día 20:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Barcelona",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Churruca",
+    "master_role": "cap.",
+    "master_name": "Barrenechea",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": "814"
+      }
+    ],
+    "raw_text": "-Barcelona y escalas, en 20 días, vap. esp. Churruca, cap. Barrenechea, tons. 814, con carga, á"
+  },
+  {
+    "source_file": "1893_06_07",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Rolf",
+    "cargo_list": [
+      {
+        "cargo_name": "petróleo",
+        "cargo_units": "",
+        "cargo_count": "521"
+      }
+    ],
+    "raw_text": "Long, cap. Rolf, tons. 521, con petróleo, á Luis"
+  },
+  {
+    "source_file": "1893_06_08",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "trips",
+    "ship_flag": "",
+    "ship_name": "Pinillos",
+    "master_role": "cap.",
+    "master_name": "Cisa",
+    "cargo_list": [
+      {
+        "cargo_name": "Loychate",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "S enz",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "Cp",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Pinillos. cap. Cisa, trips. 52, tons. 2125, con carga á Loychate, S enz y Cp"
+  },
+  {
+    "source_file": "1893_06_08",
+    "publication_day": "",
+    "arrival_date": "Día :",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Las Palmas",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Julia",
+    "master_role": "cap.",
+    "master_name": "Vaca",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Las Palmas y escalas, en días, vap. esp. Julia, cap. Vaca, trips. 63, tons. 1126, con carga á"
+  },
+  {
+    "source_file": "1893_06_09",
+    "publication_day": "",
+    "arrival_date": "Día 8:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva York",
+    "ship_type": "bea.",
+    "ship_flag": "amer.",
+    "ship_name": "B. N. Hales",
+    "master_role": "cap.",
+    "master_name": "Stahl",
+    "cargo_list": [
+      {
+        "cargo_name": "carbon",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 8: De Nueva York en 13 dias bea. amer. B. N. Hales, cap. Stahl, trip. 13, tons. 833, con carbon á"
+  },
+  {
+    "source_file": "1893_06_09",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Avilés",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Larraga",
+    "cargo_list": [],
+    "raw_text": "Avilés, cap. Larraga, trip. 31, tons. 586, con"
+  },
+  {
+    "source_file": "1893_06_11",
+    "publication_day": "",
+    "arrival_date": "Día 10:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "44"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Día 10: De Tampa y Cayo-Hueso, en 10 horas, vapor americano Mascotte, cap. Decker, trips. 44, tons. 520,"
+  },
+  {
+    "source_file": "1893_06_15",
+    "publication_day": null,
+    "arrival_date": "Día 14:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Yumurí",
+    "master_role": "cap.",
+    "master_name": "Hausen",
+    "cargo_list": [],
+    "raw_text": "Día 14: De Matanzas, en 6 horas, vap. amer. Yumurí, capitán Hausen, trip. 70, tons. 2,332, con carga de"
+  },
+  {
+    "source_file": "1893_06_16",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Me Inton",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "rizaba, cap. Me Inton, trip. 66, tons. 2334, con"
+  },
+  {
+    "source_file": "1893_06_16",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Pedersen",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Pedersen, trip. 19, tons. 971 con carga, á R."
+  },
+  {
+    "source_file": "1893_06_16",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Panamá",
+    "master_role": "cap.",
+    "master_name": "Rivera",
+    "cargo_list": [
+      {
+        "cargo_name": "carga general",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva York, en 5 dias, vap. esp. Panamá, capitan Rivera, trip. 75, tons. 2085, con carga general, á M. Calvo y Cp."
+  },
+  {
+    "source_file": "1893_06_20",
+    "publication_day": "",
+    "arrival_date": "Día 19:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva-Orleans",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Aransas",
+    "master_role": "cap.",
+    "master_name": "Maxson",
+    "cargo_list": [],
+    "raw_text": "Día 19: De Nueva-Orleans y escalas, en 5 días, vapor americano Aransas, cap. Maxson, trip. 40, tons. 678,"
+  },
+  {
+    "source_file": "1893_06_22",
+    "publication_day": "",
+    "arrival_date": "Día 21:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Matanzas",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Arausas",
+    "master_role": "cap.",
+    "master_name": "Maxson",
+    "cargo_list": [
+      {
+        "cargo_name": "carga de tránsito",
+        "cargo_units": "",
+        "cargo_count": "678"
+      }
+    ],
+    "raw_text": "Día 21: De Matanzas, en 6 horas, vap. amer. Arausas, capitán Maxson, tons. 678, con carga de tránsito, á"
+  },
+  {
+    "source_file": "1893_06_22",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "vap.",
+    "ship_flag": "am.",
+    "ship_name": "City of Alexandría",
+    "master_role": "cap.",
+    "master_name": "Hofinan",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "70"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,692"
+      },
+      {
+        "cargo_name": "pasajeros",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "corga general",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "Hidalgo",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "Ca",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva York en 5 días, vap. am. City of Alexandría, cap. Hofinan, trips. 70. tons. 1,692, con pasajeros y corga general, á Hidalgo y Ca"
+  },
+  {
+    "source_file": "1893_06_24",
+    "publication_day": "",
+    "arrival_date": "Día 23:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva-Orleans",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Conde Wifredo",
+    "master_role": "cap.",
+    "master_name": "Diez",
+    "cargo_list": [
+      {
+        "cargo_name": "carga de tránsito",
+        "cargo_units": "",
+        "cargo_count": "3,765"
+      }
+    ],
+    "raw_text": "Día 23: De Nueva-Orleans, en 2 días, vap. esp. Conde Wifredo, cap. Diez, tons. 3,765, con carga de tránsito, á Loychate, Saenz y Comp."
+  },
+  {
+    "source_file": "1893_06_24",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Montevideo",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Izaguirre",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "132"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "5296"
+      }
+    ],
+    "raw_text": "Montevideo, cap. Izaguirre, trip. 132, tons. 5296,"
+  },
+  {
+    "source_file": "1893_06_25",
+    "publication_day": "",
+    "arrival_date": "Día 24:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Cienfuegos",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Navarro",
+    "master_role": "cap.",
+    "master_name": "Goicoechea",
+    "cargo_list": [
+      {
+        "cargo_name": "azúcar",
+        "cargo_units": "tons",
+        "cargo_count": "2,514"
+      }
+    ],
+    "raw_text": "Día 24: De Cienfuegos, en 1 días, vap. esp. Navarro, capitán Goicoechea, tons. 2,514, con azúcar de tránsito, á C. Blanch y Comp."
+  },
+  {
+    "source_file": "1893_06_28",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Huntemann",
+    "cargo_list": [
+      {
+        "cargo_name": "madera",
+        "cargo_units": "tons",
+        "cargo_count": "509"
+      }
+    ],
+    "raw_text": "Smith, cap. Huntemann, tons. 509, con madera,"
+  },
+  {
+    "source_file": "1893_06_28",
+    "publication_day": "",
+    "arrival_date": "Día 27:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Liverpool",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Santauderino",
+    "master_role": "cap.",
+    "master_name": "Luzárraga",
+    "cargo_list": [
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1,910"
+      },
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      },
+      {
+        "cargo_name": "C. Blanch y Comp.",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 27: De Liverpool y escalas, en 23 días, vap. esp. Santauderino, cap. Luzárraga, tons. 1,910, con carga, á C. Blanch y Comp."
+  },
+  {
+    "source_file": "1893_06_29",
+    "publication_day": "",
+    "arrival_date": "Día 7:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vaper",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "44"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Tampa y Cayo-Hueso, en 7 horas, vaper americano Mascotte, cap. Decker, trips. 44, tons. 520,"
+  },
+  {
+    "source_file": "1893_06_29",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vapor-correo",
+    "ship_flag": "español",
+    "ship_name": "Alfonfo XII",
+    "master_role": "cap.",
+    "master_name": "Gardón",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "3,417"
+      }
+    ],
+    "raw_text": "Veracruz y Progreso, en 4 días, vapor-correo español Alfonfo XII, cap. Gardón, tons. 3,417, con"
+  },
+  {
+    "source_file": "1893_07_09",
+    "publication_day": "",
+    "arrival_date": "Día 8:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Decker",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "44"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Día 8: De Tampa y Cayo-Hueso, en 7 horas, vapor amercano Mascotte, cap. Decker, trips. 44, tons. 520,"
+  },
+  {
+    "source_file": "1893_07_09",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vapor-correo",
+    "ship_flag": "español",
+    "ship_name": "Ciodad Condal",
+    "master_role": "cap.",
+    "master_name": "Alemany",
+    "cargo_list": [
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1,616"
+      }
+    ],
+    "raw_text": "-Veracruz y escalas, en 4 días, vapor-correo español Ciodad Condal, cap. Alemany, tons. 1,616,"
+  },
+  {
+    "source_file": "1893_08_06",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Lafayette",
+    "master_role": "cap.",
+    "master_name": "Simmous",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "159"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "1.293"
+      }
+    ],
+    "raw_text": "Lafayette, cap. Simmous, trip. 159. tons. 1,293"
+  },
+  {
+    "source_file": "1893_08_06",
+    "publication_day": "",
+    "arrival_date": "Día 5:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Hanlon",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "43"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Día 5: De Tampa y Cayo-Hueso, en 7 horas, vapor americano Mascotte, cap. Hanlon, trips. 43, tons. 520,"
+  },
+  {
+    "source_file": "1893_08_13",
+    "publication_day": "",
+    "arrival_date": "Día 12:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Filadelfia",
+    "ship_type": "vap.",
+    "ship_flag": "",
+    "ship_name": "Kuperra",
+    "master_role": "cap.",
+    "master_name": "Bate",
+    "cargo_list": [],
+    "raw_text": "Día 12: De Filadelfia, en 7 días, vap. Kuperra, cap. Bate,"
+  },
+  {
+    "source_file": "1893_08_27",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "Gallart",
+    "master_role": "cap.",
+    "master_name": "Mas",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Gallart, cap. Mas, trip. 41, tons. 2 403, con carga, á C. Blanch y Comp."
+  },
+  {
+    "source_file": "1893_08_27",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Peacou",
+    "cargo_list": [
+      {
+        "cargo_name": "pescado salado",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Peacou, trip. 6, tons. 33, con pescado salado, á Mauuel Suárez."
+  },
+  {
+    "source_file": "1893_09_24",
+    "publication_day": "",
+    "arrival_date": "Día 23:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Liverpool",
+    "ship_type": "vap.",
+    "ship_flag": "esp.",
+    "ship_name": "Gracia",
+    "master_role": "cap.",
+    "master_name": "Cirarda",
+    "cargo_list": [],
+    "raw_text": "Día 23: De Liverpool, Santander y Coruña, vap. esp. Gracia, cap. Cirarda, trip. 40, ton. 1,837, con carga,"
+  },
+  {
+    "source_file": "1893_10_01",
+    "publication_day": "",
+    "arrival_date": "Día 30:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Nueva-Orleans",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Aransas",
+    "master_role": "cap.",
+    "master_name": "Maxson",
+    "cargo_list": [],
+    "raw_text": "Día 30: De Nueva-Orleans y escalas, en 5 días, vapor americano Aransas, cap. Maxson, trip. 35, tons. 678,"
+  },
+  {
+    "source_file": "1893_10_01",
+    "publication_day": "",
+    "arrival_date": "Día 30:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "am.",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Hanlon",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "43"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "520"
+      }
+    ],
+    "raw_text": "Tampa y Cayo-Hueso, eu 30 horas, vapor amencano Mascotte, cap. Hanlon, trips. 43, tons. 520,"
+  },
+  {
+    "source_file": "1893_10_01",
+    "publication_day": "",
+    "arrival_date": "Día 10:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva York",
+    "ship_type": "gol.",
+    "ship_flag": "esp.",
+    "ship_name": "Fortuna",
+    "master_role": "cap.",
+    "master_name": "Puig",
+    "cargo_list": [
+      {
+        "cargo_name": "trip.",
+        "cargo_units": "",
+        "cargo_count": "12"
+      },
+      {
+        "cargo_name": "tons.",
+        "cargo_units": "",
+        "cargo_count": "135"
+      },
+      {
+        "cargo_name": "lastre",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-York, en 10 días, gol. de recreo esp. Fortuna, cap. Puig, trip. 12, tons. 135, en lastre, á la"
+  },
+  {
+    "source_file": "1893_10_22",
+    "publication_day": "",
+    "arrival_date": "",
+    "arrival_date_calc": null,
+    "travel_departure_port": "",
+    "ship_type": "",
+    "ship_flag": "",
+    "ship_name": "",
+    "master_role": "cap.",
+    "master_name": "Simonsen",
+    "cargo_list": [
+      {
+        "cargo_name": "carbón",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "cap. Simonsen, trip 2, tons. 6:5, con carbón"
+  },
+  {
+    "source_file": "1893_11_26",
+    "publication_day": "",
+    "arrival_date": "Día 25:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Me Kay",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "50"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1105"
+      }
+    ],
+    "raw_text": "Día 25: De Tampa y Cayo-Hueso, en 30 horas, vapor americano Olivette, cap. Me Kay, trips. 50, tons. 1105,"
+  },
+  {
+    "source_file": "1893_11_26",
+    "publication_day": "",
+    "arrival_date": "Día 4:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Nueva Orleans",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Wm. GHewes",
+    "master_role": "cap.",
+    "master_name": "Morgan",
+    "cargo_list": [
+      {
+        "cargo_name": "carga",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Nueva-Orleans, en 4 días, vap. amer. Wm. GHewes, cap. Morgan, trip. 39, tons. 675, con carga, á Galbán, Río y Comp."
+  },
+  {
+    "source_file": "1893_12_03",
+    "publication_day": "",
+    "arrival_date": "Día 2:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "amencano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Mc Kay",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "50"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1105"
+      }
+    ],
+    "raw_text": "Dia 2: De Tampa y Cayo-Hueso, en 30 horas, vapor amencano Olivette, cap. Mc Kay, trips. 50, tons. 1105,"
+  },
+  {
+    "source_file": "1893_12_17",
+    "publication_day": "",
+    "arrival_date": "Día 16:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "americano",
+    "ship_name": "Olivette",
+    "master_role": "cap.",
+    "master_name": "Mc Hay",
+    "cargo_list": [
+      {
+        "cargo_name": "trips",
+        "cargo_units": "",
+        "cargo_count": "50"
+      },
+      {
+        "cargo_name": "tons",
+        "cargo_units": "",
+        "cargo_count": "1105"
+      }
+    ],
+    "raw_text": "Dia 16: De Tampa y Cayo-Hueso, en 30 horas, vapor americano Olivette, cap. Mc Hay, trips. 50, tons. 1105,"
+  },
+  {
+    "source_file": "1893_12_24",
+    "publication_day": "",
+    "arrival_date": "Día 23:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Tampa y Cayo-Hueso",
+    "ship_type": "vapor",
+    "ship_flag": "amerieano",
+    "ship_name": "Mascotte",
+    "master_role": "cap.",
+    "master_name": "Hanlón",
+    "cargo_list": [],
+    "raw_text": "Día 23: De Tampa y Cayo-Hueso, en 30 horas, vapor amerieano Mascotte, cap. Hanlón, trip. 44, tons. 520,"
+  },
+  {
+    "source_file": "1893_12_24",
+    "publication_day": "",
+    "arrival_date": "Día 9:",
+    "arrival_date_calc": null,
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Séneca",
+    "master_role": "cap.",
+    "master_name": "Stevens",
+    "cargo_list": [
+      {
+        "cargo_name": "",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "-Veracruz y escalas, en 9 días, vap. amer. Séneca, cap. Stevens, trip. 70, tons. 1,912, con carga,"
+  },
+  {
+    "source_file": "1893_12_30",
+    "publication_day": "",
+    "arrival_date": "Día 29:",
+    "arrival_date_calc": "",
+    "travel_departure_port": "Veracruz",
+    "ship_type": "vap.",
+    "ship_flag": "amer.",
+    "ship_name": "Orizaba",
+    "master_role": "cap.",
+    "master_name": "Mc Intosh",
+    "cargo_list": [
+      {
+        "cargo_name": "Hidalgo y Comp.",
+        "cargo_units": "",
+        "cargo_count": ""
+      }
+    ],
+    "raw_text": "Día 29: De Veracruz y escalas, en 7 días, vap. amer. Orizaba, cap. Mc Intosh, trip. 70, tons 2,334, con carga, á Hidalgo y Comp."
+  }
+]
