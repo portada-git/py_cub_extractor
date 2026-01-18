@@ -42,7 +42,7 @@ def show_menu():
     print("1. Concatenate OCR text files by date")
     print("2. Extract TRAVERSING ENTRANCES")
     print("3. Extract CABOTAGE ENTRIES")
-    print("4. Extract by YEAR (Professional - 16 threads)")
+    print("4. Extract TRAVERSING ENTRANCES, CABOTAGE ENTRIES by YEAR (by threads)")
     print()
     print("DATABASE & ANALYSIS:")
     print("5. Check missing files to process")
