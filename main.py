@@ -42,16 +42,12 @@ def show_menu():
     print("1. Concatenate OCR text files by date")
     print("2. Extract TRAVERSING ENTRANCES")
     print("3. Extract CABOTAGE ENTRIES")
-    print("4. Extract BOTH (Traversing + Cabotage)")
-    print("5. Extract by YEAR (Professional - 16 threads)")
-    print("5b. Extract by MONTH (Professional - 16 threads)")
+    print("4. Extract by YEAR (Professional - 16 threads)")
     print()
     print("DATABASE & ANALYSIS:")
-    print("6. Check missing files to process")
-    print("7. Show database statistics")
-    print("8. Export data (year/month/)")
-    print("9. Analyze data (year/port/)")
-    print("10. Database utilities (backup/reset/optimize)")
+    print("5. Check missing files to process")
+    print("6. Show database statistics")
+    print("7. Export all years (JSON + CSV)")
     print()
     print("0. Exit")
     return input("Choose an option: ")
@@ -290,51 +286,6 @@ def extract_by_year():
     extractor.extract_all_years()
 
 
-def extract_by_month():
-    """Opción 5b: Extrae por mes específico"""
-    input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
-    output_dir = input("Enter path to output directory: ").strip()
-    year = input("Enter year (e.g., 1852): ").strip()
-    month = input("Enter month (1-12): ").strip()
-    
-    try:
-        max_workers = int(input("Number of threads (default 16): ").strip() or "16")
-    except:
-        max_workers = 16
-    
-    try:
-        month = int(month)
-        if month < 1 or month > 12:
-            print("❌ Invalid month. Must be 1-12")
-            return
-    except:
-        print("❌ Invalid month")
-        return
-    
-    # Validar que sea el directorio raíz
-    from pathlib import Path
-    input_path = Path(input_dir)
-    
-    if not input_path.exists():
-        print(f"❌ Directory not found: {input_dir}")
-        return
-    
-    year_path = input_path / year
-    if not year_path.exists():
-        print(f"❌ Year directory not found: {year_path}")
-        return
-    
-    extractor = Extractor(input_dir, output_dir, max_workers)
-    result = extractor.extract_month(year, month)
-    
-    if result:
-        print(f"\n✅ Extraction completed for {year}-{month:02d}")
-        print(f"   Traversing: {result['traversing']}")
-        print(f"   Cabotage: {result['cabotage']}")
-        print(f"   Tokens: {result['tokens']:,}")
-        print(f"   Files processed: {result['processed']}")
-
-
 def check_missing():
     """Opción 6: Verifica qué archivos faltan por procesar"""
     from utils.db.check_missing import check_by_year
@@ -348,72 +299,52 @@ def show_db_stats():
     show_stats(db)
 
 
-def export_data_menu():
-    """Opción 8: Menú de exportación"""
-    print("\n📊 EXPORT DATA")
-    print("="*50)
-    print("1. Export year from DB (JSON + CSV)")
-    print("2. Export month")
-    print("3. Export day")
-    print("4. Export by port")
-    print("5. Export by ship")
-    print("6. Export by captain")
-    print("7. List ports")
-    print("8. List ships")
-    print("9. List captains")
-    print("0. Back")
+def export_all_years():
+    """Opción 8: Exporta todos los años de la BD a JSON y CSV"""
+    from utils.export_data import export_year
     
-    choice = input("Choose option: ").strip()
-    
-    from utils.export_data import (
-        export_year, export_month, export_day, export_port, 
-        export_ship, export_master, list_ports, list_ships, list_masters
-    )
+    output_dir = input("Enter output directory: ").strip()
     
     db = ExtractionDB()
     
-    if choice == "1":
-        year = input("Enter year: ").strip()
-        output_dir = input("Enter output directory: ").strip()
-        export_year(db, year, output_dir)
-    elif choice == "2":
-        year = input("Enter year: ").strip()
-        month = input("Enter month (1-12): ").strip()
-        output_dir = input("Enter output directory: ").strip()
+    # Obtener años únicos de la BD
+    import sqlite3
+    with sqlite3.connect(".data/extraction.db") as conn:
+        cursor = conn.cursor()
+        cursor.execute('''
+            SELECT DISTINCT substr(source_file, 1, 4) as year 
+            FROM traversing 
+            UNION 
+            SELECT DISTINCT substr(source_file, 1, 4) as year 
+            FROM cabotage 
+            ORDER BY year
+        ''')
+        years = [row[0] for row in cursor.fetchall()]
+    
+    if not years:
+        print("❌ No data in database")
+        return
+    
+    print(f"\n📅 Years found: {', '.join(years)}")
+    print(f"Exporting to: {output_dir}\n")
+    
+    # Exportar cada año
+    for year in years:
+        print(f"  Exporting {year}...", end=" ", flush=True)
         try:
-            month = int(month)
-            export_month(db, year, month, output_dir)
-        except ValueError:
-            print("❌ Invalid month")
-    elif choice == "3":
-        year = input("Enter year: ").strip()
-        month = input("Enter month (1-12): ").strip()
-        day = input("Enter day (1-31): ").strip()
-        output_dir = input("Enter output directory: ").strip()
-        try:
-            month = int(month)
-            day = int(day)
-            export_day(db, year, month, day, output_dir)
-        except ValueError:
-            print("❌ Invalid month or day")
-    elif choice == "4":
-        port = input("Enter port name: ").strip()
-        output_dir = input("Enter output directory: ").strip()
-        export_port(db, port, output_dir)
-    elif choice == "5":
-        ship = input("Enter ship name: ").strip()
-        output_dir = input("Enter output directory: ").strip()
-        export_ship(db, ship, output_dir)
-    elif choice == "6":
-        master = input("Enter captain name: ").strip()
-        output_dir = input("Enter output directory: ").strip()
-        export_master(db, master, output_dir)
-    elif choice == "7":
-        list_ports(db)
-    elif choice == "8":
-        list_ships(db)
-    elif choice == "9":
-        list_masters(db)
+            export_year(db, year, output_dir)
+            print("✅")
+        except Exception as e:
+            print(f"❌ Error: {e}")
+    
+    print()
+    print("="*60)
+    print("✅ EXPORT COMPLETED")
+    print("="*60)
+    print(f"Files saved in: {output_dir}/")
+    for year in years:
+        print(f"  • {year}_traversing.json / .csv")
+        print(f"  • {year}_cabotage.json / .csv")
 
 
 def analyze_data_menu():
@@ -468,21 +399,13 @@ def main():
         elif choice == "3":
             extract_cabotage_data()
         elif choice == "4":
-            extract_both_entries()
-        elif choice == "5":
             extract_by_year()
-        elif choice == "5b":
-            extract_by_month()
-        elif choice == "6":
+        elif choice == "5":
             check_missing()
-        elif choice == "7":
+        elif choice == "6":
             show_db_stats()
-        elif choice == "8":
-            export_data_menu()
-        elif choice == "9":
-            analyze_data_menu()
-        elif choice == "10":
-            db_utils_menu()
+        elif choice == "7":
+            export_all_years()
         elif choice == "0":
             print("Goodbye!")
             break
