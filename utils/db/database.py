@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Database module para almacenar extracciones en SQLite
+Esquema basado en documento de análisis de campos
 """
 import sqlite3
 import json
@@ -15,13 +16,13 @@ class ExtractionDB:
         self.init_db()
     
     def init_db(self):
-        """Inicializa la base de datos con las tablas necesarias"""
+        """Inicializa la base de datos con las tablas necesarias según documento"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
-            # Tabla para travesías
+            # Tabla TRAVESIAS (24 columnas)
             cursor.execute('''
-                CREATE TABLE IF NOT EXISTS traversing (
+                CREATE TABLE IF NOT EXISTS travesias (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     files TEXT,
                     publication_date TEXT,
@@ -49,9 +50,9 @@ class ExtractionDB:
                 )
             ''')
             
-            # Tabla para cabotajes
+            # Tabla CABOTAJES (22 columnas - sin ship_tons_capacity y ship_tons_unit)
             cursor.execute('''
-                CREATE TABLE IF NOT EXISTS cabotage (
+                CREATE TABLE IF NOT EXISTS cabotajes (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     files TEXT,
                     publication_date TEXT,
@@ -100,7 +101,7 @@ class ExtractionDB:
             
             try:
                 cursor.execute('''
-                    INSERT INTO traversing (
+                    INSERT INTO travesias (
                         files, publication_date, publication_day, travel_arrival_date,
                         travel_departure_port, travel_departure_date, travel_port_of_call_list,
                         travel_duration_value, travel_duration_unit, ship_type, ship_flag,
@@ -150,7 +151,7 @@ class ExtractionDB:
             
             try:
                 cursor.execute('''
-                    INSERT INTO cabotage (
+                    INSERT INTO cabotajes (
                         files, publication_date, publication_day, travel_arrival_date,
                         travel_departure_port, travel_departure_date, travel_port_of_call_list,
                         travel_duration_value, travel_duration_unit, ship_type, ship_flag,
@@ -210,7 +211,7 @@ class ExtractionDB:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
             cursor.execute('''
-                SELECT * FROM traversing WHERE publication_day LIKE ?
+                SELECT * FROM travesias WHERE publication_day LIKE ?
                 ORDER BY publication_day
             ''', (f'{year}%',))
             return [dict(row) for row in cursor.fetchall()]
@@ -221,7 +222,7 @@ class ExtractionDB:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
             cursor.execute('''
-                SELECT * FROM cabotage WHERE publication_day LIKE ?
+                SELECT * FROM cabotajes WHERE publication_day LIKE ?
                 ORDER BY publication_day
             ''', (f'{year}%',))
             return [dict(row) for row in cursor.fetchall()]
@@ -232,11 +233,11 @@ class ExtractionDB:
             cursor = conn.cursor()
             
             # Eliminar travesías del año
-            cursor.execute('DELETE FROM traversing WHERE publication_day LIKE ?', (f'{year}%',))
+            cursor.execute('DELETE FROM travesias WHERE publication_day LIKE ?', (f'{year}%',))
             traversing_deleted = cursor.rowcount
             
             # Eliminar cabotajes del año
-            cursor.execute('DELETE FROM cabotage WHERE publication_day LIKE ?', (f'{year}%',))
+            cursor.execute('DELETE FROM cabotajes WHERE publication_day LIKE ?', (f'{year}%',))
             cabotage_deleted = cursor.rowcount
             
             # Eliminar archivos procesados del año
@@ -256,10 +257,10 @@ class ExtractionDB:
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
-            cursor.execute('SELECT COUNT(*) FROM traversing')
+            cursor.execute('SELECT COUNT(*) FROM travesias')
             traversing_count = cursor.fetchone()[0]
             
-            cursor.execute('SELECT COUNT(*) FROM cabotage')
+            cursor.execute('SELECT COUNT(*) FROM cabotajes')
             cabotage_count = cursor.fetchone()[0]
             
             cursor.execute('SELECT COUNT(*) FROM processed_files')

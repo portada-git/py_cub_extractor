@@ -187,6 +187,9 @@ class Extractor:
                         # Asegurar que tiene el nombre del archivo
                         if not entry.get('files'):
                             entry['files'] = file_path.name
+                        # Asegurar que travel_arrival_date es "La Habana" para travesías
+                        if not entry.get('travel_arrival_date'):
+                            entry['travel_arrival_date'] = 'La Habana'
                         results.append(entry)
                     else:
                         self.logger.debug(f"Empty or invalid entry from LLM for traversing")
