@@ -1,586 +1,586 @@
-arrival_date;arrival_date_calc;cargo_list;master_name;master_role;publication_day;raw_text;ship_flag;ship_name;ship_type;source_file;travel_departure_port
-;;N/A: ;López;cap.;;"De Clenfuegos, vapor ""Reina María de los Angeles,"" capitán López, con efectos.";;Reina María de los Angeles;vap.;1914_01_05;Clenfuegos
-;;N/A: ;Marantes;patrón;;"De Mariel, goleta ""Pilar,"" patrón Marantes, con 800 sacos azúcar.";;Pilar;goleta;1914_01_05;Mariel
-;;;Mas;patrón;;"De Santa Cruz, goleta ""Benita,"" patrón Mas, con efectos.";;Benita;goleta;1914_01_05;Santa Cruz
-;;;Sánchez;patrón;;"De Matanzas, goleta ""Blanca,"" patrón Sánchez, con efectos.";;Blanca;goleta;1914_01_05;Matanzas
-;;N/A: ;Barolo;patrón;;"De Arroyos, goleta ""Aracelía,"" patrón Barolo, con 600 sacos carbón.";;Aracelía;goleta;1914_01_05;Arroyos
-;;N/A: ;Guasch;patrón;;"De Ciego Novillo, goleta ""Hermosa Guanera,"" patrón Guasch, con 800 sacos de carbón.";;Hermosa Guanera;goleta;1914_01_05;Ciego Novillo
-;;N/A: ;Alemañ;patrón;;"De Jaruco, goleta ""Pájaro del Mar,"" patrón Alemañ, con efectos.";;Pájaro del Mar;goleta;1914_01_05;Jaruco
-;;N/A: ;Abella;patrón;;"De Santa Cruz, goleta ""Enigma,"" patrón Abella, con efectos.";;Enigma;goleta;1914_01_05;Santa Cruz
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 300 sacos azúcar.";;Pilar;goleta;1914_01_22;Mariel
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos azúcar.";;San Francisco;goleta;1914_01_22;Banes
-;;N/A: ;;;;"De Ciego Novillo goleta ""Maria Dolores,"" con 1,200 sacos carbón.";;Maria Dolores;goleta;1914_01_22;Ciego Novillo
-;;N/A:  | N/A: ;;;;"De Margaritas goleta ""Fellz,"" con 300 sacos carbón y leña.";;Fellz;goleta;1914_01_22;Margaritas
-;;N/A: ;;;;"De Cárdenas goleta ""Maria del Carmen,"" con 60 pipas aguardiente.";;Maria del Carmen;goleta;1914_01_22;Cárdenas
-;;;;;;"De Arroyos, vapor ""Antolin del Collado,"" con efectos.";;Antolin del Collado;vapor;1914_01_24;Arroyos
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;goleta;1914_01_24;Mariel
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_01_24;Banes
-;;N/A: ;;;;"De Canasi goleta ""Sabás,"" con 400 sacos de azúcar.";;Sabás;goleta;1914_01_24;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Benita,"" con 500 sacos de azúcar.";;Benita;goleta;1914_01_24;Canasi
-;;N/A: ;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos de azúcar.";;Gertrudis;goleta;1914_01_24;Dominica
-;;N/A: ;;;;"De Cárdenas goleta ""Rosita,"" con 50 pipas aguardiente.";;Rosita;goleta;1914_01_24;Cárdenas
-;;N/A: ;;;;"De Matanzas goleta ""María,"" con efectos.";;María;goleta;1914_01_24;Matanzas
-;;;;;;"De Caibaríen vapor ""II Alava,"" con efectos.";;II Alava;vapor;1914_01_28;Caibaríen
-;;N/A: ;;;;"De Ciénfuegos vapor ""Antinógenes Méndez,"" con efectos.";;Antinógenes Méndez;vapor;1914_01_28;Ciénfuegos
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;goleta;1914_01_28;Mariel
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_01_28;Cabañas
-;;N/A: ;;;;"De Ciego Novillo goleta ""Enriqueta,"" con 800 sacos carbón.";;Enriqueta;goleta;1914_01_28;Ciego Novillo
-;;N/A: ;;;;"De Bolondrón goleta ""2da. Rosa,"" con 800 sacos carbón.";;2da. Rosa;goleta;1914_01_28;Bolondrón
-;;N/A: ;;;;"De Bolondrón goleta ""Maria Torrent,"" con 1,000 sacos carbón.";;Maria Torrent;goleta;1914_01_28;Bolondrón
-;;N/A: ;;;;"De Cárdenas goleta ""María del Carmen,"" con 60 pipas aguardiente.";;María del Carmen;goleta;1914_01_28;Cárdenas
-;;N/A: ;;;;"De Canasi goleta "":Sabás,"" con 500 sacos azúcar.";;:Sabás,;goleta;1914_01_28;Canasi
-;;N/A: ;;;;"De Canasi goleta ""2da. Chávez,"" con 500 sacos azúcar.";;2da. Chávez;goleta;1914_01_28;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Inés,"" con azúcar.";;Inés;goleta;1914_01_28;Canasi
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;goleta;1914_01_31;Banes
-;;N/A: ;;;;"De Cárdenas goleta ""Crisálida,"" con 60 pipas aguardiente.";;Crisálida;goleta;1914_01_31;Cárdenas
-;;;;;;"De Cabañas goleta ""Joven Marcelino,"" en lastre.";;Joven Marcelino;goleta;1914_01_31;Cabañas
-;;N/A: ;;;;"De Santa Cruz goleta ""Inesita,"" con efectos.";;Inesita;goleta;1914_01_31;Santa Cruz
-;;;;;;"De Carahatas goleta ""Tres Hermanos,"" en lastra.";;Tres Hermanos;goleta;1914_02_03;Carahatas
-;;N/A: ;;;;"De Cuba vapor ""Habana,"" con efectos.";;Habana;vapor;1914_02_03;Cuba
-;;;;;;"De Santa Cruz goleta ""Benita,"" con efectos.";;Benita;goleta;1914_02_03;Santa Cruz
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_02_03;Banes
-;;N/A: ;;;;"De Cabañas goleta ""Maria del Carmen,"" con 500 sacos de azúcar.";;Maria del Carmen;goleta;1914_02_03;Cabañas
-;;N/A: ;;;;"De Banes goleta ""Mallorca,"" con 1,000 sacos azúcar.";;Mallorca;goleta;1914_02_03;Banes
-;;N/A: ;;;;"De Cárdenas goleta ""Julia,"" con 60 plpas aguardiente.";;Julia;goleta;1914_02_03;Cárdenas
-;;;;;;"De Matanzas goleta ""Blanca,"" en las tre.";;Blanca;goleta;1914_02_03;Matanzas
-;;N/A: ;;;;"De Clienfuegos vapor ""Antíngenes Méndez,"" con efectos.";;Antíngenes Méndez;vapor;1914_02_04;Clienfuegos
-;;N/A: ;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;goleta;1914_02_04;Arroyos
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;goleta;1914_02_04;Mariel
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 500 sacos azúcar.";;San Francisco;goleta;1914_02_04;Banes
-;;N/A: ;;;;"De Cabañas goleta ""Caballo Marino,"" con 900 sacos azúcar.";;Caballo Marino;goleta;1914_02_04;Cabañas
-;;N/A: ;;;;"De Ciego Novillo goleta ""Hermosa Quinera,"" con 800 sacos azúcar.";;Hermosa Quinera;goleta;1914_02_04;Ciego Novillo
-;;N/A: ;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos azúcar.";;Gertrudis;goleta;1914_02_04;Dominica
-;;;;;;"De Caibarién vapor ""II Alava,"" con";;II Alava;vapor;1914_02_06;Caibarién
-;;;;;;"De Arroyos vapor ""Antolín del Collado,""";;Antolín del Collado;vapor;1914_02_06;Arroyos
-;;N/A: ;;;;"De Cienfuegos vapor ""Reina de los Angeles,"" con efectos.";;Reina de los Angeles;vapor;1914_02_11;Cienfuegos
-;;N/A: ;;;;"De Canasi goleta. ""Inés,"" con 280 sacos de azúcar.";;Inés;goleta.;1914_02_11;Canasi
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos de azúcar.";;Altagracia;goleta;1914_02_11;Mariel
-;;N/A: ;;;;"De Canasi goleta ""Sabás,"" con 400 sacos de azúcar.";;Sabás;goleta;1914_02_11;Canasi
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 680 sacos de azúcar.";;Pilar;goleta;1914_02_11;Mariel
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;goleta;1914_02_11;Banes
-;;N/A: ;;;;"De Dominica goleta ""María,"" con 600 sacos de azúcar.";;María;goleta;1914_02_11;Dominica
-;;N/A: ;;;;"De Dominica goleta ""Asunción,"" con 600 sacos de azúcar.";;Asunción;goleta;1914_02_11;Dominica
-;;N/A: ;;;;"De Bolondrón goleta ""Esmeralda,"" con 1,000 sacos carbón.";;Esmeralda;goleta;1914_02_11;Bolondrón
-;;N/A: ;;;;"De Cabañas goleta ""Caballo Marino,"" con 900 sacos de azúcar.";;Caballo Marino;goleta;1914_02_11;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos de azúcar.";;Joven Pilar;goleta;1914_02_11;Cabañas
-;;N/A:  | N/A: ;;;;"De Ciego Novilol goleta ""Emilia,"" con carbón y leña.";;Emilia;goleta;1914_02_11;Ciego Novilol
-;;N/A: ;;;;"De Ciego Novilol goleta ""María Dolores,"" con 1,000 sacos carbón.";;María Dolores;goleta;1914_02_11;Ciego Novilol
-;;N/A: ;;;;"De Ciego Novilol goleta ""Sofía,"" con 1,000 sacos carbón.";;Sofía;goleta;1914_02_11;Ciego Novilol
-;;;;;;"De Caibaríen vapor ""II Alava,"" con efectos.";;II Alava;vapor;1914_02_11;Caibaríen
-;;N/A: ;;;;"De Cabañas goleta ""María Carmen,"" con 500 sacos de azúcar.";;María Carmen;goleta;1914_02_11;Cabañas
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos de azúcar.";;Trinidad;goleta;1914_02_11;Banes
-;;N/A: ;;;;"De Matanzas goleta ""Dos Hermanas,"" con efectos.";;Dos Hermanas;goleta;1914_02_11;Matanzas
-;;N/A: ;;;;"De Cárdenas goleta ""María Carmen,"" con 60 pipas aguardiente.";;María Carmen;goleta;1914_02_11;Cárdenas
-;;N/A: ;;;;"De Cabañas goleta ""Ignacia Alemán,"" con 600 sacos azúcar.";;Ignacia Alemán;goleta;1914_02_11;Cabañas
-;;N/A: ;;;;"De Canasi goleta ""Sabás,"" con 400 sacos de azúcar.";;Sabás;goleta;1914_02_21;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Inés,"" con 280 sacos de azúcar.";;Inés;goleta;1914_02_21;Canasi
-;;N/A: ;;;;"De Dominic goleta ""María,"" con 600 sacos azúcar.";;María;goleta;1914_02_21;Dominic
-;;N/A: ;;;;"De Cabafas goleta ""Caballo Marino,"" con 900 sacos de azúcar.";;Caballo Marino;goleta;1914_02_21;Cabafas
-;;N/A: ;;;;"De Cabafas goleta ""Catalina,"" con 1,000 sacos azúcar.";;Catalina;goleta;1914_02_21;Cabafas
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos azúcar.";;San Francisco;goleta;1914_02_21;Banes
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_02_21;Banes
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con $80 sacos azúcar.";;Altagracia;goleta;1914_02_23;Mariel
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;goleta;1914_02_23;Mariel
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;goleta;1914_02_23;Banes
-;;N/A: ;;;;"De Banes goleta Trinidad,"" con 500 sacos de azúcar.";;Trinidad;goleta;1914_02_23;Banes
-;;N/A: ;;;;"De Cabafias goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_02_23;Cabafias
-;;N/A: ;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;goleta;1914_02_23;Arroyos
-;;N/A: ;;;;"De Ciego Novillo goleta ""Sofia,"" con 1,000 sacos carbón.";;Sofia;goleta;1914_02_23;Ciego Novillo
-;;N/A: ;;;;"De Cañaríen vapor ""Las Villas,"" con efectos.";;Las Villas;vapor;1914_02_28;Cañaríen
-;;;;;;"De Matanzas goleta ""Blanca"", con efectos.";;Blanca;goleta;1914_02_28;Matanzas
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 500 sacos azúcar.";;San Francisco;goleta;1914_02_28;Banes
-;;N/A: ;;;;"De Cabo San Antonio goleta ""Amalia"", con 600 sacos carbón.";;Amalia;goleta;1914_02_28;Cabo San Antonio
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 600 sacos de azúcar.";;Trinidad;goleta;1914_02_28;Banes
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;goleta;1914_02_28;Mariel
-;;N/A: ;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos de azúcar.";;María del Carmen;goleta;1914_02_28;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""Catalina,"" con 1,000 sacos de azúcar.";;Catalina;goleta;1914_02_28;Cabañas
-;;N/A: ;;;;"De Cárdenas goleta ""Unión,"" con 130 pipas aguardiente.";;Unión;goleta;1914_02_28;Cárdenas
-;;N/A: ;;;;"De Cárdenas goleta ""Juana Mercedes,"" con 60 pipas aguardiente.";;Juana Mercedes;goleta;1914_02_28;Cárdenas
-;;N/A: ;;;;"De Ciego Novillo goleta ""Bella Catalina,"" con 1,000 sacos carbón.";;Bella Catalina;goleta;1914_02_28;Ciego Novillo
-;;N/A: ;;;;"De Jaruco goleta ""Esperanza,"" con efectos.";;Esperanza;goleta;1914_02_28;Jaruco
-;;N/A: ;;;;"De Clenfuegos vapor ""Purísima Concepción,"" con efectos.";;Purísima Concepción;vapor;1914_02_28;Clenfuegos
-;;N/A: ;;;;"De Dominica goleta ""María,"" con 600 sacos azúcar.";;María;goleta;1914_02_28;Dominica
-;;N/A: ;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos azúcar.";;Gertrudis;goleta;1914_02_28;Dominica
-;;N/A: ;;;;"De Dominica goleta ""Asunción,"" con 500 sacos azúcar.";;Asunción;goleta;1914_02_28;Dominica
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_02_28;Cabañas
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;goleta;1914_02_28;Mariel
-;;N/A: ;;;;"De Canasi goleta ""Josefina,"" con 80 bo- coyes miel.";;Josefina;goleta;1914_02_28;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Bebita Avendaño,"" con 500 sacos azúcar.";;Bebita Avendaño;goleta;1914_02_28;Canasi
-;;N/A: ;;;;"De Cabañas goleta ""Ignacia Aleman,"" con 800 sacos azúcar.";;Ignacia Aleman;goleta;1914_02_28;Cabañas
-;;N/A:  | N/A: ;;;;"De Cuba vapor ""Habana,"" con 100,000 plátanos y efectos.";;Habana;vapor;1914_03_02;Cuba
-;;N/A: ;;;;"De Canasi goleta ""Inés,"" con 280 sacos azúcar.";;Inés;goleta;1914_03_02;Canasi
-;;N/A: ;;;;"De Cabañas goleta ""Joven Piar,"" con 1,000 sacos de azúcar.";;Joven Piar;goleta;1914_03_02;Cabañas
-;;N/A: ;;;;"De Matanzas goleta ""Dos Hermanas,"" con efectos.";;Dos Hermanas;goleta;1914_03_02;Matanzas
-;;N/A: ;;;;"De Cabo San Antonio goleta ""Dos Amigos,"" con 600 sacos carbón.";;Dos Amigos;goleta;1914_03_02;Cabo San Antonio
-;;N/A: ;;;;"De Ciego Novillo, goleta ""María Dolores,"" con 1,200 sacos carbón.";;María Dolores;goleta;1914_03_05;Ciego Novillo
-;;N/A: ;;;;"De Cabo San Antonio goleta ""Victoria,"" con 800 sacos carbón.";;Victoria;goleta;1914_03_05;Cabo San Antonio
-;;N/A: ;;;;"De Bolondrón goleta ""María Pilar,"" con 1,000 sacos carbón.";;María Pilar;goleta;1914_03_05;Bolondrón
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;goleta;1914_03_05;Mariel
-;;N/A: ;;;;"De Cabañas goleta ""Ignacia Aleman,"" con 800 sacos de azúcar.";;Ignacia Aleman;goleta;1914_03_05;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""Catalina,"" con 1,000 sacos de carbón.";;Catalina;goleta;1914_03_05;Cabañas
-;;N/A: ;;;;"De Dominica goleta ""Trinidad,"" con 500 sacos de azúcar.";;Trinidad;goleta;1914_03_05;Dominica
-;;N/A: ;;;;"De Caibarién vapor ""Las Villas,"" con efectos.";;Las Villas;vapor;1914_03_05;Caibarién
-;;N/A: ;;;;"De Cabañas goleta ""Caballo Marino,"" con 900 sacos azúcar.";;Caballo Marino;goleta;1914_03_05;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;goleta;1914_03_05;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""Ignacia Almansa,"" con 800 sacos azúcar.";;Ignacia Almansa;goleta;1914_03_05;Cabañas
-;;N/A: ;;;;"De Canasi goleta ""Sabás,"" con 400 sacos azúcar.";;Sabás;goleta;1914_03_05;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Josefa,"" con 500 sacos azúcar.";;Josefa;goleta;1914_03_05;Canasi
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_03_05;Banes
-;;N/A: ;;;;"De Bolondrón goleta ""María Torrent,"" con 1,000 sacos carbón.";;María Torrent;goleta;1914_03_05;Bolondrón
-;;N/A: ;;;;"De Arroyos vapor ""Etelvina,"" con 800";;Etelvina;vapor;1914_03_07;Arroyos
-;;N/A: ;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;goleta;1914_03_07;Arroyos
-;;N/A: ;;;;"De Canasi goleta ""Inés,"" con 280 sacos";;Inés;goleta;1914_03_07;Canasi
-;;N/A: ;;;;"De Dominic goleta "":María,"" con 680";;:María,;goleta;1914_03_07;Dominic
-;;;;;;"De Cárdenas goleta ""Juana Morales,""";;Juana Morales;goleta;1914_03_07;Cárdenas
-;;;;;;"De Cárdenas goleta ""María del Carmen,""";;María del Carmen;goleta;1914_03_07;Cárdenas
-;;;;;;"De Carahatas goleta ""Tres Hermanas,""";;Tres Hermanas;goleta;1914_03_07;Carahatas
-;;N/A: ;;;;"De Mariel, goleta ""Pilar"": Con 800 sacos azúcar.";;Pilar;goleta;1914_03_14;Mariel
-;;N/A: ;;;;"De Canasí, goleta ""Inés"": Con 280 sacos azúcar.";;Inés;goleta;1914_03_14;Canasí
-;;N/A: ;;;;"De Canasí, goleta ""Sabas"": Con 400 sacos azúcar.";;Sabas;goleta;1914_03_14;Canasí
-;;N/A: ;;;;"De Canasí, goleta ""Ignacia Alemán"": Con 800 sacos azúcar.";;Ignacia Alemán;goleta;1914_03_14;Canasí
-;;N/A: ;;;;"De Canasí, goleta ""Josefina"": Con 400 sacos azúcar.";;Josefina;goleta;1914_03_14;Canasí
-;;N/A: ;;;;"De Banes, goleta ""San Francisco"": Con 600 sacos azúcar.";;San Francisco;goleta;1914_03_14;Banes
-;;N/A: ;;;;"De Cabañas, goleta ""Joven Marcelino"": Con 500 sacos azúcar.";;Joven Marcelino;goleta;1914_03_14;Cabañas
-;;N/A: ;;;;"De Margajitas, goleta ""Feliz"": con 300 sacos carbón.";;Feliz;goleta;1914_03_16;Margajitas
-;;N/A: ;;;;"De Cabañas, goleta ""María del Carmen"": con 500 sacos azúcar.";;María del Carmen;goleta;1914_03_16;Cabañas
-;;N/A: ;;;;"De Cárdenas, goleta ""Unión"": con 180 pipas aguardiente.";;Unión;goleta;1914_03_16;Cárdenas
-;;N/A: ;;;;"De Banes, goleta ""San Francisco"": con 600 sacos azúcar.";;San Francisco;goleta;1914_03_16;Banes
-;;;;;;"De Arroyos, goleta ""La Fe"": con efectos.";;La Fe;goleta;1914_03_16;Arroyos
-;;;;;;"De Caibarién vapor ""Las Villas,"" con efectos.";;Las Villas;vapor;1914_03_21;Caibarién
-;;;;;;"De Arroyos vapor ""Etelvina,"" con efectos.";;Etelvina;vapor;1914_03_21;Arroyos
-;;N/A: ;;;;"De Cuba vapor ""Santiago de Cuba,"" con efectos.";;Santiago de Cuba;vapor;1914_03_21;Cuba
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_03_21;Cabañas
-;;N/A: ;;;;"De Sagua goleta ""Mercedita,"" con 800 sacos carbón.";;Mercedita;goleta;1914_03_21;Sagua
-;;N/A: ;;;;"De Matanzas goleta ""María,"" con efectos.";;María;goleta;1914_03_21;Matanzas
-;;N/A: ;;;;"De Banes goleta "":Trinidad,"" con 500 sacos de azúcar.";;Trinidad;goleta;1914_03_21;Banes
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;goleta;1914_03_21;Banes
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_03_21;Banes
-;;N/A: ;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;goleta;1914_03_21;Cabañas
-;;N/A: ;;;;"De Mariel, goleta ""Pilar,"" con 100 sacos azúcar.";;Pilar;goleta;1914_03_21;Mariel
-;;N/A: ;;;;"De Canasi goleta ""Bebita Avenida,"" con 800 sacos azúcar.";;Bebita Avenida;goleta;1914_03_21;Canasi
-;;N/A: ;;;;"De Cárdenas goleta ""Crísalida,"" con 50 pipas aguardiente.";;Crísalida;goleta;1914_03_21;Cárdenas
-;;N/A: ;;;;"De Cárdenas goleta ""Juana Mercedes,"" con 60 pipas aguardiente.";;Juana Mercedes;goleta;1914_03_21;Cárdenas
-;;N/A: ;;;;"De Ciego Novillo goleta ""Bella Catalina,"" con 1,200 sacos carbón.";;Bella Catalina;goleta;1914_03_21;Ciego Novillo
-;;N/A: ;;;;"De Cabo San Antonio goleta ""Amalia,"" con 600 sacos carbón.";;Amalia;goleta;1914_03_21;Cabo San Antonio
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos";;Pilar;goleta;1914_03_25;Mariel
-;;;;;;"De Carahatas goleta ""Tres Hermanas,"" en lastre.";;Tres Hermanas;goleta;1914_03_25;Carahatas
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680";;Altagracia;goleta;1914_03_25;Mariel
-;;;;;;"De Caibarién vapor ""Las Villas,"" con efectos.";;Las Villas;vapor;1914_03_25;Caibarién
-;;;;;;"De Cabañas goleta ""Caballo Marino,"" con";;Caballo Marino;goleta;1914_03_25;Cabañas
-;;;;;;"De Banes goleta ""San Francisco,"" con";;San Francisco;goleta;1914_03_25;Banes
-;;;;;;"De Ciego Novillo goleta ""Sofía,"" con";;Sofía;goleta;1914_03_25;Ciego Novillo
-;;N/A: ;;;;"De Ciego Novillo goleta ""María Dolores,"" con 1,000 sacos carbón.";;María Dolores;goleta;1914_03_25;Ciego Novillo
-;;N/A: ;;;;"De Dominica goleta ""Asunción,"" con 80";;Asunción;goleta;1914_03_25;Dominica
-;;N/A: ;;;;"De Mariel, goleta ""Pilar."" Con 500 sacos";;Pilar.;goleta;1914_03_28;Mariel
-;;;;;;"De 'Cabañas, goleta ""Ignacia Alemán..""";;Ignacia Alemán;goleta;1914_03_28;Cabañas
-;;N/A: ;;;;"De Banes, goleta ""Trinidad."" Con 500";;Trinidad;goleta;1914_03_28;Banes
-;;;;;;"De Canasf, goleta ""Bebita Avenida.""";;Bebita Avenida;goleta;1914_03_28;Canasf
-;;N/A: ;;;;"De Santa Cruz, goleta ""Inesita."" Con 200";;Inesita;goleta;1914_03_28;Santa Cruz
-;;;;;;"De Arroyos, golet L"" aFe."" Con efectos.";;"L"" aFe.";golet;1914_03_28;Arroyos
-;;;;;;"De Arroyos, goleta ""Etelvina."" Con efect-";;Etelvina;goleta;1914_03_28;Arroyos
-;;;;;;"De Cabafas, goleta ""Joven Pilar."" Con";;Joven Pilar.;goleta;1914_03_28;Cabafas
-;;N/A: ;;;;"De Banes, goleta ""Catalina."" Con 1.000";;Catalina;goleta;1914_03_28;Banes
-;;N/A: ;;;;"De Canasf, goleta ""Josefina."" Con 400";;Josefina;goleta;1914_03_28;Canasf
-;;;;;;"De Canasf, goleta ""Ira. de Chavez."" Con";;Ira. de Chavez.;goleta;1914_03_28;Canasf
-;;;;;;"De Santa Cruz, goleta ""Enriqueta."" Con";;Enriqueta;goleta;1914_03_28;Santa Cruz
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;goleta;1914_04_04;Mariel
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_04_04;Cabañas
-;;N/A: ;;;;"De Banes goleta ""Clara,"" con 1,300 sacos azúcar.";;Clara;goleta;1914_04_04;Banes
-;;N/A: ;;;;"De Cabañas goleta ""Catalina,"" con 1,200 sacos azúcar.";;Catalina;goleta;1914_04_04;Cabañas
-;;N/A: ;;;;"De Dominic goleta ""Asunción,"" con 1,300 sacos azúcar.";;Asunción;goleta;1914_04_04;Dominic
-;;N/A: ;;;;"De Cabañas goleta ""Ignacia,"" con 800 sacos azúcar.";;Ignacia;goleta;1914_04_04;Cabañas
-;;N/A: ;;;;"De Ciego Novillo goleta ""Hermosa Guanera,"" con 800 sacos carbón.";;Hermosa Guanera;goleta;1914_04_04;Ciego Novillo
-;;N/A: ;;;;"De Santa Cruz, goleta ""Vigía,"" con 300 cajas cebollas.";;Vigía;goleta;1914_04_04;Santa Cruz
-;;N/A: ;;;;"De Santa Cruz goleta ""Rodolfo,"" con 200 sacos cebollas.";;Rodolfo;goleta;1914_04_04;Santa Cruz
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_04_05;Banes
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 60 sacos azúcar.";;San Francisco;goleta;1914_04_05;Banes
-;;;;;;"De Cabañas goleta ""Caballo Marino.""";;Caballo Marino.;goleta;1914_04_05;Cabañas
-;;N/A: ;;;;"De Santa Cruz goleta ""Benita,"" con 300 quintales cebollas.";;Benita;goleta;1914_04_05;Santa Cruz
-;;N/A: ;;;;"De Santa Cruz goleta ""Enigma,"" con 400 quintales cebollas.";;Enigma;goleta;1914_04_05;Santa Cruz
-;;N/A: ;;;;"De Dominica goleta ""Marfa,"" con 600 sacos azúcar.";;Marfa;goleta;1914_04_05;Dominica
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_04_05;Cabañas
-;;N/A: ;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;goleta;1914_04_05;Arroyos
-;;N/A: ;;;;"De Maried, goleta ""Altagracia."" Con 680 sacos azúcar.";;Altagracia;goleta;1914_04_10;Maried
-;;N/A: ;;;;"De Mariel, goleta ""Pilar."" Con 800 sacos azúcar.";;Pilar.;goleta;1914_04_10;Mariel
-;;N/A: ;;;;"De Dominic, goleta ""María."" Con 600 sacos azúcar.";;María;goleta;1914_04_10;Dominic
-;;N/A: ;;;;"De Canasi, goleta ""la de Chavez."" Con 500 sacos azúcar.";;la de Chavez;goleta;1914_04_10;Canasi
-;;N/A: ;;;;"De Cabañas, goleta ""Ignacia Alemán."" Con 800 sacos azúcar.";;Ignacia Alemán.;goleta;1914_04_10;Cabañas
-;;N/A: ;;;;"De Cabañas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino.;goleta;1914_04_10;Cabañas
-;;;;;;"De Santa Cruz, goleta ""Benita."" Con efectos.";;Benita;goleta;1914_04_10;Santa Cruz
-;;N/A: ;;;;"De Ciego Novillo, goleta ""Sofía."" Con 1.000 sacos carbón.";;Sofía;goleta;1914_04_10;Ciego Novillo
-;;N/A: ;;;;"De Manatí, goleta ""Mara Vazquez."" Con 1.200 sacos carbón.";;Mara Vazquez;goleta;1914_04_10;Manatí
-;;N/A: ;;;;"De Cabo San Antonio, goleta ""Amalia."" Con 600 sacos carbón.";;Amalia;goleta;1914_04_10;Cabo San Antonio
-;;;;;;"De Cañaríen, vapor ""Las Villas."" Con efectos.";;Las Villas.;vap.;1914_04_15;Cañaríen
-;;N/A: ;;;;"De Mariel, goleta ""Altagracia."" Con 680 sacos azúcar.";;Altagracia;goleta;1914_04_15;Mariel
-;;N/A: ;;;;"De Dominica, goleta ""María."" Con 600 sacos azúcar.";;María;goleta;1914_04_15;Dominica
-;;N/A: ;;;;"De Cárdenas, goleta ""Crisálida."" Con 80 pipas aguardiente.";;Crisálida;goleta;1914_04_15;Cárdenas
-;;N/A: ;;;;"De Cárdenas, goleta ""María del Carmen."" Con 50 pipas aguardiente.";;María del Carmen.;goleta;1914_04_15;Cárdenas
-;;;;;;"De Carahatas, goleta ""3 hermanos."" Con efectos.";;3 hermanos.;goleta;1914_04_15;Carahatas
-;;N/A: ;;;;"De Ciego Novillo, goleta ""Margarita."" Con 1.000 sacos carbón.";;Margarita;goleta;1914_04_15;Ciego Novillo
-;;N/A: ;;;;"De Ciego Novillo, goleta ""María Dolores."" Con 1.300 sacos carbón.";;María Dolores;goleta;1914_04_15;Ciego Novillo
-;;N/A: ;;;;"De Cabo San Antonio, goleta ""2 amigos."" Con 600 sacos carbón.";;2 amigos.;goleta;1914_04_15;Cabo San Antonio
-;;N/A: ;;;;"De Cabañas, goleta ""María del Carmen."" Con 500 sacos carbón.";;María del Carmen;goleta;1914_04_15;Cabañas
-;;N/A: ;;;;"De Santa Cruz, goleta ""Benita."" Con 200 quintales cebollas.";;Benita;goleta;1914_04_15;Santa Cruz
-;;;;;;"De Caibaríen, vapor ""Las Villas."" Con efectos.";;Las Villas.;vap.;1914_04_22;Caibaríen
-;;N/A: ;;;;"De Mariel, goleta ""Altagracia."" Con 880 sacos azicar.";;Altagracia;goleta;1914_04_22;Mariel
-;;N/A: ;;;;"De Cabañas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino;goleta;1914_04_22;Cabañas
-;;N/A: ;;;;"De Cárdenas, goleta ""Unión."" Con 80 pipas aguardiente.";;Unión;goleta;1914_04_22;Cárdenas
-;;N/A: ;;;;"De Cabañas, goleta ""Ignacia Aleman."" Con 800 sacos azúcar.";;Ignacia Aleman.;goleta;1914_04_22;Cabañas
-;;N/A: ;;;;"De Banes, goleta ""Trinidad."" Con 500 sacos azúcar.";;Trinidad;goleta;1914_04_22;Banes
-;;N/A: ;;;;"De Ciego Novillo, goleta ""Bella Catalina."" Con 1,000 sacos carbón.";;Bella Catalina;goleta;1914_04_22;Ciego Novillo
-;;N/A: ;;;;"De Cárdenas, goleta ""Julia."" Con 80 piñas aguardiente.";;Julia;goleta;1914_04_22;Cárdenas
-;;N/A:  | N/A: ;;;;"De Cabañas, goleta ""Catalina."" Con 800 sacos azúcar y miel.";;Catalina;goleta;1914_04_22;Cabañas
-;;N/A: ;;;;"De Arroyos, goleta ""Victoria."" Con 800 sacos carbón.";;Victoria;goleta;1914_04_22;Arroyos
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_04_25;Banes
-;;N/A: ;;;;"De Cabañas goleta ""Catalina,"" con 1,200 sacos azúcar.";;Catalina;goleta;1914_04_25;Cabañas
-;;N/A: ;;;;"De Banes goleta ""Jorge,"" con 300 cajas piñas.";;Jorge;goleta;1914_04_25;Banes
-;;N/A: ;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;goleta;1914_04_25;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_04_25;Cabañas
-;;;;;;"De Arroyos vapor ""Antolín del Cola-";;Antolín del Cola-;vapor;1914_04_28;Arroyos
-;;N/A: ;;;;"De Mariel goleta ""Pilar,"" con 800 sacos";;Pilar;goleta;1914_04_28;Mariel
-;;;;;;"De Cabo San Antonio goleta ""Amalia,""";;Amalia;goleta;1914_04_28;Cabo San Antonio
-;;N/A: ;;;;"De Cabañas goleta ""Clara,"" con 1,000";;Clara;goleta;1914_04_28;Cabañas
-;;;;;;"De Cabañas goleta ""Joven Pilar,"" con";;Joven Pilar;goleta;1914_04_28;Cabañas
-;;N/A: ;;;;"De Canasi goleta ""Sabas,"" con 400 sa-";;Sabas;goleta;1914_04_28;Canasi
-;;;;;;"De .Canasi goleta ""Bebita Avendaño,""";;Bebita Avendaño;goleta;1914_04_28;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Marta,"" con 400 sa-";;Marta;goleta;1914_04_28;Canasi
-;;;;;;"De Canasi goleta ""Ignacia Alemán,"" con";;Ignacia Alemán;goleta;1914_04_28;Canasi
-;;;;;;"De Banes goleta ""San Francisco,"" con";;San Francisco;goleta;1914_04_28;Banes
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680";;Altagracia;goleta;1914_04_28;Mariel
-;;;;;;De Cienfuegos vapor Reina de los Ange-;;Reina de los Ange-;vapor;1914_04_28;Cienfuegos
-;;;;;;"De Caibaríen, vapor ""Las Villas,"" con efectos.";;Las Villas;vap.;1914_04_29;Caibaríen
-;;N/A: ;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;goleta;1914_04_29;Banes
-;;N/A: ;;;;"De Banes goleta ""San Francisco,"" con 600 sacos azúcar.";;San Francisco;goleta;1914_04_29;Banes
-;;N/A: ;;;;"De Cabafas goleta ""Cabaño Marino,"" con 900 sacos azúcar.";;Cabaño Marino;goleta;1914_04_29;Cabafas
-Día 01:;;N/A: ;;;;"De Canaíl goleta :1ra. de Chávez,"" con 500 sacos azúcar.";;Chávez;goleta;1914_04_29;Canaíl
-;;N/A: ;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos azúcar.";;Gertrudis;goleta;1914_04_29;Dominica
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;goleta;1914_04_29;Mariel
-;;N/A:  | N/A: ;;;;"De Margajitas goleta ""Feliz,"" con 300 sacos carbón y leña.";;Feliz;goleta;1914_04_29;Margajitas
-;;N/A: ;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;goleta;1914_04_29;Arroyos
-;;N/A: ;;;;"De Cabafas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;goleta;1914_04_29;Cabafas
-;;N/A: ;;;;"De Mariel, goleta ""Pilar."" Con 800 sacos azúcar.";;Pilar.;goleta;1914_05_04;Mariel
-;;N/A: ;;;;"De Banes, goleta ""Trinidad."" Con 500 sacos azúcar .";;Trinidad;goleta;1914_05_04;Banes
-;;N/A: ;;;;"De Ciego Novillo, goleta ""María Dolores. Con 1,200 sacos azúcar.";;María Dolores;goleta;1914_05_04;Ciego Novillo
-;;N/A: ;;;;"De Arroyos, goleta ""María del Pilar."" Con 1,300 sacos carbón.";;María del Pilar.;goleta;1914_05_04;Arroyos
-;;N/A: ;;;;"De Canasi, goleta ""Ignacia Alemán."" Con 800 sacos azúcar.";;Ignacia Alemán;goleta;1914_05_04;Canasi
-;;N/A: ;;;;"De Banes, goleta ""Catalina."" Con 1,000 sacos azúcar.";;Catalina;goleta;1914_05_04;Banes
-;;N/A: ;;;;"De Banes, goleta ""San Francisco."" Con 600 sacos azúcar.";;San Francisco;goleta;1914_05_04;Banes
-;;N/A: ;;;;"De Bolondrón, goleta ""2a. Rosa."" Con 800 sacos carbón.";;2a. Rosa.;goleta;1914_05_04;Bolondrón
-;;N/A: ;;;;"De Cabo San Antonio, goleta ""2 Amigos. Con 600 sacos carbón.";;2 Amigos;goleta;1914_05_04;Cabo San Antonio
-;;N/A: ;;;;"De Canasi, goleta ""Marta."" Con 400 sacos azúcar.";;Marta;goleta;1914_05_04;Canasi
-;;;;;;"De Caibarién, vapor ""Las Villas."" Con efectos.";;Las Villas;vap.;1914_05_06;Caibarién
-;;N/A: ;;;;"De Banes, goleta ""Trinidad."" Con 500 sacos azúcar.";;Trinidad;goleta;1914_05_06;Banes
-;;N/A: ;;;;"De Banes, goleta ""San Francisco."" Con 400 sacos azúcar.";;San Francisco;goleta;1914_05_06;Banes
-;;N/A: ;;;;"De Banes, goleta ""Altagraca."" Con 600 sacos azúcar.";;Altagraca.;goleta;1914_05_06;Banes
-;;N/A: ;;;;"De Cabañas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino;goleta;1914_05_06;Cabañas
-;;N/A: ;;;;"De Dominic, oleta ""María."" Con 500 sacos azúcar.";;María;oleta;1914_05_06;Dominic
-;;N/A: ;;;;"De Dominic, oleta ""Gertrudis."" Con 500 sacos azúcar.";;Gertrudis;oleta;1914_05_06;Dominic
-;;N/A: ;;;;"De Canasf, goleta ""Bébita Avendaño."" Con 600 sacos azúcar.";;Bébita Avendaño;goleta;1914_05_06;Canasf
-;;N/A: ;;;;"De Canasf, goleta ""Ignacia Aleman."" Con 600 sacos azúcar.";;Ignacia Aleman.;goleta;1914_05_06;Canasf
-;;N/A: ;;;;"De Ciego Nocillo, goleta ""María Dolores."" Con 1,300 sacos carbón.";;María Dolores;goleta;1914_05_06;Ciego Nocillo
-;;N/A: ;;;;"De Cárdenas, goleta ""Unión, Con 80 pipas aguardiente.";;Unión;goleta;1914_05_06;Cárdenas
-;;N/A: ;;;;"De Canasi, goleta ""Bebita Avendaño,"" con 500 sacos azúcar.";;Bebita Avendaño;goleta;1914_05_08;Canasi
-;;N/A: ;;;;"De Canasi, goleta ""Sabás,"" con 400 sacos azúcar.";;Sabás;goleta;1914_05_08;Canasi
-;;N/A: ;;;;"De Canasi goleta ""Josefina,"" con 400 sacos azúcar.";;Josefina;goleta;1914_05_08;Canasi
-;;N/A: ;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;goleta;1914_05_08;Mariel
-;;N/A: ;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;goleta;1914_05_08;Cabañas
-;;N/A: ;;;;"De Cabañas goleta ""Catalina,"" con 1,000 sacos azúcar.";;Catalina;goleta;1914_05_08;Cabañas
-;;N/A: ;;;;"De Ciego Novillo goleta ""Hermosa Guanera,"" con 800 sacos carbón.";;Hermosa Guanera;goleta;1914_05_08;Ciego Novillo
-;;N/A: ;;;;"De Cabanas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino.;goleta;1914_05_19;Cabanas
-;;N/A: ;;;;"De Dominica, goleta ""Trinidad."" Con 500 sacos azúcar.";;Trinidad;goleta;1914_05_19;Dominica
-;;N/A: ;;;;"De Ciego Novillo goleta ""Sofia."" Con 1,000 sacos carbón.";;Sofia.;goleta;1914_05_19;Ciego Novillo
-;;N/A: ;;;;"De Ciego Novillo, goleta ""Margarita."" Con 1,000 sacos carbón.";;Margarita;goleta;1914_05_19;Ciego Novillo
-;;N/A: ;;;;"De Canasi, goleta ""Josefina."" Con 40% sacos azúcar.";;Josefina;goleta;1914_05_19;Canasi
-;;N/A: ;;;;"De Dominica, goleta ""Marfa."" Con 604 sacos azúcar.";;Marfa.;goleta;1914_05_19;Dominica
-;;N/A: ;;;;De Dominica, goleta 'Gertrudis.' Cor 600 sacos azúcar.;;Gertrudis;goleta;1914_05_19;Dominica
-;;N/A: ;;;;"De Mariel, goleta ""Pilar."" Con 800 sacos azúcar.";;Pilar;goleta;1914_05_19;Mariel
-;;N/A: ;;;;"De Cabañas, goleta ""Catalina."" Con 1,000 sacos azúcar.";;Catalina;goleta;1914_05_19;Cabañas
-;;N/A: ;;;;"De Banes, goleta ""Rodollo."" Con 300 cajas piñas.";;Rodollo;goleta;1914_05_19;Banes
-;;;;;;"De Caibarién, vapor ""Las Villas."" Con efectos.";;Las Villas.;vap.;1914_05_19;Caibarién
-;;N/A: ;Pérez;patrón;;"De Mariel, goleta ""Altagracia"", patrón Pérez, con 680 sacos azúcar.";;Altagracia;goleta;1914_05_23;Mariel
-;;N/A: ;Pena;patrón;;"De Cabañas, gloota ""Caballo Marino"", patrón Pena, con 900 sacos azúcar.";;Caballo Marino;gloota;1914_05_23;Cabañas
-;;N/A: ;Aleman;pat.;;"De Cabañas, goleta ""Joven Pilar"", patrón Aleman, con 1.000 sacos azúcar.";;Joven Pilar;goleta;1914_05_23;Cabañas
-;;N/A: ;López;patrón;;"De Canasi, goleta ""Ignacio Aleman"", patrón López, con 600 sacos azúcar.";;Ignacio Aleman;goleta;1914_05_23;Canasi
-;;N/A: ;Aleman;patrón;;"De Canasi, goleta ""la de Chávez"", patrón Aleman, con 500 sacos azúcar.";;la de Chávez;goleta;1914_05_23;Canasi
-;;N/A: ;López;patrón;;"De Banes, goleta ""Rodolfo"", patrón López, con 300 cajas piñas.";;Rodolfo;goleta;1914_05_23;Banes
-;;N/A: ;Martínez;patrón;;"De Banes, goleta ""San José"", patrón Martínez, con 400 cajas piñas.";;San José;goleta;1914_05_23;Banes
-;;;Más;patrón;;"De Santa Cruz, goleta ""Benita"", patrón Más, con efectos.";;Benita;goleta;1914_05_23;Santa Cruz
-;;;Abello;pat.;;"De Santa Cruz, goleta ""Enigma"", patrón Abello, con efectos.";;Enigma;goleta;1914_05_23;Santa Cruz
-;;;;;;"De Caibarén, vapor ""Las Villas""; con efectos.";;Las Villas;vap.;1914_05_27;Caibarén
-;;N/A: ;;;;"De Mariel, goleta ""Altagracia""; con 800 sacos azúcar.";;Altagracia;goleta;1914_05_27;Mariel
-;;N/A: ;;;;"De Banes, goleta ""Trinidad"", con 500 sacos azúcar.";;Trinidad;goleta;1914_05_27;Banes
-;;N/A: ;;;;"De Banes, goleta ""San Francisco"", con 600 sacos azúcar.";;San Francisco;goleta;1914_05_27;Banes
-;;N/A: ;;;;"De Ciego Novillo, goleta ""María Dolores"", con 1.200 sacos carbón.";;María Dolores;goleta;1914_05_27;Ciego Novillo
-;;N/A: ;;;;"De Bolondrón, goleta ""2a. Rosa"", con 800 sacos carbón.";;2a. Rosa;goleta;1914_05_27;Bolondrón
-;;N/A: ;;;;"De Banes, goleta ""Rodolfo""; con 300 cañas píñas.";;Rodolfo;goleta;1914_05_27;Banes
-;;;;;;"De Matanzas, goleta ""2 Hermanas""; en lastre.";;2 Hermanas;goleta;1914_05_27;Matanzas
-;;N/A: ;;;;"De Canasf, goleta ""1a. de Chaves""; con 500 sacos azúcar.";;1a. de Chaves;goleta;1914_05_27;Canasf
-;;;;;;"De Arroyos, vapor ""Antolín del Collado""; con efectos.";;Antolín del Collado;vap.;1914_05_27;Arroyos
-;;N/A: ;;;;"De Canasf, goleta ""Josefina""; con 600 bocoyes miel.";;Josefina;goleta;1914_05_27;Canasf
-;;N/A: ;;;;"De Dominica, goleta ""María"", con 600 sacos azúcar.";;María;goleta;1914_06_03;Dominica
-;;N/A: ;;;;"De Dominica, goleta ""Gertrudis"", con 600 sacos azúcar.";;Gertrudis;goleta;1914_06_03;Dominica
-;;N/A: ;;;;"De Dominica, goleta ""Asunción"", con 600 sacos azúcar.";;Asunción;goleta;1914_06_03;Dominica
-;;N/A: ;;;;"De Ciego Novillo, goleta ""Hermosa Guanera"", con 200 facs azúcar.";;Hermosa Guanera;goleta;1914_06_03;Ciego Novillo
-;;N/A:  | N/A: ;;;;"De Mariel, goleta ""Pilar"", con 200 sacos azúcar y 60 bocoyes miel.";;Pilar;goleta;1914_06_03;Mariel
-;;N/A: ;;;;"De Banes, goleta ""Rodolfo"", con 300 cañas piñas.";;Rodolfo;goleta;1914_06_03;Banes
-;;N/A: ;;;;"De Banes, goleta ""San Francisco"", con 600 sacos azúcar.";;San Francisco;goleta;1914_06_03;Banes
-;;;;;;"De Carahatas, goleta ""3 Hermanas"", en lastre.";;3 Hermanas;goleta;1914_06_03;Carahatas
-;;N/A: ;;;;"De Cabañas, goleta ""Caballo Marino""; con 900 sacos azúcar.";;Caballo Marino;goleta;1914_06_04;Cabañas
-;;N/A: ;;;;"De Cabañas, goleta ""Joven Pilar""; con 1.000 sacos azúcar.";;Joven Pilar;goleta;1914_06_04;Cabañas
-;;N/A: ;;;;"De Canasi, goleta ""Sabás""; con 400 sacos azúcar.";;Sabás;goleta;1914_06_04;Canasi
-;;N/A: ;;;;"De Cabañas, goleta ""Bebita Avenida""; con 500 sacos azúcar.";;Bebita Avenida;goleta;1914_06_04;Cabañas
-;;N/A: ;;;;"De Ciego Novillo, goleta ""Bella Catalina""; con 1.200 sacos carbón.";;Bella Catalina;goleta;1914_06_04;Ciego Novillo
-;;N/A: ;;;;"De Cabo San Antonio, goleta ""Amalia""; con 600 sacos azúcar.";;Amalia;goleta;1914_06_04;Cabo San Antonio
-;;;;;;"De Arroyos, vapor ""Antolín del Collado""; con efectos.";;Antolín del Collado;vap.;1914_06_06;Arroyos
-;;N/A: ;;;;"De Banes, goleta ""Mateo""; con 360 cajas pinas.";;Mateo;goleta;1914_06_06;Banes
-;;N/A: ;;;;"De Cabañas, goleta ""Joven Pilar""; con 1000 sacos azúcar.";;Joven Pilar;goleta;1914_06_06;Cabañas
-;;N/A: ;;;;"De Canasi, goleta ""la. de Chávez""; con 500 sacos azúcar.";;la. de Chávez;goleta;1914_06_06;Canasi
-;;N/A: ;;;;"De Dominic, goleta ""María""; con 600 sacos azúcar.";;María;goleta;1914_06_06;Dominic
-;;;;;;"De Cienfuegos, vapor ""Reina de los Rngeles""; con efectos.";;Reina de los Rngeles;vap.;1914_06_06;Cienfuegos
-;;;;;;"De Matanzas, goleta ""María""; con efectos.";;María;goleta;1914_06_06;Matanzas
-;;N/A:  | N/A: ;Valent;patrón;;"De Cabañas, goleta ""Catalina"", patrón Valent, con 800 sacos azúcar y 60 bocyes miel.";;Catalina;goleta;1914_06_07;Cabañas
-;;N/A: ;Mayol;patrón;;"De Dominic, goleta ""Gertrudis"", patrón Mayol, con 600 sacos azúcar.";;Gertrudis;goleta;1914_06_07;Dominic
-;;N/A: ;Riosco;patrón;;"De Banes, goleta ""San Francisco"", patrón Riosco, con 600 sacos azúcar.";;San Francisco;goleta;1914_06_07;Banes
-;;N/A: ;López;pat.;;"De Banes, goleta ""Rodolfo"", patrón López, con 300 cajas piñas.";;Rodolfo;goleta;1914_06_07;Banes
-;;N/A: ;García;patrón;;"De Banes, goleta ""Matuto"", patrón García, con 300 cajas jinas.";;Matuto;goleta;1914_06_07;Banes
-;;;Abel;pat.;;"De Santa Cruz, goleta ""Enigma"", patrón Abel, con efectos.";;Enigma;goleta;1914_06_07;Santa Cruz
-;;N/A: ;Pérez;pat.;;"De Mariel, goleta ""Altagracia"", patrón Pérez, con 680 sacos azúcar.";;Altagracia;goleta;1914_06_07;Mariel
-;;;Ginesta;cap.;;"De Caibarién, vapor ""Las Villas"", capítán Ginesta.";;Las Villas;vap.;1914_06_11;Caibarién
-;;N/A: ;Enseñat;pat.;;"De Canasi, goleta ""Sabás"", patrón Enseñat, con 400 sacos azúcar.";;Sabás;goleta;1914_06_11;Canasi
-;;N/A: ;Maura;patrón;;"De Bolondrón, goleta ""María Torrent"", patrón Maura, con mil sacos carbón.";;María Torrent;goleta;1914_06_11;Bolondrón
-;;N/A: ;Ferrer;patrón;;"De Dominic, goleta ""Asunción"", patrón Ferrer, con 100 bocoyes miel.";;Asunción;goleta;1914_06_11;Dominic
-;;N/A:  | N/A: ;Granda;patrón;;"De Arroyos, goleta ""La Fe"", patrón, Granda, con 800 sacos carbón y efectos.";;La Fe;goleta;1914_06_11;Arroyos
-;;N/A: ;López;patrón;;"De Ciego Novillo, goleta ""Sofís"", patrón López, con mil sacos carbón.";;Sofís;goleta;1914_06_11;Ciego Novillo
-;;N/A: ;Verderas;patrón;;"De Caibarién, goleta ""Francisco Javier"", patrón Verderas, con 600 sacos y-eso.";;Francisco Javier;goleta;1914_06_11;Caibarién
-;;N/A: ;Alemaný;patrón;;"De Matanzas, goleta ""Matanzas"", patrón Alemaný, con efectos.";;Matanzas;goleta;1914_06_11;Matanzas
-;;N/A: ;Ferrer;pat.;;"De Dominica, goleta ""Asunción"", patrón, Ferrer; con 600 sacos azúcar.";;Asunción;goleta;1914_06_13;Dominica
-;;;Mir;patrón;;"De Matanzas, goleta ""Maria"", patrón Mir; con efectos.";;Maria;goleta;1914_06_13;Matanzas
-;;N/A: ;López;patrón;;"De Banes, goleta ""Rodolfo"", patrón López; con 300 cajas piñas.";;Rodolfo;goleta;1914_06_13;Banes
-;;;Más;patrón;;"De Santa Cruz, goleta ""Benita"", patrón, Más; con efectos.";;Benita;goleta;1914_06_13;Santa Cruz
-;;N/A: ;Suárez;cap.;;"De Cuba, vapor ""Habana"", capitán Suárez; con efectos.";;Habana;vap.;1914_06_13;Cuba
-;;N/A: ;Alemañy;pat.;;"De Cárdenas, goleta ""Crisálida"", patrón Alemañy, con 60 pipas aguardiente.";;Crisálida;goleta;1914_06_13;Cárdenas
-;;N/A: ;Mayol;pat.;;"De Dominica, goleta ""Gertrudis"", patrón Mayol, con 600 sacos azúcar.";;Gertrudis;goleta;1914_06_13;Dominica
-;;N/A: ;Valent;patrón;;"De Cárdenas, goleta ""Unión"", patrón Valent, con 100 pipas aguardiente.";;Unión;goleta;1914_06_14;Cárdenas
-;;N/A: ;Valent;patrón;;"De Cárdenas, goleta ""Maria del Carmen"", patrón Valent, con 60 pipas aguardiente.";;Maria del Carmen;goleta;1914_06_14;Cárdenas
-;;N/A: ;Roselló;patrón;;"De Dominic, goleta ""Maria"", patrón Roselló, con 600 sacos azúcar.";;Maria;goleta;1914_06_14;Dominic
-;;N/A: ;Enseñat;patrón;;"De Canasi, goleta ""Sabas"", patrón Enseñat; con 60 bocoyes miel.";;Sabas;goleta;1914_06_14;Canasi
-;;N/A:  | N/A: ;Enseñat;patrón;;"De Canasi, goleta ""Josefina"", patrón Enseñat, con 30 bocoyes miel y 300 sacos azúcar.";;Josefina;goleta;1914_06_14;Canasi
-;;N/A: ;Bosch;pat.;;"De Cabañas, goleta ""Maria del Carmen"", patrón Bosch, con 500 sacos de azúcar.";;Maria del Carmen;goleta;1914_06_14;Cabañas
-;;N/A: ;González;pat.;;"De Banes, goleta ""Mateo"", patrón González, con 350 cajas piñas.";;Mateo;goleta;1914_06_14;Banes
-;;N/A:  | N/A: ;Valent;patrón;;"De Cabañas, goleta ""Blanca"", patrón Valent, con 40 bocoyes miel y 600 sacos azúcar.";;Blanca;goleta;1914_06_14;Cabañas
-;;N/A: ;Enseñat;pat.;;"De Canasi, goleta ""Bebita Avendaño"", patrón Enseñat, con 500 sacos azúcar.";;Bebita Avendaño;goleta;1914_06_14;Canasi
-;;N/A: ;Pena;patrón;;"De Cabañas, goleta ""Caballo Marina"", patrón, Pena; con 900 sacos azúcar.";;Caballo Marina;goleta;1914_06_21;Cabañas
-;;N/A: ;López;patrón;;"De Canasi, goleta ""Ignacia Alemán"", patrón, López; con 600 sacos azúcar.";;Ignacia Alemán;goleta;1914_06_21;Canasi
-;;;Valent;patrón;;"De Matanzas, goleta ""Matanzas"", patrón Valent, con efectos.";;Matanzas;goleta;1914_06_21;Matanzas
-;;N/A:  | N/A: ;Arabé;patrón;;"De Margaritas, goleta ""Feliz"", patrón Arabé, con 300 sacos carbón y leña.";;Feliz;goleta;1914_06_21;Margaritas
-;;N/A: ;Ginesta;cap.;;"De Caibarién, vapor ""Las Villas"", capitán Ginesta, con efectos.";;Las Villas;vap.;1914_06_24;Caibarién
-;;N/A: ;González;cap.;;"De Cuba, vapor ""Julia"", capitán González, con efectos.";;Julia;vap.;1914_06_24;Cuba
-;;N/A:  | N/A: ;Vázquez;patrón;;"De Cabo Nico, goleta ""Etelvina"", patrón Vázquez, con 1500 polines y madeiras.";;Etelvina;goleta;1914_06_24;Cabo Nico
-;;N/A: ;Pujol;pat.;;"De Cabo Nico, goleta ""Catalina"", patrón Pujol, con 1000 polines.";;Catalina;goleta;1914_06_24;Cabo Nico
-;;N/A: ;Guasch;patrón;;"De Ciego Novillo, goleta ""Hermosa Guanera"", patrón Guasch, con 800 sacos carbón.";;Hermosa Guanera;goleta;1914_06_24;Ciego Novillo
-;;N/A: ;Pujol;patrón;;"De Ciego Novillo, goleta ""María Dolores"", patrón Pujol, con 900 sacos de azúcar.";;María Dolores;goleta;1914_06_24;Ciego Novillo
-;;N/A: ;Alemany;patrón;;"De Canasi, goleta ""Inés"", patrón Alemany, con 40 bocoyes miel.";;Inés;goleta;1914_06_24;Canasi
-;;N/A: ;Ensenat;patrón;;"De Canasi, goleta ""Josefina"", patrón Ensenat, con 60 bocoyes miel.";;Josefina;goleta;1914_06_24;Canasi
-;;N/A: ;Mayol;patrón;;"De Dominica, goleta ""Gertrudis"", patrón Mayol. Con 600 sacos azúcar.";;Gertrudis;goleta;1914_06_26;Dominica
-;;N/A: ;Ferrer;patrón;;"De Dominica, goleta ""Asunción"", patrón Ferrer. Con 600 sacos azúcar.";;Asunción;goleta;1914_06_26;Dominica
-;;N/A: ;Alemany;patrón;;"De Ciego Novillo, goleta ""Bella Catalina"", patrón Alemany. Con 600 sacos carbón.";;Bella Catalina;goleta;1914_06_26;Ciego Novillo
-;;N/A: ;Alemaní;patrón;;"De Bolondrón, goleta ""Segunda Rosa"", patrón Alemaní. Con 800 sacos carbón.";;Segunda Rosa;goleta;1914_06_26;Bolondrón
-;;N/A: ;Ferrer;patrón;;"De Cabo San Antonio, goleta ""Victoria"", patrón Ferrer. Con 800 sacos carbón.";;Victoria;goleta;1914_06_26;Cabo San Antonio
-;;N/A: ;García;patrón;;"De Canasi, goleta ""Emilia"", patrón García. Con 200 sacos azúcar.";;Emilia;goleta;1914_06_26;Canasi
-;;N/A: ;González;patrón;;"De Canasi, goleta ""Emilia"", patrón González, con 200 sacos azúcar.";;Emilia;goleta;1914_07_04;Canasi
-;;N/A: ;López;patrón;;"De Ciego Novillo, goleta ""Sofía"", patrón López, con mil sacos carbón.";;Sofía;goleta;1914_07_04;Ciego Novillo
-;;N/A: ;Maura;patrón;;"De Bolondrón, goleta ""María Torrent"", patrón Maura, con mil doscientos sacos carbón.";;María Torrent;goleta;1914_07_04;Bolondrón
-;;N/A: ;Enseñat;patrón;;"De Canasi, goleta ""Josefina, patrón Enseñat, con 60 bocoyes miel.";;Josefina;goleta;1914_07_04;Canasi
-;;;Rioseco;patrón;;"De Banes, goleta ""San Francisco"", patrón Rioseco. Con efectos.";;San Francisco;goleta;1914_07_04;Banes
-;;N/A: ;Tries;patrón;;"De Bahía Honda, goleta ""Mercedita"", patrón Tries. Con 50 bocoyes miel.";;Mercedita;goleta;1914_07_04;Bahía Honda
-;;N/A: ;López;patrón;;"De Cabo San Antonio, goleta ""Ama- lia"", patrón López, con 600 sacos azúcar.";;Ama- lia;goleta;1914_07_04;Cabo San Antonio
-;;;Den;patrón;;"De Matanzas, goleta ""Dos Hermanos"", patrón, Den, con efectos.";;Dos Hermanos;goleta;1914_07_04;Matanzas
-;;;;cap.;;"De Caibarién, vapor ""Las Villas, cap-";;Las Villas;vap.;1914_07_08;Caibarién
-;;;Bosch;patrón;;"De Cabañas, goleta ""María del Carmen"", patrón Bosch.";;María del Carmen;goleta;1914_07_08;Cabañas
-;;;Más;patrón;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;goleta;1914_07_08;Santa Cruz
-;;;Marante;patrón;;"De Mariel, goleta ""Altagracia"", patrón Marante.";;Altagracia;goleta;1914_07_08;Mariel
-;;;Ferrer;pat.;;"De Dominic, goleta ""Aunción"", patrón Ferrer.";;Aunción;goleta;1914_07_08;Dominic
-;;;Pujol;pat.;;"De Ciego Novillo, goleta ""María Dolores"", patrón Pujol.";;María Dolores;goleta;1914_07_08;Ciego Novillo
-;;;;patrón;;"De Arroyos, goleta ""La Fe"", patrón";;La Fe;goleta;1914_07_11;Arroyos
-;;;;cap.;;"De Cuba, vapor ""Chaparra,"" capitán";;Chaparra;vap.;1914_07_11;Cuba
-;;;;patrón;;"De Dominica, goleta ""Gertrudis"", patrón";;Gertrudis;goleta;1914_07_11;Dominica
-;;;;pat.;;"De Matanzas, goleta ""María"", patrón";;María;goleta;1914_07_11;Matanzas
-;;;Alemañy;patrón;;"De Canasi, goleta, ""Inés"" patrón Alemañy.";;Inés;goleta;1914_07_11;Canasi
-;;;Bosch;patrón;;"De Cabañas, goleta ""María del Carmen"", patrón Bosch.";;María del Carmen;goleta;1914_07_11;Cabañas
-;;;Alemañy;patrón;;"De Cabo de San Antonio, goleta ""Blanca"", patrón, Alemañy.";;Blanca;goleta;1914_07_11;Cabo de San Antonio
-;;;;cap.;;"De Caibarién, vapor ""Las Villas"", capi-";;Las Villas;vapor;1914_07_14;Caibarién
-;;;;;;"De Bolondrón, goleta ""María Vázquez""";;María Vázquez;goleta;1914_07_14;Bolondrón
-;;;;;;"De Cabo San Antonio, goleta ""Dos Amigos""";;Dos Amigos;goleta;1914_07_14;Cabo San Antonio
-;;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera""";;Hermosa Guanera;goleta;1914_07_14;Ciego Novillo
-;;;;cap.;;"De Cabo Nico, vapor ""Etelvina"", capitán";;Etelvina;vap.;1914_07_14;Cabo Nico
-;;;;pat.;;"De Cárdenas, goleta ""Crisálida"", patrón";;Crisálida;goleta;1914_07_14;Cárdenas
-;;;;;;"De Cárdenas, goleta ""María del Carmen"",";;María del Carmen;goleta;1914_07_14;Cárdenas
-;;;;;;"De Matanzas, goleta ""Dos Hermanos"",";;Dos Hermanos;goleta;1914_07_14;Matanzas
-;;;;patrón;;"De Banes, goleta ""San Francisco"", patrón,";;San Francisco;goleta;1914_07_14;Banes
-;;;Planell;cap.;;"De Arroyos, vapor ""Antolín del Callado"", capitan Planell.";;Antolín del Callado;vapor;1914_07_16;Arroyos
-;;;Alemañy;patrón;;"De Bolondrón, goleta ""Segunda Rosa"", patrón Alemañy.";;Segunda Rosa;goleta;1914_07_16;Bolondrón
-;;;Ferrer;patrón;;"De Ciego Novillo, goleta ""Bella Catalina"", patrón Ferrer.";;Bella Catalina;goleta;1914_07_16;Ciego Novillo
-;;;;;;"De Mariel, goleta ""Altagracia"", para Marantes.";;Altagracia;goleta;1914_07_16;Mariel
-;;;Roselló;pat.;;"De Dominica, goleta ""María"", patrón Roselló.";;María;goleta;1914_07_16;Dominica
-;;;Abello;pat.;;"De Santa Cruz, goleta ""Enigma"", patrón Abello.";;Enigma;goleta;1914_07_16;Santa Cruz
-;;;Mas;pat.;;"De Santa Cruz, goleta ""Benita"", patrón Mas.";;Benita;goleta;1914_07_16;Santa Cruz
-;;;Ginesta;cap.;;"De Caibarién, vapor ""Las Villas"", capítán Ginesta.";;Las Villas;vap.;1914_07_22;Caibarién
-;;;Santana;pat.;;"De Ciego Novillo, goleta ""Margarita"", patrón Santana.";;Margarita;goleta;1914_07_22;Ciego Novillo
-;;;Bosch;patrón;;"De Cabañas, goleta ""María del Carmen"" patrón Bosch.";;María del Carmen;goleta;1914_07_22;Cabañas
-;;;López;patrón;;"De Banes, goleta ""Mateño"", patrón López.";;Mateño;goleta;1914_07_22;Banes
-;;;Valenet;patrón;;"De Cabañas, goleta ""Blanca"", patrón Valenet.";;Blanca;goleta;1914_07_22;Cabañas
-;;;Alemañy;patrón;;"De Cabo de San Antonio, goleta ""Ama- lia"", patrón Alemañy.";;Ama- lia;goleta;1914_07_22;Cabo de San Antonio
-;;;Cobre;patrón;;"De Sierra Morena ""Goleta Isla de Cuba"", patrón Cobre.";;Isla de Cuba;Goleta;1914_07_22;Sierra Morena
-;;;Yem;patrón;;"De Arroyos, goleta ""Teresa"", patrón Yem.";;Teresa;goleta;1914_07_22;Arroyos
-;;;Marantes;patrón;;"De Mariel, goleta ""Altagracia"", patrón Marantes.";;Altagracia;goleta;1914_07_22;Mariel
-;;;Roselló;pat.;;"De Dominica, goleta ""María"", patrón Roselló.";;María;goleta;1914_07_24;Dominica
-;;;Más;pat.;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;goleta;1914_07_24;Santa Cruz
-;;;Suárez;cap.;;"De Cuba, vapor ""Gibara"", capitán Suárez.";;Gibara;vap.;1914_07_24;Cuba
-;;;Valent;pat.;;"De Cárdenas, goleta ""María del Carmen"", patrón Valent.";;María del Carmen;goleta;1914_07_24;Cárdenas
-;;;Penall;cap.;;De Arroyos, vapor Antolín del Collado, capitan Penall.;;Antolín;vapor;1914_07_26;Arroyos
-;;;López;cap.;;De Cienfuegos, vapor Purísima Concepción, capitan, López.;;Purísima Concepción;vap.;1914_07_26;Cienfuegos
-;;;Alemañy;patrón;;De Canasi, goleta Inés, patrón Alemañy.;;Inés;goleta;1914_07_26;Canasi
-;;;Enseñat;pat.;;De Canasi, goleta Josefina, patrón Enseñat.;;Josefina;goleta;1914_07_26;Canasi
-;;;Ferrer;patrón;;De Dominica, goleta Asunción, patrón Ferrer.;;Asunción;goleta;1914_07_26;Dominica
-;;;Maura;patrón;;"De Bolondrón, goleta ""María I Torrent"", patrón Maura.";;María I Torrent;goleta;1914_07_26;Bolondrón
-;;;Rodríguez;patrón;;De Banes, goleta Matec, patrón Rodríguez.;;Matec;goleta;1914_07_26;Banes
-;;;Alemañy;patrón;;De Cárdenas, goleta JJosefina, patrón Alemañy.;;JJosefina;goleta;1914_07_26;Cárdenas
-;;;Suá;cap.;;De Cuba, vapor Habana, capitán Suá-;;Habana;vap.;1914_07_29;Cuba
-;;;Mir;patrón;;De Matanzas, goleta Matanzas, patrón Mir.;;Matanzas;goleta;1914_07_29;Matanzas
-;;;;;;"De Mariel, goleta ""Altagracia"", pa-";;Altagracia;goleta;1914_07_29;Mariel
-;;;pujol;patrón;;"De Ciego Novillo, goleta ""Mária Dolore"", patrón, pujol.";;Mária Dolore;goleta;1914_07_29;Ciego Novillo
-;;;;patrón;;"De Sagua, goleta ""Esmeralda"", patrón";;Esmeralda;goleta;1914_07_29;Sagua
-;;;;;;De Cárdenas, goleta Juana Mercedes,;;Juana Mercedes;goleta;1914_07_29;Cárdenas
-;;;Granda;patrón;;De Arroyos, goleta La Fe, patrón, Granda.;;La Fe;goleta;1914_07_31;Arroyos
-;;;Guasch;patrón;;De Santa Rosa, goleta Hermosa Guanera, patrón Guasch.;;Hermosa Guanera;goleta;1914_07_31;Santa Rosa
-;;;Riosco;patrón;;De Banes, goleta San Francisco, patrón Riosco.;;San Francisco;goleta;1914_07_31;Banes
-;;;Más;patrón;;De Santa Cruz, goleta Benita, patrón Más.;;Benita;goleta;1914_07_31;Santa Cruz
-;;;López;patrón;;De Cabo San Antonio, goleta Dos Amigos, patrón López.;;Dos Amigos;goleta;1914_07_31;Cabo San Antonio
-;;;Antinógenes Meñéndez;pat.;;De Cienfuegos, patrón Antinógenes Meñéndez, capitán López.;;;;1914_07_31;Cienfuegos
-;;;Alemañy;patrón;;De Cárdenas, goleta Juana Mercedes, patrón Alemañy.;;Juana Mercedes;goleta;1914_07_31;Cárdenas
-;;;Ginesta;cap.;;De Cuba, vapor Las Villas, capitán Ginesta.;;Las Villas;vap.;1914_08_02;Cuba
-;;;López;patrón;;"De Ciego Novillo, goleta ""Sofía"", patrón López.";;Sofía;goleta;1914_08_02;Ciego Novillo
-;;;Maura;patrón;;De Manatí, goleta María Vázquez, patrón Maura.;;María Vázquez;goleta;1914_08_02;Manatí
-;;;Pena;patrón;;De Caibarién, goleta Cabaño Marino, patrón Pena.;;Cabaño Marino;goleta;1914_08_02;Caibarién
-;;;Rodríguez;patrón;;De Banes, goleta Mateo, patrón Rodríguez.;;Mateo;goleta;1914_08_02;Banes
-;;;Albello;patrón;;De Santa Cruz, goleta Enigma, patrón Albello.;;Enigma;goleta;1914_08_02;Santa Cruz
-;;;Alemañy;patrón;;De Cabañas, goleta Joven Pilar, patrón Alemañy.;;Joven Pilar;goleta;1914_08_02;Cabañas
-;;;Mir.;patrón;;"De Matanzas, goleta ""María, patrón Mir.";;María;goleta;1914_08_02;Matanzas
-;;;Gil;patrón;;De Banes, goleta Trinidad, patrón Gil.;;Trinidad;goleta;1914_08_02;Banes
-;;;Alemany;pat.;;De Cárdenas, goleta Rosita, 'patrón Alemany.;;Rosita;goleta;1914_08_07;Cárdenas
-;;;Enseñat;patrón;;De Canasi, goleta Josefina, patrón Enseñat.;;Josefina;goleta;1914_08_07;Canasi
-;;;Alemaný;pat.;;"De Cárdenas, goleta ""Crísalida"", patrón Alemaný.";;Crísalida;goleta;1914_08_09;Cárdenas
-;;;Rodríguez;patrón;;"De Banes, goleta ""Mateo"", patrón Rodríguez.";;Mateo;goleta;1914_08_09;Banes
-;;;Alemaný;pat.;;"De Canasi, goleta ""Inés"", patrón Alemaný.";;Inés;goleta;1914_08_09;Canasi
-;;;Gran-;patrón;;De Arroyos, goleta La Fe patrón Gran-;;La Fe;goleta;1914_08_12;Arroyos
-;;;;patrón;;De Mariel, goleta Altagracia, patrón;;Altagracia;goleta;1914_08_12;Mariel
-;;;;;;De Ciego Novillo, goleta Margarita,;;Margarita;goleta;1914_08_12;Ciego Novillo
-;;;Ale-;patrón;;De Banes, goleta Catalina, patrón Ale-;;Catalina;goleta;1914_08_12;Banes
-;;;Gomez;cap.;;De Cienfuegos, vapor Purísima Concepción, capitán Gomez.;;Purísima Concepción;vap.;1914_08_12;Cienfuegos
-;;;Ale-;patrón;;De Matanzas, goleta María, patrón Ale-;;María;goleta;1914_08_12;Matanzas
-;;;Rodríguez;patrón;;De Banes, goleta Mateo, patrón Rodríguez.;;Mateo;goleta;1914_08_12;Banes
-;;;;;;De Cárdenas, goleta María del Carmen,;;María del Carmen;goleta;1914_08_12;Cárdenas
-;;;Gil;patrón;;De Banes, goleta Trinidad, patrón Gil.;;Trinidad;goleta;1914_08_15;Banes
-;;;Abello;patrón;;De Santa Sruz, goleta Enigma, patrón Abello.;;Enigma;goleta;1914_08_15;Santa Sruz
-;;;Mas;patrón;;De Santa Cruz, goleta Benita, patrón Mas.;;Benita;goleta;1914_08_15;Santa Cruz
-;;;Ferrer;patrón;;De Ciego Novillo, goleta Bella Catalina, patrón Ferrer.;;Bella Catalina;goleta;1914_08_15;Ciego Novillo
-;;;Yem;patrón;;De Arroyos, goleta Teresa, patrón Yem.;;Teresa;goleta;1914_08_15;Arroyos
-;;;Valent;patrón;;De Cárdenas, goleta Unin, patrón Valent.;;Unin;goleta;1914_08_15;Cárdenas
-;;;López;patrón;;De Cabañas, goleta Joven Marcelino, patrón López.;;Joven Marcelino;goleta;1914_08_15;Cabañas
-;;;Deo;patrón;;De Matanzas, goleta Dos Hermanos, patrón Deo.;;Dos Hermanos;goleta;1914_08_15;Matanzas
-;;;Bosch;patrón;;De Cabañas, goleta María del Carmen, patrón Bosch.;;María del Carmen;goleta;1914_08_15;Cabañas
-;;;;;;De Arroyos, vapor Antolín del Col-;;Antolín;vap.;1914_08_16;Arroyos
-;;;Alemañy;patrón;;De Matanzas, goleta Matanzas, patrón Alemañy.;;Matanzas;goleta;1914_08_16;Matanzas
-;;;Alemañy;patrón;;De Cárdenas, goleta Crisálida, patrón Alemañy.;;Crisálida;goleta;1914_08_16;Cárdenas
-;;;;;;De Cienfuegos, vapor Purísima;;Purísima;vap.;1914_08_19;Cienfuegos
-;;;González;cap.;;De Cuba, vapor Julia, capitán González.;;Julia;vap.;1914_08_19;Cuba
-;;;Prieto;cap.;;De Manati, goleta Tres Hermanas, capitán Prieto.;;Tres Hermanas;goleta;1914_08_19;Manati
-;;;Gil;patrón;;De Banes, goleta Trinidad, patrón Gil.;;Trinidad;goleta;1914_08_19;Banes
-;;;Marantes;cap.;;De Mariel, goleta Alta Gracia, cap- trón, Marantes.;;Alta Gracia;goleta;1914_08_19;Mariel
-;;;Deo;patrón;;De Matanzas, goleta Dos Hermanas, patrón Deo.;;Dos Hermanas;goleta;1914_08_19;Matanzas
-;;;Valent;patrón;;De Cárdenas, goleta María del Carmen, patrón Valent.;;María del Carmen;goleta;1914_08_19;Cárdenas
-;;;;patrón;;De Cárdenas, goleta Julia, patrón;;Julia;goleta;1914_08_19;Cárdenas
-;;;Juan;patrón;;"De Caibarién, goleta ""Esmeralda"", patrón Juan.";;Esmeralda;goleta;1914_08_22;Caibarién
-;;;Guash;patrón;;"De Ciego Novillo, goleta ""Hermosa Guanera"", patrón Guash.";;Hermosa Guanera;goleta;1914_08_22;Ciego Novillo
-;;;López;patrón;;"De Cabo San Antonio, goleta ""Amalia"", patrón, López.";;Amalia;goleta;1914_08_22;Cabo San Antonio
-;;;Granda;patrón;;"De Arroyos, goleta ""La Fe"", patrón Granda.";;La Fe;goleta;1914_08_22;Arroyos
-;;;López;patrón;;"De Cabañas, goleta ""Joven Marcelino"", patrón, López.";;Joven Marcelino;goleta;1914_08_22;Cabañas
-;;;Alemañy;pat.;;"De Matanzas, goleta ""Matanzas"", patrón Alemañy.";;Matanzas;goleta;1914_08_22;Matanzas
-;;;Rioseco;patrón;;"De Banes, goleta ""San Francisco"", patrón, Rioseco.";;San Francisco;goleta;1914_08_22;Banes
-;;;;;;De Cienfuegos, vapor Caridad Padrilla.;;Caridad Padrilla;vap.;1914_08_23;Cienfuegos
-;;;;;;De Ciego Novillo, goleta María Do lores.;;María Do lores;goleta;1914_08_23;Ciego Novillo
-;;;;cap.;;"De Banes, goleta ""Etelvina"", cap.";;Etelvina;goleta;1914_08_26;Banes
-;;;;;;De Arroyos, vapor Antolín del Col-;;Antolín;vapor;1914_08_26;Arroyos
-;;;;;;"De Ciego Novillo, goleta ""María""";;María;goleta;1914_08_26;Ciego Novillo
-;;;;patrón;;"De Mariel, goleta ""Altagracia"", patrón";;Altagracia;goleta;1914_08_26;Mariel
-;;;Alemañy;pat.;;"De Cabañas, goleta ""Joven Pilar"", patrón Alemañy.";;Joven Pilar;goleta;1914_08_26;Cabañas
-;;;;;;"De Matanzas, goleta ""Dos Hermanas"",";;Dos Hermanas;goleta;1914_08_26;Matanzas
-;;;Abello;pat.;;"De Santa Cruz, goleta ""Enigma"", patrón Abello.";;Enigma;goleta;1914_08_26;Santa Cruz
-;;;Mas;pat.;;"De Santa Cruz, goleta ""Benita"", patrón Mas.";;Benita;goleta;1914_08_26;Santa Cruz
-;;;Valent;pat.;;"De Cárdenas, goleta ""María del Carmen"", patrón Valent.";;María del Carmen;goleta;1914_08_26;Cárdenas
-;;;Alemañy;pat.;;"De Cárdenas, goleta ""Crisálida"", patrón Alemañy.";;Crisálida;goleta;1914_08_26;Cárdenas
-;;;Maura;patrón;;"De Caibarién, goleta ""María Torrent, patrón Maura.";;María Torrent;goleta;1914_08_26;Caibarién
-;;;Vázquez;cap.;;De Cienfuegos, vapor Reina de los Angeles, capitán Vázquez.;;Reina de los Angeles;vap.;1914_08_28;Cienfuegos
-;;;Alemaný;patrón;;De Cárdenas, goleta Rosita, patrón Alemaný.;;Rosita;goleta;1914_08_28;Cárdenas
-;;;Valent;patrón;;De Cárdenas, goleta Unión, patrón Valent.;;Unión;goleta;1914_08_28;Cárdenas
-;;;Enseñat;patrón;;De Canasi, goleta Josefina, patrón Enseñat.;;Josefina;goleta;1914_08_28;Canasi
-;;;Pujol;patrón;;De Cabo de San Antonio, goleta Victoria, patrón Pujol.;;Victoria;goleta;1914_08_28;Cabo de San Antonio
-;;;Abella;patrón;;De Santa Cruz, goleta Vigía, patrón Abella.;;Vigía;goleta;1914_08_28;Santa Cruz
-;;;;;;De Margajitas, goleta Felí.;;Felí;goleta;1914_09_02;Margajitas
-;;;;;;De Manati, goleta María Vázquez.;;María Vázquez;goleta;1914_09_02;Manati
-;;;;;;De Mariel, goleta Altagracia.;;Altagracia;goleta;1914_09_02;Mariel
-;;;;;;De Cárdenas, goleta Crisálida.;;Crisálida;goleta;1914_09_02;Cárdenas
-;;;;;;De Banes, goleta San Francisco.;;San Francisco;goleta;1914_09_02;Banes
-;;;;;;De Bahía Honda, goleta Mateo.;;Mateo;goleta;1914_09_02;Bahía Honda
-;;;;;;De Cárdenas, goleta Juana Mercedes.;;Juana Mercedes;goleta;1914_09_02;Cárdenas
-;;;;;;De Matanzas, goleta Matanzas.;;Matanzas;goleta;1914_09_02;Matanzas
-;;;;;;De Arroyos, goleta Teresa.;;Teresa;goleta;1914_09_02;Arroyos
-;;;;;;De Cabañas, goleta Joven Pilar.;;Joven Pilar;goleta;1914_10_02;Cabañas
-;;;;;;De Dominic, goleta Maria.;;Maria;goleta;1914_10_02;Dominic
-;;;;;;De Cárdenas, goleta Julia.;;Julia;goleta;1914_10_02;Cárdenas
-;;;;;;De Baracoa, goleta Clara.;;Clara;goleta;1914_10_02;Baracoa
-;;;;;;De Margajitas, goleta Feliz.;;Feliz;goleta;1914_10_03;Margajitas
-;;;;;;De Matanzas, goleta María.;;María;goleta;1914_10_03;Matanzas
-;;;;;;De Cabañas, goleta María del Carmen.;;María del Carmen;goleta;1914_10_03;Cabañas
-;;;;;;De Santa Cruz, goleta Benita.;;Benita;goleta;1914_10_03;Santa Cruz
-;;;;;;De Cárdenas, goleta Rosita.;;Rosita;goleta;1914_10_03;Cárdenas
-;;;;;;De Cabo San Antonio, goleta Ama-;;Ama;goleta;1914_10_03;Cabo San Antonio
-;;;;;;De Canasi, goleta Josefina.;;Josefina;goleta;1914_10_03;Canasi
-;;;;;;De Cabañas, goleta Joven Marceli-;;Joven Marceli;goleta;1914_10_03;Cabañas
-;;;;;;De Banes, goleta Trinidad.;;Trinidad;goleta;1914_10_08;Banes
-;;;;;;De Matanzas, goleta Dos Hermanas;;Dos Hermanas;goleta;1914_10_08;Matanzas
-;;;;;;De Cabañas, goleta JoJven Pilar;;JoJven Pilar;goleta;1914_10_08;Cabañas
-;;;;;;De Margajitas, goleta Pedro Muri;;Pedro Muri;goleta;1914_10_08;Margajitas
-;;;;;;De Cárdenas, goleta María del Carmen.;;María del Carmen;goleta;1914_10_08;Cárdenas
-;;;Vázquez;pat.;;"De Nuevitas, goleta ""Polar"", patrón, Vázquez.";;Polar;goleta;1914_10_14;Nuevitas
-;;;López;patrón;;"De Ciego Novillo, goleta ""Sofía"", patrón López.";;Sofía;goleta;1914_10_14;Ciego Novillo
-;;;Guasch;patrón;;"De Ciego Novillo, goleta ""Hermosa Guanera"", patrón Guasch.";;Hermosa Guanera;goleta;1914_10_14;Ciego Novillo
-;;;Pujol;patrón;;"De Cabo de San Antonio, goleta ""Victoria"", patrón Pujol.";;Victoria;goleta;1914_10_14;Cabo de San Antonio
-;;;Alemañy;pat.;;"De Matanzas, goleta ""Matanzas"", patrón Alemañy.";;Matanzas;goleta;1914_10_14;Matanzas
-;;;Seijas;pat.;;"De Matanzas, goleta ""María"", patrón Seijas.";;María;goleta;1914_10_14;Matanzas
-;;;Abello;pat.;;"De Santa Cruz, goleta ""Vigía"", patrón Abello.";;Vigía;goleta;1914_10_14;Santa Cruz
-;;;Valent;pat.;;"De Cárdenas, goleta ""Pnión"", patrón Valent.";;Pnión;goleta;1914_10_14;Cárdenas
-;;;Alemañy;pat.;;"De Cárdenas, goleta ""Juana Mercedes"", patrón Alemañy.";;Juana Mercedes;goleta;1914_10_14;Cárdenas
-;;;Bosch;patrón;;"De Cabañas, goleta ""María del Carmen"", patrón Bosch.";;María del Carmen;goleta;1914_10_14;Cabañas
-;;;López;pat.;;"De Cienfuegos, vapor ""Josefina"", patrón López.";;Josefina;vap.;1914_10_14;Cienfuegos
-;;;López;patrón;;"De Bahía Honda, goleta ""Almendares"", patrón, López.";;Almendares;goleta;1914_10_14;Bahía Honda
-;;N/A: ;López;patrón;;"De Cabañas, goleta ""Joven Marcelino"", patrón López. Con 45 quarteros miel.";;Joven Marcelino;goleta;1914_10_15;Cabañas
-;;N/A: ;Santana;patrón;;"De Ciego Novillo, goleta ""Margarita"", patrón Santana. Con mil sacos carbón.";;Margarita;goleta;1914_10_15;Ciego Novillo
-;;;Marantes;patrón;;"De Mariel, goleta ""Altagracia"", patrón Marantes.";;Altagracia;goleta;1914_10_15;Mariel
-;;;Alemañí;patrón;;"De Cárdenas, goleta ""Julia"", patrón Alemañí.";;Julia;goleta;1914_10_15;Cárdenas
-;;;Alemañí;patrón;;"De Cárdenas, goleta ""Crísálida"", patrón, Alemañí.";;Crísálida;goleta;1914_10_15;Cárdenas
-;;;Alemañí;patrón;;"De Cabañas, goleta ""Joven Pilar"", patrón Alemañí.";;Joven Pilar;goleta;1914_10_15;Cabañas
-;;;Más;patrón;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;goleta;1914_10_15;Santa Cruz
-;;;Deo;pat.;;"De Matanzas, goleta ""Dos Hermanas"", patrón Deo.";;Dos Hermanas;goleta;1914_10_18;Matanzas
-;;;Planell;cap.;;"De Arroyos, goleta ""Antolín del Collado"", capitán Planell.";;Antolín del Collado;goleta;1914_10_18;Arroyos
-;;;Yem;patrón;;"De Arroyos, goleta ""Teresa"", patrón Yem.";;Teresa;goleta;1914_10_18;Arroyos
-;;;Rioseco;patrón;;"De Banes, goleta ""San Francisco"", patrón Rioseco.";;San Francisco;goleta;1914_10_18;Banes
-;;;Pujol;patrón;;"De Ciego Novillo, goleta ""María Dolores"", patrón Pujol.";;María Dolores;goleta;1914_10_21;Ciego Novillo
-;;;Gil;patrón;;"De Banes, goleta ""Trinidad"", patrón Gil.";;Trinidad;goleta;1914_10_21;Banes
-;;;Maura;pat.;;"De Nuevitas, goleta ""María Vázquez"", patrón Maura.";;María Vázquez;goleta;1914_10_21;Nuevitas
-;;;Marantes;patrón;;"De Mariel, goleta ""Altagracia"", patrón Marantes.";;Altagracia;goleta;1914_10_21;Mariel
-;;;Alemañy;pat.;;"De Matanzas, goleta ""Matanzas"", patrón Alemañy.";;Matanzas;goleta;1914_10_21;Matanzas
-;;;Alemañy;pat.;;"De Nuevitas, goleta ""María Teresa"", patrón Alemañy.";;María Teresa;goleta;1914_10_21;Nuevitas
-;;;Alemañy;patrón;;"De Caibarién, goleta ""Ignacia Alemañy"", patrón Alemañy.";;Ignacia Alemañy;goleta;1914_10_21;Caibarién
-;;;Alemañy;pat.;;"De Cárdenas, goleta ""Crisálida"", patrón Alemañy.";;Crisálida;goleta;1914_10_21;Cárdenas
-;;;Más;patrón;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;goleta;1914_10_21;Santa Cruz
+arrival_date;arrival_date_calc;cargo_list;crew_number;forced_arrival;master_name;master_role;parsed_text;passenger_account;publication_day;quarantine;raw_text;ship_flag;ship_name;ship_tons_capacity;ship_tons_unit;ship_type;source_file;travel_departure_port;travel_duration_unit;travel_duration_value
+;;N/A: ;;;López;cap.;;;;;"De Clenfuegos, vapor ""Reina María de los Angeles,"" capitán López, con efectos.";;Reina María de los Angeles;;;vap.;1914_01_05;Clenfuegos;;
+;;N/A: ;;;Marantes;patrón;;;;;"De Mariel, goleta ""Pilar,"" patrón Marantes, con 800 sacos azúcar.";;Pilar;;;goleta;1914_01_05;Mariel;;
+;;;;;Mas;patrón;;;;;"De Santa Cruz, goleta ""Benita,"" patrón Mas, con efectos.";;Benita;;;goleta;1914_01_05;Santa Cruz;;
+;;;;;Sánchez;patrón;;;;;"De Matanzas, goleta ""Blanca,"" patrón Sánchez, con efectos.";;Blanca;;;goleta;1914_01_05;Matanzas;;
+;;N/A: ;;;Barolo;patrón;;;;;"De Arroyos, goleta ""Aracelía,"" patrón Barolo, con 600 sacos carbón.";;Aracelía;;;goleta;1914_01_05;Arroyos;;
+;;N/A: ;;;Guasch;patrón;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera,"" patrón Guasch, con 800 sacos de carbón.";;Hermosa Guanera;;;goleta;1914_01_05;Ciego Novillo;;
+;;N/A: ;;;Alemañ;patrón;;;;;"De Jaruco, goleta ""Pájaro del Mar,"" patrón Alemañ, con efectos.";;Pájaro del Mar;;;goleta;1914_01_05;Jaruco;;
+;;N/A: ;;;Abella;patrón;;;;;"De Santa Cruz, goleta ""Enigma,"" patrón Abella, con efectos.";;Enigma;;;goleta;1914_01_05;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 300 sacos azúcar.";;Pilar;;;goleta;1914_01_22;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos azúcar.";;San Francisco;;;goleta;1914_01_22;Banes;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Maria Dolores,"" con 1,200 sacos carbón.";;Maria Dolores;;;goleta;1914_01_22;Ciego Novillo;;
+;;N/A:  | N/A: ;;;;;;;;;"De Margaritas goleta ""Fellz,"" con 300 sacos carbón y leña.";;Fellz;;;goleta;1914_01_22;Margaritas;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Maria del Carmen,"" con 60 pipas aguardiente.";;Maria del Carmen;;;goleta;1914_01_22;Cárdenas;;
+;;;;;;;;;;;"De Arroyos, vapor ""Antolin del Collado,"" con efectos.";;Antolin del Collado;;;vapor;1914_01_24;Arroyos;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;;;goleta;1914_01_24;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_01_24;Banes;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Sabás,"" con 400 sacos de azúcar.";;Sabás;;;goleta;1914_01_24;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Benita,"" con 500 sacos de azúcar.";;Benita;;;goleta;1914_01_24;Canasi;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos de azúcar.";;Gertrudis;;;goleta;1914_01_24;Dominica;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Rosita,"" con 50 pipas aguardiente.";;Rosita;;;goleta;1914_01_24;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Matanzas goleta ""María,"" con efectos.";;María;;;goleta;1914_01_24;Matanzas;;
+;;;;;;;;;;;"De Caibaríen vapor ""II Alava,"" con efectos.";;II Alava;;;vapor;1914_01_28;Caibaríen;;
+;;N/A: ;;;;;;;;;"De Ciénfuegos vapor ""Antinógenes Méndez,"" con efectos.";;Antinógenes Méndez;;;vapor;1914_01_28;Ciénfuegos;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;;;goleta;1914_01_28;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_01_28;Cabañas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Enriqueta,"" con 800 sacos carbón.";;Enriqueta;;;goleta;1914_01_28;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Bolondrón goleta ""2da. Rosa,"" con 800 sacos carbón.";;2da. Rosa;;;goleta;1914_01_28;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Bolondrón goleta ""Maria Torrent,"" con 1,000 sacos carbón.";;Maria Torrent;;;goleta;1914_01_28;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""María del Carmen,"" con 60 pipas aguardiente.";;María del Carmen;;;goleta;1914_01_28;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Canasi goleta "":Sabás,"" con 500 sacos azúcar.";;:Sabás,;;;goleta;1914_01_28;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""2da. Chávez,"" con 500 sacos azúcar.";;2da. Chávez;;;goleta;1914_01_28;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Inés,"" con azúcar.";;Inés;;;goleta;1914_01_28;Canasi;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;;;goleta;1914_01_31;Banes;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Crisálida,"" con 60 pipas aguardiente.";;Crisálida;;;goleta;1914_01_31;Cárdenas;;
+;;;;;;;;;;;"De Cabañas goleta ""Joven Marcelino,"" en lastre.";;Joven Marcelino;;;goleta;1914_01_31;Cabañas;;
+;;N/A: ;;;;;;;;;"De Santa Cruz goleta ""Inesita,"" con efectos.";;Inesita;;;goleta;1914_01_31;Santa Cruz;;
+;;;;;;;;;;;"De Carahatas goleta ""Tres Hermanos,"" en lastra.";;Tres Hermanos;;;goleta;1914_02_03;Carahatas;;
+;;N/A: ;;;;;;;;;"De Cuba vapor ""Habana,"" con efectos.";;Habana;;;vapor;1914_02_03;Cuba;;
+;;;;;;;;;;;"De Santa Cruz goleta ""Benita,"" con efectos.";;Benita;;;goleta;1914_02_03;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_02_03;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Maria del Carmen,"" con 500 sacos de azúcar.";;Maria del Carmen;;;goleta;1914_02_03;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Mallorca,"" con 1,000 sacos azúcar.";;Mallorca;;;goleta;1914_02_03;Banes;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Julia,"" con 60 plpas aguardiente.";;Julia;;;goleta;1914_02_03;Cárdenas;;
+;;;;;;;;;;;"De Matanzas goleta ""Blanca,"" en las tre.";;Blanca;;;goleta;1914_02_03;Matanzas;;
+;;N/A: ;;;;;;;;;"De Clienfuegos vapor ""Antíngenes Méndez,"" con efectos.";;Antíngenes Méndez;;;vapor;1914_02_04;Clienfuegos;;
+;;N/A: ;;;;;;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;;;goleta;1914_02_04;Arroyos;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;;;goleta;1914_02_04;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 500 sacos azúcar.";;San Francisco;;;goleta;1914_02_04;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Caballo Marino,"" con 900 sacos azúcar.";;Caballo Marino;;;goleta;1914_02_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Hermosa Quinera,"" con 800 sacos azúcar.";;Hermosa Quinera;;;goleta;1914_02_04;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_02_04;Dominica;;
+;;;;;;;;;;;"De Caibarién vapor ""II Alava,"" con";;II Alava;;;vapor;1914_02_06;Caibarién;;
+;;;;;;;;;;;"De Arroyos vapor ""Antolín del Collado,""";;Antolín del Collado;;;vapor;1914_02_06;Arroyos;;
+;;N/A: ;;;;;;;;;"De Cienfuegos vapor ""Reina de los Angeles,"" con efectos.";;Reina de los Angeles;;;vapor;1914_02_11;Cienfuegos;;
+;;N/A: ;;;;;;;;;"De Canasi goleta. ""Inés,"" con 280 sacos de azúcar.";;Inés;;;goleta.;1914_02_11;Canasi;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos de azúcar.";;Altagracia;;;goleta;1914_02_11;Mariel;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Sabás,"" con 400 sacos de azúcar.";;Sabás;;;goleta;1914_02_11;Canasi;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 680 sacos de azúcar.";;Pilar;;;goleta;1914_02_11;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;;;goleta;1914_02_11;Banes;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""María,"" con 600 sacos de azúcar.";;María;;;goleta;1914_02_11;Dominica;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Asunción,"" con 600 sacos de azúcar.";;Asunción;;;goleta;1914_02_11;Dominica;;
+;;N/A: ;;;;;;;;;"De Bolondrón goleta ""Esmeralda,"" con 1,000 sacos carbón.";;Esmeralda;;;goleta;1914_02_11;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Caballo Marino,"" con 900 sacos de azúcar.";;Caballo Marino;;;goleta;1914_02_11;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos de azúcar.";;Joven Pilar;;;goleta;1914_02_11;Cabañas;;
+;;N/A:  | N/A: ;;;;;;;;;"De Ciego Novilol goleta ""Emilia,"" con carbón y leña.";;Emilia;;;goleta;1914_02_11;Ciego Novilol;;
+;;N/A: ;;;;;;;;;"De Ciego Novilol goleta ""María Dolores,"" con 1,000 sacos carbón.";;María Dolores;;;goleta;1914_02_11;Ciego Novilol;;
+;;N/A: ;;;;;;;;;"De Ciego Novilol goleta ""Sofía,"" con 1,000 sacos carbón.";;Sofía;;;goleta;1914_02_11;Ciego Novilol;;
+;;;;;;;;;;;"De Caibaríen vapor ""II Alava,"" con efectos.";;II Alava;;;vapor;1914_02_11;Caibaríen;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""María Carmen,"" con 500 sacos de azúcar.";;María Carmen;;;goleta;1914_02_11;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos de azúcar.";;Trinidad;;;goleta;1914_02_11;Banes;;
+;;N/A: ;;;;;;;;;"De Matanzas goleta ""Dos Hermanas,"" con efectos.";;Dos Hermanas;;;goleta;1914_02_11;Matanzas;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""María Carmen,"" con 60 pipas aguardiente.";;María Carmen;;;goleta;1914_02_11;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Ignacia Alemán,"" con 600 sacos azúcar.";;Ignacia Alemán;;;goleta;1914_02_11;Cabañas;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Sabás,"" con 400 sacos de azúcar.";;Sabás;;;goleta;1914_02_21;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Inés,"" con 280 sacos de azúcar.";;Inés;;;goleta;1914_02_21;Canasi;;
+;;N/A: ;;;;;;;;;"De Dominic goleta ""María,"" con 600 sacos azúcar.";;María;;;goleta;1914_02_21;Dominic;;
+;;N/A: ;;;;;;;;;"De Cabafas goleta ""Caballo Marino,"" con 900 sacos de azúcar.";;Caballo Marino;;;goleta;1914_02_21;Cabafas;;
+;;N/A: ;;;;;;;;;"De Cabafas goleta ""Catalina,"" con 1,000 sacos azúcar.";;Catalina;;;goleta;1914_02_21;Cabafas;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos azúcar.";;San Francisco;;;goleta;1914_02_21;Banes;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_02_21;Banes;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con $80 sacos azúcar.";;Altagracia;;;goleta;1914_02_23;Mariel;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;;;goleta;1914_02_23;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;;;goleta;1914_02_23;Banes;;
+;;N/A: ;;;;;;;;;"De Banes goleta Trinidad,"" con 500 sacos de azúcar.";;Trinidad;;;goleta;1914_02_23;Banes;;
+;;N/A: ;;;;;;;;;"De Cabafias goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_02_23;Cabafias;;
+;;N/A: ;;;;;;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;;;goleta;1914_02_23;Arroyos;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Sofia,"" con 1,000 sacos carbón.";;Sofia;;;goleta;1914_02_23;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cañaríen vapor ""Las Villas,"" con efectos.";;Las Villas;;;vapor;1914_02_28;Cañaríen;;
+;;;;;;;;;;;"De Matanzas goleta ""Blanca"", con efectos.";;Blanca;;;goleta;1914_02_28;Matanzas;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 500 sacos azúcar.";;San Francisco;;;goleta;1914_02_28;Banes;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio goleta ""Amalia"", con 600 sacos carbón.";;Amalia;;;goleta;1914_02_28;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 600 sacos de azúcar.";;Trinidad;;;goleta;1914_02_28;Banes;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;;;goleta;1914_02_28;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos de azúcar.";;María del Carmen;;;goleta;1914_02_28;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Catalina,"" con 1,000 sacos de azúcar.";;Catalina;;;goleta;1914_02_28;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Unión,"" con 130 pipas aguardiente.";;Unión;;;goleta;1914_02_28;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Juana Mercedes,"" con 60 pipas aguardiente.";;Juana Mercedes;;;goleta;1914_02_28;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Bella Catalina,"" con 1,000 sacos carbón.";;Bella Catalina;;;goleta;1914_02_28;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Jaruco goleta ""Esperanza,"" con efectos.";;Esperanza;;;goleta;1914_02_28;Jaruco;;
+;;N/A: ;;;;;;;;;"De Clenfuegos vapor ""Purísima Concepción,"" con efectos.";;Purísima Concepción;;;vapor;1914_02_28;Clenfuegos;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""María,"" con 600 sacos azúcar.";;María;;;goleta;1914_02_28;Dominica;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_02_28;Dominica;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Asunción,"" con 500 sacos azúcar.";;Asunción;;;goleta;1914_02_28;Dominica;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_02_28;Cabañas;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;;;goleta;1914_02_28;Mariel;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Josefina,"" con 80 bo- coyes miel.";;Josefina;;;goleta;1914_02_28;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Bebita Avendaño,"" con 500 sacos azúcar.";;Bebita Avendaño;;;goleta;1914_02_28;Canasi;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Ignacia Aleman,"" con 800 sacos azúcar.";;Ignacia Aleman;;;goleta;1914_02_28;Cabañas;;
+;;N/A:  | N/A: ;;;;;;;;;"De Cuba vapor ""Habana,"" con 100,000 plátanos y efectos.";;Habana;;;vapor;1914_03_02;Cuba;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Inés,"" con 280 sacos azúcar.";;Inés;;;goleta;1914_03_02;Canasi;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Piar,"" con 1,000 sacos de azúcar.";;Joven Piar;;;goleta;1914_03_02;Cabañas;;
+;;N/A: ;;;;;;;;;"De Matanzas goleta ""Dos Hermanas,"" con efectos.";;Dos Hermanas;;;goleta;1914_03_02;Matanzas;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio goleta ""Dos Amigos,"" con 600 sacos carbón.";;Dos Amigos;;;goleta;1914_03_02;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""María Dolores,"" con 1,200 sacos carbón.";;María Dolores;;;goleta;1914_03_05;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio goleta ""Victoria,"" con 800 sacos carbón.";;Victoria;;;goleta;1914_03_05;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Bolondrón goleta ""María Pilar,"" con 1,000 sacos carbón.";;María Pilar;;;goleta;1914_03_05;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;;;goleta;1914_03_05;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Ignacia Aleman,"" con 800 sacos de azúcar.";;Ignacia Aleman;;;goleta;1914_03_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Catalina,"" con 1,000 sacos de carbón.";;Catalina;;;goleta;1914_03_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Trinidad,"" con 500 sacos de azúcar.";;Trinidad;;;goleta;1914_03_05;Dominica;;
+;;N/A: ;;;;;;;;;"De Caibarién vapor ""Las Villas,"" con efectos.";;Las Villas;;;vapor;1914_03_05;Caibarién;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Caballo Marino,"" con 900 sacos azúcar.";;Caballo Marino;;;goleta;1914_03_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;;;goleta;1914_03_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Ignacia Almansa,"" con 800 sacos azúcar.";;Ignacia Almansa;;;goleta;1914_03_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Sabás,"" con 400 sacos azúcar.";;Sabás;;;goleta;1914_03_05;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Josefa,"" con 500 sacos azúcar.";;Josefa;;;goleta;1914_03_05;Canasi;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_03_05;Banes;;
+;;N/A: ;;;;;;;;;"De Bolondrón goleta ""María Torrent,"" con 1,000 sacos carbón.";;María Torrent;;;goleta;1914_03_05;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Arroyos vapor ""Etelvina,"" con 800";;Etelvina;;;vapor;1914_03_07;Arroyos;;
+;;N/A: ;;;;;;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;;;goleta;1914_03_07;Arroyos;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Inés,"" con 280 sacos";;Inés;;;goleta;1914_03_07;Canasi;;
+;;N/A: ;;;;;;;;;"De Dominic goleta "":María,"" con 680";;:María,;;;goleta;1914_03_07;Dominic;;
+;;;;;;;;;;;"De Cárdenas goleta ""Juana Morales,""";;Juana Morales;;;goleta;1914_03_07;Cárdenas;;
+;;;;;;;;;;;"De Cárdenas goleta ""María del Carmen,""";;María del Carmen;;;goleta;1914_03_07;Cárdenas;;
+;;;;;;;;;;;"De Carahatas goleta ""Tres Hermanas,""";;Tres Hermanas;;;goleta;1914_03_07;Carahatas;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar"": Con 800 sacos azúcar.";;Pilar;;;goleta;1914_03_14;Mariel;;
+;;N/A: ;;;;;;;;;"De Canasí, goleta ""Inés"": Con 280 sacos azúcar.";;Inés;;;goleta;1914_03_14;Canasí;;
+;;N/A: ;;;;;;;;;"De Canasí, goleta ""Sabas"": Con 400 sacos azúcar.";;Sabas;;;goleta;1914_03_14;Canasí;;
+;;N/A: ;;;;;;;;;"De Canasí, goleta ""Ignacia Alemán"": Con 800 sacos azúcar.";;Ignacia Alemán;;;goleta;1914_03_14;Canasí;;
+;;N/A: ;;;;;;;;;"De Canasí, goleta ""Josefina"": Con 400 sacos azúcar.";;Josefina;;;goleta;1914_03_14;Canasí;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""San Francisco"": Con 600 sacos azúcar.";;San Francisco;;;goleta;1914_03_14;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Joven Marcelino"": Con 500 sacos azúcar.";;Joven Marcelino;;;goleta;1914_03_14;Cabañas;;
+;;N/A: ;;;;;;;;;"De Margajitas, goleta ""Feliz"": con 300 sacos carbón.";;Feliz;;;goleta;1914_03_16;Margajitas;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""María del Carmen"": con 500 sacos azúcar.";;María del Carmen;;;goleta;1914_03_16;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cárdenas, goleta ""Unión"": con 180 pipas aguardiente.";;Unión;;;goleta;1914_03_16;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""San Francisco"": con 600 sacos azúcar.";;San Francisco;;;goleta;1914_03_16;Banes;;
+;;;;;;;;;;;"De Arroyos, goleta ""La Fe"": con efectos.";;La Fe;;;goleta;1914_03_16;Arroyos;;
+;;;;;;;;;;;"De Caibarién vapor ""Las Villas,"" con efectos.";;Las Villas;;;vapor;1914_03_21;Caibarién;;
+;;;;;;;;;;;"De Arroyos vapor ""Etelvina,"" con efectos.";;Etelvina;;;vapor;1914_03_21;Arroyos;;
+;;N/A: ;;;;;;;;;"De Cuba vapor ""Santiago de Cuba,"" con efectos.";;Santiago de Cuba;;;vapor;1914_03_21;Cuba;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_03_21;Cabañas;;
+;;N/A: ;;;;;;;;;"De Sagua goleta ""Mercedita,"" con 800 sacos carbón.";;Mercedita;;;goleta;1914_03_21;Sagua;;
+;;N/A: ;;;;;;;;;"De Matanzas goleta ""María,"" con efectos.";;María;;;goleta;1914_03_21;Matanzas;;
+;;N/A: ;;;;;;;;;"De Banes goleta "":Trinidad,"" con 500 sacos de azúcar.";;Trinidad;;;goleta;1914_03_21;Banes;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos de azúcar.";;San Francisco;;;goleta;1914_03_21;Banes;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_03_21;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;;;goleta;1914_03_21;Cabañas;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar,"" con 100 sacos azúcar.";;Pilar;;;goleta;1914_03_21;Mariel;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Bebita Avenida,"" con 800 sacos azúcar.";;Bebita Avenida;;;goleta;1914_03_21;Canasi;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Crísalida,"" con 50 pipas aguardiente.";;Crísalida;;;goleta;1914_03_21;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Cárdenas goleta ""Juana Mercedes,"" con 60 pipas aguardiente.";;Juana Mercedes;;;goleta;1914_03_21;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Bella Catalina,"" con 1,200 sacos carbón.";;Bella Catalina;;;goleta;1914_03_21;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio goleta ""Amalia,"" con 600 sacos carbón.";;Amalia;;;goleta;1914_03_21;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos";;Pilar;;;goleta;1914_03_25;Mariel;;
+;;;;;;;;;;;"De Carahatas goleta ""Tres Hermanas,"" en lastre.";;Tres Hermanas;;;goleta;1914_03_25;Carahatas;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680";;Altagracia;;;goleta;1914_03_25;Mariel;;
+;;;;;;;;;;;"De Caibarién vapor ""Las Villas,"" con efectos.";;Las Villas;;;vapor;1914_03_25;Caibarién;;
+;;;;;;;;;;;"De Cabañas goleta ""Caballo Marino,"" con";;Caballo Marino;;;goleta;1914_03_25;Cabañas;;
+;;;;;;;;;;;"De Banes goleta ""San Francisco,"" con";;San Francisco;;;goleta;1914_03_25;Banes;;
+;;;;;;;;;;;"De Ciego Novillo goleta ""Sofía,"" con";;Sofía;;;goleta;1914_03_25;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""María Dolores,"" con 1,000 sacos carbón.";;María Dolores;;;goleta;1914_03_25;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Asunción,"" con 80";;Asunción;;;goleta;1914_03_25;Dominica;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar."" Con 500 sacos";;Pilar.;;;goleta;1914_03_28;Mariel;;
+;;;;;;;;;;;"De 'Cabañas, goleta ""Ignacia Alemán..""";;Ignacia Alemán;;;goleta;1914_03_28;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Trinidad."" Con 500";;Trinidad;;;goleta;1914_03_28;Banes;;
+;;;;;;;;;;;"De Canasf, goleta ""Bebita Avenida.""";;Bebita Avenida;;;goleta;1914_03_28;Canasf;;
+;;N/A: ;;;;;;;;;"De Santa Cruz, goleta ""Inesita."" Con 200";;Inesita;;;goleta;1914_03_28;Santa Cruz;;
+;;;;;;;;;;;"De Arroyos, golet L"" aFe."" Con efectos.";;"L"" aFe.";;;golet;1914_03_28;Arroyos;;
+;;;;;;;;;;;"De Arroyos, goleta ""Etelvina."" Con efect-";;Etelvina;;;goleta;1914_03_28;Arroyos;;
+;;;;;;;;;;;"De Cabafas, goleta ""Joven Pilar."" Con";;Joven Pilar.;;;goleta;1914_03_28;Cabafas;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Catalina."" Con 1.000";;Catalina;;;goleta;1914_03_28;Banes;;
+;;N/A: ;;;;;;;;;"De Canasf, goleta ""Josefina."" Con 400";;Josefina;;;goleta;1914_03_28;Canasf;;
+;;;;;;;;;;;"De Canasf, goleta ""Ira. de Chavez."" Con";;Ira. de Chavez.;;;goleta;1914_03_28;Canasf;;
+;;;;;;;;;;;"De Santa Cruz, goleta ""Enriqueta."" Con";;Enriqueta;;;goleta;1914_03_28;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos azúcar.";;Pilar;;;goleta;1914_04_04;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_04_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Clara,"" con 1,300 sacos azúcar.";;Clara;;;goleta;1914_04_04;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Catalina,"" con 1,200 sacos azúcar.";;Catalina;;;goleta;1914_04_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Dominic goleta ""Asunción,"" con 1,300 sacos azúcar.";;Asunción;;;goleta;1914_04_04;Dominic;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Ignacia,"" con 800 sacos azúcar.";;Ignacia;;;goleta;1914_04_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Hermosa Guanera,"" con 800 sacos carbón.";;Hermosa Guanera;;;goleta;1914_04_04;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Santa Cruz, goleta ""Vigía,"" con 300 cajas cebollas.";;Vigía;;;goleta;1914_04_04;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Santa Cruz goleta ""Rodolfo,"" con 200 sacos cebollas.";;Rodolfo;;;goleta;1914_04_04;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_04_05;Banes;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 60 sacos azúcar.";;San Francisco;;;goleta;1914_04_05;Banes;;
+;;;;;;;;;;;"De Cabañas goleta ""Caballo Marino.""";;Caballo Marino.;;;goleta;1914_04_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Santa Cruz goleta ""Benita,"" con 300 quintales cebollas.";;Benita;;;goleta;1914_04_05;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Santa Cruz goleta ""Enigma,"" con 400 quintales cebollas.";;Enigma;;;goleta;1914_04_05;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Marfa,"" con 600 sacos azúcar.";;Marfa;;;goleta;1914_04_05;Dominica;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_04_05;Cabañas;;
+;;N/A: ;;;;;;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;;;goleta;1914_04_05;Arroyos;;
+;;N/A: ;;;;;;;;;"De Maried, goleta ""Altagracia."" Con 680 sacos azúcar.";;Altagracia;;;goleta;1914_04_10;Maried;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar."" Con 800 sacos azúcar.";;Pilar.;;;goleta;1914_04_10;Mariel;;
+;;N/A: ;;;;;;;;;"De Dominic, goleta ""María."" Con 600 sacos azúcar.";;María;;;goleta;1914_04_10;Dominic;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""la de Chavez."" Con 500 sacos azúcar.";;la de Chavez;;;goleta;1914_04_10;Canasi;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Ignacia Alemán."" Con 800 sacos azúcar.";;Ignacia Alemán.;;;goleta;1914_04_10;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino.;;;goleta;1914_04_10;Cabañas;;
+;;;;;;;;;;;"De Santa Cruz, goleta ""Benita."" Con efectos.";;Benita;;;goleta;1914_04_10;Santa Cruz;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""Sofía."" Con 1.000 sacos carbón.";;Sofía;;;goleta;1914_04_10;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Manatí, goleta ""Mara Vazquez."" Con 1.200 sacos carbón.";;Mara Vazquez;;;goleta;1914_04_10;Manatí;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio, goleta ""Amalia."" Con 600 sacos carbón.";;Amalia;;;goleta;1914_04_10;Cabo San Antonio;;
+;;;;;;;;;;;"De Cañaríen, vapor ""Las Villas."" Con efectos.";;Las Villas.;;;vap.;1914_04_15;Cañaríen;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Altagracia."" Con 680 sacos azúcar.";;Altagracia;;;goleta;1914_04_15;Mariel;;
+;;N/A: ;;;;;;;;;"De Dominica, goleta ""María."" Con 600 sacos azúcar.";;María;;;goleta;1914_04_15;Dominica;;
+;;N/A: ;;;;;;;;;"De Cárdenas, goleta ""Crisálida."" Con 80 pipas aguardiente.";;Crisálida;;;goleta;1914_04_15;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Cárdenas, goleta ""María del Carmen."" Con 50 pipas aguardiente.";;María del Carmen.;;;goleta;1914_04_15;Cárdenas;;
+;;;;;;;;;;;"De Carahatas, goleta ""3 hermanos."" Con efectos.";;3 hermanos.;;;goleta;1914_04_15;Carahatas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""Margarita."" Con 1.000 sacos carbón.";;Margarita;;;goleta;1914_04_15;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""María Dolores."" Con 1.300 sacos carbón.";;María Dolores;;;goleta;1914_04_15;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio, goleta ""2 amigos."" Con 600 sacos carbón.";;2 amigos.;;;goleta;1914_04_15;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""María del Carmen."" Con 500 sacos carbón.";;María del Carmen;;;goleta;1914_04_15;Cabañas;;
+;;N/A: ;;;;;;;;;"De Santa Cruz, goleta ""Benita."" Con 200 quintales cebollas.";;Benita;;;goleta;1914_04_15;Santa Cruz;;
+;;;;;;;;;;;"De Caibaríen, vapor ""Las Villas."" Con efectos.";;Las Villas.;;;vap.;1914_04_22;Caibaríen;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Altagracia."" Con 880 sacos azicar.";;Altagracia;;;goleta;1914_04_22;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino;;;goleta;1914_04_22;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cárdenas, goleta ""Unión."" Con 80 pipas aguardiente.";;Unión;;;goleta;1914_04_22;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Ignacia Aleman."" Con 800 sacos azúcar.";;Ignacia Aleman.;;;goleta;1914_04_22;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Trinidad."" Con 500 sacos azúcar.";;Trinidad;;;goleta;1914_04_22;Banes;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""Bella Catalina."" Con 1,000 sacos carbón.";;Bella Catalina;;;goleta;1914_04_22;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cárdenas, goleta ""Julia."" Con 80 piñas aguardiente.";;Julia;;;goleta;1914_04_22;Cárdenas;;
+;;N/A:  | N/A: ;;;;;;;;;"De Cabañas, goleta ""Catalina."" Con 800 sacos azúcar y miel.";;Catalina;;;goleta;1914_04_22;Cabañas;;
+;;N/A: ;;;;;;;;;"De Arroyos, goleta ""Victoria."" Con 800 sacos carbón.";;Victoria;;;goleta;1914_04_22;Arroyos;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_04_25;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Catalina,"" con 1,200 sacos azúcar.";;Catalina;;;goleta;1914_04_25;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Jorge,"" con 300 cajas piñas.";;Jorge;;;goleta;1914_04_25;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;;;goleta;1914_04_25;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_04_25;Cabañas;;
+;;;;;;;;;;;"De Arroyos vapor ""Antolín del Cola-";;Antolín del Cola-;;;vapor;1914_04_28;Arroyos;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Pilar,"" con 800 sacos";;Pilar;;;goleta;1914_04_28;Mariel;;
+;;;;;;;;;;;"De Cabo San Antonio goleta ""Amalia,""";;Amalia;;;goleta;1914_04_28;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Clara,"" con 1,000";;Clara;;;goleta;1914_04_28;Cabañas;;
+;;;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con";;Joven Pilar;;;goleta;1914_04_28;Cabañas;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Sabas,"" con 400 sa-";;Sabas;;;goleta;1914_04_28;Canasi;;
+;;;;;;;;;;;"De .Canasi goleta ""Bebita Avendaño,""";;Bebita Avendaño;;;goleta;1914_04_28;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Marta,"" con 400 sa-";;Marta;;;goleta;1914_04_28;Canasi;;
+;;;;;;;;;;;"De Canasi goleta ""Ignacia Alemán,"" con";;Ignacia Alemán;;;goleta;1914_04_28;Canasi;;
+;;;;;;;;;;;"De Banes goleta ""San Francisco,"" con";;San Francisco;;;goleta;1914_04_28;Banes;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680";;Altagracia;;;goleta;1914_04_28;Mariel;;
+;;;;;;;;;;;De Cienfuegos vapor Reina de los Ange-;;Reina de los Ange-;;;vapor;1914_04_28;Cienfuegos;;
+;;;;;;;;;;;"De Caibaríen, vapor ""Las Villas,"" con efectos.";;Las Villas;;;vap.;1914_04_29;Caibaríen;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""Trinidad,"" con 500 sacos azúcar.";;Trinidad;;;goleta;1914_04_29;Banes;;
+;;N/A: ;;;;;;;;;"De Banes goleta ""San Francisco,"" con 600 sacos azúcar.";;San Francisco;;;goleta;1914_04_29;Banes;;
+;;N/A: ;;;;;;;;;"De Cabafas goleta ""Cabaño Marino,"" con 900 sacos azúcar.";;Cabaño Marino;;;goleta;1914_04_29;Cabafas;;
+Día 01:;;N/A: ;;;;;;;;;"De Canaíl goleta :1ra. de Chávez,"" con 500 sacos azúcar.";;Chávez;;;goleta;1914_04_29;Canaíl;;
+;;N/A: ;;;;;;;;;"De Dominica goleta ""Gertrudis,"" con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_04_29;Dominica;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;;;goleta;1914_04_29;Mariel;;
+;;N/A:  | N/A: ;;;;;;;;;"De Margajitas goleta ""Feliz,"" con 300 sacos carbón y leña.";;Feliz;;;goleta;1914_04_29;Margajitas;;
+;;N/A: ;;;;;;;;;"De Arroyos goleta ""La Fe,"" con efectos.";;La Fe;;;goleta;1914_04_29;Arroyos;;
+;;N/A: ;;;;;;;;;"De Cabafas goleta ""María del Carmen,"" con 500 sacos azúcar.";;María del Carmen;;;goleta;1914_04_29;Cabafas;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar."" Con 800 sacos azúcar.";;Pilar.;;;goleta;1914_05_04;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Trinidad."" Con 500 sacos azúcar .";;Trinidad;;;goleta;1914_05_04;Banes;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""María Dolores. Con 1,200 sacos azúcar.";;María Dolores;;;goleta;1914_05_04;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Arroyos, goleta ""María del Pilar."" Con 1,300 sacos carbón.";;María del Pilar.;;;goleta;1914_05_04;Arroyos;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""Ignacia Alemán."" Con 800 sacos azúcar.";;Ignacia Alemán;;;goleta;1914_05_04;Canasi;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Catalina."" Con 1,000 sacos azúcar.";;Catalina;;;goleta;1914_05_04;Banes;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""San Francisco."" Con 600 sacos azúcar.";;San Francisco;;;goleta;1914_05_04;Banes;;
+;;N/A: ;;;;;;;;;"De Bolondrón, goleta ""2a. Rosa."" Con 800 sacos carbón.";;2a. Rosa.;;;goleta;1914_05_04;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio, goleta ""2 Amigos. Con 600 sacos carbón.";;2 Amigos;;;goleta;1914_05_04;Cabo San Antonio;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""Marta."" Con 400 sacos azúcar.";;Marta;;;goleta;1914_05_04;Canasi;;
+;;;;;;;;;;;"De Caibarién, vapor ""Las Villas."" Con efectos.";;Las Villas;;;vap.;1914_05_06;Caibarién;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Trinidad."" Con 500 sacos azúcar.";;Trinidad;;;goleta;1914_05_06;Banes;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""San Francisco."" Con 400 sacos azúcar.";;San Francisco;;;goleta;1914_05_06;Banes;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Altagraca."" Con 600 sacos azúcar.";;Altagraca.;;;goleta;1914_05_06;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino;;;goleta;1914_05_06;Cabañas;;
+;;N/A: ;;;;;;;;;"De Dominic, oleta ""María."" Con 500 sacos azúcar.";;María;;;oleta;1914_05_06;Dominic;;
+;;N/A: ;;;;;;;;;"De Dominic, oleta ""Gertrudis."" Con 500 sacos azúcar.";;Gertrudis;;;oleta;1914_05_06;Dominic;;
+;;N/A: ;;;;;;;;;"De Canasf, goleta ""Bébita Avendaño."" Con 600 sacos azúcar.";;Bébita Avendaño;;;goleta;1914_05_06;Canasf;;
+;;N/A: ;;;;;;;;;"De Canasf, goleta ""Ignacia Aleman."" Con 600 sacos azúcar.";;Ignacia Aleman.;;;goleta;1914_05_06;Canasf;;
+;;N/A: ;;;;;;;;;"De Ciego Nocillo, goleta ""María Dolores."" Con 1,300 sacos carbón.";;María Dolores;;;goleta;1914_05_06;Ciego Nocillo;;
+;;N/A: ;;;;;;;;;"De Cárdenas, goleta ""Unión, Con 80 pipas aguardiente.";;Unión;;;goleta;1914_05_06;Cárdenas;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""Bebita Avendaño,"" con 500 sacos azúcar.";;Bebita Avendaño;;;goleta;1914_05_08;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""Sabás,"" con 400 sacos azúcar.";;Sabás;;;goleta;1914_05_08;Canasi;;
+;;N/A: ;;;;;;;;;"De Canasi goleta ""Josefina,"" con 400 sacos azúcar.";;Josefina;;;goleta;1914_05_08;Canasi;;
+;;N/A: ;;;;;;;;;"De Mariel goleta ""Altagracia,"" con 680 sacos azúcar.";;Altagracia;;;goleta;1914_05_08;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Joven Pilar,"" con 1,000 sacos azúcar.";;Joven Pilar;;;goleta;1914_05_08;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas goleta ""Catalina,"" con 1,000 sacos azúcar.";;Catalina;;;goleta;1914_05_08;Cabañas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Hermosa Guanera,"" con 800 sacos carbón.";;Hermosa Guanera;;;goleta;1914_05_08;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cabanas, goleta ""Caballo Marino."" Con 900 sacos azúcar.";;Caballo Marino.;;;goleta;1914_05_19;Cabanas;;
+;;N/A: ;;;;;;;;;"De Dominica, goleta ""Trinidad."" Con 500 sacos azúcar.";;Trinidad;;;goleta;1914_05_19;Dominica;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo goleta ""Sofia."" Con 1,000 sacos carbón.";;Sofia.;;;goleta;1914_05_19;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""Margarita."" Con 1,000 sacos carbón.";;Margarita;;;goleta;1914_05_19;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""Josefina."" Con 40% sacos azúcar.";;Josefina;;;goleta;1914_05_19;Canasi;;
+;;N/A: ;;;;;;;;;"De Dominica, goleta ""Marfa."" Con 604 sacos azúcar.";;Marfa.;;;goleta;1914_05_19;Dominica;;
+;;N/A: ;;;;;;;;;De Dominica, goleta 'Gertrudis.' Cor 600 sacos azúcar.;;Gertrudis;;;goleta;1914_05_19;Dominica;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar."" Con 800 sacos azúcar.";;Pilar;;;goleta;1914_05_19;Mariel;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Catalina."" Con 1,000 sacos azúcar.";;Catalina;;;goleta;1914_05_19;Cabañas;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Rodollo."" Con 300 cajas piñas.";;Rodollo;;;goleta;1914_05_19;Banes;;
+;;;;;;;;;;;"De Caibarién, vapor ""Las Villas."" Con efectos.";;Las Villas.;;;vap.;1914_05_19;Caibarién;;
+;;N/A: ;;;Pérez;patrón;;;;;"De Mariel, goleta ""Altagracia"", patrón Pérez, con 680 sacos azúcar.";;Altagracia;;;goleta;1914_05_23;Mariel;;
+;;N/A: ;;;Pena;patrón;;;;;"De Cabañas, gloota ""Caballo Marino"", patrón Pena, con 900 sacos azúcar.";;Caballo Marino;;;gloota;1914_05_23;Cabañas;;
+;;N/A: ;;;Aleman;pat.;;;;;"De Cabañas, goleta ""Joven Pilar"", patrón Aleman, con 1.000 sacos azúcar.";;Joven Pilar;;;goleta;1914_05_23;Cabañas;;
+;;N/A: ;;;López;patrón;;;;;"De Canasi, goleta ""Ignacio Aleman"", patrón López, con 600 sacos azúcar.";;Ignacio Aleman;;;goleta;1914_05_23;Canasi;;
+;;N/A: ;;;Aleman;patrón;;;;;"De Canasi, goleta ""la de Chávez"", patrón Aleman, con 500 sacos azúcar.";;la de Chávez;;;goleta;1914_05_23;Canasi;;
+;;N/A: ;;;López;patrón;;;;;"De Banes, goleta ""Rodolfo"", patrón López, con 300 cajas piñas.";;Rodolfo;;;goleta;1914_05_23;Banes;;
+;;N/A: ;;;Martínez;patrón;;;;;"De Banes, goleta ""San José"", patrón Martínez, con 400 cajas piñas.";;San José;;;goleta;1914_05_23;Banes;;
+;;;;;Más;patrón;;;;;"De Santa Cruz, goleta ""Benita"", patrón Más, con efectos.";;Benita;;;goleta;1914_05_23;Santa Cruz;;
+;;;;;Abello;pat.;;;;;"De Santa Cruz, goleta ""Enigma"", patrón Abello, con efectos.";;Enigma;;;goleta;1914_05_23;Santa Cruz;;
+;;;;;;;;;;;"De Caibarén, vapor ""Las Villas""; con efectos.";;Las Villas;;;vap.;1914_05_27;Caibarén;;
+;;N/A: ;;;;;;;;;"De Mariel, goleta ""Altagracia""; con 800 sacos azúcar.";;Altagracia;;;goleta;1914_05_27;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Trinidad"", con 500 sacos azúcar.";;Trinidad;;;goleta;1914_05_27;Banes;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""San Francisco"", con 600 sacos azúcar.";;San Francisco;;;goleta;1914_05_27;Banes;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""María Dolores"", con 1.200 sacos carbón.";;María Dolores;;;goleta;1914_05_27;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Bolondrón, goleta ""2a. Rosa"", con 800 sacos carbón.";;2a. Rosa;;;goleta;1914_05_27;Bolondrón;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Rodolfo""; con 300 cañas píñas.";;Rodolfo;;;goleta;1914_05_27;Banes;;
+;;;;;;;;;;;"De Matanzas, goleta ""2 Hermanas""; en lastre.";;2 Hermanas;;;goleta;1914_05_27;Matanzas;;
+;;N/A: ;;;;;;;;;"De Canasf, goleta ""1a. de Chaves""; con 500 sacos azúcar.";;1a. de Chaves;;;goleta;1914_05_27;Canasf;;
+;;;;;;;;;;;"De Arroyos, vapor ""Antolín del Collado""; con efectos.";;Antolín del Collado;;;vap.;1914_05_27;Arroyos;;
+;;N/A: ;;;;;;;;;"De Canasf, goleta ""Josefina""; con 600 bocoyes miel.";;Josefina;;;goleta;1914_05_27;Canasf;;
+;;N/A: ;;;;;;;;;"De Dominica, goleta ""María"", con 600 sacos azúcar.";;María;;;goleta;1914_06_03;Dominica;;
+;;N/A: ;;;;;;;;;"De Dominica, goleta ""Gertrudis"", con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_06_03;Dominica;;
+;;N/A: ;;;;;;;;;"De Dominica, goleta ""Asunción"", con 600 sacos azúcar.";;Asunción;;;goleta;1914_06_03;Dominica;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera"", con 200 facs azúcar.";;Hermosa Guanera;;;goleta;1914_06_03;Ciego Novillo;;
+;;N/A:  | N/A: ;;;;;;;;;"De Mariel, goleta ""Pilar"", con 200 sacos azúcar y 60 bocoyes miel.";;Pilar;;;goleta;1914_06_03;Mariel;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Rodolfo"", con 300 cañas piñas.";;Rodolfo;;;goleta;1914_06_03;Banes;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""San Francisco"", con 600 sacos azúcar.";;San Francisco;;;goleta;1914_06_03;Banes;;
+;;;;;;;;;;;"De Carahatas, goleta ""3 Hermanas"", en lastre.";;3 Hermanas;;;goleta;1914_06_03;Carahatas;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Caballo Marino""; con 900 sacos azúcar.";;Caballo Marino;;;goleta;1914_06_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Joven Pilar""; con 1.000 sacos azúcar.";;Joven Pilar;;;goleta;1914_06_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""Sabás""; con 400 sacos azúcar.";;Sabás;;;goleta;1914_06_04;Canasi;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Bebita Avenida""; con 500 sacos azúcar.";;Bebita Avenida;;;goleta;1914_06_04;Cabañas;;
+;;N/A: ;;;;;;;;;"De Ciego Novillo, goleta ""Bella Catalina""; con 1.200 sacos carbón.";;Bella Catalina;;;goleta;1914_06_04;Ciego Novillo;;
+;;N/A: ;;;;;;;;;"De Cabo San Antonio, goleta ""Amalia""; con 600 sacos azúcar.";;Amalia;;;goleta;1914_06_04;Cabo San Antonio;;
+;;;;;;;;;;;"De Arroyos, vapor ""Antolín del Collado""; con efectos.";;Antolín del Collado;;;vap.;1914_06_06;Arroyos;;
+;;N/A: ;;;;;;;;;"De Banes, goleta ""Mateo""; con 360 cajas pinas.";;Mateo;;;goleta;1914_06_06;Banes;;
+;;N/A: ;;;;;;;;;"De Cabañas, goleta ""Joven Pilar""; con 1000 sacos azúcar.";;Joven Pilar;;;goleta;1914_06_06;Cabañas;;
+;;N/A: ;;;;;;;;;"De Canasi, goleta ""la. de Chávez""; con 500 sacos azúcar.";;la. de Chávez;;;goleta;1914_06_06;Canasi;;
+;;N/A: ;;;;;;;;;"De Dominic, goleta ""María""; con 600 sacos azúcar.";;María;;;goleta;1914_06_06;Dominic;;
+;;;;;;;;;;;"De Cienfuegos, vapor ""Reina de los Rngeles""; con efectos.";;Reina de los Rngeles;;;vap.;1914_06_06;Cienfuegos;;
+;;;;;;;;;;;"De Matanzas, goleta ""María""; con efectos.";;María;;;goleta;1914_06_06;Matanzas;;
+;;N/A:  | N/A: ;;;Valent;patrón;;;;;"De Cabañas, goleta ""Catalina"", patrón Valent, con 800 sacos azúcar y 60 bocyes miel.";;Catalina;;;goleta;1914_06_07;Cabañas;;
+;;N/A: ;;;Mayol;patrón;;;;;"De Dominic, goleta ""Gertrudis"", patrón Mayol, con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_06_07;Dominic;;
+;;N/A: ;;;Riosco;patrón;;;;;"De Banes, goleta ""San Francisco"", patrón Riosco, con 600 sacos azúcar.";;San Francisco;;;goleta;1914_06_07;Banes;;
+;;N/A: ;;;López;pat.;;;;;"De Banes, goleta ""Rodolfo"", patrón López, con 300 cajas piñas.";;Rodolfo;;;goleta;1914_06_07;Banes;;
+;;N/A: ;;;García;patrón;;;;;"De Banes, goleta ""Matuto"", patrón García, con 300 cajas jinas.";;Matuto;;;goleta;1914_06_07;Banes;;
+;;;;;Abel;pat.;;;;;"De Santa Cruz, goleta ""Enigma"", patrón Abel, con efectos.";;Enigma;;;goleta;1914_06_07;Santa Cruz;;
+;;N/A: ;;;Pérez;pat.;;;;;"De Mariel, goleta ""Altagracia"", patrón Pérez, con 680 sacos azúcar.";;Altagracia;;;goleta;1914_06_07;Mariel;;
+;;;;;Ginesta;cap.;;;;;"De Caibarién, vapor ""Las Villas"", capítán Ginesta.";;Las Villas;;;vap.;1914_06_11;Caibarién;;
+;;N/A: ;;;Enseñat;pat.;;;;;"De Canasi, goleta ""Sabás"", patrón Enseñat, con 400 sacos azúcar.";;Sabás;;;goleta;1914_06_11;Canasi;;
+;;N/A: ;;;Maura;patrón;;;;;"De Bolondrón, goleta ""María Torrent"", patrón Maura, con mil sacos carbón.";;María Torrent;;;goleta;1914_06_11;Bolondrón;;
+;;N/A: ;;;Ferrer;patrón;;;;;"De Dominic, goleta ""Asunción"", patrón Ferrer, con 100 bocoyes miel.";;Asunción;;;goleta;1914_06_11;Dominic;;
+;;N/A:  | N/A: ;;;Granda;patrón;;;;;"De Arroyos, goleta ""La Fe"", patrón, Granda, con 800 sacos carbón y efectos.";;La Fe;;;goleta;1914_06_11;Arroyos;;
+;;N/A: ;;;López;patrón;;;;;"De Ciego Novillo, goleta ""Sofís"", patrón López, con mil sacos carbón.";;Sofís;;;goleta;1914_06_11;Ciego Novillo;;
+;;N/A: ;;;Verderas;patrón;;;;;"De Caibarién, goleta ""Francisco Javier"", patrón Verderas, con 600 sacos y-eso.";;Francisco Javier;;;goleta;1914_06_11;Caibarién;;
+;;N/A: ;;;Alemaný;patrón;;;;;"De Matanzas, goleta ""Matanzas"", patrón Alemaný, con efectos.";;Matanzas;;;goleta;1914_06_11;Matanzas;;
+;;N/A: ;;;Ferrer;pat.;;;;;"De Dominica, goleta ""Asunción"", patrón, Ferrer; con 600 sacos azúcar.";;Asunción;;;goleta;1914_06_13;Dominica;;
+;;;;;Mir;patrón;;;;;"De Matanzas, goleta ""Maria"", patrón Mir; con efectos.";;Maria;;;goleta;1914_06_13;Matanzas;;
+;;N/A: ;;;López;patrón;;;;;"De Banes, goleta ""Rodolfo"", patrón López; con 300 cajas piñas.";;Rodolfo;;;goleta;1914_06_13;Banes;;
+;;;;;Más;patrón;;;;;"De Santa Cruz, goleta ""Benita"", patrón, Más; con efectos.";;Benita;;;goleta;1914_06_13;Santa Cruz;;
+;;N/A: ;;;Suárez;cap.;;;;;"De Cuba, vapor ""Habana"", capitán Suárez; con efectos.";;Habana;;;vap.;1914_06_13;Cuba;;
+;;N/A: ;;;Alemañy;pat.;;;;;"De Cárdenas, goleta ""Crisálida"", patrón Alemañy, con 60 pipas aguardiente.";;Crisálida;;;goleta;1914_06_13;Cárdenas;;
+;;N/A: ;;;Mayol;pat.;;;;;"De Dominica, goleta ""Gertrudis"", patrón Mayol, con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_06_13;Dominica;;
+;;N/A: ;;;Valent;patrón;;;;;"De Cárdenas, goleta ""Unión"", patrón Valent, con 100 pipas aguardiente.";;Unión;;;goleta;1914_06_14;Cárdenas;;
+;;N/A: ;;;Valent;patrón;;;;;"De Cárdenas, goleta ""Maria del Carmen"", patrón Valent, con 60 pipas aguardiente.";;Maria del Carmen;;;goleta;1914_06_14;Cárdenas;;
+;;N/A: ;;;Roselló;patrón;;;;;"De Dominic, goleta ""Maria"", patrón Roselló, con 600 sacos azúcar.";;Maria;;;goleta;1914_06_14;Dominic;;
+;;N/A: ;;;Enseñat;patrón;;;;;"De Canasi, goleta ""Sabas"", patrón Enseñat; con 60 bocoyes miel.";;Sabas;;;goleta;1914_06_14;Canasi;;
+;;N/A:  | N/A: ;;;Enseñat;patrón;;;;;"De Canasi, goleta ""Josefina"", patrón Enseñat, con 30 bocoyes miel y 300 sacos azúcar.";;Josefina;;;goleta;1914_06_14;Canasi;;
+;;N/A: ;;;Bosch;pat.;;;;;"De Cabañas, goleta ""Maria del Carmen"", patrón Bosch, con 500 sacos de azúcar.";;Maria del Carmen;;;goleta;1914_06_14;Cabañas;;
+;;N/A: ;;;González;pat.;;;;;"De Banes, goleta ""Mateo"", patrón González, con 350 cajas piñas.";;Mateo;;;goleta;1914_06_14;Banes;;
+;;N/A:  | N/A: ;;;Valent;patrón;;;;;"De Cabañas, goleta ""Blanca"", patrón Valent, con 40 bocoyes miel y 600 sacos azúcar.";;Blanca;;;goleta;1914_06_14;Cabañas;;
+;;N/A: ;;;Enseñat;pat.;;;;;"De Canasi, goleta ""Bebita Avendaño"", patrón Enseñat, con 500 sacos azúcar.";;Bebita Avendaño;;;goleta;1914_06_14;Canasi;;
+;;N/A: ;;;Pena;patrón;;;;;"De Cabañas, goleta ""Caballo Marina"", patrón, Pena; con 900 sacos azúcar.";;Caballo Marina;;;goleta;1914_06_21;Cabañas;;
+;;N/A: ;;;López;patrón;;;;;"De Canasi, goleta ""Ignacia Alemán"", patrón, López; con 600 sacos azúcar.";;Ignacia Alemán;;;goleta;1914_06_21;Canasi;;
+;;;;;Valent;patrón;;;;;"De Matanzas, goleta ""Matanzas"", patrón Valent, con efectos.";;Matanzas;;;goleta;1914_06_21;Matanzas;;
+;;N/A:  | N/A: ;;;Arabé;patrón;;;;;"De Margaritas, goleta ""Feliz"", patrón Arabé, con 300 sacos carbón y leña.";;Feliz;;;goleta;1914_06_21;Margaritas;;
+;;N/A: ;;;Ginesta;cap.;;;;;"De Caibarién, vapor ""Las Villas"", capitán Ginesta, con efectos.";;Las Villas;;;vap.;1914_06_24;Caibarién;;
+;;N/A: ;;;González;cap.;;;;;"De Cuba, vapor ""Julia"", capitán González, con efectos.";;Julia;;;vap.;1914_06_24;Cuba;;
+;;N/A:  | N/A: ;;;Vázquez;patrón;;;;;"De Cabo Nico, goleta ""Etelvina"", patrón Vázquez, con 1500 polines y madeiras.";;Etelvina;;;goleta;1914_06_24;Cabo Nico;;
+;;N/A: ;;;Pujol;pat.;;;;;"De Cabo Nico, goleta ""Catalina"", patrón Pujol, con 1000 polines.";;Catalina;;;goleta;1914_06_24;Cabo Nico;;
+;;N/A: ;;;Guasch;patrón;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera"", patrón Guasch, con 800 sacos carbón.";;Hermosa Guanera;;;goleta;1914_06_24;Ciego Novillo;;
+;;N/A: ;;;Pujol;patrón;;;;;"De Ciego Novillo, goleta ""María Dolores"", patrón Pujol, con 900 sacos de azúcar.";;María Dolores;;;goleta;1914_06_24;Ciego Novillo;;
+;;N/A: ;;;Alemany;patrón;;;;;"De Canasi, goleta ""Inés"", patrón Alemany, con 40 bocoyes miel.";;Inés;;;goleta;1914_06_24;Canasi;;
+;;N/A: ;;;Ensenat;patrón;;;;;"De Canasi, goleta ""Josefina"", patrón Ensenat, con 60 bocoyes miel.";;Josefina;;;goleta;1914_06_24;Canasi;;
+;;N/A: ;;;Mayol;patrón;;;;;"De Dominica, goleta ""Gertrudis"", patrón Mayol. Con 600 sacos azúcar.";;Gertrudis;;;goleta;1914_06_26;Dominica;;
+;;N/A: ;;;Ferrer;patrón;;;;;"De Dominica, goleta ""Asunción"", patrón Ferrer. Con 600 sacos azúcar.";;Asunción;;;goleta;1914_06_26;Dominica;;
+;;N/A: ;;;Alemany;patrón;;;;;"De Ciego Novillo, goleta ""Bella Catalina"", patrón Alemany. Con 600 sacos carbón.";;Bella Catalina;;;goleta;1914_06_26;Ciego Novillo;;
+;;N/A: ;;;Alemaní;patrón;;;;;"De Bolondrón, goleta ""Segunda Rosa"", patrón Alemaní. Con 800 sacos carbón.";;Segunda Rosa;;;goleta;1914_06_26;Bolondrón;;
+;;N/A: ;;;Ferrer;patrón;;;;;"De Cabo San Antonio, goleta ""Victoria"", patrón Ferrer. Con 800 sacos carbón.";;Victoria;;;goleta;1914_06_26;Cabo San Antonio;;
+;;N/A: ;;;García;patrón;;;;;"De Canasi, goleta ""Emilia"", patrón García. Con 200 sacos azúcar.";;Emilia;;;goleta;1914_06_26;Canasi;;
+;;N/A: ;;;González;patrón;;;;;"De Canasi, goleta ""Emilia"", patrón González, con 200 sacos azúcar.";;Emilia;;;goleta;1914_07_04;Canasi;;
+;;N/A: ;;;López;patrón;;;;;"De Ciego Novillo, goleta ""Sofía"", patrón López, con mil sacos carbón.";;Sofía;;;goleta;1914_07_04;Ciego Novillo;;
+;;N/A: ;;;Maura;patrón;;;;;"De Bolondrón, goleta ""María Torrent"", patrón Maura, con mil doscientos sacos carbón.";;María Torrent;;;goleta;1914_07_04;Bolondrón;;
+;;N/A: ;;;Enseñat;patrón;;;;;"De Canasi, goleta ""Josefina, patrón Enseñat, con 60 bocoyes miel.";;Josefina;;;goleta;1914_07_04;Canasi;;
+;;;;;Rioseco;patrón;;;;;"De Banes, goleta ""San Francisco"", patrón Rioseco. Con efectos.";;San Francisco;;;goleta;1914_07_04;Banes;;
+;;N/A: ;;;Tries;patrón;;;;;"De Bahía Honda, goleta ""Mercedita"", patrón Tries. Con 50 bocoyes miel.";;Mercedita;;;goleta;1914_07_04;Bahía Honda;;
+;;N/A: ;;;López;patrón;;;;;"De Cabo San Antonio, goleta ""Ama- lia"", patrón López, con 600 sacos azúcar.";;Ama- lia;;;goleta;1914_07_04;Cabo San Antonio;;
+;;;;;Den;patrón;;;;;"De Matanzas, goleta ""Dos Hermanos"", patrón, Den, con efectos.";;Dos Hermanos;;;goleta;1914_07_04;Matanzas;;
+;;;;;;cap.;;;;;"De Caibarién, vapor ""Las Villas, cap-";;Las Villas;;;vap.;1914_07_08;Caibarién;;
+;;;;;Bosch;patrón;;;;;"De Cabañas, goleta ""María del Carmen"", patrón Bosch.";;María del Carmen;;;goleta;1914_07_08;Cabañas;;
+;;;;;Más;patrón;;;;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;;;goleta;1914_07_08;Santa Cruz;;
+;;;;;Marante;patrón;;;;;"De Mariel, goleta ""Altagracia"", patrón Marante.";;Altagracia;;;goleta;1914_07_08;Mariel;;
+;;;;;Ferrer;pat.;;;;;"De Dominic, goleta ""Aunción"", patrón Ferrer.";;Aunción;;;goleta;1914_07_08;Dominic;;
+;;;;;Pujol;pat.;;;;;"De Ciego Novillo, goleta ""María Dolores"", patrón Pujol.";;María Dolores;;;goleta;1914_07_08;Ciego Novillo;;
+;;;;;;patrón;;;;;"De Arroyos, goleta ""La Fe"", patrón";;La Fe;;;goleta;1914_07_11;Arroyos;;
+;;;;;;cap.;;;;;"De Cuba, vapor ""Chaparra,"" capitán";;Chaparra;;;vap.;1914_07_11;Cuba;;
+;;;;;;patrón;;;;;"De Dominica, goleta ""Gertrudis"", patrón";;Gertrudis;;;goleta;1914_07_11;Dominica;;
+;;;;;;pat.;;;;;"De Matanzas, goleta ""María"", patrón";;María;;;goleta;1914_07_11;Matanzas;;
+;;;;;Alemañy;patrón;;;;;"De Canasi, goleta, ""Inés"" patrón Alemañy.";;Inés;;;goleta;1914_07_11;Canasi;;
+;;;;;Bosch;patrón;;;;;"De Cabañas, goleta ""María del Carmen"", patrón Bosch.";;María del Carmen;;;goleta;1914_07_11;Cabañas;;
+;;;;;Alemañy;patrón;;;;;"De Cabo de San Antonio, goleta ""Blanca"", patrón, Alemañy.";;Blanca;;;goleta;1914_07_11;Cabo de San Antonio;;
+;;;;;;cap.;;;;;"De Caibarién, vapor ""Las Villas"", capi-";;Las Villas;;;vapor;1914_07_14;Caibarién;;
+;;;;;;;;;;;"De Bolondrón, goleta ""María Vázquez""";;María Vázquez;;;goleta;1914_07_14;Bolondrón;;
+;;;;;;;;;;;"De Cabo San Antonio, goleta ""Dos Amigos""";;Dos Amigos;;;goleta;1914_07_14;Cabo San Antonio;;
+;;;;;;;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera""";;Hermosa Guanera;;;goleta;1914_07_14;Ciego Novillo;;
+;;;;;;cap.;;;;;"De Cabo Nico, vapor ""Etelvina"", capitán";;Etelvina;;;vap.;1914_07_14;Cabo Nico;;
+;;;;;;pat.;;;;;"De Cárdenas, goleta ""Crisálida"", patrón";;Crisálida;;;goleta;1914_07_14;Cárdenas;;
+;;;;;;;;;;;"De Cárdenas, goleta ""María del Carmen"",";;María del Carmen;;;goleta;1914_07_14;Cárdenas;;
+;;;;;;;;;;;"De Matanzas, goleta ""Dos Hermanos"",";;Dos Hermanos;;;goleta;1914_07_14;Matanzas;;
+;;;;;;patrón;;;;;"De Banes, goleta ""San Francisco"", patrón,";;San Francisco;;;goleta;1914_07_14;Banes;;
+;;;;;Planell;cap.;;;;;"De Arroyos, vapor ""Antolín del Callado"", capitan Planell.";;Antolín del Callado;;;vapor;1914_07_16;Arroyos;;
+;;;;;Alemañy;patrón;;;;;"De Bolondrón, goleta ""Segunda Rosa"", patrón Alemañy.";;Segunda Rosa;;;goleta;1914_07_16;Bolondrón;;
+;;;;;Ferrer;patrón;;;;;"De Ciego Novillo, goleta ""Bella Catalina"", patrón Ferrer.";;Bella Catalina;;;goleta;1914_07_16;Ciego Novillo;;
+;;;;;;;;;;;"De Mariel, goleta ""Altagracia"", para Marantes.";;Altagracia;;;goleta;1914_07_16;Mariel;;
+;;;;;Roselló;pat.;;;;;"De Dominica, goleta ""María"", patrón Roselló.";;María;;;goleta;1914_07_16;Dominica;;
+;;;;;Abello;pat.;;;;;"De Santa Cruz, goleta ""Enigma"", patrón Abello.";;Enigma;;;goleta;1914_07_16;Santa Cruz;;
+;;;;;Mas;pat.;;;;;"De Santa Cruz, goleta ""Benita"", patrón Mas.";;Benita;;;goleta;1914_07_16;Santa Cruz;;
+;;;;;Ginesta;cap.;;;;;"De Caibarién, vapor ""Las Villas"", capítán Ginesta.";;Las Villas;;;vap.;1914_07_22;Caibarién;;
+;;;;;Santana;pat.;;;;;"De Ciego Novillo, goleta ""Margarita"", patrón Santana.";;Margarita;;;goleta;1914_07_22;Ciego Novillo;;
+;;;;;Bosch;patrón;;;;;"De Cabañas, goleta ""María del Carmen"" patrón Bosch.";;María del Carmen;;;goleta;1914_07_22;Cabañas;;
+;;;;;López;patrón;;;;;"De Banes, goleta ""Mateño"", patrón López.";;Mateño;;;goleta;1914_07_22;Banes;;
+;;;;;Valenet;patrón;;;;;"De Cabañas, goleta ""Blanca"", patrón Valenet.";;Blanca;;;goleta;1914_07_22;Cabañas;;
+;;;;;Alemañy;patrón;;;;;"De Cabo de San Antonio, goleta ""Ama- lia"", patrón Alemañy.";;Ama- lia;;;goleta;1914_07_22;Cabo de San Antonio;;
+;;;;;Cobre;patrón;;;;;"De Sierra Morena ""Goleta Isla de Cuba"", patrón Cobre.";;Isla de Cuba;;;Goleta;1914_07_22;Sierra Morena;;
+;;;;;Yem;patrón;;;;;"De Arroyos, goleta ""Teresa"", patrón Yem.";;Teresa;;;goleta;1914_07_22;Arroyos;;
+;;;;;Marantes;patrón;;;;;"De Mariel, goleta ""Altagracia"", patrón Marantes.";;Altagracia;;;goleta;1914_07_22;Mariel;;
+;;;;;Roselló;pat.;;;;;"De Dominica, goleta ""María"", patrón Roselló.";;María;;;goleta;1914_07_24;Dominica;;
+;;;;;Más;pat.;;;;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;;;goleta;1914_07_24;Santa Cruz;;
+;;;;;Suárez;cap.;;;;;"De Cuba, vapor ""Gibara"", capitán Suárez.";;Gibara;;;vap.;1914_07_24;Cuba;;
+;;;;;Valent;pat.;;;;;"De Cárdenas, goleta ""María del Carmen"", patrón Valent.";;María del Carmen;;;goleta;1914_07_24;Cárdenas;;
+;;;;;Penall;cap.;;;;;De Arroyos, vapor Antolín del Collado, capitan Penall.;;Antolín;;;vapor;1914_07_26;Arroyos;;
+;;;;;López;cap.;;;;;De Cienfuegos, vapor Purísima Concepción, capitan, López.;;Purísima Concepción;;;vap.;1914_07_26;Cienfuegos;;
+;;;;;Alemañy;patrón;;;;;De Canasi, goleta Inés, patrón Alemañy.;;Inés;;;goleta;1914_07_26;Canasi;;
+;;;;;Enseñat;pat.;;;;;De Canasi, goleta Josefina, patrón Enseñat.;;Josefina;;;goleta;1914_07_26;Canasi;;
+;;;;;Ferrer;patrón;;;;;De Dominica, goleta Asunción, patrón Ferrer.;;Asunción;;;goleta;1914_07_26;Dominica;;
+;;;;;Maura;patrón;;;;;"De Bolondrón, goleta ""María I Torrent"", patrón Maura.";;María I Torrent;;;goleta;1914_07_26;Bolondrón;;
+;;;;;Rodríguez;patrón;;;;;De Banes, goleta Matec, patrón Rodríguez.;;Matec;;;goleta;1914_07_26;Banes;;
+;;;;;Alemañy;patrón;;;;;De Cárdenas, goleta JJosefina, patrón Alemañy.;;JJosefina;;;goleta;1914_07_26;Cárdenas;;
+;;;;;Suá;cap.;;;;;De Cuba, vapor Habana, capitán Suá-;;Habana;;;vap.;1914_07_29;Cuba;;
+;;;;;Mir;patrón;;;;;De Matanzas, goleta Matanzas, patrón Mir.;;Matanzas;;;goleta;1914_07_29;Matanzas;;
+;;;;;;;;;;;"De Mariel, goleta ""Altagracia"", pa-";;Altagracia;;;goleta;1914_07_29;Mariel;;
+;;;;;pujol;patrón;;;;;"De Ciego Novillo, goleta ""Mária Dolore"", patrón, pujol.";;Mária Dolore;;;goleta;1914_07_29;Ciego Novillo;;
+;;;;;;patrón;;;;;"De Sagua, goleta ""Esmeralda"", patrón";;Esmeralda;;;goleta;1914_07_29;Sagua;;
+;;;;;;;;;;;De Cárdenas, goleta Juana Mercedes,;;Juana Mercedes;;;goleta;1914_07_29;Cárdenas;;
+;;;;;Granda;patrón;;;;;De Arroyos, goleta La Fe, patrón, Granda.;;La Fe;;;goleta;1914_07_31;Arroyos;;
+;;;;;Guasch;patrón;;;;;De Santa Rosa, goleta Hermosa Guanera, patrón Guasch.;;Hermosa Guanera;;;goleta;1914_07_31;Santa Rosa;;
+;;;;;Riosco;patrón;;;;;De Banes, goleta San Francisco, patrón Riosco.;;San Francisco;;;goleta;1914_07_31;Banes;;
+;;;;;Más;patrón;;;;;De Santa Cruz, goleta Benita, patrón Más.;;Benita;;;goleta;1914_07_31;Santa Cruz;;
+;;;;;López;patrón;;;;;De Cabo San Antonio, goleta Dos Amigos, patrón López.;;Dos Amigos;;;goleta;1914_07_31;Cabo San Antonio;;
+;;;;;Antinógenes Meñéndez;pat.;;;;;De Cienfuegos, patrón Antinógenes Meñéndez, capitán López.;;;;;;1914_07_31;Cienfuegos;;
+;;;;;Alemañy;patrón;;;;;De Cárdenas, goleta Juana Mercedes, patrón Alemañy.;;Juana Mercedes;;;goleta;1914_07_31;Cárdenas;;
+;;;;;Ginesta;cap.;;;;;De Cuba, vapor Las Villas, capitán Ginesta.;;Las Villas;;;vap.;1914_08_02;Cuba;;
+;;;;;López;patrón;;;;;"De Ciego Novillo, goleta ""Sofía"", patrón López.";;Sofía;;;goleta;1914_08_02;Ciego Novillo;;
+;;;;;Maura;patrón;;;;;De Manatí, goleta María Vázquez, patrón Maura.;;María Vázquez;;;goleta;1914_08_02;Manatí;;
+;;;;;Pena;patrón;;;;;De Caibarién, goleta Cabaño Marino, patrón Pena.;;Cabaño Marino;;;goleta;1914_08_02;Caibarién;;
+;;;;;Rodríguez;patrón;;;;;De Banes, goleta Mateo, patrón Rodríguez.;;Mateo;;;goleta;1914_08_02;Banes;;
+;;;;;Albello;patrón;;;;;De Santa Cruz, goleta Enigma, patrón Albello.;;Enigma;;;goleta;1914_08_02;Santa Cruz;;
+;;;;;Alemañy;patrón;;;;;De Cabañas, goleta Joven Pilar, patrón Alemañy.;;Joven Pilar;;;goleta;1914_08_02;Cabañas;;
+;;;;;Mir.;patrón;;;;;"De Matanzas, goleta ""María, patrón Mir.";;María;;;goleta;1914_08_02;Matanzas;;
+;;;;;Gil;patrón;;;;;De Banes, goleta Trinidad, patrón Gil.;;Trinidad;;;goleta;1914_08_02;Banes;;
+;;;;;Alemany;pat.;;;;;De Cárdenas, goleta Rosita, 'patrón Alemany.;;Rosita;;;goleta;1914_08_07;Cárdenas;;
+;;;;;Enseñat;patrón;;;;;De Canasi, goleta Josefina, patrón Enseñat.;;Josefina;;;goleta;1914_08_07;Canasi;;
+;;;;;Alemaný;pat.;;;;;"De Cárdenas, goleta ""Crísalida"", patrón Alemaný.";;Crísalida;;;goleta;1914_08_09;Cárdenas;;
+;;;;;Rodríguez;patrón;;;;;"De Banes, goleta ""Mateo"", patrón Rodríguez.";;Mateo;;;goleta;1914_08_09;Banes;;
+;;;;;Alemaný;pat.;;;;;"De Canasi, goleta ""Inés"", patrón Alemaný.";;Inés;;;goleta;1914_08_09;Canasi;;
+;;;;;Gran-;patrón;;;;;De Arroyos, goleta La Fe patrón Gran-;;La Fe;;;goleta;1914_08_12;Arroyos;;
+;;;;;;patrón;;;;;De Mariel, goleta Altagracia, patrón;;Altagracia;;;goleta;1914_08_12;Mariel;;
+;;;;;;;;;;;De Ciego Novillo, goleta Margarita,;;Margarita;;;goleta;1914_08_12;Ciego Novillo;;
+;;;;;Ale-;patrón;;;;;De Banes, goleta Catalina, patrón Ale-;;Catalina;;;goleta;1914_08_12;Banes;;
+;;;;;Gomez;cap.;;;;;De Cienfuegos, vapor Purísima Concepción, capitán Gomez.;;Purísima Concepción;;;vap.;1914_08_12;Cienfuegos;;
+;;;;;Ale-;patrón;;;;;De Matanzas, goleta María, patrón Ale-;;María;;;goleta;1914_08_12;Matanzas;;
+;;;;;Rodríguez;patrón;;;;;De Banes, goleta Mateo, patrón Rodríguez.;;Mateo;;;goleta;1914_08_12;Banes;;
+;;;;;;;;;;;De Cárdenas, goleta María del Carmen,;;María del Carmen;;;goleta;1914_08_12;Cárdenas;;
+;;;;;Gil;patrón;;;;;De Banes, goleta Trinidad, patrón Gil.;;Trinidad;;;goleta;1914_08_15;Banes;;
+;;;;;Abello;patrón;;;;;De Santa Sruz, goleta Enigma, patrón Abello.;;Enigma;;;goleta;1914_08_15;Santa Sruz;;
+;;;;;Mas;patrón;;;;;De Santa Cruz, goleta Benita, patrón Mas.;;Benita;;;goleta;1914_08_15;Santa Cruz;;
+;;;;;Ferrer;patrón;;;;;De Ciego Novillo, goleta Bella Catalina, patrón Ferrer.;;Bella Catalina;;;goleta;1914_08_15;Ciego Novillo;;
+;;;;;Yem;patrón;;;;;De Arroyos, goleta Teresa, patrón Yem.;;Teresa;;;goleta;1914_08_15;Arroyos;;
+;;;;;Valent;patrón;;;;;De Cárdenas, goleta Unin, patrón Valent.;;Unin;;;goleta;1914_08_15;Cárdenas;;
+;;;;;López;patrón;;;;;De Cabañas, goleta Joven Marcelino, patrón López.;;Joven Marcelino;;;goleta;1914_08_15;Cabañas;;
+;;;;;Deo;patrón;;;;;De Matanzas, goleta Dos Hermanos, patrón Deo.;;Dos Hermanos;;;goleta;1914_08_15;Matanzas;;
+;;;;;Bosch;patrón;;;;;De Cabañas, goleta María del Carmen, patrón Bosch.;;María del Carmen;;;goleta;1914_08_15;Cabañas;;
+;;;;;;;;;;;De Arroyos, vapor Antolín del Col-;;Antolín;;;vap.;1914_08_16;Arroyos;;
+;;;;;Alemañy;patrón;;;;;De Matanzas, goleta Matanzas, patrón Alemañy.;;Matanzas;;;goleta;1914_08_16;Matanzas;;
+;;;;;Alemañy;patrón;;;;;De Cárdenas, goleta Crisálida, patrón Alemañy.;;Crisálida;;;goleta;1914_08_16;Cárdenas;;
+;;;;;;;;;;;De Cienfuegos, vapor Purísima;;Purísima;;;vap.;1914_08_19;Cienfuegos;;
+;;;;;González;cap.;;;;;De Cuba, vapor Julia, capitán González.;;Julia;;;vap.;1914_08_19;Cuba;;
+;;;;;Prieto;cap.;;;;;De Manati, goleta Tres Hermanas, capitán Prieto.;;Tres Hermanas;;;goleta;1914_08_19;Manati;;
+;;;;;Gil;patrón;;;;;De Banes, goleta Trinidad, patrón Gil.;;Trinidad;;;goleta;1914_08_19;Banes;;
+;;;;;Marantes;cap.;;;;;De Mariel, goleta Alta Gracia, cap- trón, Marantes.;;Alta Gracia;;;goleta;1914_08_19;Mariel;;
+;;;;;Deo;patrón;;;;;De Matanzas, goleta Dos Hermanas, patrón Deo.;;Dos Hermanas;;;goleta;1914_08_19;Matanzas;;
+;;;;;Valent;patrón;;;;;De Cárdenas, goleta María del Carmen, patrón Valent.;;María del Carmen;;;goleta;1914_08_19;Cárdenas;;
+;;;;;;patrón;;;;;De Cárdenas, goleta Julia, patrón;;Julia;;;goleta;1914_08_19;Cárdenas;;
+;;;;;Juan;patrón;;;;;"De Caibarién, goleta ""Esmeralda"", patrón Juan.";;Esmeralda;;;goleta;1914_08_22;Caibarién;;
+;;;;;Guash;patrón;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera"", patrón Guash.";;Hermosa Guanera;;;goleta;1914_08_22;Ciego Novillo;;
+;;;;;López;patrón;;;;;"De Cabo San Antonio, goleta ""Amalia"", patrón, López.";;Amalia;;;goleta;1914_08_22;Cabo San Antonio;;
+;;;;;Granda;patrón;;;;;"De Arroyos, goleta ""La Fe"", patrón Granda.";;La Fe;;;goleta;1914_08_22;Arroyos;;
+;;;;;López;patrón;;;;;"De Cabañas, goleta ""Joven Marcelino"", patrón, López.";;Joven Marcelino;;;goleta;1914_08_22;Cabañas;;
+;;;;;Alemañy;pat.;;;;;"De Matanzas, goleta ""Matanzas"", patrón Alemañy.";;Matanzas;;;goleta;1914_08_22;Matanzas;;
+;;;;;Rioseco;patrón;;;;;"De Banes, goleta ""San Francisco"", patrón, Rioseco.";;San Francisco;;;goleta;1914_08_22;Banes;;
+;;;;;;;;;;;De Cienfuegos, vapor Caridad Padrilla.;;Caridad Padrilla;;;vap.;1914_08_23;Cienfuegos;;
+;;;;;;;;;;;De Ciego Novillo, goleta María Do lores.;;María Do lores;;;goleta;1914_08_23;Ciego Novillo;;
+;;;;;;cap.;;;;;"De Banes, goleta ""Etelvina"", cap.";;Etelvina;;;goleta;1914_08_26;Banes;;
+;;;;;;;;;;;De Arroyos, vapor Antolín del Col-;;Antolín;;;vapor;1914_08_26;Arroyos;;
+;;;;;;;;;;;"De Ciego Novillo, goleta ""María""";;María;;;goleta;1914_08_26;Ciego Novillo;;
+;;;;;;patrón;;;;;"De Mariel, goleta ""Altagracia"", patrón";;Altagracia;;;goleta;1914_08_26;Mariel;;
+;;;;;Alemañy;pat.;;;;;"De Cabañas, goleta ""Joven Pilar"", patrón Alemañy.";;Joven Pilar;;;goleta;1914_08_26;Cabañas;;
+;;;;;;;;;;;"De Matanzas, goleta ""Dos Hermanas"",";;Dos Hermanas;;;goleta;1914_08_26;Matanzas;;
+;;;;;Abello;pat.;;;;;"De Santa Cruz, goleta ""Enigma"", patrón Abello.";;Enigma;;;goleta;1914_08_26;Santa Cruz;;
+;;;;;Mas;pat.;;;;;"De Santa Cruz, goleta ""Benita"", patrón Mas.";;Benita;;;goleta;1914_08_26;Santa Cruz;;
+;;;;;Valent;pat.;;;;;"De Cárdenas, goleta ""María del Carmen"", patrón Valent.";;María del Carmen;;;goleta;1914_08_26;Cárdenas;;
+;;;;;Alemañy;pat.;;;;;"De Cárdenas, goleta ""Crisálida"", patrón Alemañy.";;Crisálida;;;goleta;1914_08_26;Cárdenas;;
+;;;;;Maura;patrón;;;;;"De Caibarién, goleta ""María Torrent, patrón Maura.";;María Torrent;;;goleta;1914_08_26;Caibarién;;
+;;;;;Vázquez;cap.;;;;;De Cienfuegos, vapor Reina de los Angeles, capitán Vázquez.;;Reina de los Angeles;;;vap.;1914_08_28;Cienfuegos;;
+;;;;;Alemaný;patrón;;;;;De Cárdenas, goleta Rosita, patrón Alemaný.;;Rosita;;;goleta;1914_08_28;Cárdenas;;
+;;;;;Valent;patrón;;;;;De Cárdenas, goleta Unión, patrón Valent.;;Unión;;;goleta;1914_08_28;Cárdenas;;
+;;;;;Enseñat;patrón;;;;;De Canasi, goleta Josefina, patrón Enseñat.;;Josefina;;;goleta;1914_08_28;Canasi;;
+;;;;;Pujol;patrón;;;;;De Cabo de San Antonio, goleta Victoria, patrón Pujol.;;Victoria;;;goleta;1914_08_28;Cabo de San Antonio;;
+;;;;;Abella;patrón;;;;;De Santa Cruz, goleta Vigía, patrón Abella.;;Vigía;;;goleta;1914_08_28;Santa Cruz;;
+;;;;;;;;;;;De Margajitas, goleta Felí.;;Felí;;;goleta;1914_09_02;Margajitas;;
+;;;;;;;;;;;De Manati, goleta María Vázquez.;;María Vázquez;;;goleta;1914_09_02;Manati;;
+;;;;;;;;;;;De Mariel, goleta Altagracia.;;Altagracia;;;goleta;1914_09_02;Mariel;;
+;;;;;;;;;;;De Cárdenas, goleta Crisálida.;;Crisálida;;;goleta;1914_09_02;Cárdenas;;
+;;;;;;;;;;;De Banes, goleta San Francisco.;;San Francisco;;;goleta;1914_09_02;Banes;;
+;;;;;;;;;;;De Bahía Honda, goleta Mateo.;;Mateo;;;goleta;1914_09_02;Bahía Honda;;
+;;;;;;;;;;;De Cárdenas, goleta Juana Mercedes.;;Juana Mercedes;;;goleta;1914_09_02;Cárdenas;;
+;;;;;;;;;;;De Matanzas, goleta Matanzas.;;Matanzas;;;goleta;1914_09_02;Matanzas;;
+;;;;;;;;;;;De Arroyos, goleta Teresa.;;Teresa;;;goleta;1914_09_02;Arroyos;;
+;;;;;;;;;;;De Cabañas, goleta Joven Pilar.;;Joven Pilar;;;goleta;1914_10_02;Cabañas;;
+;;;;;;;;;;;De Dominic, goleta Maria.;;Maria;;;goleta;1914_10_02;Dominic;;
+;;;;;;;;;;;De Cárdenas, goleta Julia.;;Julia;;;goleta;1914_10_02;Cárdenas;;
+;;;;;;;;;;;De Baracoa, goleta Clara.;;Clara;;;goleta;1914_10_02;Baracoa;;
+;;;;;;;;;;;De Margajitas, goleta Feliz.;;Feliz;;;goleta;1914_10_03;Margajitas;;
+;;;;;;;;;;;De Matanzas, goleta María.;;María;;;goleta;1914_10_03;Matanzas;;
+;;;;;;;;;;;De Cabañas, goleta María del Carmen.;;María del Carmen;;;goleta;1914_10_03;Cabañas;;
+;;;;;;;;;;;De Santa Cruz, goleta Benita.;;Benita;;;goleta;1914_10_03;Santa Cruz;;
+;;;;;;;;;;;De Cárdenas, goleta Rosita.;;Rosita;;;goleta;1914_10_03;Cárdenas;;
+;;;;;;;;;;;De Cabo San Antonio, goleta Ama-;;Ama;;;goleta;1914_10_03;Cabo San Antonio;;
+;;;;;;;;;;;De Canasi, goleta Josefina.;;Josefina;;;goleta;1914_10_03;Canasi;;
+;;;;;;;;;;;De Cabañas, goleta Joven Marceli-;;Joven Marceli;;;goleta;1914_10_03;Cabañas;;
+;;;;;;;;;;;De Banes, goleta Trinidad.;;Trinidad;;;goleta;1914_10_08;Banes;;
+;;;;;;;;;;;De Matanzas, goleta Dos Hermanas;;Dos Hermanas;;;goleta;1914_10_08;Matanzas;;
+;;;;;;;;;;;De Cabañas, goleta JoJven Pilar;;JoJven Pilar;;;goleta;1914_10_08;Cabañas;;
+;;;;;;;;;;;De Margajitas, goleta Pedro Muri;;Pedro Muri;;;goleta;1914_10_08;Margajitas;;
+;;;;;;;;;;;De Cárdenas, goleta María del Carmen.;;María del Carmen;;;goleta;1914_10_08;Cárdenas;;
+;;;;;Vázquez;pat.;;;;;"De Nuevitas, goleta ""Polar"", patrón, Vázquez.";;Polar;;;goleta;1914_10_14;Nuevitas;;
+;;;;;López;patrón;;;;;"De Ciego Novillo, goleta ""Sofía"", patrón López.";;Sofía;;;goleta;1914_10_14;Ciego Novillo;;
+;;;;;Guasch;patrón;;;;;"De Ciego Novillo, goleta ""Hermosa Guanera"", patrón Guasch.";;Hermosa Guanera;;;goleta;1914_10_14;Ciego Novillo;;
+;;;;;Pujol;patrón;;;;;"De Cabo de San Antonio, goleta ""Victoria"", patrón Pujol.";;Victoria;;;goleta;1914_10_14;Cabo de San Antonio;;
+;;;;;Alemañy;pat.;;;;;"De Matanzas, goleta ""Matanzas"", patrón Alemañy.";;Matanzas;;;goleta;1914_10_14;Matanzas;;
+;;;;;Seijas;pat.;;;;;"De Matanzas, goleta ""María"", patrón Seijas.";;María;;;goleta;1914_10_14;Matanzas;;
+;;;;;Abello;pat.;;;;;"De Santa Cruz, goleta ""Vigía"", patrón Abello.";;Vigía;;;goleta;1914_10_14;Santa Cruz;;
+;;;;;Valent;pat.;;;;;"De Cárdenas, goleta ""Pnión"", patrón Valent.";;Pnión;;;goleta;1914_10_14;Cárdenas;;
+;;;;;Alemañy;pat.;;;;;"De Cárdenas, goleta ""Juana Mercedes"", patrón Alemañy.";;Juana Mercedes;;;goleta;1914_10_14;Cárdenas;;
+;;;;;Bosch;patrón;;;;;"De Cabañas, goleta ""María del Carmen"", patrón Bosch.";;María del Carmen;;;goleta;1914_10_14;Cabañas;;
+;;;;;López;pat.;;;;;"De Cienfuegos, vapor ""Josefina"", patrón López.";;Josefina;;;vap.;1914_10_14;Cienfuegos;;
+;;;;;López;patrón;;;;;"De Bahía Honda, goleta ""Almendares"", patrón, López.";;Almendares;;;goleta;1914_10_14;Bahía Honda;;
+;;N/A: ;;;López;patrón;;;;;"De Cabañas, goleta ""Joven Marcelino"", patrón López. Con 45 quarteros miel.";;Joven Marcelino;;;goleta;1914_10_15;Cabañas;;
+;;N/A: ;;;Santana;patrón;;;;;"De Ciego Novillo, goleta ""Margarita"", patrón Santana. Con mil sacos carbón.";;Margarita;;;goleta;1914_10_15;Ciego Novillo;;
+;;;;;Marantes;patrón;;;;;"De Mariel, goleta ""Altagracia"", patrón Marantes.";;Altagracia;;;goleta;1914_10_15;Mariel;;
+;;;;;Alemañí;patrón;;;;;"De Cárdenas, goleta ""Julia"", patrón Alemañí.";;Julia;;;goleta;1914_10_15;Cárdenas;;
+;;;;;Alemañí;patrón;;;;;"De Cárdenas, goleta ""Crísálida"", patrón, Alemañí.";;Crísálida;;;goleta;1914_10_15;Cárdenas;;
+;;;;;Alemañí;patrón;;;;;"De Cabañas, goleta ""Joven Pilar"", patrón Alemañí.";;Joven Pilar;;;goleta;1914_10_15;Cabañas;;
+;;;;;Más;patrón;;;;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;;;goleta;1914_10_15;Santa Cruz;;
+;;;;;Deo;pat.;;;;;"De Matanzas, goleta ""Dos Hermanas"", patrón Deo.";;Dos Hermanas;;;goleta;1914_10_18;Matanzas;;
+;;;;;Planell;cap.;;;;;"De Arroyos, goleta ""Antolín del Collado"", capitán Planell.";;Antolín del Collado;;;goleta;1914_10_18;Arroyos;;
+;;;;;Yem;patrón;;;;;"De Arroyos, goleta ""Teresa"", patrón Yem.";;Teresa;;;goleta;1914_10_18;Arroyos;;
+;;;;;Rioseco;patrón;;;;;"De Banes, goleta ""San Francisco"", patrón Rioseco.";;San Francisco;;;goleta;1914_10_18;Banes;;
+;;;;;Pujol;patrón;;;;;"De Ciego Novillo, goleta ""María Dolores"", patrón Pujol.";;María Dolores;;;goleta;1914_10_21;Ciego Novillo;;
+;;;;;Gil;patrón;;;;;"De Banes, goleta ""Trinidad"", patrón Gil.";;Trinidad;;;goleta;1914_10_21;Banes;;
+;;;;;Maura;pat.;;;;;"De Nuevitas, goleta ""María Vázquez"", patrón Maura.";;María Vázquez;;;goleta;1914_10_21;Nuevitas;;
+;;;;;Marantes;patrón;;;;;"De Mariel, goleta ""Altagracia"", patrón Marantes.";;Altagracia;;;goleta;1914_10_21;Mariel;;
+;;;;;Alemañy;pat.;;;;;"De Matanzas, goleta ""Matanzas"", patrón Alemañy.";;Matanzas;;;goleta;1914_10_21;Matanzas;;
+;;;;;Alemañy;pat.;;;;;"De Nuevitas, goleta ""María Teresa"", patrón Alemañy.";;María Teresa;;;goleta;1914_10_21;Nuevitas;;
+;;;;;Alemañy;patrón;;;;;"De Caibarién, goleta ""Ignacia Alemañy"", patrón Alemañy.";;Ignacia Alemañy;;;goleta;1914_10_21;Caibarién;;
+;;;;;Alemañy;pat.;;;;;"De Cárdenas, goleta ""Crisálida"", patrón Alemañy.";;Crisálida;;;goleta;1914_10_21;Cárdenas;;
+;;;;;Más;patrón;;;;;"De Santa Cruz, goleta ""Benita"", patrón Más.";;Benita;;;goleta;1914_10_21;Santa Cruz;;

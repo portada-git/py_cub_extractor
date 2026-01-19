@@ -1,119 +1,408 @@
-# 📖 py_cub_extractor
+# Cuban Maritime Data Extraction System
 
-Herramienta en **Python** para realizar **extracción automática de información estructurada desde noticias o textos históricos**, utilizando un **LLM** (por defecto OpenAI, aunque puede adaptarse a otros modelos como Ollama o Anthropic).
+Professional OCR-based maritime data extraction system for historical newspaper records (1850-1915) from Diario de la Marina.
 
----
+## 🌍 Documentation Languages
 
-## 🚀 Instalación
-
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/portada-git/py_cub_extractor.git
-cd py_cub_extractor
-```
-
-2. Crear entorno virtual (opcional pero recomendado):
-
-```bash
-python -m venv venv
-source venv/bin/activate   # En Linux/Mac
-venv\Scripts\activate      # En Windows
-```
-
-3. Instalar dependencias:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Definir variables de entorno:
-
-- *ADATROP_TERCES* Almacena clave de cifrado
-- Guardar el archivo de llave openAI (📄 openai_key.txt cifrado) en la carpeta del proyecto: 📂*llm_service* 
+- 🇬🇧 **English** (current) - [README.md](README.md)
+- 🇪🇸 **Español** - [docs/README_ES.md](docs/README_ES.md)
+- 🇬🇷 **Ελληνικά** - [docs/README_EL.md](docs/README_EL.md)
 
 ---
 
-## 🛠️ Uso
+## Features
 
-Ejecutar el script principal y seguir instrucciones del menu:
+- **Structured Data Extraction**: Extracts traversing and cabotage entries from OCR documents
+- **LLM-Powered**: Uses OpenAI GPT-4o-mini for intelligent text parsing
+- **SQLite Database**: Persistent storage with efficient querying
+- **Multi-threaded Processing**: 16 concurrent workers for fast extraction
+- **Flexible Export**: JSON and CSV formats with field filtering
+- **Year-based Organization**: Process data by year with reprocessing capability
 
+## Project Structure
+
+```
+.
+├── main.py                          # Main menu interface
+├── requirements.txt                 # Python dependencies
+├── README.md                        # This file (English)
+├── llm_service/
+│   ├── llm_openai.py               # OpenAI API integration
+│   └── openai_key.txt              # Encrypted API key
+├── utils/
+│   ├── extractor.py                # Core extraction engine
+│   ├── export_data.py              # Export functionality
+│   ├── utils.py                    # Text processing utilities
+│   └── db/
+│       ├── database.py             # SQLite database operations
+│       └── check_missing.py        # File verification
+├── .data/
+│   ├── Nuevo/                      # OCR input files (see structure below)
+│   ├── extraction.db               # Main SQLite database
+│   └── results/                    # Export output directory
+└── docs/
+    ├── INDEX.md                    # Documentation index
+    ├── README.md                   # English documentation
+    ├── README_ES.md                # Spanish documentation
+    └── README_EL.md                # Greek documentation
+```
+
+## OCR Input Directory Structure
+
+This is the **exact structure** required for the system to correctly detect and process files:
+
+### Directory Hierarchy
+
+```
+.data/Nuevo/
+├── 1850/
+│   ├── 01/
+│   │   ├── 1850_01_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1850_01_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   ├── 1850_01_02_HAB_DM_U_01_0_V_003-001.txt
+│   │   └── ...
+│   ├── 02/
+│   │   ├── 1850_02_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1850_02_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   └── ...
+│   └── 12/
+│       └── ...
+├── 1852/
+│   ├── 01/
+│   │   ├── 1852_01_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1852_01_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   └── ...
+│   ├── 02/
+│   └── ...
+├── 1857/
+├── 1860/
+└── ... (other years)
+```
+
+### Directory Structure Rules
+
+**Year Directories**
+- Format: `YYYY` (4-digit year)
+- Examples: `1850`, `1852`, `1876`, `1914`
+- Location: `.data/Nuevo/YYYY/`
+
+**Month Directories**
+- Format: `MM` (2-digit month, zero-padded)
+- Range: `01` to `12`
+- Location: `.data/Nuevo/YYYY/MM/`
+- Examples: `01` (January), `02` (February), `12` (December)
+
+**Day Directories**
+- NOT USED - Files are directly in month directories
+- Files are identified by date in filename, not directory structure
+
+### OCR File Naming Convention
+
+All OCR files must follow this exact naming pattern:
+
+```
+YYYY_MM_DD_HAB_DM_U_01_0_[TYPE]_NNN-NNN.txt
+```
+
+**Filename Components:**
+
+| Component | Format | Example | Description |
+|-----------|--------|---------|-------------|
+| Year | `YYYY` | `1852` | 4-digit year |
+| Month | `MM` | `01` | 2-digit month (01-12) |
+| Day | `DD` | `15` | 2-digit day (01-31) |
+| Location | `HAB` | `HAB` | Havana (fixed) |
+| Publication | `DM` | `DM` | Diario de la Marina (fixed) |
+| Edition | `U` | `U` | Edition identifier (fixed) |
+| Issue | `01` | `01` | Issue number (fixed) |
+| Page | `0` | `0` | Page number (fixed) |
+| **TYPE** | `V` or `C` | `V` | **CRITICAL: Determines entry type** |
+| Sequence | `NNN-NNN` | `003-001` | Sequence identifier |
+
+### File Type Detection
+
+The system detects entry types by the `TYPE` component in the filename:
+
+**Traversing Entries (International Arrivals)**
+- Filename contains: `_V_` (V = Viajes/Voyages)
+- Example: `1852_01_15_HAB_DM_U_01_0_V_003-001.txt`
+- Extracts: International ship arrivals with full voyage details
+
+**Cabotage Entries (Domestic Arrivals)**
+- Filename contains: `_C_` (C = Cabotaje/Coastal)
+- Example: `1852_01_15_HAB_DM_U_01_0_C_003-001.txt`
+- Extracts: Domestic/regional ship arrivals
+
+### Complete Example
+
+```
+.data/Nuevo/1852/01/
+├── 1852_01_01_HAB_DM_U_01_0_V_003-001.txt    ← Traversing (V)
+├── 1852_01_01_HAB_DM_U_01_0_C_003-001.txt    ← Cabotage (C)
+├── 1852_01_02_HAB_DM_U_01_0_V_003-001.txt    ← Traversing (V)
+├── 1852_01_02_HAB_DM_U_01_0_C_003-001.txt    ← Cabotage (C)
+├── 1852_01_03_HAB_DM_U_01_0_V_003-001.txt    ← Traversing (V)
+├── 1852_01_03_HAB_DM_U_01_0_C_003-001.txt    ← Cabotage (C)
+└── ...
+```
+
+## Installation
+
+1. Clone the repository
+2. Create virtual environment: `python3 -m venv .venv`
+3. Activate: `source .venv/bin/activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Set OpenAI API key: `export OPENAI_API_KEY=your_key_here`
+
+## Usage
+
+Run the main menu:
 ```bash
-python main.py
-```
-```bash
-    *** Cuban Node Traversing Entrances Extractor ***
-    === Diario de la Marina Newspaper ===
-    
-                  |    |    |
-                 )_)  )_)  )_)
-                )___))___))___)
-               )____)____)_____)
-             _____|____|____|____\__
-        ----\                   /-----
-             \_________________/
-     ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~~ ~ ~ ~ ~
-     
-    
-1. Concatenate OCR text files by date
-2. Extract TRAVERSING ENTRANCES
-3. Extract CABOTAGE ENTRIES
-4. Extract BOTH (Traversing + Cabotage)
-0. Exit
-Choose an option: 
----
+python3 main.py
 ```
 
-### Opciones:
+### Menu Options
 
-- 1. Concatenate OCR text files by date. Recide la ubicacion de la carpeta que contiene los archivos TXT que fueron generados por el OCR. Se recomienda siempre ejecutarlo sobre el OCR en bruto para crear un archivo TXT por dia y evitar que la noticia quede fragmentada.
-- 2. Extract TRAVERSING ENTRANCES. Realiza la extracción de entradas de travesía de los datos ya concatenados. Recibe la carpeta que contiene los TXT concatenados y la carpeta de destino. Devuelve como salida archivos JSON y CSV del resultado de la extraccion.  
-- 3. Extract CABOTAGE ENTRIES. Realiza la extracción de entradas de cabotaje de los datos ya concatenados. Recibe la carpeta que contiene los TXT concatenados y la carpeta de destino. Devuelve como salida archivos JSON y CSV del resultado de la extraccion.  
-- 4. Extract BOTH (Traversing + Cabotage). Ejecuta ambas extracciones (travesía y cabotaje) en un solo flujo de trabajo. Solicita un directorio de entrada, un directorio de salida y un nombre base para los archivos. Genera archivos separados para cada tipo:
-  - `{nombre_base}_traversing.json` y `{nombre_base}_traversing.csv`
-  - `{nombre_base}_cabotage.json` y `{nombre_base}_cabotage.csv`
-  
-  Esta opción incluye manejo de errores independiente para cada paso, permitiendo que si una extracción falla, la otra continúe ejecutándose.  
+#### EXTRACTION OPTIONS
 
-## 📂 Estructura del proyecto
+**1. Concatenate OCR text files by date**
+- Groups OCR files by date
+- Combines multiple files into single date-based files
+- Useful for preprocessing raw OCR data
+- Input: Directory with OCR files
+- Output: Concatenated text files organized by date
 
-```
-py_cub_extractor/
-│
-├── main.py              # Punto de entrada principal
-├── llm_service/         # Lógica para interactuar con LLMs (OpenAI, Ollama, etc.)
-├── utils/               # Funciones auxiliares (limpieza de texto, guardado, etc.)
-├── requirements.txt     # Dependencias del proyecto
-└── README.md            # Esta documentación
-```
-## 📑 Ejemplo 1
+**2. Extract TRAVERSING ENTRANCES**
+- Extracts international ship arrivals from concatenated text
+- Uses LLM to parse unstructured OCR text
+- Outputs JSON and CSV files
+- Input: Directory with concatenated text files
+- Output: JSON and CSV with structured data
 
-### Entrada (`ejemplo1.txt`)
+**3. Extract CABOTAGE ENTRIES**
+- Extracts domestic/regional ship arrivals from concatenated text
+- Uses LLM to parse unstructured OCR text
+- Outputs JSON and CSV files
+- Input: Directory with concatenated text files
+- Output: JSON and CSV with structured data
 
-```
-Dia 30: ENTRADOS De Matanzas, en 1 día, vp. alm. Andes, capitán Gortz, ton. 1869, en lastre à E. Heilbut.
-```
+**4. Extract TRAVERSING ENTRANCES, CABOTAGE ENTRIES by YEAR (by threads)**
+- Extracts both types simultaneously by year
+- Uses 16 concurrent threads (configurable)
+- Stores directly in SQLite database
+- Skips already-processed files automatically
+- Shows progress and statistics
+- Input: OCR directory (`.data/Nuevo/`), year to process
+- Output: Data stored in SQLite database
 
-### Salida (`salida1.json`)
+#### DATABASE & ANALYSIS
 
+**5. Reprocess YEAR (delete old data and re-extract)**
+- Deletes all data for a specific year from database
+- Re-extracts from OCR files with current LLM prompts
+- Useful for updating with improved extraction rules
+- Shows before/after statistics
+- Requires confirmation before deletion
+- Input: Year to reprocess
+- Output: Updated database with new data
+
+**6. Check missing files to process**
+- Compares OCR files in filesystem with database records
+- Shows which files haven't been processed yet
+- Displays statistics by year
+- Helps identify incomplete extractions
+- Input: OCR directory path
+- Output: List of missing files by year
+
+**7. Show database statistics**
+- Displays entry counts by year
+- Shows traversing vs cabotage breakdown
+- Total entries and years in database
+- Formatted table for easy reading
+- No input required
+- Output: Statistics table
+
+**8. Export all years (JSON + CSV)**
+- Exports entire database to files
+- Creates separate files for each year
+- Generates both traversing and cabotage exports
+- Removes internal fields (id, obs) from exports
+- Converts cargo_list to readable format
+- Input: Output directory path
+- Output: JSON and CSV files for each year
+
+**0. Exit**
+- Closes the application
+
+## Data Structure
+
+### Traversing Entry (International Arrivals)
 ```json
 {
-    "publication_day": "Dia 30",
-    "travel_duration": 1,
-    "travel_departure_port": "Matanzas",
-    "ship_type": "vp.",
-    "ship_name": "alm. Andes",
-    "ship_tons_capacity": "1869",
-    "ship_tons_units": "ton.",
-    "master_role": "cap.",
-    "master_name": "Gortz",
-    "cargo_list": [
-        "en lastre à E. Heilbut."
-    ],
-    "raw_text": "Dia 30: ENTRADOS De Matanzas, en 1 día, vp. alm. Andes, capitán Gortz, ton. 1869, en lastre à E. Heilbut.",
-    "departure_date": "1903-10-29",
-    "arrival_date": "1903-10-30"
+  "source_file": "1852_01_01",
+  "publication_day": "1852-01-01",
+  "arrival_date": "1852-01-01",
+  "arrival_date_calc": "1852-01-01",
+  "travel_departure_port": "Liverpool",
+  "ship_type": "bergantín",
+  "ship_flag": "esp.",
+  "ship_name": "María",
+  "master_role": "cap.",
+  "master_name": "García",
+  "cargo_list": [
+    {
+      "cargo_merchant_name": "Lawton y Hnos.",
+      "cargo": [
+        {
+          "cargo_commodity": "algodón",
+          "cargo_quantity": "100",
+          "cargo_unit": "balas"
+        }
+      ]
+    }
+  ],
+  "raw_text": "De Liverpool en 12 días, bergantín español María, capitán García..."
 }
 ```
 
+### Cabotage Entry (Domestic Arrivals)
+```json
+{
+  "source_file": "1852_01_01",
+  "publication_day": "1852-01-01",
+  "travel_arrival_date": "1852-01-01",
+  "travel_departure_port": "Matanzas",
+  "ship_type": "goleta",
+  "ship_flag": null,
+  "ship_name": "Esperanza",
+  "master_role": "pat.",
+  "master_name": "López",
+  "cargo_list": [
+    {
+      "cargo_merchant_name": "a la orden",
+      "cargo": [
+        {
+          "cargo_commodity": "azúcar",
+          "cargo_quantity": "50",
+          "cargo_unit": "cajas"
+        }
+      ]
+    }
+  ],
+  "raw_text": "De Matanzas en 12 horas, goleta Esperanza, patrón López..."
+}
+```
 
+## Database Schema
+
+### traversing table
+- `id`: Primary key
+- `source_file`: Source file identifier (YYYY_MM_DD)
+- `publication_day`: Publication date (YYYY-MM-DD)
+- `arrival_date`: Arrival date (YYYY-MM-DD)
+- `arrival_date_calc`: Calculated arrival date
+- `travel_departure_port`: Port of departure
+- `ship_type`: Type of vessel
+- `ship_flag`: Flag/nationality
+- `ship_name`: Name of ship
+- `master_role`: Captain/patron role
+- `master_name`: Captain/patron name
+- `cargo_list`: JSON array of cargo items
+- `raw_text`: Original extracted text
+- `travel_duration_value`: Travel duration (numeric)
+- `travel_duration_unit`: Duration unit (days/hours)
+- `ship_tons_capacity`: Ship tonnage capacity
+- `ship_tons_unit`: Tonnage unit
+- `crew_number`: Crew size
+- `passenger_account`: Passenger count
+- `quarantine`: Quarantine status
+- `forced_arrival`: Forced arrival indicator
+- `obs`: Observations/notes
+- `parsed_text`: Parsed text representation
+
+### cabotage table
+Same structure as traversing table
+
+### processed_files table
+- `id`: Primary key
+- `file_path`: Path to processed file
+- `processed_at`: Processing timestamp
+- `traversing_count`: Traversing entries extracted
+- `cabotage_count`: Cabotage entries extracted
+
+## Configuration
+
+### OpenAI API Key
+Store encrypted in `llm_service/openai_key.txt`:
+```bash
+export ADATROP_TERCES=your_encryption_key
+```
+
+### Database Path
+Default: `.data/extraction.db`
+Modify in code or pass as parameter to `ExtractionDB()`
+
+### Thread Count
+Default: 16 workers
+Configurable when running extraction options
+
+## Performance
+
+- **Processing Speed**: ~100-200 entries per minute (depends on LLM API)
+- **Database Size**: ~500MB for 60,000+ entries
+- **Memory Usage**: ~2GB with 16 concurrent threads
+- **Token Usage**: ~0.5-1.0 tokens per entry
+
+## Error Handling
+
+- Invalid OCR text is skipped
+- Duplicate entries are ignored (UNIQUE constraint)
+- Failed API calls are logged
+- Database backups created before migrations
+
+## Troubleshooting
+
+### No files found
+- Verify OCR files are in `.data/Nuevo/YYYY/MM/` structure
+- Check file naming: `YYYY_MM_DD_*_V_*.txt` (traversing) or `*_C_*.txt` (cabotage)
+- Ensure files contain `_V_` or `_C_` in filename
+
+### Database errors
+- Check `.data/extraction.db` permissions
+- Verify SQLite is installed
+- Review logs in `.data/output/`
+
+### API errors
+- Verify OpenAI API key is set
+- Check token balance
+- Review rate limits
+
+## Development
+
+### Adding new extraction types
+1. Create new LLM prompt in `llm_service/llm_openai.py`
+2. Add extraction method in `utils/extractor.py`
+3. Add database table in `utils/db/database.py`
+4. Add menu option in `main.py`
+
+### Testing
+Run individual components:
+```bash
+python3 -c "from utils.db import ExtractionDB; db = ExtractionDB(); print(db.get_stats())"
+```
+
+## Documentation
+
+Available in multiple languages:
+- **English**: [README.md](README.md) (this file)
+- **Spanish**: [docs/README_ES.md](docs/README_ES.md)
+- **Greek**: [docs/README_EL.md](docs/README_EL.md)
+- **Index**: [docs/INDEX.md](docs/INDEX.md)
+
+## License
+
+Historical data extraction for research purposes.
+
+## Support
+
+For issues or questions, review the logs in `.data/output/` directory.

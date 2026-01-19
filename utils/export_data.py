@@ -308,6 +308,57 @@ def show_stats(db):
     print(f"Total entries: {stats['traversing'] + stats['cabotage']:,}")
 
 
+def show_stats_by_year(db):
+    """Muestra estadísticas desglosadas por año"""
+    import sqlite3
+    
+    with sqlite3.connect(".data/extraction.db") as conn:
+        cursor = conn.cursor()
+        
+        # Obtener años únicos
+        cursor.execute('''
+            SELECT DISTINCT substr(source_file, 1, 4) as year 
+            FROM traversing 
+            UNION 
+            SELECT DISTINCT substr(source_file, 1, 4) as year 
+            FROM cabotage 
+            ORDER BY year
+        ''')
+        years = [row[0] for row in cursor.fetchall()]
+    
+    if not years:
+        print("❌ No data in database")
+        return
+    
+    print("\n📊 DATABASE STATISTICS BY YEAR")
+    print("="*70)
+    print(f"Total years in database: {len(years)}")
+    print("="*70)
+    print(f"{'Year':<8} {'Traversing':<15} {'Cabotage':<15} {'Total':<15}")
+    print("-"*70)
+    
+    total_traversing = 0
+    total_cabotage = 0
+    
+    for year in years:
+        traversing = db.get_traversing_by_year(year)
+        cabotage = db.get_cabotage_by_year(year)
+        
+        trav_count = len(traversing)
+        cab_count = len(cabotage)
+        total = trav_count + cab_count
+        
+        total_traversing += trav_count
+        total_cabotage += cab_count
+        
+        print(f"{year:<8} {trav_count:<15,} {cab_count:<15,} {total:<15,}")
+    
+    print("-"*70)
+    grand_total = total_traversing + total_cabotage
+    print(f"{'TOTAL':<8} {total_traversing:<15,} {total_cabotage:<15,} {grand_total:<15,}")
+    print("="*70)
+
+
 if __name__ == "__main__":
     import sys
     
