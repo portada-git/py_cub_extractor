@@ -395,9 +395,9 @@ def export_all_years():
     
     db = ExtractionDB()
     
-    # Obtener años únicos de la BD
+    # Obtener años únicos de la BD usando la instancia de db
     import sqlite3
-    with sqlite3.connect(".data/extraction.db") as conn:
+    with sqlite3.connect(str(db.db_path)) as conn:
         cursor = conn.cursor()
         cursor.execute('''
             SELECT DISTINCT substr(source_file, 1, 4) as year 

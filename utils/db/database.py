@@ -135,7 +135,15 @@ class ExtractionDB:
                 ))
                 conn.commit()
                 return True
-            except sqlite3.IntegrityError:
+            except sqlite3.IntegrityError as e:
+                # Duplicate entry or NOT NULL constraint
+                import logging
+                logging.debug(f"IntegrityError saving traversing: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
+                return False
+            except Exception as e:
+                # Log unexpected errors
+                import logging
+                logging.error(f"Error saving traversing entry: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
                 return False
     
     def save_cabotage(self, data):
@@ -181,7 +189,15 @@ class ExtractionDB:
                 ))
                 conn.commit()
                 return True
-            except sqlite3.IntegrityError:
+            except sqlite3.IntegrityError as e:
+                # Duplicate entry or NOT NULL constraint
+                import logging
+                logging.debug(f"IntegrityError saving cabotage: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
+                return False
+            except Exception as e:
+                # Log unexpected errors
+                import logging
+                logging.error(f"Error saving cabotage entry: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
                 return False
     
     def mark_file_processed(self, file_path, traversing_count=0, cabotage_count=0):

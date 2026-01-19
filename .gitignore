@@ -4,4 +4,8 @@ __pycache__/
 .env
 .venv/
 output/
-results
+results/
+.data/extraction.db
+.data/extraction_backup_*.db
+.data/output/
+.data/results/

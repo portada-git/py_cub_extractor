@@ -227,8 +227,8 @@ def list_masters(db):
 
 
 def _remove_excluded_fields(data):
-    """Remueve campos excluidos (id, obs) de los datos y convierte cargo_list a dict"""
-    exclude_fields = {'id', 'obs'}
+    """Remueve campos excluidos (id, obs, parsed_text) de los datos y convierte cargo_list a dict"""
+    exclude_fields = {'id', 'obs', 'parsed_text'}
     cleaned = []
     for row in data:
         cleaned_row = {k: v for k, v in row.items() if k not in exclude_fields}
@@ -255,8 +255,8 @@ def _export_to_csv(csv_file, data):
         for row in data:
             all_keys.update(row.keys())
         
-        # Excluir id y obs
-        exclude_fields = {'id', 'obs'}
+        # Excluir id, obs y parsed_text
+        exclude_fields = {'id', 'obs', 'parsed_text'}
         fieldnames = sorted([k for k in all_keys if k not in exclude_fields])
         
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';')
@@ -312,7 +312,7 @@ def show_stats_by_year(db):
     """Muestra estadísticas desglosadas por año"""
     import sqlite3
     
-    with sqlite3.connect(".data/extraction.db") as conn:
+    with sqlite3.connect(str(db.db_path)) as conn:
         cursor = conn.cursor()
         
         # Obtener años únicos
