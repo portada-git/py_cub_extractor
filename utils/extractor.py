@@ -11,6 +11,7 @@ from pathlib import Path
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+from queue import Queue
 
 from utils.utils import catch_news_fragment, extract_entradas_cabotaje
 from utils.utils import compute_important_dates
@@ -60,8 +61,8 @@ class Extractor:
             self.logger.error(f"Month directory not found: {month_dir}")
             return None
         
-        traversing_data = []
-        cabotage_data = []
+        # Cola para resultados (thread-safe)
+        results_queue = Queue()
         
         # Encontrar todos los archivos del mes
         all_files = sorted(month_dir.glob("*.txt"))
@@ -85,7 +86,7 @@ class Extractor:
                 'processed': 0
             }
         
-        # Procesar archivos con hilos
+        # Procesar archivos con hilos (solo extracción, sin guardar)
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = {executor.submit(self._process_file, f): f for f in files_to_process}
             
@@ -95,26 +96,60 @@ class Extractor:
                 try:
                     trav_results, cab_results = future.result()
                     
-                    with self.lock:
-                        traversing_data.extend(trav_results)
-                        cabotage_data.extend(cab_results)
-                        
-                        # Marcar archivo como procesado
-                        self.db.mark_file_processed(file_path, len(trav_results), len(cab_results))
+                    # Enviar resultados a la cola (thread-safe)
+                    results_queue.put((file_path, trav_results, cab_results))
                     
                     processed_count += 1
                     self.logger.debug(f"Processed {file_path.name}: {len(trav_results)} traversing, {len(cab_results)} cabotage")
                 except Exception as e:
                     self.logger.error(f"Error processing {file_path.name}: {e}")
         
+        # Guardar todos los resultados en la base de datos (main thread - thread-safe)
+        traversing_count = 0
+        cabotage_count = 0
+        
+        self.logger.info(f"Queue size before processing: {results_queue.qsize()}")
+        
+        while not results_queue.empty():
+            file_path, trav_results, cab_results = results_queue.get()
+            
+            self.logger.debug(f"Processing queue item: {file_path.name} - {len(trav_results)} trav, {len(cab_results)} cab")
+            
+            # Guardar travesías
+            for row in trav_results:
+                if not row.get('raw_text'):
+                    self.logger.warning(f"Missing raw_text in traversing row from {file_path.name}")
+                    continue
+                saved = self.db.save_traversing(row)
+                if saved:
+                    traversing_count += 1
+                else:
+                    self.logger.debug(f"Failed to save traversing entry (likely duplicate): {row.get('raw_text', 'NO RAW_TEXT')[:50]}")
+            
+            # Guardar cabotajes
+            for row in cab_results:
+                if not row.get('raw_text'):
+                    self.logger.warning(f"Missing raw_text in cabotage row from {file_path.name}")
+                    continue
+                saved = self.db.save_cabotage(row)
+                if saved:
+                    cabotage_count += 1
+                else:
+                    self.logger.debug(f"Failed to save cabotage entry (likely duplicate): {row.get('raw_text', 'NO RAW_TEXT')[:50]}")
+            
+            # Marcar archivo como procesado
+            self.db.mark_file_processed(file_path, len(trav_results), len(cab_results))
+        
+        self.logger.info(f"Saved to database: {traversing_count} traversing, {cabotage_count} cabotage")
+        
         tokens = get_token_usage()
-        self.logger.info(f"{year}-{month:02d} completed: {len(traversing_data)} traversing, {len(cabotage_data)} cabotage, {tokens:,} tokens")
+        self.logger.info(f"{year}-{month:02d} completed: {traversing_count} traversing saved, {cabotage_count} cabotage saved, {tokens:,} tokens")
         
         return {
             'year': year,
             'month': month,
-            'traversing': len(traversing_data),
-            'cabotage': len(cabotage_data),
+            'traversing': traversing_count,
+            'cabotage': cabotage_count,
             'tokens': tokens,
             'processed': processed_count
         }
@@ -129,8 +164,8 @@ class Extractor:
             self.logger.error(f"Year directory not found: {year_dir}")
             return None
         
-        traversing_data = []
-        cabotage_data = []
+        # Cola para resultados (thread-safe)
+        results_queue = Queue()
         
         # Encontrar todos los archivos del año
         all_files = sorted(year_dir.rglob("*.txt"))
@@ -153,7 +188,7 @@ class Extractor:
                 'processed': 0
             }
         
-        # Procesar archivos con hilos
+        # Procesar archivos con hilos (solo extracción, sin guardar)
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = {executor.submit(self._process_file, f): f for f in files_to_process}
             
@@ -163,25 +198,59 @@ class Extractor:
                 try:
                     trav_results, cab_results = future.result()
                     
-                    with self.lock:
-                        traversing_data.extend(trav_results)
-                        cabotage_data.extend(cab_results)
-                        
-                        # Marcar archivo como procesado
-                        self.db.mark_file_processed(file_path, len(trav_results), len(cab_results))
+                    # Enviar resultados a la cola (thread-safe)
+                    results_queue.put((file_path, trav_results, cab_results))
                     
                     processed_count += 1
                     self.logger.debug(f"Processed {file_path.name}: {len(trav_results)} traversing, {len(cab_results)} cabotage")
                 except Exception as e:
                     self.logger.error(f"Error processing {file_path.name}: {e}")
         
+        # Guardar todos los resultados en la base de datos (main thread - thread-safe)
+        traversing_count = 0
+        cabotage_count = 0
+        
+        self.logger.info(f"Queue size before processing: {results_queue.qsize()}")
+        
+        while not results_queue.empty():
+            file_path, trav_results, cab_results = results_queue.get()
+            
+            self.logger.debug(f"Processing queue item: {file_path.name} - {len(trav_results)} trav, {len(cab_results)} cab")
+            
+            # Guardar travesías
+            for row in trav_results:
+                if not row.get('raw_text'):
+                    self.logger.warning(f"Missing raw_text in traversing row from {file_path.name}")
+                    continue
+                saved = self.db.save_traversing(row)
+                if saved:
+                    traversing_count += 1
+                else:
+                    self.logger.debug(f"Failed to save traversing entry (likely duplicate): {row.get('raw_text', 'NO RAW_TEXT')[:50]}")
+            
+            # Guardar cabotajes
+            for row in cab_results:
+                if not row.get('raw_text'):
+                    self.logger.warning(f"Missing raw_text in cabotage row from {file_path.name}")
+                    continue
+                saved = self.db.save_cabotage(row)
+                if saved:
+                    cabotage_count += 1
+                else:
+                    self.logger.debug(f"Failed to save cabotage entry (likely duplicate): {row.get('raw_text', 'NO RAW_TEXT')[:50]}")
+            
+            # Marcar archivo como procesado
+            self.db.mark_file_processed(file_path, len(trav_results), len(cab_results))
+        
+        self.logger.info(f"Saved to database: {traversing_count} traversing, {cabotage_count} cabotage")
+        
         tokens = get_token_usage()
-        self.logger.info(f"Year {year} completed: {len(traversing_data)} traversing, {len(cabotage_data)} cabotage, {tokens:,} tokens")
+        self.logger.info(f"Year {year} completed: {traversing_count} traversing saved, {cabotage_count} cabotage saved, {tokens:,} tokens")
         
         return {
             'year': year,
-            'traversing': len(traversing_data),
-            'cabotage': len(cabotage_data),
+            'traversing': traversing_count,
+            'cabotage': cabotage_count,
             'tokens': tokens,
             'processed': processed_count
         }
@@ -220,19 +289,27 @@ class Extractor:
                     
                     # Verificar que el LLM retornó datos válidos
                     if row and isinstance(row, dict) and len(row) > 0:
+                        # Mapear parsed_text a raw_text si es necesario
+                        if 'parsed_text' not in row or not row.get('parsed_text'):
+                            row['parsed_text'] = line_obj['info_text']
+                        
+                        if 'raw_text' not in row:
+                            row['raw_text'] = row.get('parsed_text', line_obj['info_text'])
+                        
+                        # Asegurar que raw_text no sea vacío
+                        if not row.get('raw_text'):
+                            row['raw_text'] = line_obj['info_text']
+                        
                         # Agregar información del archivo
                         row['source_file'] = date_file
                         
                         results.append(row)
-                        
-                        # Guardar en base de datos
-                        self.db.save_traversing(row)
                     else:
                         self.logger.debug(f"Empty response from LLM for traversing: {line_obj['info_text'][:50]}")
                 except Exception as e:
-                    self.logger.debug(f"Error extracting traversing line: {e}")
+                    self.logger.error(f"Error extracting traversing line: {e}")
         except Exception as e:
-            self.logger.debug(f"Error processing traversing: {e}")
+            self.logger.error(f"Error processing traversing: {e}")
     
     def _process_cabotage(self, content, date_file, results):
         """Procesa líneas individuales de cabotaje"""
@@ -245,19 +322,27 @@ class Extractor:
                     
                     # Verificar que el LLM retornó datos válidos
                     if row and isinstance(row, dict) and len(row) > 0:
+                        # Mapear parsed_text a raw_text si es necesario
+                        if 'parsed_text' not in row or not row.get('parsed_text'):
+                            row['parsed_text'] = line_obj['info_text']
+                        
+                        if 'raw_text' not in row:
+                            row['raw_text'] = row.get('parsed_text', line_obj['info_text'])
+                        
+                        # Asegurar que raw_text no sea vacío
+                        if not row.get('raw_text'):
+                            row['raw_text'] = line_obj['info_text']
+                        
                         # Agregar información del archivo
                         row['source_file'] = date_file
                         
                         results.append(row)
-                        
-                        # Guardar en base de datos
-                        self.db.save_cabotage(row)
                     else:
                         self.logger.debug(f"Empty response from LLM for cabotage: {line_obj['info_text'][:50]}")
                 except Exception as e:
-                    self.logger.debug(f"Error extracting cabotage line: {e}")
+                    self.logger.error(f"Error extracting cabotage line: {e}")
         except Exception as e:
-            self.logger.debug(f"Error processing cabotage: {e}")
+            self.logger.error(f"Error processing cabotage: {e}")
     
     def extract_all_years(self):
         """Extrae todos los años disponibles"""
