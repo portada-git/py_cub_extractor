@@ -2,6 +2,14 @@
 
 Sistema profesional de extracción de datos basado en OCR para registros históricos de periódicos (1850-1915) del Diario de la Marina.
 
+## 🌍 Idiomas de Documentación
+
+- 🇬🇧 **English** - [README.md](../README.md)
+- 🇪🇸 **Español** (actual) - [docs/README_ES.md](README_ES.md)
+- 🇬🇷 **Ελληνικά** - [docs/README_EL.md](README_EL.md)
+
+---
+
 ## Características
 
 - **Extracción de Datos Estructurados**: Extrae entradas de travesías y cabotajes de documentos OCR
@@ -17,6 +25,7 @@ Sistema profesional de extracción de datos basado en OCR para registros histór
 .
 ├── main.py                          # Interfaz de menú principal
 ├── requirements.txt                 # Dependencias de Python
+├── README.md                        # Este archivo (Inglés)
 ├── llm_service/
 │   ├── llm_openai.py               # Integración con OpenAI API
 │   └── openai_key.txt              # Clave API encriptada
@@ -28,13 +37,113 @@ Sistema profesional de extracción de datos basado en OCR para registros histór
 │       ├── database.py             # Operaciones de base de datos SQLite
 │       └── check_missing.py        # Verificación de archivos
 ├── .data/
-│   ├── Nuevo/                      # Archivos OCR de entrada (organizados por año)
+│   ├── Nuevo/                      # Archivos OCR de entrada (ver estructura abajo)
 │   ├── extraction.db               # Base de datos SQLite principal
 │   └── results/                    # Directorio de salida de exportación
 └── docs/
+    ├── INDEX.md                    # Índice de documentación
     ├── README.md                   # Documentación en inglés
     ├── README_ES.md                # Documentación en español
     └── README_EL.md                # Documentación en griego
+```
+
+## Estructura de Directorio OCR de Entrada
+
+Esta es la **estructura exacta** requerida para que el sistema detecte y procese correctamente los archivos:
+
+### Jerarquía de Directorios
+
+```
+.data/Nuevo/
+├── 1850/
+│   ├── 01/
+│   │   ├── 1850_01_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1850_01_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   ├── 1850_01_02_HAB_DM_U_01_0_V_003-001.txt
+│   │   └── ...
+│   ├── 02/
+│   │   ├── 1850_02_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1850_02_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   └── ...
+│   └── 12/
+│       └── ...
+├── 1852/
+│   ├── 01/
+│   │   ├── 1852_01_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1852_01_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   └── ...
+│   ├── 02/
+│   └── ...
+├── 1857/
+├── 1860/
+└── ... (otros años)
+```
+
+### Reglas de Estructura de Directorios
+
+**Directorios de Año**
+- Formato: `YYYY` (año de 4 dígitos)
+- Ejemplos: `1850`, `1852`, `1876`, `1914`
+- Ubicación: `.data/Nuevo/YYYY/`
+
+**Directorios de Mes**
+- Formato: `MM` (mes de 2 dígitos, con cero a la izquierda)
+- Rango: `01` a `12`
+- Ubicación: `.data/Nuevo/YYYY/MM/`
+- Ejemplos: `01` (Enero), `02` (Febrero), `12` (Diciembre)
+
+**Directorios de Día**
+- NO SE UTILIZAN - Los archivos están directamente en directorios de mes
+- Los archivos se identifican por fecha en el nombre de archivo, no por estructura de directorio
+
+### Convención de Nombres de Archivos OCR
+
+Todos los archivos OCR deben seguir este patrón de nombre exacto:
+
+```
+YYYY_MM_DD_HAB_DM_U_01_0_[TIPO]_NNN-NNN.txt
+```
+
+**Componentes del Nombre de Archivo:**
+
+| Componente | Formato | Ejemplo | Descripción |
+|-----------|---------|---------|-------------|
+| Año | `YYYY` | `1852` | Año de 4 dígitos |
+| Mes | `MM` | `01` | Mes de 2 dígitos (01-12) |
+| Día | `DD` | `15` | Día de 2 dígitos (01-31) |
+| Ubicación | `HAB` | `HAB` | La Habana (fijo) |
+| Publicación | `DM` | `DM` | Diario de la Marina (fijo) |
+| Edición | `U` | `U` | Identificador de edición (fijo) |
+| Número | `01` | `01` | Número de edición (fijo) |
+| Página | `0` | `0` | Número de página (fijo) |
+| **TIPO** | `V` o `C` | `V` | **CRÍTICO: Determina el tipo de entrada** |
+| Secuencia | `NNN-NNN` | `003-001` | Identificador de secuencia |
+
+### Detección de Tipo de Archivo
+
+El sistema detecta tipos de entrada por el componente `TIPO` en el nombre de archivo:
+
+**Entradas de Travesía (Llegadas Internacionales)**
+- Nombre de archivo contiene: `_V_` (V = Viajes/Viajes)
+- Ejemplo: `1852_01_15_HAB_DM_U_01_0_V_003-001.txt`
+- Extrae: Llegadas de barcos internacionales con detalles completos del viaje
+
+**Entradas de Cabotaje (Llegadas Domésticas)**
+- Nombre de archivo contiene: `_C_` (C = Cabotaje/Costero)
+- Ejemplo: `1852_01_15_HAB_DM_U_01_0_C_003-001.txt`
+- Extrae: Llegadas de barcos domésticos/regionales
+
+### Ejemplo Completo
+
+```
+.data/Nuevo/1852/01/
+├── 1852_01_01_HAB_DM_U_01_0_V_003-001.txt    ← Travesía (V)
+├── 1852_01_01_HAB_DM_U_01_0_C_003-001.txt    ← Cabotaje (C)
+├── 1852_01_02_HAB_DM_U_01_0_V_003-001.txt    ← Travesía (V)
+├── 1852_01_02_HAB_DM_U_01_0_C_003-001.txt    ← Cabotaje (C)
+├── 1852_01_03_HAB_DM_U_01_0_V_003-001.txt    ← Travesía (V)
+├── 1852_01_03_HAB_DM_U_01_0_C_003-001.txt    ← Cabotaje (C)
+└── ...
 ```
 
 ## Instalación

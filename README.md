@@ -2,6 +2,14 @@
 
 Professional OCR-based maritime data extraction system for historical newspaper records (1850-1915) from Diario de la Marina.
 
+## 🌍 Documentation Languages
+
+- 🇬🇧 **English** (current) - [README.md](README.md)
+- 🇪🇸 **Español** - [docs/README_ES.md](docs/README_ES.md)
+- 🇬🇷 **Ελληνικά** - [docs/README_EL.md](docs/README_EL.md)
+
+---
+
 ## Features
 
 - **Structured Data Extraction**: Extracts traversing and cabotage entries from OCR documents
@@ -17,6 +25,7 @@ Professional OCR-based maritime data extraction system for historical newspaper 
 .
 ├── main.py                          # Main menu interface
 ├── requirements.txt                 # Python dependencies
+├── README.md                        # This file (English)
 ├── llm_service/
 │   ├── llm_openai.py               # OpenAI API integration
 │   └── openai_key.txt              # Encrypted API key
@@ -28,13 +37,113 @@ Professional OCR-based maritime data extraction system for historical newspaper 
 │       ├── database.py             # SQLite database operations
 │       └── check_missing.py        # File verification
 ├── .data/
-│   ├── Nuevo/                      # OCR input files (organized by year)
+│   ├── Nuevo/                      # OCR input files (see structure below)
 │   ├── extraction.db               # Main SQLite database
 │   └── results/                    # Export output directory
 └── docs/
+    ├── INDEX.md                    # Documentation index
     ├── README.md                   # English documentation
     ├── README_ES.md                # Spanish documentation
     └── README_EL.md                # Greek documentation
+```
+
+## OCR Input Directory Structure
+
+This is the **exact structure** required for the system to correctly detect and process files:
+
+### Directory Hierarchy
+
+```
+.data/Nuevo/
+├── 1850/
+│   ├── 01/
+│   │   ├── 1850_01_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1850_01_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   ├── 1850_01_02_HAB_DM_U_01_0_V_003-001.txt
+│   │   └── ...
+│   ├── 02/
+│   │   ├── 1850_02_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1850_02_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   └── ...
+│   └── 12/
+│       └── ...
+├── 1852/
+│   ├── 01/
+│   │   ├── 1852_01_01_HAB_DM_U_01_0_V_003-001.txt
+│   │   ├── 1852_01_01_HAB_DM_U_01_0_C_003-001.txt
+│   │   └── ...
+│   ├── 02/
+│   └── ...
+├── 1857/
+├── 1860/
+└── ... (other years)
+```
+
+### Directory Structure Rules
+
+**Year Directories**
+- Format: `YYYY` (4-digit year)
+- Examples: `1850`, `1852`, `1876`, `1914`
+- Location: `.data/Nuevo/YYYY/`
+
+**Month Directories**
+- Format: `MM` (2-digit month, zero-padded)
+- Range: `01` to `12`
+- Location: `.data/Nuevo/YYYY/MM/`
+- Examples: `01` (January), `02` (February), `12` (December)
+
+**Day Directories**
+- NOT USED - Files are directly in month directories
+- Files are identified by date in filename, not directory structure
+
+### OCR File Naming Convention
+
+All OCR files must follow this exact naming pattern:
+
+```
+YYYY_MM_DD_HAB_DM_U_01_0_[TYPE]_NNN-NNN.txt
+```
+
+**Filename Components:**
+
+| Component | Format | Example | Description |
+|-----------|--------|---------|-------------|
+| Year | `YYYY` | `1852` | 4-digit year |
+| Month | `MM` | `01` | 2-digit month (01-12) |
+| Day | `DD` | `15` | 2-digit day (01-31) |
+| Location | `HAB` | `HAB` | Havana (fixed) |
+| Publication | `DM` | `DM` | Diario de la Marina (fixed) |
+| Edition | `U` | `U` | Edition identifier (fixed) |
+| Issue | `01` | `01` | Issue number (fixed) |
+| Page | `0` | `0` | Page number (fixed) |
+| **TYPE** | `V` or `C` | `V` | **CRITICAL: Determines entry type** |
+| Sequence | `NNN-NNN` | `003-001` | Sequence identifier |
+
+### File Type Detection
+
+The system detects entry types by the `TYPE` component in the filename:
+
+**Traversing Entries (International Arrivals)**
+- Filename contains: `_V_` (V = Viajes/Voyages)
+- Example: `1852_01_15_HAB_DM_U_01_0_V_003-001.txt`
+- Extracts: International ship arrivals with full voyage details
+
+**Cabotage Entries (Domestic Arrivals)**
+- Filename contains: `_C_` (C = Cabotaje/Coastal)
+- Example: `1852_01_15_HAB_DM_U_01_0_C_003-001.txt`
+- Extracts: Domestic/regional ship arrivals
+
+### Complete Example
+
+```
+.data/Nuevo/1852/01/
+├── 1852_01_01_HAB_DM_U_01_0_V_003-001.txt    ← Traversing (V)
+├── 1852_01_01_HAB_DM_U_01_0_C_003-001.txt    ← Cabotage (C)
+├── 1852_01_02_HAB_DM_U_01_0_V_003-001.txt    ← Traversing (V)
+├── 1852_01_02_HAB_DM_U_01_0_C_003-001.txt    ← Cabotage (C)
+├── 1852_01_03_HAB_DM_U_01_0_V_003-001.txt    ← Traversing (V)
+├── 1852_01_03_HAB_DM_U_01_0_C_003-001.txt    ← Cabotage (C)
+└── ...
 ```
 
 ## Installation
@@ -254,8 +363,9 @@ Configurable when running extraction options
 ## Troubleshooting
 
 ### No files found
-- Verify OCR files are in `.data/Nuevo/YYYY/` structure
+- Verify OCR files are in `.data/Nuevo/YYYY/MM/` structure
 - Check file naming: `YYYY_MM_DD_*_V_*.txt` (traversing) or `*_C_*.txt` (cabotage)
+- Ensure files contain `_V_` or `_C_` in filename
 
 ### Database errors
 - Check `.data/extraction.db` permissions
@@ -284,9 +394,10 @@ python3 -c "from utils.db import ExtractionDB; db = ExtractionDB(); print(db.get
 ## Documentation
 
 Available in multiple languages:
-- **English**: README.md (this file)
-- **Spanish**: docs/README_ES.md
-- **Greek**: docs/README_EL.md
+- **English**: [README.md](README.md) (this file)
+- **Spanish**: [docs/README_ES.md](docs/README_ES.md)
+- **Greek**: [docs/README_EL.md](docs/README_EL.md)
+- **Index**: [docs/INDEX.md](docs/INDEX.md)
 
 ## License
 
