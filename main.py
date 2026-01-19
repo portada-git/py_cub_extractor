@@ -1,26 +1,8 @@
 from utils.utils import read_txt_files_recursively, catch_news_fragment, group_and_concatenate_txt_by_date, extract_entradas_cabotaje
 from utils.utils import compute_important_dates, save_in_csv_file
-from llm_service.llm_openai import extract_structured_data_with_openai, extract_news_list_with_openai, extract_cabotaje_data_with_openai
 from utils.extractor import Extractor
 from utils.db import ExtractionDB
 import json
-
-
-def process_directory(base_dir: str):
-    content_extracted = []
-    dates_from_file=[]
-    for file_path in read_txt_files_recursively(base_dir):
-        with open(file_path, encoding="utf-8", errors="ignore") as f:
-            content = f.read()
-
-        print(f"\n📄 Processing file: {file_path}")
-        date_file = file_path.stem[:10]
-        dates_from_file.append(date_file)
-        cached_news_frag = catch_news_fragment(content)
-
-        content_extracted += cached_news_frag
-
-    return content_extracted, dates_from_file
 
 
 def show_menu():
@@ -55,44 +37,58 @@ def show_menu():
 
 
 def concatenate_files_by_date():
+    """Opción 1: Concatena archivos OCR por fecha"""
     input_dir = input("Enter path to OCR input directory: ").strip()
     output_dir = input("Enter path to output directory: ").strip()
     group_and_concatenate_txt_by_date(input_dir, output_dir)
+    print("✅ Files concatenated successfully")
 
 
 def extract_structured_data():
+    """Opción 2: Extrae travesías de archivos concatenados"""
+    print("\n🚢 EXTRACT TRAVERSING ENTRANCES")
     input_dir = input("Enter path from joined TXT to extract info: ").strip()
     output_dir = input("Enter path to output directory of extraction result: ").strip()
     file_name_json = input("Enter name only of output file (CSV and JSON): ").strip()
-    content_extracted, dates_from_file = process_directory(input_dir)
-
+    
+    content_extracted = []
+    dates_from_file = []
+    
+    for file_path in read_txt_files_recursively(input_dir):
+        with open(file_path, encoding="utf-8", errors="ignore") as f:
+            content = f.read()
+        
+        print(f"📄 Processing file: {file_path}")
+        date_file = file_path.stem[:10]
+        dates_from_file.append(date_file)
+        cached_news_frag = catch_news_fragment(content)
+        content_extracted += cached_news_frag
+    
     output_json = f"{output_dir}/{file_name_json}.json"
-
     results = []
+    
     for content, date_file in zip(content_extracted, dates_from_file):
-        news_delimited = extract_news_list_with_openai(content['info_text'])
-        news_delimited = news_delimited.split("###")
-        for news in news_delimited[1:len(news_delimited)-1]:
-            row = extract_structured_data_with_openai(news)
-            if 'raw_text' in row and row['raw_text'] is not None:
-                try:
-                    departure_date, arrival_date = compute_important_dates(date_file, row['travel_duration'], row['publication_day'])
-                except ValueError:
-                    departure_date, arrival_date = None, None
-                row['departure_date'] = departure_date
-                row['arrival_date'] = arrival_date
+        # Usar directamente el LLM sin extract_news_list_with_openai
+        try:
+            from llm_service.llm_openai import extract_structured_data_with_openai
+            row = extract_structured_data_with_openai(content['info_text'])
+            
+            if row and 'parsed_text' in row and row['parsed_text'] is not None:
                 results.append(row)
-
+        except Exception as e:
+            print(f"   ⚠️ Error processing: {e}")
+    
     with open(output_json, "w", encoding="utf-8") as out:
         json.dump(results, out, ensure_ascii=False, indent=4)
-
+    
     save_in_csv_file(f"{output_dir}/{file_name_json}.csv", results)
-
+    
     print(f"\n✅ Extracted {len(results)} valid entries into {output_json}")
 
 
 def extract_cabotage_data():
-    """Extract and process cabotage entries using LLM service"""
+    """Opción 3: Extrae cabotajes de archivos concatenados"""
+    print("\n⛵ EXTRACT CABOTAGE ENTRIES")
     input_dir = input("Enter path from joined TXT to extract cabotage info: ").strip()
     output_dir = input("Enter path to output directory of extraction result: ").strip()
     file_name_json = input("Enter name only of output file (CSV and JSON): ").strip()
@@ -103,7 +99,7 @@ def extract_cabotage_data():
         with open(file_path, encoding="utf-8", errors="ignore") as f:
             content = f.read()
         
-        print(f"\n📄 Processing file: {file_path}")
+        print(f"📄 Processing file: {file_path}")
         date_file = file_path.stem[:10]
         
         cabotage_sections = extract_entradas_cabotaje(content)
@@ -122,19 +118,14 @@ def extract_cabotage_data():
             if len(line) < 10 or line.isupper():
                 continue
             
-            row = extract_cabotaje_data_with_openai(line)
-            if 'raw_text' in row and row['raw_text'] is not None:
-                try:
-                    departure_date, arrival_date = compute_important_dates(
-                        entry['date_file'], 
-                        row.get('travel_duration'), 
-                        row.get('publication_day')
-                    )
-                except ValueError:
-                    departure_date, arrival_date = None, None
-                row['departure_date'] = departure_date
-                row['arrival_date'] = arrival_date
-                results.append(row)
+            try:
+                from llm_service.llm_openai import extract_cabotaje_data_with_openai
+                row = extract_cabotaje_data_with_openai(line)
+                
+                if row and 'parsed_text' in row and row['parsed_text'] is not None:
+                    results.append(row)
+            except Exception as e:
+                print(f"   ⚠️ Error processing: {e}")
     
     output_json = f"{output_dir}/{file_name_json}.json"
     
@@ -146,126 +137,9 @@ def extract_cabotage_data():
     print(f"\n✅ Extracted {len(results)} cabotage entries into {output_json}")
 
 
-def extract_both_entries():
-    """
-    Extract both TRAVERSING ENTRANCES and CABOTAGE ENTRIES in a single workflow.
-    Processes each file once, extracting both types of entries simultaneously.
-    """
-    print("\n🚢 Combined Extraction: Traversing + Cabotage")
-    
-    input_dir = input("Enter path from joined TXT to extract info: ").strip()
-    output_dir = input("Enter path to output directory of extraction result: ").strip()
-    base_file_name = input("Enter base name for output files: ").strip()
-
-    traversing_results = []
-    cabotage_results = []
-    traversing_error = None
-    cabotage_error = None
-
-    print("\n📍 Processing files for BOTH extraction types...")
-    
-    try:
-        for file_path in read_txt_files_recursively(input_dir):
-            with open(file_path, encoding="utf-8", errors="ignore") as f:
-                content = f.read()
-            
-            print(f"\n📄 Processing file: {file_path}")
-            date_file = file_path.stem[:10]
-            
-            # --- TRAVERSING EXTRACTION ---
-            try:
-                cached_news_frag = catch_news_fragment(content)
-                for news_frag in cached_news_frag:
-                    news_delimited = extract_news_list_with_openai(news_frag['info_text'])
-                    news_delimited = news_delimited.split("###")
-                    
-                    for news in news_delimited[1:len(news_delimited)-1]:
-                        row = extract_structured_data_with_openai(news)
-                        if 'raw_text' in row and row['raw_text'] is not None:
-                            try:
-                                departure_date, arrival_date = compute_important_dates(
-                                    date_file, row['travel_duration'], row['publication_day']
-                                )
-                            except ValueError:
-                                departure_date, arrival_date = None, None
-                            row['departure_date'] = departure_date
-                            row['arrival_date'] = arrival_date
-                            traversing_results.append(row)
-            except Exception as e:
-                if traversing_error is None:
-                    traversing_error = str(e)
-                print(f"   ⚠️ Traversing error in {file_path}: {e}")
-            
-            # --- CABOTAGE EXTRACTION ---
-            try:
-                cabotage_sections = extract_entradas_cabotaje(content)
-                
-                for section in cabotage_sections:
-                    lines = [line.strip() for line in section['info_text'].split('\n') 
-                             if line.strip() and not line.strip().startswith('ENTRADAS')]
-                    
-                    for line in lines:
-                        if len(line) < 10 or line.isupper():
-                            continue
-                        row = extract_cabotaje_data_with_openai(line)
-                        if 'raw_text' in row and row['raw_text'] is not None:
-                            try:
-                                departure_date, arrival_date = compute_important_dates(
-                                    date_file, row.get('travel_duration'), row.get('publication_day')
-                                )
-                            except ValueError:
-                                departure_date, arrival_date = None, None
-                            row['departure_date'] = departure_date
-                            row['arrival_date'] = arrival_date
-                            cabotage_results.append(row)
-            except Exception as e:
-                if cabotage_error is None:
-                    cabotage_error = str(e)
-                print(f"   ⚠️ Cabotage error in {file_path}: {e}")
-
-    except Exception as e:
-        print(f"\n❌ Error reading files: {e}")
-
-    # Save traversing results
-    if traversing_results:
-        traversing_json = f"{output_dir}/{base_file_name}_traversing.json"
-        with open(traversing_json, "w", encoding="utf-8") as out:
-            json.dump(traversing_results, out, ensure_ascii=False, indent=4)
-        save_in_csv_file(f"{output_dir}/{base_file_name}_traversing.csv", traversing_results)
-
-    # Save cabotage results
-    if cabotage_results:
-        cabotage_json = f"{output_dir}/{base_file_name}_cabotage.json"
-        with open(cabotage_json, "w", encoding="utf-8") as out:
-            json.dump(cabotage_results, out, ensure_ascii=False, indent=4)
-        save_in_csv_file(f"{output_dir}/{base_file_name}_cabotage.csv", cabotage_results)
-
-    # Summary
-    print("\n📊 COMBINED EXTRACTION SUMMARY")
-    
-    if traversing_error:
-        print(f"❌ Traversing: PARTIAL/FAILED - {traversing_error}")
-    else:
-        print(f"✅ Traversing: {len(traversing_results)} entries")
-    if traversing_results:
-        print(f"   → {output_dir}/{base_file_name}_traversing.json")
-        print(f"   → {output_dir}/{base_file_name}_traversing.csv")
-
-    if cabotage_error:
-        print(f"❌ Cabotage: PARTIAL/FAILED - {cabotage_error}")
-    else:
-        print(f"✅ Cabotage: {len(cabotage_results)} entries")
-    if cabotage_results:
-        print(f"   → {output_dir}/{base_file_name}_cabotage.json")
-        print(f"   → {output_dir}/{base_file_name}_cabotage.csv")
-
-    total = len(traversing_results) + len(cabotage_results)
-    print(f"\n🎯 Total entries extracted: {total}")
-
-
-
 def extract_by_year():
-    """Opción 4: Extrae por año (primera vez)"""
+    """Opción 4: Extrae por año con threads"""
+    print("\n📅 EXTRACT BY YEAR (with threads)")
     input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
     output_dir = input("Enter path to output directory: ").strip()
     
@@ -297,7 +171,8 @@ def extract_by_year():
 
 
 def reprocess_year():
-    """Opción 5: Reprocessa un año, eliminando datos antiguos y reemplazándolos"""
+    """Opción 5: Reprocessa un año"""
+    print("\n🔄 REPROCESS YEAR")
     input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
     output_dir = input("Enter path to output directory: ").strip()
     year = input("Enter year to reprocess (e.g., 1852): ").strip()
@@ -351,7 +226,6 @@ def reprocess_year():
     except:
         max_workers = 16
     
-    # Crear nuevo extractor (esto reinicia el contador de tokens)
     extractor = Extractor(input_dir, output_dir, max_workers)
     result = extractor.extract_year(year)
     
@@ -375,36 +249,95 @@ def reprocess_year():
 
 
 def check_missing():
-    """Opción 6: Verifica qué archivos faltan por procesar"""
-    from utils.db.check_missing import check_by_year
-    check_by_year()
+    """Opción 6: Verifica archivos faltantes"""
+    print("\n📋 CHECK MISSING FILES")
+    input_dir = input("Enter path to OCR directory (e.g., .data/Nuevo): ").strip()
+    
+    from pathlib import Path
+    input_path = Path(input_dir)
+    
+    if not input_path.exists():
+        print(f"❌ Directory not found: {input_dir}")
+        return
+    
+    db = ExtractionDB()
+    
+    # Obtener todos los archivos
+    all_files = sorted(input_path.rglob("*.txt"))
+    relevant_files = [f for f in all_files if "_V_" in f.name or "_C_" in f.name]
+    
+    # Obtener archivos procesados
+    import sqlite3
+    with sqlite3.connect(str(db.db_path)) as conn:
+        cursor = conn.cursor()
+        cursor.execute('SELECT file_path FROM processed_files')
+        processed = set(row[0] for row in cursor.fetchall())
+    
+    # Encontrar faltantes
+    missing = [f for f in relevant_files if str(f) not in processed]
+    
+    print()
+    print("="*60)
+    print("MISSING FILES REPORT")
+    print("="*60)
+    print(f"Total files found: {len(relevant_files)}")
+    print(f"Files processed: {len(processed)}")
+    print(f"Files missing: {len(missing)}")
+    print()
+    
+    if missing:
+        print("Missing files by year:")
+        by_year = {}
+        for f in missing:
+            year = f.name[:4]
+            if year not in by_year:
+                by_year[year] = []
+            by_year[year].append(f.name)
+        
+        for year in sorted(by_year.keys()):
+            print(f"  {year}: {len(by_year[year])} files")
+    else:
+        print("✅ All files have been processed!")
+    
+    print("="*60)
 
 
 def show_db_stats():
-    """Opción 7: Muestra estadísticas de la base de datos por año"""
-    from utils.export_data import show_stats_by_year
+    """Opción 7: Muestra estadísticas de la BD"""
+    print("\n📊 DATABASE STATISTICS")
     db = ExtractionDB()
-    show_stats_by_year(db)
+    stats = db.get_stats()
+    
+    print()
+    print("="*60)
+    print("DATABASE STATISTICS")
+    print("="*60)
+    print(f"  • Traversing entries: {stats['traversing']:,}")
+    print(f"  • Cabotage entries: {stats['cabotage']:,}")
+    print(f"  • Files processed: {stats['files_processed']:,}")
+    print(f"  • Total entries: {stats['traversing'] + stats['cabotage']:,}")
+    print("="*60)
 
 
 def export_all_years():
-    """Opción 8: Exporta todos los años de la BD a JSON y CSV"""
-    from utils.export_data import export_year
-    
+    """Opción 8: Exporta todos los años"""
+    print("\n💾 EXPORT ALL YEARS")
     output_dir = input("Enter output directory: ").strip()
+    
+    from utils.export_data import export_year
     
     db = ExtractionDB()
     
-    # Obtener años únicos de la BD usando la instancia de db
+    # Obtener años únicos de la BD
     import sqlite3
     with sqlite3.connect(str(db.db_path)) as conn:
         cursor = conn.cursor()
         cursor.execute('''
-            SELECT DISTINCT substr(source_file, 1, 4) as year 
-            FROM traversing 
+            SELECT DISTINCT substr(publication_day, 1, 4) as year 
+            FROM travesias 
             UNION 
-            SELECT DISTINCT substr(source_file, 1, 4) as year 
-            FROM cabotage 
+            SELECT DISTINCT substr(publication_day, 1, 4) as year 
+            FROM cabotajes 
             ORDER BY year
         ''')
         years = [row[0] for row in cursor.fetchall()]
@@ -433,48 +366,6 @@ def export_all_years():
     for year in years:
         print(f"  • {year}_traversing.json / .csv")
         print(f"  • {year}_cabotage.json / .csv")
-
-
-def analyze_data_menu():
-    """Opción 9: Menú de análisis"""
-    print("\n📈 ANALYZE DATA")
-    print("="*50)
-    print("1. Show database statistics")
-    print("2. List all ports")
-    print("3. List all ships")
-    print("4. List all captains")
-    print("0. Back")
-    
-    choice = input("Choose option: ").strip()
-    
-    from utils.export_data import show_stats, list_ports, list_ships, list_masters
-    
-    db = ExtractionDB()
-    
-    if choice == "1":
-        show_stats(db)
-    elif choice == "2":
-        list_ports(db)
-    elif choice == "3":
-        list_ships(db)
-    elif choice == "4":
-        list_masters(db)
-
-
-def db_utils_menu():
-    """Opción 10: Menú de utilidades de BD"""
-    print("\n🗄️  DATABASE UTILITIES")
-    print("="*50)
-    print("1. Show database info")
-    print("0. Back")
-    
-    choice = input("Choose option: ").strip()
-    
-    from utils.export_data import show_stats
-    
-    if choice == "1":
-        db = ExtractionDB()
-        show_stats(db)
 
 
 def main():

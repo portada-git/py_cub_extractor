@@ -15,6 +15,7 @@ from queue import Queue
 from utils.utils import catch_news_fragment, extract_entradas_cabotaje
 from llm_service.llm_openai import extract_structured_data_with_openai
 from llm_service.llm_openai import extract_cabotaje_data_with_openai, get_token_usage, reset_token_usage
+from llm_service.llm_openai import validate_entry, sanitize_entry
 from utils.db import ExtractionDB
 
 
@@ -182,15 +183,29 @@ class Extractor:
             if llm_response and isinstance(llm_response, dict):
                 entries = llm_response.get('entries', [])
                 
+                if not entries:
+                    self.logger.debug(f"No entries returned from LLM for traversing in {file_path.name}")
+                    return
+                
                 for entry in entries:
-                    if entry and isinstance(entry, dict) and entry.get('parsed_text'):
+                    if entry and isinstance(entry, dict):
+                        # Sanitizar entrada para eliminar alucinaciones
+                        sanitized = sanitize_entry(entry)
+                        
+                        # Validar que la entrada sea válida
+                        if not validate_entry(sanitized, 'traversing'):
+                            self.logger.debug(f"Invalid entry rejected (hallucination detected): {entry.get('parsed_text', 'NO TEXT')[:50]}")
+                            continue
+                        
                         # Asegurar que tiene el nombre del archivo
-                        if not entry.get('files'):
-                            entry['files'] = file_path.name
+                        if not sanitized.get('files'):
+                            sanitized['files'] = file_path.name
+                        
                         # Asegurar que travel_arrival_date es "La Habana" para travesías
-                        if not entry.get('travel_arrival_date'):
-                            entry['travel_arrival_date'] = 'La Habana'
-                        results.append(entry)
+                        if not sanitized.get('travel_arrival_date'):
+                            sanitized['travel_arrival_date'] = 'La Habana'
+                        
+                        results.append(sanitized)
                     else:
                         self.logger.debug(f"Empty or invalid entry from LLM for traversing")
             else:
@@ -208,12 +223,25 @@ class Extractor:
             if llm_response and isinstance(llm_response, dict):
                 entries = llm_response.get('entries', [])
                 
+                if not entries:
+                    self.logger.debug(f"No entries returned from LLM for cabotage in {file_path.name}")
+                    return
+                
                 for entry in entries:
-                    if entry and isinstance(entry, dict) and entry.get('parsed_text'):
+                    if entry and isinstance(entry, dict):
+                        # Sanitizar entrada para eliminar alucinaciones
+                        sanitized = sanitize_entry(entry)
+                        
+                        # Validar que la entrada sea válida
+                        if not validate_entry(sanitized, 'cabotage'):
+                            self.logger.debug(f"Invalid entry rejected (hallucination detected): {entry.get('parsed_text', 'NO TEXT')[:50]}")
+                            continue
+                        
                         # Asegurar que tiene el nombre del archivo
-                        if not entry.get('files'):
-                            entry['files'] = file_path.name
-                        results.append(entry)
+                        if not sanitized.get('files'):
+                            sanitized['files'] = file_path.name
+                        
+                        results.append(sanitized)
                     else:
                         self.logger.debug(f"Empty or invalid entry from LLM for cabotage")
             else:

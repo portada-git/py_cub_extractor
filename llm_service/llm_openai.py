@@ -112,17 +112,25 @@ IMPORTANTE: No me especifiques ni expliques nada al respecto solo espera a que t
     """.format(content_text=text)
 
     response = client.chat.completions.create(
-        model="gpt-5-nano-2025-08-07",
+        model="gpt-4o-mini",
         response_format={"type": "json_object"},
         messages=[
             {"role": "system",
              "content": "Eres un especialista en digitalización de registros marítimos históricos. "
-                        "Tu prioridad es la PRECISIÓN. Debes responder EXCLUSIVAMENTE con un objeto JSON válido. "
-                        "Si no encuentras información clara para algún campo, debes responder con null. "
-                        "NUNCA inventes datos."},
+                        "Tu prioridad es la PRECISIÓN ABSOLUTA. Debes responder EXCLUSIVAMENTE con un objeto JSON válido. "
+                        "REGLAS CRÍTICAS:\n"
+                        "1. Si no encuentras información clara para algún campo, DEBES responder con null (NUNCA inventes datos)\n"
+                        "2. NO ALUCINES: Si un campo no está en el texto, usa null\n"
+                        "3. SOLO extrae lo que está EXPLÍCITAMENTE en el texto\n"
+                        "4. Los campos obligatorios son: publication_day, travel_arrival_date, parsed_text\n"
+                        "5. Para fechas, usa SIEMPRE formato YYYY-MM-DD\n"
+                        "6. Para listas (travel_port_of_call_list), usa arrays JSON\n"
+                        "7. Para números, usa valores numéricos (sin comillas)\n"
+                        "8. Para booleanos, usa true/false (sin comillas)\n"
+                        "9. Verifica CADA campo antes de incluirlo - si no está seguro, usa null"},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.7,
+        temperature=0.3,
         max_tokens=4000
     )
 
@@ -133,9 +141,21 @@ IMPORTANTE: No me especifiques ni expliques nada al respecto solo espera a que t
         if hasattr(response, 'usage') and response.usage:
             _token_usage['total'] += response.usage.total_tokens
         return result
-    except json.JSONDecodeError:
-        print("❌ JSON inválido:\n", content)
-        return {}
+    except json.JSONDecodeError as e:
+        # Intentar recuperar JSON válido del contenido
+        import re
+        json_match = re.search(r'\{.*\}', content, re.DOTALL)
+        if json_match:
+            try:
+                result = json.loads(json_match.group())
+                if hasattr(response, 'usage') and response.usage:
+                    _token_usage['total'] += response.usage.total_tokens
+                return result
+            except json.JSONDecodeError:
+                pass
+        
+        # Si no se puede recuperar, retornar estructura vacía válida
+        return {"files": [], "publication_date": None, "entries": []}
 
 
 def extract_cabotaje_data_with_openai(text: str) -> dict:
@@ -228,13 +248,24 @@ IMPORTANTE: No me especifiques ni expliques nada al respecto solo espera a que t
     """.format(content_text=text)
 
     response = client.chat.completions.create(
-        model="gpt-5-nano-2025-08-07",
+        model="gpt-4o-mini",
         response_format={"type": "json_object"},
         messages=[
-            {"role": "system", "content": "Eres un especialista en digitalización de registros marítimos históricos. Tu prioridad es la precisión: si un dato no está, usa null. NUNCA inventes datos."},
+            {"role": "system", "content": "Eres un especialista en digitalización de registros marítimos históricos. "
+                        "Tu prioridad es la PRECISIÓN ABSOLUTA. "
+                        "REGLAS CRÍTICAS:\n"
+                        "1. Si no encuentras información clara para algún campo, DEBES responder con null (NUNCA inventes datos)\n"
+                        "2. NO ALUCINES: Si un campo no está en el texto, usa null\n"
+                        "3. SOLO extrae lo que está EXPLÍCITAMENTE en el texto\n"
+                        "4. Los campos obligatorios son: publication_day, travel_arrival_date, parsed_text\n"
+                        "5. Para fechas, usa SIEMPRE formato YYYY-MM-DD\n"
+                        "6. Para listas (travel_port_of_call_list), usa arrays JSON\n"
+                        "7. Para números, usa valores numéricos (sin comillas)\n"
+                        "8. Para booleanos, usa true/false (sin comillas)\n"
+                        "9. Verifica CADA campo antes de incluirlo - si no está seguro, usa null"},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.7,
+        temperature=0.3,
         max_tokens=1500
     )
 
@@ -245,9 +276,21 @@ IMPORTANTE: No me especifiques ni expliques nada al respecto solo espera a que t
         if hasattr(response, 'usage') and response.usage:
             _token_usage['total'] += response.usage.total_tokens
         return data
-    except json.JSONDecodeError:
-        print(f"❌ Error parseando JSON para: {text[:30]}...")
-        return {}
+    except json.JSONDecodeError as e:
+        # Intentar recuperar JSON válido del contenido
+        import re
+        json_match = re.search(r'\{.*\}', content, re.DOTALL)
+        if json_match:
+            try:
+                data = json.loads(json_match.group())
+                if hasattr(response, 'usage') and response.usage:
+                    _token_usage['total'] += response.usage.total_tokens
+                return data
+            except json.JSONDecodeError:
+                pass
+        
+        # Si no se puede recuperar, retornar estructura vacía válida
+        return {"files": [], "publication_date": None, "entries": []}
 
 
 def get_token_usage():
@@ -258,3 +301,119 @@ def get_token_usage():
 def reset_token_usage():
     """Reinicia el contador de tokens"""
     _token_usage['total'] = 0
+
+
+def validate_entry(entry: dict, entry_type: str = 'traversing') -> bool:
+    """
+    Valida una entrada para detectar alucinaciones del modelo.
+    Retorna True si la entrada es válida, False si contiene datos sospechosos.
+    """
+    if not entry or not isinstance(entry, dict):
+        return False
+    
+    # Campos obligatorios
+    if not entry.get('parsed_text'):
+        return False
+    
+    if not entry.get('publication_day'):
+        return False
+    
+    if not entry.get('travel_arrival_date'):
+        return False
+    
+    # Validar formato de fechas (YYYY-MM-DD)
+    import re
+    date_pattern = r'^\d{4}-\d{2}-\d{2}$'
+    
+    if entry.get('publication_day') and not re.match(date_pattern, str(entry.get('publication_day'))):
+        return False
+    
+    if entry.get('travel_arrival_date') and not re.match(date_pattern, str(entry.get('travel_arrival_date'))):
+        return False
+    
+    if entry.get('travel_departure_date') and not re.match(date_pattern, str(entry.get('travel_departure_date'))):
+        return False
+    
+    # Validar que travel_port_of_call_list sea una lista
+    if entry.get('travel_port_of_call_list') is not None:
+        if not isinstance(entry.get('travel_port_of_call_list'), list):
+            return False
+    
+    # Validar que cargo_list sea una lista
+    if entry.get('cargo_list') is not None:
+        if not isinstance(entry.get('cargo_list'), list):
+            return False
+    
+    # Validar que números sean números
+    for field in ['travel_duration_value', 'ship_tons_capacity', 'crew_number', 'passenger_account']:
+        if entry.get(field) is not None:
+            if not isinstance(entry.get(field), (int, float)):
+                return False
+    
+    # Validar que booleanos sean booleanos
+    for field in ['quarantine', 'forced_arrival']:
+        if entry.get(field) is not None:
+            if not isinstance(entry.get(field), bool):
+                return False
+    
+    # Validar que parsed_text sea string y tenga contenido
+    if not isinstance(entry.get('parsed_text'), str) or len(entry.get('parsed_text', '').strip()) < 5:
+        return False
+    
+    return True
+
+
+def sanitize_entry(entry: dict) -> dict:
+    """
+    Limpia una entrada de datos sospechosos o inconsistentes.
+    Convierte tipos de datos incorrectos a null.
+    """
+    if not entry or not isinstance(entry, dict):
+        return {}
+    
+    sanitized = {}
+    
+    # Copiar campos válidos
+    for key, value in entry.items():
+        if value is None:
+            sanitized[key] = None
+        elif key in ['publication_day', 'travel_arrival_date', 'travel_departure_date']:
+            # Validar formato de fecha
+            import re
+            if isinstance(value, str) and re.match(r'^\d{4}-\d{2}-\d{2}$', value):
+                sanitized[key] = value
+            else:
+                sanitized[key] = None
+        elif key in ['travel_port_of_call_list', 'cargo_list']:
+            # Validar que sean listas
+            if isinstance(value, list):
+                sanitized[key] = value
+            else:
+                sanitized[key] = None
+        elif key in ['travel_duration_value', 'ship_tons_capacity', 'crew_number', 'passenger_account']:
+            # Validar que sean números
+            if isinstance(value, (int, float)):
+                sanitized[key] = value
+            else:
+                sanitized[key] = None
+        elif key in ['quarantine', 'forced_arrival']:
+            # Validar que sean booleanos
+            if isinstance(value, bool):
+                sanitized[key] = value
+            else:
+                sanitized[key] = None
+        elif key == 'parsed_text':
+            # Validar que sea string con contenido
+            if isinstance(value, str) and len(value.strip()) >= 5:
+                sanitized[key] = value
+            else:
+                sanitized[key] = None
+        else:
+            # Otros campos (strings)
+            if isinstance(value, str):
+                sanitized[key] = value
+            else:
+                sanitized[key] = None
+    
+    return sanitized
+
