@@ -9,3 +9,4 @@ results/
 .data/extraction_backup_*.db
 .data/output/
 .data/results/
+.data/extra

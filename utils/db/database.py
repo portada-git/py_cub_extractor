@@ -23,29 +23,29 @@ class ExtractionDB:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS traversing (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    source_file TEXT NOT NULL,
+                    files TEXT,
+                    publication_date TEXT,
                     publication_day TEXT,
-                    arrival_date TEXT,
-                    arrival_date_calc TEXT,
+                    travel_arrival_date TEXT,
                     travel_departure_port TEXT,
+                    travel_departure_date TEXT,
+                    travel_port_of_call_list TEXT,
+                    travel_duration_value INTEGER,
+                    travel_duration_unit TEXT,
                     ship_type TEXT,
                     ship_flag TEXT,
                     ship_name TEXT,
-                    master_role TEXT,
-                    master_name TEXT,
-                    cargo_list TEXT,
-                    raw_text TEXT NOT NULL,
-                    travel_duration_value INTEGER,
-                    travel_duration_unit TEXT,
                     ship_tons_capacity INTEGER,
                     ship_tons_unit TEXT,
+                    master_role TEXT,
+                    master_name TEXT,
                     crew_number INTEGER,
                     passenger_account INTEGER,
+                    cargo_list TEXT,
                     quarantine BOOLEAN,
                     forced_arrival BOOLEAN,
-                    obs TEXT,
                     parsed_text TEXT,
-                    UNIQUE(raw_text, source_file)
+                    obs TEXT
                 )
             ''')
             
@@ -53,29 +53,27 @@ class ExtractionDB:
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS cabotage (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    source_file TEXT NOT NULL,
+                    files TEXT,
+                    publication_date TEXT,
                     publication_day TEXT,
-                    arrival_date TEXT,
-                    arrival_date_calc TEXT,
+                    travel_arrival_date TEXT,
                     travel_departure_port TEXT,
+                    travel_departure_date TEXT,
+                    travel_port_of_call_list TEXT,
+                    travel_duration_value INTEGER,
+                    travel_duration_unit TEXT,
                     ship_type TEXT,
                     ship_flag TEXT,
                     ship_name TEXT,
                     master_role TEXT,
                     master_name TEXT,
-                    cargo_list TEXT,
-                    raw_text TEXT NOT NULL,
-                    travel_duration_value INTEGER,
-                    travel_duration_unit TEXT,
-                    ship_tons_capacity INTEGER,
-                    ship_tons_unit TEXT,
                     crew_number INTEGER,
                     passenger_account INTEGER,
+                    cargo_list TEXT,
                     quarantine BOOLEAN,
                     forced_arrival BOOLEAN,
-                    obs TEXT,
                     parsed_text TEXT,
-                    UNIQUE(raw_text, source_file)
+                    obs TEXT
                 )
             ''')
             
@@ -98,52 +96,48 @@ class ExtractionDB:
             cursor = conn.cursor()
             
             cargo_json = json.dumps(data.get('cargo_list', []))
+            travel_port_of_call_list_json = json.dumps(data.get('travel_port_of_call_list', []))
             
             try:
                 cursor.execute('''
                     INSERT INTO traversing (
-                        source_file, publication_day, arrival_date, arrival_date_calc,
-                        travel_departure_port, ship_type, ship_flag, ship_name,
-                        master_role, master_name, cargo_list, raw_text,
-                        travel_duration_value, travel_duration_unit, ship_tons_capacity,
-                        ship_tons_unit, crew_number, passenger_account, quarantine,
-                        forced_arrival, obs, parsed_text
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        files, publication_date, publication_day, travel_arrival_date,
+                        travel_departure_port, travel_departure_date, travel_port_of_call_list,
+                        travel_duration_value, travel_duration_unit, ship_type, ship_flag,
+                        ship_name, ship_tons_capacity, ship_tons_unit, master_role,
+                        master_name, crew_number, passenger_account, cargo_list,
+                        quarantine, forced_arrival, parsed_text, obs
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
-                    data.get('source_file'),
+                    data.get('files'),
+                    data.get('publication_date'),
                     data.get('publication_day'),
-                    data.get('arrival_date'),
-                    data.get('arrival_date_calc'),
+                    data.get('travel_arrival_date'),
                     data.get('travel_departure_port'),
+                    data.get('travel_departure_date'),
+                    travel_port_of_call_list_json,
+                    data.get('travel_duration_value'),
+                    data.get('travel_duration_unit'),
                     data.get('ship_type'),
                     data.get('ship_flag'),
                     data.get('ship_name'),
-                    data.get('master_role'),
-                    data.get('master_name'),
-                    cargo_json,
-                    data.get('raw_text'),
-                    data.get('travel_duration_value'),
-                    data.get('travel_duration_unit'),
                     data.get('ship_tons_capacity'),
                     data.get('ship_tons_unit'),
+                    data.get('master_role'),
+                    data.get('master_name'),
                     data.get('crew_number'),
                     data.get('passenger_account'),
+                    cargo_json,
                     data.get('quarantine'),
                     data.get('forced_arrival'),
-                    data.get('obs'),
-                    data.get('parsed_text')
+                    data.get('parsed_text'),
+                    data.get('obs')
                 ))
                 conn.commit()
                 return True
-            except sqlite3.IntegrityError as e:
-                # Duplicate entry or NOT NULL constraint
-                import logging
-                logging.debug(f"IntegrityError saving traversing: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
-                return False
             except Exception as e:
-                # Log unexpected errors
                 import logging
-                logging.error(f"Error saving traversing entry: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
+                logging.error(f"Error saving traversing entry: {e}")
                 return False
     
     def save_cabotage(self, data):
@@ -152,52 +146,45 @@ class ExtractionDB:
             cursor = conn.cursor()
             
             cargo_json = json.dumps(data.get('cargo_list', []))
+            travel_port_of_call_list_json = json.dumps(data.get('travel_port_of_call_list', []))
             
             try:
                 cursor.execute('''
                     INSERT INTO cabotage (
-                        source_file, publication_day, arrival_date, arrival_date_calc,
-                        travel_departure_port, ship_type, ship_flag, ship_name,
-                        master_role, master_name, cargo_list, raw_text,
-                        travel_duration_value, travel_duration_unit, ship_tons_capacity,
-                        ship_tons_unit, crew_number, passenger_account, quarantine,
-                        forced_arrival, obs, parsed_text
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        files, publication_date, publication_day, travel_arrival_date,
+                        travel_departure_port, travel_departure_date, travel_port_of_call_list,
+                        travel_duration_value, travel_duration_unit, ship_type, ship_flag,
+                        ship_name, master_role, master_name, crew_number, passenger_account,
+                        cargo_list, quarantine, forced_arrival, parsed_text, obs
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
-                    data.get('source_file'),
+                    data.get('files'),
+                    data.get('publication_date'),
                     data.get('publication_day'),
-                    data.get('arrival_date'),
-                    data.get('arrival_date_calc'),
+                    data.get('travel_arrival_date'),
                     data.get('travel_departure_port'),
+                    data.get('travel_departure_date'),
+                    travel_port_of_call_list_json,
+                    data.get('travel_duration_value'),
+                    data.get('travel_duration_unit'),
                     data.get('ship_type'),
                     data.get('ship_flag'),
                     data.get('ship_name'),
                     data.get('master_role'),
                     data.get('master_name'),
-                    cargo_json,
-                    data.get('raw_text'),
-                    data.get('travel_duration_value'),
-                    data.get('travel_duration_unit'),
-                    data.get('ship_tons_capacity'),
-                    data.get('ship_tons_unit'),
                     data.get('crew_number'),
                     data.get('passenger_account'),
+                    cargo_json,
                     data.get('quarantine'),
                     data.get('forced_arrival'),
-                    data.get('obs'),
-                    data.get('parsed_text')
+                    data.get('parsed_text'),
+                    data.get('obs')
                 ))
                 conn.commit()
                 return True
-            except sqlite3.IntegrityError as e:
-                # Duplicate entry or NOT NULL constraint
-                import logging
-                logging.debug(f"IntegrityError saving cabotage: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
-                return False
             except Exception as e:
-                # Log unexpected errors
                 import logging
-                logging.error(f"Error saving cabotage entry: {e} - raw_text: {data.get('raw_text', 'NONE')[:50] if data.get('raw_text') else 'NULL'}")
+                logging.error(f"Error saving cabotage entry: {e}")
                 return False
     
     def mark_file_processed(self, file_path, traversing_count=0, cabotage_count=0):
@@ -223,8 +210,8 @@ class ExtractionDB:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
             cursor.execute('''
-                SELECT * FROM traversing WHERE source_file LIKE ?
-                ORDER BY source_file
+                SELECT * FROM traversing WHERE publication_day LIKE ?
+                ORDER BY publication_day
             ''', (f'{year}%',))
             return [dict(row) for row in cursor.fetchall()]
     
@@ -234,182 +221,22 @@ class ExtractionDB:
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
             cursor.execute('''
-                SELECT * FROM cabotage WHERE source_file LIKE ?
-                ORDER BY source_file
+                SELECT * FROM cabotage WHERE publication_day LIKE ?
+                ORDER BY publication_day
             ''', (f'{year}%',))
             return [dict(row) for row in cursor.fetchall()]
-    
-    def get_traversing_by_month(self, year, month):
-        """Obtiene travesías de un mes específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            pattern = f'{year}_{month:02d}%'
-            cursor.execute('''
-                SELECT * FROM traversing WHERE source_file LIKE ?
-                ORDER BY source_file
-            ''', (pattern,))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_cabotage_by_month(self, year, month):
-        """Obtiene cabotajes de un mes específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            pattern = f'{year}_{month:02d}%'
-            cursor.execute('''
-                SELECT * FROM cabotage WHERE source_file LIKE ?
-                ORDER BY source_file
-            ''', (pattern,))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_traversing_by_day(self, year, month, day):
-        """Obtiene travesías de un día específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            pattern = f'{year}_{month:02d}_{day:02d}%'
-            cursor.execute('''
-                SELECT * FROM traversing WHERE source_file LIKE ?
-                ORDER BY source_file
-            ''', (pattern,))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_cabotage_by_day(self, year, month, day):
-        """Obtiene cabotajes de un día específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            pattern = f'{year}_{month:02d}_{day:02d}%'
-            cursor.execute('''
-                SELECT * FROM cabotage WHERE source_file LIKE ?
-                ORDER BY source_file
-            ''', (pattern,))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_traversing_by_port(self, port_name):
-        """Obtiene travesías de un puerto específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT * FROM traversing WHERE travel_departure_port LIKE ?
-                ORDER BY source_file
-            ''', (f'%{port_name}%',))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_cabotage_by_port(self, port_name):
-        """Obtiene cabotajes de un puerto específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT * FROM cabotage WHERE travel_departure_port LIKE ?
-                ORDER BY source_file
-            ''', (f'%{port_name}%',))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_traversing_by_ship(self, ship_name):
-        """Obtiene travesías de un barco específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT * FROM traversing WHERE ship_name LIKE ?
-                ORDER BY source_file
-            ''', (f'%{ship_name}%',))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_cabotage_by_ship(self, ship_name):
-        """Obtiene cabotajes de un barco específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT * FROM cabotage WHERE ship_name LIKE ?
-                ORDER BY source_file
-            ''', (f'%{ship_name}%',))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_traversing_by_master(self, master_name):
-        """Obtiene travesías de un capitán específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT * FROM traversing WHERE master_name LIKE ?
-                ORDER BY source_file
-            ''', (f'%{master_name}%',))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_cabotage_by_master(self, master_name):
-        """Obtiene cabotajes de un capitán específico"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT * FROM cabotage WHERE master_name LIKE ?
-                ORDER BY source_file
-            ''', (f'%{master_name}%',))
-            return [dict(row) for row in cursor.fetchall()]
-    
-    def get_all_ports(self):
-        """Obtiene lista de todos los puertos únicos"""
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT DISTINCT travel_departure_port FROM traversing
-                WHERE travel_departure_port IS NOT NULL
-                UNION
-                SELECT DISTINCT travel_departure_port FROM cabotage
-                WHERE travel_departure_port IS NOT NULL
-                ORDER BY travel_departure_port
-            ''')
-            return [row[0] for row in cursor.fetchall()]
-    
-    def get_all_ships(self):
-        """Obtiene lista de todos los barcos únicos"""
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT DISTINCT ship_name FROM traversing
-                WHERE ship_name IS NOT NULL
-                UNION
-                SELECT DISTINCT ship_name FROM cabotage
-                WHERE ship_name IS NOT NULL
-                ORDER BY ship_name
-            ''')
-            return [row[0] for row in cursor.fetchall()]
-    
-    def get_all_masters(self):
-        """Obtiene lista de todos los capitanes únicos"""
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute('''
-                SELECT DISTINCT master_name FROM traversing
-                WHERE master_name IS NOT NULL
-                UNION
-                SELECT DISTINCT master_name FROM cabotage
-                WHERE master_name IS NOT NULL
-                ORDER BY master_name
-            ''')
-            return [row[0] for row in cursor.fetchall()]
     
     def delete_year_data(self, year):
         """Elimina todos los datos de un año específico"""
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             
-            # Obtener todos los file_path que contienen el año
-            cursor.execute('SELECT file_path FROM processed_files WHERE file_path LIKE ?', (f'%{year}%',))
-            file_paths = [row[0] for row in cursor.fetchall()]
-            
             # Eliminar travesías del año
-            cursor.execute('DELETE FROM traversing WHERE source_file LIKE ?', (f'{year}%',))
+            cursor.execute('DELETE FROM traversing WHERE publication_day LIKE ?', (f'{year}%',))
             traversing_deleted = cursor.rowcount
             
             # Eliminar cabotajes del año
-            cursor.execute('DELETE FROM cabotage WHERE source_file LIKE ?', (f'{year}%',))
+            cursor.execute('DELETE FROM cabotage WHERE publication_day LIKE ?', (f'{year}%',))
             cabotage_deleted = cursor.rowcount
             
             # Eliminar archivos procesados del año
